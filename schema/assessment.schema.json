@@ -1,0 +1,21 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://github.com/Loofy147/Portfolio-Repository-Inventory/schema/assessment.schema.json",
+  "title":"RepositoryAssessment",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["schema_version","repository_full_name","assessment_id","dimensions"],
+  "properties":{
+    "schema_version":{"type":"string","const":"0.1.0"},
+    "repository_full_name":{"type":"string"},
+    "assessment_id":{"type":"string"},
+    "dimensions":{"type":"object","additionalProperties":false,"required":["technical_substance","validation","strategic_value","reuse_potential","completion_cost"],"properties":{
+      "technical_substance":{"$ref":"#/$defs/rating"},"validation":{"$ref":"#/$defs/rating"},"strategic_value":{"$ref":"#/$defs/rating"},"reuse_potential":{"$ref":"#/$defs/rating"},"completion_cost":{"$ref":"#/$defs/rating"}
+    }},
+    "recommendation":{"type":"string","enum":["keep","merge","extract","freeze","archive","unknown"]},
+    "rationale":{"type":"string"},"evidence_refs":{"type":"array","items":{"type":"string"}}
+  },
+  "$defs":{"rating":{"type":"object","additionalProperties":false,"required":["value","confidence"],"properties":{
+    "value":{"type":"integer","minimum":0,"maximum":5},"confidence":{"type":"string","enum":["high","medium","low","unknown"]},"basis":{"type":"string"}
+  }}}
+}

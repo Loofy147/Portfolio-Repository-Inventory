@@ -1,0 +1,13 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"RepositoryRelationship",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["source","target","type","confidence","evidence_refs"],
+  "properties":{
+    "source":{"type":"string"},"target":{"type":"string"},
+    "type":{"type":"string","enum":["same_project","same_idea","successor","predecessor","fork","duplicate_candidate","dependency","component_source","research_source","unknown"]},
+    "confidence":{"type":"string","enum":["high","medium","low","unknown"]},
+    "evidence_refs":{"type":"array","items":{"type":"string"}},"notes":{"type":"string"}
+  }
+}

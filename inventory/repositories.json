@@ -1,6 +1,2507 @@
 {
-  "schema_version":"0.1.0",
-  "generated_at":"2026-08-30",
-  "source":"GitHub repository census",
-  "repositories":[]
+  "schema_version": "0.1.0",
+  "generated_at": "2026-08-30",
+  "source": "GitHub owner repository listing; first accessible page of 100 records. Pagination beyond this page is not exposed by the current connector.",
+  "repositories": [
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/-AI-Driven-Crypto-Portfolio-Manager-",
+      "identity": {
+        "name": "-AI-Driven-Crypto-Portfolio-Manager-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 222
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/-ducation-",
+      "identity": {
+        "name": "-ducation-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 98
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/-Fiber-Stratified-Optimization---FSO-",
+      "identity": {
+        "name": "-Fiber-Stratified-Optimization---FSO-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 66
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/-Highly-Symmetric-HAG",
+      "identity": {
+        "name": "-Highly-Symmetric-HAG",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 1954
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/-O-M-N-I-S-2.0---NODE-",
+      "identity": {
+        "name": "-O-M-N-I-S-2.0---NODE-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 2015
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/-Rainer-",
+      "identity": {
+        "name": "-Rainer-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 407
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/2026-2032",
+      "identity": {
+        "name": "2026-2032",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 99
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/A-louer",
+      "identity": {
+        "name": "A-louer",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 289
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/ACE-Agentic-Context-Engineering",
+      "identity": {
+        "name": "ACE-Agentic-Context-Engineering",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 137
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Ace2",
+      "identity": {
+        "name": "Ace2",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 62
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Adapter-ai",
+      "identity": {
+        "name": "Adapter-ai",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 6
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/agent-hub",
+      "identity": {
+        "name": "agent-hub",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 214
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/agentdit",
+      "identity": {
+        "name": "agentdit",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 379
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/agentic-apis",
+      "identity": {
+        "name": "agentic-apis",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 1130
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Agents-box-comunication",
+      "identity": {
+        "name": "Agents-box-comunication",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 9
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Agents-next-tokens",
+      "identity": {
+        "name": "Agents-next-tokens",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 109
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Ai",
+      "identity": {
+        "name": "Ai",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 1302
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/ai-chatbot",
+      "identity": {
+        "name": "ai-chatbot",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 5277
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Ai-e-commerce-marketplace",
+      "identity": {
+        "name": "Ai-e-commerce-marketplace",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 1269
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/AI-Ecommerce-Social-Marketplace2",
+      "identity": {
+        "name": "AI-Ecommerce-Social-Marketplace2",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 0
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Ai-evaluation-system",
+      "identity": {
+        "name": "Ai-evaluation-system",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 13
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Ai-frombolt1",
+      "identity": {
+        "name": "Ai-frombolt1",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 194
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Ai-hichem",
+      "identity": {
+        "name": "Ai-hichem",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "feature/initial-project-setup",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 163
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Ai-is-clever",
+      "identity": {
+        "name": "Ai-is-clever",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 91
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/ai-meta-orchestrator",
+      "identity": {
+        "name": "ai-meta-orchestrator",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 132
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Ai-taxonomy",
+      "identity": {
+        "name": "Ai-taxonomy",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 342
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/algeria-ai-product-fabric",
+      "identity": {
+        "name": "algeria-ai-product-fabric",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 376
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/algeria-multi-agent-platform",
+      "identity": {
+        "name": "algeria-multi-agent-platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 34
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/algeria-multiagent-platform",
+      "identity": {
+        "name": "algeria-multiagent-platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 3
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Algerian-datasets",
+      "identity": {
+        "name": "Algerian-datasets",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 218
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Algerian-foundation",
+      "identity": {
+        "name": "Algerian-foundation",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 158
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Algerian-Print-on-Demand-Platform",
+      "identity": {
+        "name": "Algerian-Print-on-Demand-Platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 43
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Algorithms-",
+      "identity": {
+        "name": "Algorithms-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 1857
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/All-in-Ai",
+      "identity": {
+        "name": "All-in-Ai",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "phase-0-initial-setup",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 497
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Api-algeria",
+      "identity": {
+        "name": "Api-algeria",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 371
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/api-platform-algeria",
+      "identity": {
+        "name": "api-platform-algeria",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "master",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 196
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/APK--builder",
+      "identity": {
+        "name": "APK--builder",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 271
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/ARC-AGI-NCA-Solver",
+      "identity": {
+        "name": "ARC-AGI-NCA-Solver",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 2
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Artificial-Reality",
+      "identity": {
+        "name": "Artificial-Reality",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 184
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/atlas-lifehacks",
+      "identity": {
+        "name": "atlas-lifehacks",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 731
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/atoms",
+      "identity": {
+        "name": "atoms",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 34
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Autonomous-jules-.",
+      "identity": {
+        "name": "Autonomous-jules-.",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 46
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/autonomous-manifold-v2-analysis",
+      "identity": {
+        "name": "autonomous-manifold-v2-analysis",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 585
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Axe",
+      "identity": {
+        "name": "Axe",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 743
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Baddel",
+      "identity": {
+        "name": "Baddel",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 741
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Bedrani--enterprises-",
+      "identity": {
+        "name": "Bedrani--enterprises-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 221
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Block-chain-",
+      "identity": {
+        "name": "Block-chain-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 8
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Boofa-skiler",
+      "identity": {
+        "name": "Boofa-skiler",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 5464
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Bots-platfom",
+      "identity": {
+        "name": "Bots-platfom",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 25
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Bravolino",
+      "identity": {
+        "name": "Bravolino",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 31327
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/bro_agree",
+      "identity": {
+        "name": "bro_agree",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 52
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Business-Operating-System",
+      "identity": {
+        "name": "Business-Operating-System",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 199
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/call-centre",
+      "identity": {
+        "name": "call-centre",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 7091
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/canonical-capability-core",
+      "identity": {
+        "name": "canonical-capability-core",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "master",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 551
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Cashier",
+      "identity": {
+        "name": "Cashier",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 0
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/CGIT",
+      "identity": {
+        "name": "CGIT",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 74
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Ch3al-taswa",
+      "identity": {
+        "name": "Ch3al-taswa",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 0
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Child-AI-System-Final-Level",
+      "identity": {
+        "name": "Child-AI-System-Final-Level",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 383
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Claude-genieune",
+      "identity": {
+        "name": "Claude-genieune",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 81670
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/ClimateNow",
+      "identity": {
+        "name": "ClimateNow",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "feat/initial-project-setup",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 176
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/CloudCostGuard",
+      "identity": {
+        "name": "CloudCostGuard",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 296
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/cognitive-dissonance",
+      "identity": {
+        "name": "cognitive-dissonance",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 2667
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/coin-games-comunity",
+      "identity": {
+        "name": "coin-games-comunity",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 437
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/competitions",
+      "identity": {
+        "name": "competitions",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 142
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Contacto",
+      "identity": {
+        "name": "Contacto",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 1533
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Contacto-platform",
+      "identity": {
+        "name": "Contacto-platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 0
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/context7",
+      "identity": {
+        "name": "context7",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "master",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 266
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Crispo",
+      "identity": {
+        "name": "Crispo",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 433
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/CRMEB",
+      "identity": {
+        "name": "CRMEB",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "master",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 302364
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Crypto-spaces-",
+      "identity": {
+        "name": "Crypto-spaces-",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 208
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Cwc-loofy",
+      "identity": {
+        "name": "Cwc-loofy",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 33
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/cwc-Loofy-strategie",
+      "identity": {
+        "name": "cwc-Loofy-strategie",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 30
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/D-centralisation-Ai-Ml-blockchain",
+      "identity": {
+        "name": "D-centralisation-Ai-Ml-blockchain",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 78
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Daemon",
+      "identity": {
+        "name": "Daemon",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 52
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Deal-Stream",
+      "identity": {
+        "name": "Deal-Stream",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 219
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Degf",
+      "identity": {
+        "name": "Degf",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 6297
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/delivery-app",
+      "identity": {
+        "name": "delivery-app",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 0
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/density-intilegence-",
+      "identity": {
+        "name": "density-intilegence-",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 12198
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/DernAi",
+      "identity": {
+        "name": "DernAi",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 0
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/DevCompanion",
+      "identity": {
+        "name": "DevCompanion",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 0
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/device-activity-tracker",
+      "identity": {
+        "name": "device-activity-tracker",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "master",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 374
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Dig-place",
+      "identity": {
+        "name": "Dig-place",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 128
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/digital-twin",
+      "identity": {
+        "name": "digital-twin",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 92
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Discovery-engine-",
+      "identity": {
+        "name": "Discovery-engine-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 1161
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Django",
+      "identity": {
+        "name": "Django",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 1349
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Do-it-",
+      "identity": {
+        "name": "Do-it-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 579
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Doha-platform",
+      "identity": {
+        "name": "Doha-platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 28330
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Doha-platform-",
+      "identity": {
+        "name": "Doha-platform-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 28380
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Drogon",
+      "identity": {
+        "name": "Drogon",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "feature/autorevenue-agent",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 5001
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/droidrun",
+      "identity": {
+        "name": "droidrun",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 83257
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/dyad-algerian-builder-",
+      "identity": {
+        "name": "dyad-algerian-builder-",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 23963
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Dz-blockchain",
+      "identity": {
+        "name": "Dz-blockchain",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 91
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/dzd-rates",
+      "identity": {
+        "name": "dzd-rates",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 13
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/E-commerce-Alg-rie-",
+      "identity": {
+        "name": "E-commerce-Alg-rie-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 64
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/E-commercedz",
+      "identity": {
+        "name": "E-commercedz",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 0
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/El-marchi",
+      "identity": {
+        "name": "El-marchi",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 1098
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/End-to-end-ecosystem-",
+      "identity": {
+        "name": "End-to-end-ecosystem-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 3268
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/epistemic",
+      "identity": {
+        "name": "epistemic",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 4642
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/escapement-learning-edition",
+      "identity": {
+        "name": "escapement-learning-edition",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 713
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Exchange",
+      "identity": {
+        "name": "Exchange",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": null,
+        "language": null,
+        "size_kb": 95
+      },
+      "decision": {
+        "status": "unassessed",
+        "target_repository": null,
+        "confidence": "unknown",
+        "rationale": null
+      },
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "census-2026-08-30-initial-owner-page-1",
+        "assessed_at": "2026-08-30"
+      }
+    }
+  ]
 }

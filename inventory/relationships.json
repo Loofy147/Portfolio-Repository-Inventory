@@ -1,1 +1,11 @@
-{"schema_version":"0.1.0","relationships":[]}
+{
+  "schema_version":"0.1.0",
+  "relationships":[
+    {"source":"Loofy147/Software-res","target":"Loofy147/canonical-capability-core","type":"research_source","confidence":"medium","evidence_refs":["Software-res:README.md","Software-res:RELEASE.md","canonical-capability-core:CANONICAL_BASELINE.md"],"notes":"Both implement evidence-governed decision/execution concepts; direct code lineage is not established yet."},
+    {"source":"Loofy147/algeria-ai-product-fabric","target":"Loofy147/canonical-capability-core","type":"component_source","confidence":"medium","evidence_refs":["algeria-ai-product-fabric:README.md","canonical-capability-core:CANONICAL_BASELINE.md"],"notes":"Potential composition/reuse relationship; imports and copied modules must be verified."},
+    {"source":"Loofy147/Healer-","target":"Loofy147/-Fiber-Stratified-Optimization---FSO-","type":"same_idea","confidence":"low","evidence_refs":["Healer-:README.md","FSO:README.md"],"notes":"FSO terminology is present in the contexts, but the FSO repository currently exposes insufficient content evidence."},
+    {"source":"Loofy147/algeria-multi-agent-platform","target":"Loofy147/algeria-multiagent-platform","type":"duplicate_candidate","confidence":"medium","evidence_refs":["algeria-multi-agent-platform:README.md","algeria-multiagent-platform:README.md","algeria-multi-agent-platform:ARCHITECTURE.md"],"notes":"Near-identical naming and overlapping domain. Requires content/history comparison."},
+    {"source":"Loofy147/ai-meta-orchestrator","target":"Loofy147/Unified-ai","type":"same_idea","confidence":"low","evidence_refs":["ai-meta-orchestrator:root"],"notes":"Portfolio naming suggests a possible relationship; semantic equivalence has not been established."},
+    {"source":"Loofy147/-AI-Driven-Crypto-Portfolio-Manager-","target":"Loofy147/ai-meta-orchestrator","type":"component_source","confidence":"low","evidence_refs":["AI-Driven-Crypto-Portfolio-Manager:README.md","ai-meta-orchestrator:root"],"notes":"The trading project contains an orchestration layer; direct reuse is not yet verified."}
+  ]
+}

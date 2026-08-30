@@ -1,0 +1,18 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://github.com/Loofy147/Portfolio-Repository-Inventory/schema/cluster.schema.json",
+  "title":"ClusterCandidate",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["schema_version","cluster_id","label","status","confidence","repositories","basis","required_next_checks"],
+  "properties":{
+    "schema_version":{"type":"string","const":"0.1.0"},
+    "cluster_id":{"type":"string"},
+    "label":{"type":"string"},
+    "status":{"type":"string","enum":["candidate","validated","rejected","split","merged"]},
+    "confidence":{"type":"string","enum":["low","medium_low","medium","medium_high","high","unknown"]},
+    "repositories":{"type":"array","items":{"type":"string","pattern":"^[^/]+/[^/]+$"}},
+    "basis":{"type":"array","items":{"type":"string"}},
+    "required_next_checks":{"type":"array","items":{"type":"string"}}
+  }
+}

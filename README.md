@@ -27,10 +27,24 @@ This repository is the system of record for understanding a large, heterogeneous
 
 `OBSERVED`, `DERIVED`, `INFERRED`, `USER_REPORTED`, `UNKNOWN`.
 
-## Initial census
+## Census state — 2026-08-30
 
-On 2026-08-30, the connected GitHub inventory endpoint exposed an owner listing of 100 repositories for the initial pass. These records are stored in `inventory/repositories.json` as **observed metadata only**. This is not a claim that the full GitHub portfolio contains only 100 repositories; the connector did not expose a second page.
+The current repository census stored in `inventory/repositories.json` was generated from GitHub repository search pages 1–4 with `100/100/100/13` results, deduplicated by repository full name, yielding **313 observed repository records** in that snapshot.
 
-The next step is to obtain the remaining repository set and then perform structural triage before making strategic decisions.
+This is a search-based snapshot, not a proof that no additional repositories exist outside the search result set or current connector visibility.
+
+## Inspection protocol
+
+A README is descriptive evidence only. A sparse README does not imply a sparse repository.
+
+The expected inspection order is:
+
+`METADATA -> ROOT TREE -> BUILD/MANIFEST -> SOURCE -> TESTS/CI -> DATA/ARTIFACTS -> README/DOCS -> HISTORY`
+
+Absence is only recorded when the relevant repository surface has actually been inspected.
+
+## Current phase
+
+We are still in the **census / structural inspection phase**. Repository cards are being added continuously. No strategic portfolio decisions are made until coverage and cross-repository reconciliation are complete.
 
 See `schema/` for machine-readable contracts.

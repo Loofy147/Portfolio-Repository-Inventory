@@ -1,0 +1,42 @@
+{
+  "schema_version":"0.1.0",
+  "review_date":"2026-08-30",
+  "purpose":"Track which portfolio repositories have received evidence inspection and at what depth.",
+  "depth_levels":{
+    "D0":"metadata census only",
+    "D1":"root tree / primary README",
+    "D2":"root plus selected architecture/specification/implementation evidence",
+    "D3":"deep implementation/history/test comparison"
+  },
+  "records":[
+    {"repository":"Loofy147/Global-theorem-","depth":"D2","evidence":["README.md","docs/LAWS.md"],"current_focus":"TGI/FSO mathematics and claims","next":"compare implementation, tests, history with Global-structure-"},
+    {"repository":"Loofy147/Global-structure-","depth":"D2","evidence":["README.md","SYSTEM_MAP.md","GEOMETRIC_CONSTRUCTION.md","RESEARCH_NOTES.md","TGI_ROADMAP.md"],"current_focus":"TGI/FSO system map and mathematical research","next":"compare code/history with Global-theorem- and HAG lineage"},
+    {"repository":"Loofy147/HAG","depth":"D2","evidence":["root","HAG_Sovereign_Research_Paper.md","ROADMAP.md"],"current_focus":"governed desktop agent / TGI / RSI","next":"compare modules, equations, and history with TGI/FSO family"},
+    {"repository":"Loofy147/Symmetric-HAG","depth":"D1","evidence":["README.md"],"current_focus":"explicit bridge repository","next":"inspect history and content beyond README"},
+    {"repository":"Loofy147/-Highly-Symmetric-HAG","depth":"D1","evidence":["README.md"],"current_focus":"possible HAG/TGI lineage","next":"inspect tree/history"},
+    {"repository":"Loofy147/-Fiber-Stratified-Optimization---FSO-","depth":"D1","evidence":["README.md"],"current_focus":"possible FSO core repository","next":"inspect all source/history before classification"},
+    {"repository":"Loofy147/Sovereign-OS","depth":"D1","evidence":["README.md"],"current_focus":"sovereign torus OS","next":"compare with HAG/STRATOS/TGI"},
+    {"repository":"Loofy147/STRATOS","depth":"D1","evidence":["README.md"],"current_focus":"Algerian Enterprise OS / convergence architecture","next":"inspect source packages and history"},
+    {"repository":"Loofy147/-O-M-N-I-S-2.0---NODE-","depth":"D2","evidence":["README.md"],"current_focus":"cloud-native autonomous organism / governance / agents","next":"compare architecture with STRATOS and sovereign systems"},
+    {"repository":"Loofy147/canonical-capability-core","depth":"D2","evidence":["CANONICAL_BASELINE.md","ADAPTER_EFFECT_CONTRACT.md","root"],"current_focus":"evidence-governed execution core","next":"direct code/schema comparison with Software-res and product fabric"},
+    {"repository":"Loofy147/Software-res","depth":"D2","evidence":["README.md","RELEASE.md","branches"],"current_focus":"evidence validation / reliability policy PoC","next":"lineage and primitive comparison with canonical-capability-core"},
+    {"repository":"Loofy147/algeria-ai-product-fabric","depth":"D2","evidence":["README.md","root"],"current_focus":"platform/research composition layer","next":"inspect imports and reused primitives"},
+    {"repository":"Loofy147/ai-meta-orchestrator","depth":"D2","evidence":["root","README.md"],"current_focus":"AI orchestration implementation","next":"compare architecture/code with Unified-ai and methodology systems"},
+    {"repository":"Loofy147/Unified-ai","depth":"D2","evidence":["README.md"],"current_focus":"umbrella AI/RL/orchestration system","next":"implementation completeness and lineage review"},
+    {"repository":"Loofy147/The-adaptive-methodology","depth":"D2","evidence":["README.md"],"current_focus":"gated lifecycle/orchestration methodology","next":"compare contracts and lifecycle semantics"},
+    {"repository":"Loofy147/agentic-apis","depth":"D2","evidence":["README.md"],"current_focus":"agent tool/API registry","next":"inspect machine-readable registry and scripts"},
+    {"repository":"Loofy147/algeria-multi-agent-platform","depth":"D2","evidence":["README.md","ARCHITECTURE.md","root"],"current_focus":"Algeria multi-agent application","next":"compare implementation/history with similarly named repository"},
+    {"repository":"Loofy147/algeria-multiagent-platform","depth":"D1","evidence":["README.md"],"current_focus":"possible duplicate/successor","next":"full tree/history comparison"},
+    {"repository":"Loofy147/Meta-meta","depth":"D2","evidence":["README.md","root"],"current_focus":"event-driven autonomous trading","next":"compare modules with crypto portfolio and Drogon"},
+    {"repository":"Loofy147/-AI-Driven-Crypto-Portfolio-Manager-","depth":"D1","evidence":["README.md"],"current_focus":"multi-agent crypto portfolio manager","next":"implementation and deployment verification"},
+    {"repository":"Loofy147/Drogon","depth":"D1","evidence":["README.md","feature/autorevenue-agent"],"current_focus":"AutoRevenue application","next":"inspect code/tests and compare with trading family"},
+    {"repository":"Loofy147/Ai-e-commerce-marketplace","depth":"D2","evidence":["README.md","root"],"current_focus":"AI/social e-commerce marketplace","next":"compare with Shop-one and marketplace2"},
+    {"repository":"Loofy147/AI-Ecommerce-Social-Marketplace2","depth":"D1","evidence":["README.md","root"],"current_focus":"minimal marketplace variant","next":"git chronology and hidden branches/history"},
+    {"repository":"Loofy147/Shop-one","depth":"D1","evidence":["root"],"current_focus":"large specification/document artifact plus workflows","next":"inspect large README blob and workflow history"},
+    {"repository":"Loofy147/smart-delivery-platform-2","depth":"D1","evidence":["README.md"],"current_focus":"delivery ecosystem","next":"compare with smart-delivery-plat and delivery-app"},
+    {"repository":"Loofy147/Global-redteam","depth":"D2","evidence":["README.md"],"current_focus":"security/red-team automation","next":"compare security repository family"},
+    {"repository":"Loofy147/HiveMind-RL","depth":"D1","evidence":["README.md"],"current_focus":"RL/GAT swarm research","next":"compare RL family implementations"},
+    {"repository":"Loofy147/MARL-Pro","depth":"D1","evidence":["README.md"],"current_focus":"minimal MARL placeholder","next":"inspect tree/history"},
+    {"repository":"Loofy147/Free-Will-framework-","depth":"D1","evidence":["README.md"],"current_focus":"computational agency / RSI / metrics","next":"separate actual implementation from embedded benchmark claims"}
+  ]
+}

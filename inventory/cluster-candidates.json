@@ -1,0 +1,157 @@
+{
+  "schema_version":"0.1.0",
+  "assessed_at":"2026-08-30",
+  "status":"candidate_only",
+  "clusters":[
+    {
+      "cluster_id":"TGI-FSO-HAG",
+      "label":"TGI / FSO / HAG / sovereign-computing lineage",
+      "status":"candidate",
+      "confidence":"medium_high",
+      "repositories":[
+        "Loofy147/Global-theorem-",
+        "Loofy147/Global-structure-",
+        "Loofy147/HAG",
+        "Loofy147/Symmetric-HAG",
+        "Loofy147/-Highly-Symmetric-HAG",
+        "Loofy147/-Fiber-Stratified-Optimization---FSO-",
+        "Loofy147/Sovereign-OS",
+        "Loofy147/STRATOS"
+      ],
+      "basis":[
+        "Global-theorem- and Global-structure- both explicitly center TGI, FSO, Hamiltonian/topological reasoning and the same Z_m^k vocabulary.",
+        "Global-structure- contains a detailed TGI system map and FSO geometric-construction material.",
+        "Symmetric-HAG explicitly links Global-theorem- and HAG, providing direct cross-repository bridge evidence.",
+        "HAG explicitly combines TGI, Closure Lemma, recursive self-improvement, governance and sovereign desktop execution.",
+        "Sovereign-OS and STRATOS share sovereign/toroidal/kernel concepts but are not yet established as code lineage."
+      ],
+      "required_next_checks":["commit lineage","shared filenames/modules","imports or copied code","theorem/test correspondence","version chronology"]
+    },
+    {
+      "cluster_id":"EVIDENCE-GOVERNANCE-ORCHESTRATION",
+      "label":"evidence-governed execution / orchestration",
+      "status":"candidate",
+      "confidence":"medium",
+      "repositories":[
+        "Loofy147/canonical-capability-core",
+        "Loofy147/Software-res",
+        "Loofy147/algeria-ai-product-fabric",
+        "Loofy147/ai-meta-orchestrator",
+        "Loofy147/The-adaptive-methodology",
+        "Loofy147/agentic-apis"
+      ],
+      "basis":[
+        "canonical-capability-core explicitly defines capability, authority, evidence, action, durable execution and reconciliation contracts.",
+        "Software-res implements evidence collection/validation and deterministic policy decisions with explicit non-claims.",
+        "algeria-ai-product-fabric composes evidence, decision, policy and adapter layers around a product vertical.",
+        "ai-meta-orchestrator and The-adaptive-methodology both implement orchestration and gated lifecycle concepts.",
+        "agentic-apis provides a machine-readable agent tool/API ecosystem that may be an input/resource layer rather than a core implementation."
+      ],
+      "required_next_checks":["shared contracts","shared schemas","imports","copied implementation","historical sequence"]
+    },
+    {
+      "cluster_id":"ALGERIA-MULTIAGENT",
+      "label":"Algeria multi-agent platform variants",
+      "status":"candidate",
+      "confidence":"high",
+      "repositories":[
+        "Loofy147/algeria-multi-agent-platform",
+        "Loofy147/algeria-multiagent-platform",
+        "Loofy147/algeria-ai-product-fabric"
+      ],
+      "basis":[
+        "The first two have nearly identical names and overlapping stated mission.",
+        "Both describe Algeria-specific automation, orchestration and integrations.",
+        "algeria-ai-product-fabric is a broader platform/research monorepo with explicit reusable core and domain/adapters separation."
+      ],
+      "required_next_checks":["tree comparison","README/document comparison","git ancestry","shared package names","API/schema overlap"]
+    },
+    {
+      "cluster_id":"TRADING-AUTONOMOUS",
+      "label":"autonomous trading / revenue systems",
+      "status":"candidate",
+      "confidence":"medium",
+      "repositories":[
+        "Loofy147/Meta-meta",
+        "Loofy147/-AI-Driven-Crypto-Portfolio-Manager-",
+        "Loofy147/Drogon",
+        "Loofy147/v0-portfolio-manager-framework"
+      ],
+      "basis":[
+        "Meta-meta defines event-driven trading signals, aggregation, risk checks, portfolio management and backtesting.",
+        "AI-Driven-Crypto-Portfolio-Manager defines multi-agent trading orchestration, execution, risk and monitoring.",
+        "Drogon contains an AutoRevenue agent application with strategy management and execution-oriented structure.",
+        "v0-portfolio-manager-framework appears primarily to be a deployed UI/product surface rather than the trading core."
+      ],
+      "required_next_checks":["strategy/module overlap","shared schemas","broker/exchange adapters","git chronology","UI-to-core relationship"]
+    },
+    {
+      "cluster_id":"ECOMMERCE-MARKETPLACE",
+      "label":"AI / social / e-commerce marketplace variants",
+      "status":"candidate",
+      "confidence":"medium",
+      "repositories":[
+        "Loofy147/Ai-e-commerce-marketplace",
+        "Loofy147/AI-Ecommerce-Social-Marketplace2",
+        "Loofy147/Shop-one"
+      ],
+      "basis":[
+        "Ai-e-commerce-marketplace explicitly describes an AI-driven social e-commerce marketplace and has backend/frontend/docker/package structure.",
+        "AI-Ecommerce-Social-Marketplace2 contains only a minimal README at the inspected revision, so it may be an abandoned or placeholder variant.",
+        "Shop-one has a large 345KB README artifact plus GitHub workflows, suggesting a potentially substantial specification or generated project surface requiring deeper inspection."
+      ],
+      "required_next_checks":["Shop-one large README extraction","tree comparison","package/framework overlap","deployment surfaces","git history"]
+    },
+    {
+      "cluster_id":"DELIVERY",
+      "label":"delivery/logistics application family",
+      "status":"candidate",
+      "confidence":"medium_low",
+      "repositories":[
+        "Loofy147/smart-delivery-platform-2",
+        "Loofy147/smart-delivery-plat",
+        "Loofy147/delivery-app"
+      ],
+      "basis":[
+        "smart-delivery-platform-2 explicitly defines a customer/driver/store delivery ecosystem.",
+        "The other two names indicate likely related implementations, but their content was not sufficiently inspected in this pass."
+      ],
+      "required_next_checks":["README/root inspection","git ancestry","domain model overlap","API schema overlap"]
+    },
+    {
+      "cluster_id":"SECURITY-REDTEAM",
+      "label":"security / red-team automation",
+      "status":"candidate",
+      "confidence":"medium",
+      "repositories":[
+        "Loofy147/Global-redteam",
+        "Loofy147/Red-team-defence2-",
+        "Loofy147/Syst-me-d-fensif-",
+        "Loofy147/meta-secure-framework"
+      ],
+      "basis":[
+        "Global-redteam provides a concrete multi-suite adversarial testing platform with API, fuzzing, property, race and SAST surfaces.",
+        "The remaining names strongly suggest a security family but were not all inspected deeply enough to establish lineage."
+      ],
+      "required_next_checks":["root/tree inspection","test-suite overlap","orchestration architecture","history"]
+    },
+    {
+      "cluster_id":"RL-SWARM-RESEARCH",
+      "label":"RL / swarm / experimental agent systems",
+      "status":"candidate",
+      "confidence":"medium_low",
+      "repositories":[
+        "Loofy147/HiveMind-RL",
+        "Loofy147/MARL-Pro",
+        "Loofy147/Unified-ai",
+        "Loofy147/training-home"
+      ],
+      "basis":[
+        "HiveMind-RL explicitly combines deep RL, graph attention and multi-agent swarm behavior.",
+        "Unified-ai explicitly includes RL/HRL, specialized agents, curriculum learning and knowledge-graph memory as an umbrella architecture.",
+        "MARL-Pro is currently only minimally documented; training-home requires direct inspection before assigning lineage."
+      ],
+      "required_next_checks":["algorithm implementation comparison","environment model comparison","training scripts","model architectures","history"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+# Repository Cards — Batch 012
+
+Date: 2026-08-30
+Scope: structural/content scan with nested-surface inspection where exposed; no strategic decisions.
+
+| Repository | Observed surface | Concise description | Knowledge status |
+|---|---|---|---|
+| Loofy147/nina-project | `backend`, `frontend`, `infrastructure`, `ml-engine`, `docs`, `scripts`; README defines a multi-tenant business OS foundation | Foundational multi-tenant business operating system combining API/business logic, ML analytics, frontend, infrastructure and future event/webhook layers. | STRUCTURALLY IDENTIFIED; runtime completeness not yet verified |
+| Loofy147/Api-algeria | `.env.example`, Django/DRF requirements, `backend`, `frontend`, dev requirements | Algeria-oriented full-stack API/application scaffold using Django 5 + Django REST Framework with separate backend/frontend surfaces. | STRUCTURALLY IDENTIFIED; nested implementation requires inspection |
+| Loofy147/Personal-ai-system | Dockerfile, `ai_system`, CLI, tests, RAG playbook, 28KB architecture/design document | Personalized learning assistant with FastAPI chat endpoint, Redis conversation history, local/HF model integration, CLI and tests; design document proposes dynamic memory, event-driven learning and privacy-oriented identity encoding. The mathematical/privacy assertions in the design document are specifications/claims, not independently verified guarantees. | STRUCTURALLY IDENTIFIED + claims review |
+| Loofy147/Axe | `app`, 234KB futures dataset, 16.7KB Kaggle runner, requirements, robustness README | Experimental futures-axis classifier designed to address keyword memorization using data augmentation, joint classification+MLM training and keyword-removal robustness analysis. The repository contains executable training/evaluation tooling and a nontrivial dataset. | D2 TARGET |
+| Loofy147/agentic-apis | README plus `categories`, `data`, `scripts` | Agent/API catalog-style repository with categorized data and scripts; surface is real but implementation depth is not yet established from root inspection. | PARTIAL |
+| Loofy147/Swarm-AGI | staged directories `1_foundations` through `5_experimental`, `Legion`, `main.py`, `outputs`, requirements | Staged research workspace spanning foundations, moonshot, deep-vision, legion and experimental tracks, with executable code and outputs. | D2 TARGET |
+| Loofy147/autonomous-manifold-v2-analysis | `agents`, `autonomous_manifold_v2.py`, `autonomous_manifold_v4.py`, `cgce.py`, monitor, configs, state JSONs, 81KB log, 24KB improvement report | Multi-generation autonomous-manifold research/implementation workspace containing code generations, runtime state, monitoring and improvement analysis. | D2 TARGET + lineage |
+| Loofy147/orbit-agent | large `main.py`, `main-full.py`, merged implementation, kernels/extracted artifacts, benchmark, episode logs, submission history | Large agent experimentation repository with multiple implementation generations, merged variants, extracted artifacts and execution logs. It should be read as a chronological experimental workspace, not assumed to be one canonical implementation. | D2 TARGET + lineage |
+| Loofy147/ai-chatbot | `app`, components/hooks, Drizzle config, articles, artifacts, CI tooling | Substantial web AI-chat application with persistence/schema tooling, frontend components and artifact area. | D2 TARGET |
+| Loofy147/outonomos-system | extensive API/implementation/deployment/feature documentation, Docker, contribution guide | Heavily documented autonomous-system project whose value is split across implementation guidance, API/deployment specifications and system reports; source implementation depth still needs direct inspection. | D2 TARGET |
+| Loofy147/Workflows-academy | client/server/shared, `package.json`, 259KB lockfile, platform structure, analysis, ideas, patches | Full-stack workflow/education platform with significant dependency and documentation surface, plus a patch/iteration mechanism. | D2 TARGET |
+| Loofy147/dyad-algerian-builder- | devcontainer, Cursor config, CI, Husky, lint/format configs, env template, contribution docs | Large Algerian-focused application-builder/development environment with substantial repository-engineering infrastructure. | D2 TARGET |
+| Loofy147/Trading-app | `App.tsx`, components, services, types, Vite config, 103KB package-lock, metadata | Frontend trading application with explicit component/service/type layers and dependency lockfile; likely a UI/product surface rather than the full trading engine. | STRUCTURALLY IDENTIFIED |
+| Loofy147/Algerian-datasets | coverage artifact, CI, Docker, Alembic, `algeria_data_platform`, GX, multiple research/report documents | Data-platform oriented repository around Algerian datasets with schema migration infrastructure, data-quality tooling, Docker and reports including FSO performance and collection analysis. | D2 TARGET + data/evidence |
+| Loofy147/Guardian-Ai | release config, Docker/Compose, frontend, `guardian_ai`, `main.py`, profiler, pytest config | Full-stack guardian AI application with Python runtime, frontend, containerization, profiling and test configuration. | D2 TARGET |
+| Loofy147/Spike-Function-Framework | committed `.env` and `.env.template`, deployment/implementation/patent docs, demo/app code, CI | Agent/function framework with implementation and deployment documentation plus patent-claim material. The committed `.env` remains a security/provenance finding; secret values were not inspected or reproduced. | D2 TARGET + SECURITY REVIEW |
+| Loofy147/All-in-Ai | branch `phase-0-initial-setup`, tests, `ai-agents`, `api-gateway`, architecture/audit/testing/compliance docs | Multi-component AI platform scaffold with explicit staged initialization, agent layer, API gateway and testing/compliance documentation. | D2 TARGET |
+| Loofy147/new-AGI | cache/jules/agents files, ARC inspector, FSUN baseline, competition submission tooling, data, episteme, legacy, NeuroGolf script | Broad AGI/ARC workspace containing research, competition workflows, baselines, legacy material and an executable model script. | D2 TARGET |
+
+## Corrections / observations
+
+1. Repository metadata size is not a proxy for substance. `nina-project`, `Axe`, `Personal-ai-system`, `Algerian-datasets` and others expose meaningful nested surfaces.
+2. README-only conclusions are not valid evidence of absence.
+3. `Personal-ai-system` has both implementation and a large design document. The design's claims about contraction, convergence, DP and privacy must be separated from implementation facts.
+4. `Axe` has a concrete dataset and executable Kaggle pipeline; its reported robustness properties require execution-level verification.
+5. `autonomous-manifold-v2-analysis` and `orbit-agent` contain multiple implementation generations/variants, making internal chronology and provenance a first-class audit dimension.
+6. `Spike-Function-Framework` contains a committed `.env`; record the presence without exposing contents.
+7. No repository in this batch receives a strategic decision.

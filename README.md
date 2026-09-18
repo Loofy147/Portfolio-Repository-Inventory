@@ -67,6 +67,19 @@ See:
 - `docs/REPOSITORY_REVIEW_PROTOCOL_v0.1.md` — operational review and evidence-handling protocol.
 - `schema/repository-review.schema.json` — machine-readable review record contract.
 
+## Operating manual
+
+The inventory is governed by a reusable repository-review operating model rather than ad-hoc inspection.
+
+- `docs/PORTFOLIO_OPERATING_MANUAL_v0.2.md` — portfolio-wide operating model.
+- `docs/REPOSITORY_REVIEW_PROTOCOL_v0.1.md` — repository/ref/evidence handling protocol.
+- `docs/REVIEW_PACKET_TEMPLATE_v0.1.md` — reusable review packet.
+- `schema/repository-review.schema.json` — machine-readable review contract (v0.2).
+- `schema/relationship.v0.2.schema.json` — richer cross-repository relationship contract.
+- `reports/case-study-machine-log-os-2026-09-18.md` — concrete example of branch-aware project identification and historical-reference handling.
+
+The protocol is compatible with the existing v0.1 inventory records; new evidence may be added without rewriting historical records.
+
 ## Current phase
 
 We remain in the **census / structural inspection phase**, with deep review progressing incrementally where it materially helps active projects or reduces integration uncertainty.

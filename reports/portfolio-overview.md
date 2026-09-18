@@ -1,12 +1,14 @@
 # Portfolio Overview
 
-Current phase: **Census + Structural Triage**.
+Current phase: **Census + Structural Triage**, with portfolio audit running as a **non-blocking parallel track**.
 
 ## Census
 
-The current accessible GitHub search census contains **313 deduplicated repositories** for `Loofy147`, collected on 2026-08-30 from four search pages (100/100/100/13).
+The canonical stored census contains **313 deduplicated repositories**, collected on 2026-08-30 from four search pages (100/100/100/13).
 
-This is an accessible census, not a proof that every possible repository surface is included. The connected interface may not expose repositories outside the returned search scope.
+This is an accessible census snapshot, not a proof that every possible repository surface is included. A later direct GitHub observation on 2026-09-18 exposed a larger accessible set, but it has not been promoted to the canonical inventory yet.
+
+The census must be deliberately refreshed and reconciled before the stored repository set is replaced or promoted.
 
 ## Structural triage rule
 
@@ -21,6 +23,20 @@ We inspect evidence-bearing surfaces before interpreting a repository:
 - specialized research or engineering artifacts.
 
 A file's presence is a **signal**, not proof of correctness. Documentation claims are not verification. Missing evidence is `UNKNOWN` unless the relevant surface was actually inspected.
+
+## Operating rule
+
+Active projects continue on their own valid tracks.
+
+The portfolio audit does **not** become a prerequisite for project execution. Instead, portfolio review advances incrementally and records durable findings as they become sufficiently evidenced.
+
+Portfolio-level synthesis must not be confused with final architecture selection. Until the evidence supports a stronger conclusion:
+
+- project-local architecture remains authoritative;
+- unresolved relationships remain unresolved;
+- small reversible reuse is preferred;
+- global merges/extractions are not required;
+- old, sparse, or duplicated-looking repositories are not discarded without evidence.
 
 ## Initial findings
 
@@ -47,4 +63,8 @@ The first pass identifies relationship **candidates**, not finalized lineage:
 
 ## Next gate
 
-Do not start mass deep review yet. First expand structural triage across the portfolio, prioritize clusters with high probability of shared ideas or duplicated implementation, then perform deep review on canonical candidates and ambiguous clusters.
+There is **no stop-the-world portfolio gate**.
+
+Continue active project work. In parallel, expand structural triage across the portfolio and selectively deep-review clusters or repositories when doing so can materially improve an active project, establish durable lineage, reduce duplicated complexity, or reduce future integration risk.
+
+Do not promote a candidate relationship to established lineage without content/history evidence.

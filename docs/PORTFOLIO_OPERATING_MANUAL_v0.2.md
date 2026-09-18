@@ -632,3 +632,39 @@ historical reference
 interpretation
 
 Only after those are separated should relationships, reuse, or architecture be inferred.
+
+## 30. Review mode selection
+
+Not every repository needs the same review.
+
+Use `docs/REVIEW_MODES_v0.1.md` to select among:
+
+- identity/current-state review;
+- structural triage;
+- implementation review;
+- experiment audit;
+- lineage/relationship review;
+- historical reference review;
+- integration review;
+- revalidation review.
+
+Select the mode from the question, evidence risk, architecture maturity, and decision reversibility.
+
+## 31. Trust gate before reuse
+
+Before reusing a result or primitive from another repository, verify:
+
+1. source state is identified;
+2. mechanism is actually evidenced;
+3. boundary is stable enough to reuse;
+4. assumptions are explicit;
+5. failure/rollback behavior is understood;
+6. provenance is retained.
+
+This is the portfolio-level trust gate:
+
+`evidence -> trust judgment -> reuse candidate`
+
+not:
+
+`similarity -> reuse`.

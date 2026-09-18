@@ -2,6 +2,19 @@
 
 Current phase: **Census + Structural Triage**, with portfolio audit running as a **non-blocking parallel track**.
 
+## Operating model
+
+Portfolio review is now governed by a branch-aware evidence model. The review unit is not the repository name alone; for material technical claims it is `repository + branch/ref + commit + inspected surface`.
+
+Review depth is progressive (D0-D4), and repository state, evidence class, claim status, assumptions, suggestions, decisions, relationships, unknowns, and contradictions are kept separate.
+
+The durable operating documents are:
+- `docs/PORTFOLIO_OPERATING_MANUAL_v0.2.md`
+- `docs/REPOSITORY_REVIEW_PROTOCOL_v0.1.md`
+- `docs/REVIEW_PACKET_TEMPLATE_v0.1.md`
+- `schema/repository-review.schema.json`
+- `schema/relationship.v0.2.schema.json`
+
 ## Census
 
 The canonical stored census contains **313 deduplicated repositories**, collected on 2026-08-30 from four search pages (100/100/100/13).

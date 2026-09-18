@@ -14,14 +14,20 @@ This repository is the system of record for understanding a large, heterogeneous
 4. Preserve provenance, including useful failed or abandoned work.
 5. Separate facts from decisions.
 6. Do not destroy source history during inventory work.
+7. Portfolio audit is non-blocking: active project work continues independently while portfolio analysis progresses in parallel.
+8. Durable portfolio discoveries are recorded here when they become evidenced, rather than waiting for a full portfolio audit.
 
 ## Pipeline
 
 `CENSUS -> STRUCTURAL TRIAGE -> CLUSTERING -> DEEP REVIEW -> DECISION -> REVALIDATION`
 
+The pipeline is progressive and non-blocking. An incomplete portfolio audit does not stop valid work on an individual project.
+
 ## Decision vocabulary
 
 `KEEP`, `MERGE`, `EXTRACT`, `FREEZE`, `ARCHIVE`, `UNKNOWN`.
+
+These are evidence-backed portfolio decisions, not mandatory outcomes for every repository.
 
 ## Epistemic vocabulary
 
@@ -32,6 +38,8 @@ This repository is the system of record for understanding a large, heterogeneous
 The current repository census stored in `inventory/repositories.json` was generated from GitHub repository search pages 1–4 with `100/100/100/13` results, deduplicated by repository full name, yielding **313 observed repository records** in that snapshot.
 
 This is a search-based snapshot, not a proof that no additional repositories exist outside the search result set or current connector visibility.
+
+A later direct GitHub observation on 2026-09-18 exposed a larger accessible set, but that observation has not yet been promoted to the canonical stored census. The two snapshots must remain distinct until a deliberate re-census and reconciliation are performed.
 
 ## Inspection protocol
 
@@ -45,6 +53,12 @@ Absence is only recorded when the relevant repository surface has actually been 
 
 ## Current phase
 
-We are still in the **census / structural inspection phase**. Repository cards are being added continuously. No strategic portfolio decisions are made until coverage and cross-repository reconciliation are complete.
+We remain in the **census / structural inspection phase**, with deep review progressing incrementally where it materially helps active projects or reduces integration uncertainty.
+
+The audit is a parallel track, not a stop-the-world gate. No final portfolio architecture, forced consolidation, or irreversible strategic decision is required before coverage is complete.
+
+The repository is therefore both:
+- the durable record for portfolio-level discoveries that are already evidenced; and
+- the coordination layer for a gradually expanding audit that must preserve unresolved states rather than invent certainty.
 
 See `schema/` for machine-readable contracts.

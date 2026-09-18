@@ -24,6 +24,16 @@ We inspect evidence-bearing surfaces before interpreting a repository:
 
 A file's presence is a **signal**, not proof of correctness. Documentation claims are not verification. Missing evidence is `UNKNOWN` unless the relevant surface was actually inspected.
 
+
+## Repository review standard
+
+The structural triage phase now uses a dedicated operational protocol and machine-readable review contract:
+
+- `docs/REPOSITORY_REVIEW_PROTOCOL_v0.1.md`
+- `schema/repository-review.schema.json`
+
+The standard requires repository + branch/ref + commit provenance, separates current/research/historical state, and keeps claims, assumptions, suggestions, experiments, and cross-repository relationships distinct.
+
 ## Operating rule
 
 Active projects continue on their own valid tracks.

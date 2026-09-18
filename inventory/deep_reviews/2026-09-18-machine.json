@@ -1,0 +1,103 @@
+{
+  "schema_version": "0.2.0",
+  "repository": {
+    "full_name": "Loofy147/Machine",
+    "url": "https://github.com/Loofy147/Machine",
+    "default_branch": "main",
+    "visibility": "public",
+    "archived": false
+  },
+  "observation": {
+    "observed_at": "2026-09-18T03:53:00+01:00",
+    "ref": "research/machine-native-primitives-v0",
+    "commit": "branch tip not independently resolved; compare base is 1626bac2f5c478294afa4b9463f694608c322117 and branch is 42 commits ahead/3 behind",
+    "branches_inspected": [
+      "main",
+      "research/machine-native-primitives-v0"
+    ],
+    "surfaces_inspected": [
+      "README.md",
+      "docs/BRANCH-EVIDENCE-AND-RESEARCH-HANDLING.md",
+      "docs/EXPERIMENT-ONLINE-REFLECTIVE-LEARNING.md",
+      "branch comparison",
+      "Loofy147/log-os main source/reference surfaces"
+    ],
+    "depth": "D2"
+  },
+  "state": {
+    "project_status": "RESEARCH-FRONTIER",
+    "interpretation": "Machine is the active repository for the current machine-native-primitives research; research/machine-native-primitives-v0 is the substantive research frontier and is not equivalent to main."
+  },
+  "evidence": [
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "Machine main and research/machine-native-primitives-v0 diverge; the comparison reports the research branch 42 commits ahead and main 3 commits behind, with merge base 641517a26790c40295606f12fd6e4a87fcab7186.",
+      "source": "Machine compare main...research/machine-native-primitives-v0",
+      "limits": "Branch tip remains a moving ref."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "Machine research documentation distinguishes same-process evaluator hot-swap from the stronger target of online causal reflection.",
+      "source": "Machine research/machine-native-primitives-v0:docs/EXPERIMENT-ONLINE-REFLECTIVE-LEARNING.md",
+      "limits": "This is a documented experiment boundary, not independent execution verification in this review."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "Log-Os main contains CPS/trampoline interpreter machinery, explicit continuation/computation objects, lexical environments, object-language lambda/defun/macro machinery, and L0 multimethod dispatch.",
+      "source": "log-os main:core/interpreter.py, core/types.py, stdlib/multimethods.l0, README.md",
+      "limits": "These observations establish historical/reference value, not lineage to Machine."
+    },
+    {
+      "class": "UNKNOWN",
+      "claim_status": "UNKNOWN",
+      "statement": "Direct Machine to Log-Os code lineage is not established.",
+      "source": "Cross-repository comparison on 2026-09-18",
+      "limits": "Commit-level ancestry between the repositories was not established by the inspected evidence."
+    }
+  ],
+  "assumptions": [
+    "Machine research branch remains the active frontier for the current task until later evidence changes that interpretation."
+  ],
+  "suggestions": [
+    "Use Log-Os as a historical interpreter reference when its mechanisms are relevant, but verify reuse/ancestry before claiming lineage."
+  ],
+  "decisions": [
+    "Classify Machine as current/research-frontier and Log-Os as historical reference in the portfolio."
+  ],
+  "unknowns": [
+    "Whether Machine intentionally reuses implementation from Log-Os.",
+    "Whether a historical commit or branch establishes direct ancestry.",
+    "Whether genuine object-language closure without a Python special case has been implemented."
+  ],
+  "contradictions": [],
+  "relationships": [
+    {
+      "target": "Loofy147/log-os",
+      "relation": "HISTORICAL_REFERENCE",
+      "status": "OBSERVED",
+      "evidence_refs": [
+        "Machine:docs/BRANCH-EVIDENCE-AND-RESEARCH-HANDLING.md",
+        "log-os main:core/interpreter.py",
+        "log-os main:core/types.py",
+        "log-os main:stdlib/multimethods.l0"
+      ],
+      "notes": "Useful interpreter reference; direct lineage remains unknown."
+    }
+  ],
+  "verification": {
+    "tests_inspected": [],
+    "tests_executed": [],
+    "artifacts": [
+      "Machine branch comparison result"
+    ],
+    "reproducibility": "Repository/ref inspection is reproducible; no fresh experiment was executed in this portfolio review.",
+    "falsifiers": [
+      "Evidence of direct Machine-to-Log-Os ancestry would change the relationship classification.",
+      "A newer active branch would change the current-frontier classification."
+    ]
+  },
+  "next_test": "Inspect Machine research-branch history against Log-Os history for direct commit/code ancestry only if lineage becomes strategically relevant."
+}

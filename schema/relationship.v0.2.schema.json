@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Loofy147/Portfolio-Repository-Inventory/schema/relationship.v0.2.schema.json",
+  "title": "PortfolioRelationshipV0.2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "source", "target", "relation", "status", "evidence_refs"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "0.2.0"},
+    "source": {"type": "string"},
+    "target": {"type": "string"},
+    "relation": {
+      "type": "string",
+      "enum": [
+        "HISTORICAL_REFERENCE",
+        "POSSIBLE_LINEAGE",
+        "ESTABLISHED_LINEAGE",
+        "SHARED_PRIMITIVE_CANDIDATE",
+        "DUPLICATE_CANDIDATE",
+        "INDEPENDENT_SIMILARITY",
+        "SUCCESSOR_CANDIDATE",
+        "DEPENDENCY",
+        "SAME_PROJECT",
+        "SAME_IDEA",
+        "SUCCESSOR",
+        "PREDECESSOR",
+        "FORK",
+        "COMPONENT_SOURCE",
+        "RESEARCH_SOURCE",
+        "UNKNOWN"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "OBSERVED",
+        "DERIVED",
+        "INFERRED",
+        "USER_REPORTED",
+        "UNKNOWN",
+        "CONTRADICTED",
+        "OPEN"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "unknown"]
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "notes": {"type": "string"},
+    "next_test": {"type": "string"}
+  }
+}

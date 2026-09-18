@@ -51,6 +51,22 @@ The expected inspection order is:
 
 Absence is only recorded when the relevant repository surface has actually been inspected.
 
+
+## Professional repository handling
+
+Repository reviews follow a reusable evidence/provenance protocol rather than an ad-hoc reading of README files:
+
+- Active-project identification is based on repository + branch/ref + commit evidence, not semantic resemblance.
+- Relevant research branches are inspected before deciding what is current, canonical, historical, or unmerged.
+- Documentation, implementation, experiments, host-language mechanisms, object-language mechanisms, causal interpretation, and architectural implications are kept separate.
+- Claims, assumptions, suggestions, decisions, unknowns, and contradictions are recorded as different evidence classes.
+- Cross-repository relationships use explicit statuses such as `POSSIBLE_LINEAGE`, `ESTABLISHED_LINEAGE`, `HISTORICAL_REFERENCE`, and `SHARED_PRIMITIVE_CANDIDATE` rather than silently implying lineage.
+- Durable discoveries are recorded here as soon as they are sufficiently evidenced; they do not wait for full portfolio coverage.
+
+See:
+- `docs/REPOSITORY_REVIEW_PROTOCOL_v0.1.md` — operational review and evidence-handling protocol.
+- `schema/repository-review.schema.json` — machine-readable review record contract.
+
 ## Current phase
 
 We remain in the **census / structural inspection phase**, with deep review progressing incrementally where it materially helps active projects or reduces integration uncertainty.

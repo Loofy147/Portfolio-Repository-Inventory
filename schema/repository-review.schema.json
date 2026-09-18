@@ -1,10 +1,11 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/Loofy147/Portfolio-Repository-Inventory/blob/main/schema/repository-review.schema.json",
-  "title": "Repository Review Record",
+  "$id": "https://github.com/Loofy147/Portfolio-Repository-Inventory/schema/repository-review.schema.json",
+  "title": "RepositoryReviewRecordV0.2",
   "type": "object",
   "additionalProperties": false,
   "required": [
+    "schema_version",
     "repository",
     "observation",
     "state",
@@ -12,41 +13,89 @@
     "unknowns"
   ],
   "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "0.2.0"
+    },
     "repository": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["full_name", "default_branch"],
+      "required": [
+        "full_name",
+        "default_branch"
+      ],
       "properties": {
-        "full_name": {"type": "string"},
-        "id": {"type": ["string", "integer"]},
-        "url": {"type": "string"},
-        "default_branch": {"type": "string"},
-        "visibility": {"type": "string"},
-        "archived": {"type": "boolean"}
+        "full_name": {
+          "type": "string"
+        },
+        "id": {
+          "type": [
+            "string",
+            "integer"
+          ]
+        },
+        "url": {
+          "type": "string"
+        },
+        "default_branch": {
+          "type": "string"
+        },
+        "visibility": {
+          "type": "string"
+        },
+        "archived": {
+          "type": "boolean"
+        }
       }
     },
     "observation": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["observed_at", "ref"],
+      "required": [
+        "observed_at",
+        "ref",
+        "depth"
+      ],
       "properties": {
-        "observed_at": {"type": "string", "format": "date-time"},
-        "ref": {"type": "string"},
-        "commit": {"type": "string"},
+        "observed_at": {
+          "type": "string"
+        },
+        "ref": {
+          "type": "string"
+        },
+        "commit": {
+          "type": "string"
+        },
         "branches_inspected": {
           "type": "array",
-          "items": {"type": "string"}
+          "items": {
+            "type": "string"
+          }
         },
         "surfaces_inspected": {
           "type": "array",
-          "items": {"type": "string"}
+          "items": {
+            "type": "string"
+          }
+        },
+        "depth": {
+          "type": "string",
+          "enum": [
+            "D0",
+            "D1",
+            "D2",
+            "D3",
+            "D4"
+          ]
         }
       }
     },
     "state": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["project_status"],
+      "required": [
+        "project_status"
+      ],
       "properties": {
         "project_status": {
           "type": "string",
@@ -59,7 +108,9 @@
             "UNKNOWN"
           ]
         },
-        "interpretation": {"type": "string"}
+        "interpretation": {
+          "type": "string"
+        }
       }
     },
     "evidence": {
@@ -67,13 +118,15 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["status", "statement"],
+        "required": [
+          "class",
+          "statement"
+        ],
         "properties": {
-          "status": {
+          "class": {
             "type": "string",
             "enum": [
               "OBSERVED",
-              "EXPERIMENTALLY_SUPPORTED",
               "DERIVED",
               "INFERRED",
               "USER_REPORTED",
@@ -81,63 +134,128 @@
               "CONTRADICTED"
             ]
           },
-          "statement": {"type": "string"},
-          "source": {"type": "string"},
-          "limits": {"type": "string"}
+          "claim_status": {
+            "type": "string",
+            "enum": [
+              "ESTABLISHED",
+              "EXPERIMENTALLY_SUPPORTED",
+              "USER_REPORTED",
+              "INFERENCE",
+              "HYPOTHESIS",
+              "CONTRADICTED",
+              "UNKNOWN",
+              "OPEN"
+            ]
+          },
+          "statement": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "limits": {
+            "type": "string"
+          }
         }
       }
     },
     "assumptions": {
       "type": "array",
-      "items": {"type": "string"}
+      "items": {
+        "type": "string"
+      }
     },
     "suggestions": {
       "type": "array",
-      "items": {"type": "string"}
+      "items": {
+        "type": "string"
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     },
     "unknowns": {
       "type": "array",
-      "items": {"type": "string"}
+      "items": {
+        "type": "string"
+      }
     },
     "contradictions": {
       "type": "array",
-      "items": {"type": "string"}
+      "items": {
+        "type": "string"
+      }
     },
     "relationships": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["repository", "relation", "status"],
+        "required": [
+          "target",
+          "relation",
+          "status"
+        ],
         "properties": {
-          "repository": {"type": "string"},
+          "target": {
+            "type": "string"
+          },
           "relation": {
-            "type": "string",
-            "enum": [
-              "HISTORICAL_REFERENCE",
-              "POSSIBLE_LINEAGE",
-              "ESTABLISHED_LINEAGE",
-              "SHARED_PRIMITIVE_CANDIDATE",
-              "DUPLICATE_CANDIDATE",
-              "INDEPENDENT_SIMILARITY",
-              "SUCCESSOR_CANDIDATE",
-              "DEPENDENCY"
-            ]
+            "type": "string"
           },
           "status": {
-            "type": "string",
-            "enum": [
-              "OBSERVED",
-              "DERIVED",
-              "INFERRED",
-              "UNKNOWN",
-              "CONTRADICTED"
-            ]
+            "type": "string"
           },
-          "evidence": {"type": "string"}
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "notes": {
+            "type": "string"
+          }
         }
       }
     },
-    "next_test": {"type": "string"}
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "tests_inspected": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tests_executed": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "artifacts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reproducibility": {
+          "type": "string"
+        },
+        "falsifiers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "next_test": {
+      "type": "string"
+    }
   }
 }

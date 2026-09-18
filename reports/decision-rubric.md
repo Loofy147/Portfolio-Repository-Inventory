@@ -13,3 +13,7 @@ Deep assessment dimensions are rated 0-5:
 technical substance, validation/evidence, strategic value, reuse potential, completion cost.
 
 Scores guide decisions; they do not replace evidence or judgment.
+
+## Evidence-gated portfolio decisions
+
+Decision vocabulary remains `KEEP / MERGE / EXTRACT / FREEZE / ARCHIVE / UNKNOWN`, but the decision basis must include repository/ref provenance and evidence status. A strategic score is not a substitute for implementation evidence, branch-state verification, lineage evidence, or reproducibility.

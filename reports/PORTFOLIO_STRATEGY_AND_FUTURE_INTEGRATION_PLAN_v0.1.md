@@ -92,6 +92,19 @@ Future integration adds a later phase:
 
 The final architecture is therefore an output of evidence, not an input assumption.
 
+## 6.1 Repository handling standard
+
+The portfolio coordination layer now has an explicit operational model for reviewing other repositories:
+
+- repository identity is contextualized by branch/ref and commit;
+- current research branches are not assumed to be the default branch;
+- documentation, implementation, experiment, causal interpretation, and architecture are separate evidence layers;
+- historical repositories can supply references without establishing lineage;
+- durable discoveries are recorded incrementally;
+- existing inventory records remain valid and are not destructively rewritten.
+
+See `docs/PORTFOLIO_OPERATING_MANUAL_v0.2.md`.
+
 ## 6. Immediate work policy
 
 The immediate goal is not to audit all repositories to completion before doing anything else.

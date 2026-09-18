@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Loofy147/Portfolio-Repository-Inventory/schema/review-log.schema.json",
+  "title": "PortfolioReviewLogV0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "review_date", "purpose", "depth_levels", "records"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "0.1.0"},
+    "review_date": {"type": "string"},
+    "purpose": {"type": "string"},
+    "depth_levels": {
+      "type": "object",
+      "additionalProperties": {"type": "string"}
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["repository", "depth", "evidence", "current_focus", "next"],
+        "properties": {
+          "repository": {"type": "string"},
+          "depth": {"type": "string", "enum": ["D0", "D1", "D2", "D3", "D4"]},
+          "evidence": {"type": "array", "items": {"type": "string"}},
+          "current_focus": {"type": "string"},
+          "next": {"type": "string"}
+        }
+      }
+    }
+  }
+}

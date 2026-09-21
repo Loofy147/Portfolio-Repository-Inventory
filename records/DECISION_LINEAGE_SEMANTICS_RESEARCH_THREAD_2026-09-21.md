@@ -148,3 +148,61 @@ This record is durable reasoning provenance and negative knowledge.
 
 It is not implementation evidence.
 Implementation evidence must reference actual repository/ref/commit and executed artifacts.
+
+
+## Durable extension: activation, routes, commands, and warrants
+
+D15. DecisionRevision is not itself an execution command.
+Disposition: accepted design boundary.
+Reason: a decision records a selected alternative; execution requires a separate activation authorization.
+Surviving boundary: Decision -> Route -> ActivationRequest -> ActivationWarrant -> Command.
+
+D16. Route is not evidence or proof.
+Disposition: accepted design boundary.
+Reason: a route describes intended traversal/operations; it does not establish external-world validity or execution success.
+Surviving boundary: RouteRevision is immutable and versioned.
+
+D17. Command is not proof.
+Disposition: accepted design boundary.
+Reason: a Command is an issued instruction whose execution outcome is separate evidence.
+Surviving boundary: Command references the exact DecisionRevision, RouteRevision, and ActivationWarrant.
+
+D18. Warrant is not generic proof.
+Disposition: accepted semantic distinction.
+Reason: defeasible and heuristic acceptance are not deductive proof.
+Surviving boundary:
+DEDUCTIVE_PROOF
+DEFEASIBLE_WARRANT
+HEURISTIC_WARRANT
+POLICY_WARRANT
+
+D19. Execution success cannot retroactively prove authorization.
+Disposition: accepted boundary.
+Reason: the execution graph and warrant/proof graph answer different questions.
+Surviving boundary: they join at Command/ActivationWarrant but remain separate evidence chains.
+
+D20. Historical activation authorization is immutable.
+Disposition: accepted design boundary.
+Reason: later evidence changes must not rewrite a prior command or warrant.
+Surviving boundary: later changes create stale/revalidation state and, where needed, a new ActivationWarrant.
+
+## New open questions
+
+A1. Does every executable Decision require a RouteRevision?
+A2. Is activation authority the same Gate as decision admission, or a distinct ActivationGate?
+A3. Can Route revisions be treated as equivalent for warrant reuse, and if so what versioned equivalence relation proves that?
+A4. Which route preconditions are structural versus live evidence requirements?
+A5. What is the exact revocation/blocking model for commands that have not started?
+A6. Is an ActivationWarrant single-use or reusable?
+A7. Which execution outcomes trigger automatic Decision revalidation?
+A8. What exactly qualifies as a POLICY_WARRANT?
+
+## New next discriminating actions
+
+7. Formalize ActivationWarrant as a typed downstream artifact of Evaluation rather than a new truth/claim status.
+8. Define RouteRevision identity and exact dependency on DecisionRevision.
+9. Define Command lifecycle independently of Decision/Claim statuses.
+10. Build a minimal end-to-end trace:
+Question -> Candidate -> Decision -> Route -> ActivationRequest -> Warrant -> Command -> Run -> Evidence.
+11. Test stale-warrant behavior when evidence or RouteRevision changes before and after command start.
+

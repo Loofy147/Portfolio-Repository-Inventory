@@ -8767,6 +8767,252 @@
         "snapshot_id": "census-2026-08-30-search-user-loofy147-pages-1-4",
         "assessed_at": "2026-08-30"
       }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Wedgettok",
+      "identity": {
+        "name": "Wedgettok",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": "Experience/feed product runtime with a domain-native Experience model, feed/runtime/data/host/UI separation, and an expanding Experience catalog.",
+        "language": null,
+        "size_kb": null,
+        "created_at": null,
+        "updated_at": null,
+        "pushed_at": null
+      },
+      "technical": {
+        "tests": "present",
+        "ci": "present",
+        "deployment": "present"
+      },
+      "substance": {
+        "purpose": "Experience/feed product runtime with a domain-native Experience model, feed/runtime/data/host/UI separation, and an expanding Experience catalog.",
+        "maturity": "prototype",
+        "research_value": "medium",
+        "product_value": "medium",
+        "reusable_components": []
+      },
+      "decision": {
+        "status": "keep",
+        "target_repository": null,
+        "confidence": "high",
+        "rationale": "Owner-selected member of the Core Working Set established on 2026-09-21. This selection defines the primary work corpus; it does not assert repository lineage, code reuse, or a merge."
+      },
+      "relationships": [],
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "core-working-set-2026-09-21:0d4ac8958008b305f082b806387184ce548816c0",
+        "assessed_at": "2026-09-21"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Machine",
+      "identity": {
+        "name": "Machine",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": "Machine-native primitives and reflective/interpreter/substrate research; active execution occurs on dedicated research branches.",
+        "language": null,
+        "size_kb": null,
+        "created_at": null,
+        "updated_at": null,
+        "pushed_at": null
+      },
+      "technical": {
+        "tests": "present",
+        "ci": "present",
+        "deployment": "absent_verified"
+      },
+      "substance": {
+        "purpose": "Machine-native primitives and reflective/interpreter/substrate research; active execution occurs on dedicated research branches.",
+        "maturity": "research_artifact",
+        "research_value": "high",
+        "product_value": "unknown",
+        "reusable_components": []
+      },
+      "decision": {
+        "status": "keep",
+        "target_repository": null,
+        "confidence": "high",
+        "rationale": "Owner-selected member of the Core Working Set established on 2026-09-21. This selection defines the primary work corpus; it does not assert repository lineage, code reuse, or a merge."
+      },
+      "relationships": [],
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "core-working-set-2026-09-21:1626bac2f5c478294afa4b9463f694608c322117",
+        "assessed_at": "2026-09-21"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/unified-knowledge-work-system",
+      "identity": {
+        "name": "unified-knowledge-work-system",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": "Relationship-aware knowledge/control plane with durable evidence, project continuity, plan revision, persistence, and actor-attributed events.",
+        "language": null,
+        "size_kb": null,
+        "created_at": null,
+        "updated_at": null,
+        "pushed_at": null
+      },
+      "technical": {
+        "tests": "present",
+        "ci": "present",
+        "deployment": "present"
+      },
+      "substance": {
+        "purpose": "Relationship-aware knowledge/control plane with durable evidence, project continuity, plan revision, persistence, and actor-attributed events.",
+        "maturity": "production_candidate",
+        "research_value": "high",
+        "product_value": "high",
+        "reusable_components": []
+      },
+      "decision": {
+        "status": "keep",
+        "target_repository": null,
+        "confidence": "high",
+        "rationale": "Owner-selected member of the Core Working Set established on 2026-09-21. This selection defines the primary work corpus; it does not assert repository lineage, code reuse, or a merge."
+      },
+      "relationships": [],
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "core-working-set-2026-09-21:4a39bfbbcc069492a6fbd3f7ddf4ae5e5b6196b9",
+        "assessed_at": "2026-09-21"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/m0-durable-run",
+      "identity": {
+        "name": "m0-durable-run",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": "Small provider-agnostic durable execution primitive: durable Run identity, append-only records, replay protection, process restart recovery, and evidence vertical slice.",
+        "language": null,
+        "size_kb": null,
+        "created_at": null,
+        "updated_at": null,
+        "pushed_at": null
+      },
+      "technical": {
+        "tests": "present",
+        "ci": "absent_verified",
+        "deployment": "absent_verified"
+      },
+      "substance": {
+        "purpose": "Small provider-agnostic durable execution primitive: durable Run identity, append-only records, replay protection, process restart recovery, and evidence vertical slice.",
+        "maturity": "poc",
+        "research_value": "high",
+        "product_value": "medium",
+        "reusable_components": []
+      },
+      "decision": {
+        "status": "keep",
+        "target_repository": null,
+        "confidence": "high",
+        "rationale": "Owner-selected member of the Core Working Set established on 2026-09-21. This selection defines the primary work corpus; it does not assert repository lineage, code reuse, or a merge."
+      },
+      "relationships": [],
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "core-working-set-2026-09-21:9436841c77d5a1cb9d23051a3db69eb93ec6240d",
+        "assessed_at": "2026-09-21"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/la-rouine-platform",
+      "identity": {
+        "name": "la-rouine-platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "description": "Declarative Experience runtime/prototype with deterministic rendering, validation, editing, localization, remix deltas, lineage, outcome checks, and tamper evidence.",
+        "language": null,
+        "size_kb": null,
+        "created_at": null,
+        "updated_at": null,
+        "pushed_at": null
+      },
+      "technical": {
+        "tests": "present",
+        "ci": "absent_verified",
+        "deployment": "absent_verified"
+      },
+      "substance": {
+        "purpose": "Declarative Experience runtime/prototype with deterministic rendering, validation, editing, localization, remix deltas, lineage, outcome checks, and tamper evidence.",
+        "maturity": "prototype",
+        "research_value": "medium",
+        "product_value": "medium",
+        "reusable_components": []
+      },
+      "decision": {
+        "status": "keep",
+        "target_repository": null,
+        "confidence": "high",
+        "rationale": "Owner-selected member of the Core Working Set established on 2026-09-21. This selection defines the primary work corpus; it does not assert repository lineage, code reuse, or a merge."
+      },
+      "relationships": [],
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "core-working-set-2026-09-21:3f2a7f4d2cb16db7488afdb16f1610c27ae3d1ca",
+        "assessed_at": "2026-09-21"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Llms-mcp-android",
+      "identity": {
+        "name": "Llms-mcp-android",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "description": "User-owned Android agent runtime/control plane with Action/Capability/Policy/Approval/Egress/Run/Verification/Evidence boundaries and durable effect handling.",
+        "language": null,
+        "size_kb": null,
+        "created_at": null,
+        "updated_at": null,
+        "pushed_at": null
+      },
+      "technical": {
+        "tests": "present",
+        "ci": "present",
+        "deployment": "absent_verified"
+      },
+      "substance": {
+        "purpose": "User-owned Android agent runtime/control plane with Action/Capability/Policy/Approval/Egress/Run/Verification/Evidence boundaries and durable effect handling.",
+        "maturity": "prototype",
+        "research_value": "high",
+        "product_value": "high",
+        "reusable_components": []
+      },
+      "decision": {
+        "status": "keep",
+        "target_repository": null,
+        "confidence": "high",
+        "rationale": "Owner-selected member of the Core Working Set established on 2026-09-21. This selection defines the primary work corpus; it does not assert repository lineage, code reuse, or a merge."
+      },
+      "relationships": [],
+      "epistemic": {
+        "fact_status": "observed",
+        "snapshot_id": "core-working-set-2026-09-21:7a7e1c67d1dce15457b62cf173d159a7be15f9ce",
+        "assessed_at": "2026-09-21"
+      }
     }
   ]
 }

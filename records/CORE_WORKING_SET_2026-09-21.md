@@ -28,6 +28,21 @@ This is a portfolio working-set decision. It **does not** assert that these repo
 | `la-rouine-platform` | `main` | `3f2a7f4d2cb16db7488afdb16f1610c27ae3d1ca` | Declarative Experience runtime | deterministic render, validation, editability, remix/lineage and outcome gates have executable evidence; feed/moderation/creation/offline-online remain open |
 | `Wedgettok` | `main` | `0d4ac8958008b305f082b806387184ce548816c0` | Experience/feed product surface | Experience contracts and catalog are present; actual user/feed evidence remains separate from design/catalog evidence |
 
+## Current Target
+
+**Target:** `Loofy147/Wedgettok`
+
+**Observed ref:** `main`  
+**Observed HEAD:** `0d4ac8958008b305f082b806387184ce548816c0`
+
+Status: **CURRENT WORK TARGET**
+
+The other five Core Working Set repositories remain supporting/context repositories. Their role is to provide reusable evidence, primitives, historical references, interfaces, or integration context only when a Wedgettok decision requires them.
+
+Working rule:
+
+`Wedgettok` is the active implementation target; portfolio review and cross-repository work remain non-blocking and evidence-gated.
+
 ## Provenance rule
 
 Each member is registered in `inventory/repositories.json` with its exact observed HEAD snapshot. The review depth and inspected focus are registered in `inventory/review-log.json`.

@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Loofy147/Portfolio-Repository-Inventory/schema/reasoning-frontier.schema.json",
+  "title": "ReasoningFrontierV0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "thread_id", "status", "question", "items"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "0.1.0" },
+    "thread_id": { "type": "string", "minLength": 1 },
+    "status": {
+      "type": "string",
+      "enum": ["OPEN", "ESTABLISHED", "EXPERIMENTALLY_SUPPORTED", "REJECTED", "SUPERSEDED", "CONDITIONAL", "UNKNOWN"]
+    },
+    "question": { "type": "string", "minLength": 1 },
+    "scope": { "type": "string" },
+    "validity_envelope": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "assumptions": { "type": "array", "items": { "type": "string" } },
+        "semantic_context": { "type": "string" },
+        "evidence_cutoff": { "type": "string" }
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "kind", "status", "statement"],
+        "properties": {
+          "id": { "type": "string" },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "QUESTION",
+              "CLAIM",
+              "HYPOTHESIS",
+              "CANDIDATE",
+              "ARGUMENT",
+              "OBJECTION",
+              "COUNTEREXAMPLE",
+              "DECISION",
+              "REJECTED_HYPOTHESIS",
+              "REOPEN_CONDITION",
+              "NEXT_ACTION"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "enum": ["OPEN", "ESTABLISHED", "EXPERIMENTALLY_SUPPORTED", "REJECTED", "SUPERSEDED", "CONDITIONAL", "UNKNOWN"]
+          },
+          "statement": { "type": "string" },
+          "evidence_refs": { "type": "array", "items": { "type": "string" } },
+          "argument_refs": { "type": "array", "items": { "type": "string" } },
+          "related_items": { "type": "array", "items": { "type": "string" } },
+          "reopen_condition": { "type": "string" },
+          "scope_boundary": { "type": "string" },
+          "not_established": { "type": "string" }
+        }
+      }
+    }
+  }
+}

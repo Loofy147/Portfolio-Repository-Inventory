@@ -17,6 +17,19 @@ This repository is the system of record for understanding a large, heterogeneous
 7. Portfolio audit is non-blocking: active project work continues independently while portfolio analysis progresses in parallel.
 8. Durable portfolio discoveries are recorded here when they become evidenced, rather than waiting for a full portfolio audit.
 
+## Core Working Set
+
+The current primary working corpus is recorded in `records/CORE_WORKING_SET_2026-09-21.md` and contains six revalidated repositories:
+
+- `Loofy147/Llms-mcp-android`
+- `Loofy147/Machine`
+- `Loofy147/unified-knowledge-work-system`
+- `Loofy147/m0-durable-run`
+- `Loofy147/la-rouine-platform`
+- `Loofy147/Wedgettok`
+
+Membership is a working-set decision, not a lineage or merge claim.
+
 ## Pipeline
 
 `CENSUS -> STRUCTURAL TRIAGE -> CLUSTERING -> DEEP REVIEW -> DECISION -> REVALIDATION`

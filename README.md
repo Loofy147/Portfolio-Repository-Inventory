@@ -92,13 +92,15 @@ The inventory is governed by a reusable repository-review operating model rather
 - `docs/REPOSITORY_REVIEW_PROTOCOL_v0.1.md` — repository/ref/evidence handling protocol.
 - `docs/REVIEW_PACKET_TEMPLATE_v0.1.md` — reusable review packet.
 - `schema/repository-review.schema.json` — machine-readable review contract (v0.2).
-- `schema/relationship.v0.2.schema.json` — richer cross-repository relationship contract.
+- `schema/relationship.v0.2.schema.json` — richer relationship record contract.
+- `schema/relationship-inventory.v0.2.schema.json` — operational relationship-inventory envelope contract; `inventory/relationships.json` is canonical under this contract.
 
 - `docs/REVIEW_MODES_v0.1.md` — selects the smallest appropriate review mode for identity, implementation, experiments, lineage, integration, or revalidation.
 - `schema/review-log.schema.json` — machine-readable review-log contract (v0.2; future D4 entries require structured verification fields).
 - `schema/decision.schema.json` — machine-readable decision contract.
 - `schema/census-snapshot.schema.json` — machine-readable census observation contract.
 - `reports/case-study-machine-log-os-2026-09-18.md` — concrete example of branch-aware project identification and historical-reference handling.
+- `inventory/deep_reviews/2026-09-22-machine-revalidation.json` — latest observed Machine research-frontier ref and divergence snapshot.
 
 The protocol is compatible with the existing v0.1 inventory records; new evidence may be added without rewriting historical records.
 

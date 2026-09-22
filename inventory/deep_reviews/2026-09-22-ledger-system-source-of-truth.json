@@ -1,0 +1,108 @@
+{
+  "schema_version": "0.2.0",
+  "repository": {
+    "full_name": "Loofy147/ledger-system-source-of-truth",
+    "url": "https://github.com/Loofy147/ledger-system-source-of-truth",
+    "default_branch": "main",
+    "visibility": "private",
+    "archived": false
+  },
+  "observation": {
+    "observed_at": "2026-09-22",
+    "ref": "main",
+    "commit": "e63a92171f6c5b3a4958157be979347857f6a809",
+    "branches_inspected": [
+      "main"
+    ],
+    "surfaces_inspected": [
+      "README.md",
+      "docs/schema.md",
+      "ledger.py",
+      "mcp_adapter/test_mcp_real.py",
+      "hub_adapter and adapter references"
+    ],
+    "depth": "D3"
+  },
+  "state": {
+    "project_status": "CURRENT",
+    "interpretation": "Concrete narrow decision/context ledger with deterministic same-key contradiction detection and two integration adapters; suitable as a reusable mechanism candidate, not as an authoritative truth or authorization system."
+  },
+  "evidence": [
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "The core comparison contract is exact-key based; default exact-string comparison is deterministic, explicit supersession closes conflicts, and semantic equivalence is intentionally not inferred.",
+      "source": "README.md and docs/schema.md",
+      "limits": "Different key wording or semantic paraphrases are outside the guarantee."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "EXPERIMENTALLY_SUPPORTED",
+      "statement": "Core entry construction is centralized in build_entry, and both MCP and hub adapters reuse build_entry and _find_contradictions rather than reimplementing validation logic.",
+      "source": "docs/schema.md and ledger.py",
+      "limits": "This establishes code structure; it does not establish multi-client durability or concurrency safety."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "EXPERIMENTALLY_SUPPORTED",
+      "statement": "A real MCP ClientSession test uses the SDK InMemoryTransport and exercises initialize, tools/list, tools/call, conflict creation/resolution, invalid category handling, unknown-key lookup, and MCP schema validation.",
+      "source": "mcp_adapter/test_mcp_real.py",
+      "limits": "InMemoryTransport validates protocol handling without proving deployment over a real network transport."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "Comparator registration is retroactive and unversioned: changing a key comparator changes interpretation of the key's whole history on later checks.",
+      "source": "docs/schema.md",
+      "limits": "This is an explicit design trade-off and remains a migration/versioning risk for long-lived ledgers."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "UNKNOWN",
+      "statement": "The inspected repository documentation explicitly warns that the file-based ledger is not an immutable event store, double-entry accounting engine, authorization system, or multi-client persistent service.",
+      "source": "README.md",
+      "limits": "No independent deployment test was performed in this review."
+    }
+  ],
+  "assumptions": [],
+  "suggestions": [
+    "Use the ledger mechanism as a decision/provenance sidecar in UWS rather than as the UWS authoritative domain store.",
+    "Prioritize per-entry comparator versioning and explicit concurrent-write semantics before multi-client adoption."
+  ],
+  "decisions": [],
+  "unknowns": [
+    "Behavior under concurrent writers and restart races.",
+    "Whether exact-key discipline is sufficient for UWS claim identity without a stronger claim schema/registry.",
+    "Operational persistence and authorization semantics when exposed through multiple MCP clients."
+  ],
+  "contradictions": [],
+  "relationships": [
+    {
+      "target": "Loofy147/unified-knowledge-work-system",
+      "relation": "RELEVANT_REUSABLE_PRIMITIVE",
+      "status": "DERIVED",
+      "evidence_refs": [
+        "ledger-system-source-of-truth: build_entry/_find_contradictions reuse",
+        "ledger-system-source-of-truth: MCP protocol test"
+      ],
+      "notes": "Potential UWS ledger component for explicit decisions/constraints/contradictions; should not replace domain state or evidence store."
+    }
+  ],
+  "verification": {
+    "tests_inspected": [
+      "mcp_adapter/test_mcp_real.py",
+      "ledger.py contradiction path documented in docs/schema.md"
+    ],
+    "tests_executed": [],
+    "artifacts": [
+      "docs/schema.md",
+      "mcp_adapter/test_mcp_real.py"
+    ],
+    "reproducibility": "The repository contains reproducible protocol-test code and deterministic core logic; this review did not execute it locally.",
+    "falsifiers": [
+      "Concurrent or cross-process tests show lost updates or inconsistent contradiction state under intended UWS deployment.",
+      "UWS claim identity requires semantic equivalence that the exact-key contract cannot safely provide."
+    ]
+  },
+  "next_test": "Build a small UWS-side integration fixture using the ledger as a decision/constraint sidecar and test idempotent writes, concurrent updates, contradiction resolution, restart recovery, and explicit claim-key ownership."
+}

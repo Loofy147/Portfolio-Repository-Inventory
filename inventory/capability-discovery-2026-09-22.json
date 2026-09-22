@@ -1,0 +1,227 @@
+{
+  "observed_on": "2026-09-22",
+  "scope": {
+    "repository_surface": "Loofy147 GitHub search + connected installed-repository reconciliation",
+    "repository_count": 339,
+    "method": "shallow thematic search over current connected repository surface; signal discovery only, not implementation audit"
+  },
+  "capability_domains": [
+    {
+      "domain": "agent_runtime_and_policy",
+      "evidence_level": "SIGNAL",
+      "candidates": [
+        [
+          "Loofy147/Llms-mcp-android",
+          "agent runtime, policy, approvals, egress, durable local runtime"
+        ],
+        [
+          "Loofy147/SIE",
+          "MCP server and agent-facing tool surface"
+        ],
+        [
+          "Loofy147/Moaziz-system-",
+          "MCP client/server and agent system surfaces"
+        ],
+        [
+          "Loofy147/canonical-capability-core",
+          "capability/effect/authority verification program"
+        ],
+        [
+          "Loofy147/competitions",
+          "MCP server and competitor architecture"
+        ]
+      ]
+    },
+    {
+      "domain": "MCP_ingestion_and_tool_registry",
+      "evidence_level": "SIGNAL",
+      "candidates": [
+        [
+          "Loofy147/My_browser",
+          "MCP ingest plus evidence kernel"
+        ],
+        [
+          "Loofy147/Taskflow",
+          "documented MCP connector integration"
+        ],
+        [
+          "Loofy147/Universal-intilegence-",
+          "MCP distributor/generative MCP surfaces"
+        ],
+        [
+          "Loofy147/Global-theorem-",
+          "MCP tool ingestion/distribution research"
+        ],
+        [
+          "Loofy147/Ai-taxonomy",
+          "MCP transport/security adapter"
+        ],
+        [
+          "Loofy147/Spike-Function-Framework",
+          "MCP ingestion router"
+        ]
+      ]
+    },
+    {
+      "domain": "durable_execution_and_recovery",
+      "evidence_level": "SIGNAL",
+      "candidates": [
+        [
+          "Loofy147/m0-durable-run",
+          "restart/state-survival proof"
+        ],
+        [
+          "Loofy147/unified-knowledge-work-system",
+          "durable execution/persistence/runtime learning"
+        ],
+        [
+          "Loofy147/Software-res",
+          "reproducibility/runtime observation/reliability validation"
+        ],
+        [
+          "Loofy147/Llms-mcp-android",
+          "durable local runtime store"
+        ]
+      ]
+    },
+    {
+      "domain": "evidence_provenance_and_verification",
+      "evidence_level": "SIGNAL",
+      "candidates": [
+        [
+          "Loofy147/My_browser",
+          "evidence/provenance/replay kernel"
+        ],
+        [
+          "Loofy147/canonical-capability-core",
+          "adversarial verification and provenance gates"
+        ],
+        [
+          "Loofy147/trading-validations-principles",
+          "real-data validation/provenance/replay"
+        ],
+        [
+          "Loofy147/Bounties",
+          "hypothesis-to-reproduction evidence lifecycle"
+        ],
+        [
+          "Loofy147/Machine",
+          "research frontier and validation material"
+        ],
+        [
+          "Loofy147/moirae",
+          "deterministic adversarial protocol simulation; external fork/reference"
+        ]
+      ]
+    },
+    {
+      "domain": "orchestration_and_interoperability",
+      "evidence_level": "SIGNAL",
+      "candidates": [
+        [
+          "Loofy147/unified-knowledge-work-system",
+          "A2A interop tests and relationship/skill handoffs"
+        ],
+        [
+          "Loofy147/outonomos-system",
+          "agent/tool ecosystem signal"
+        ],
+        [
+          "Loofy147/LibraNexus",
+          "named orchestration candidate referenced by m0 docs"
+        ],
+        [
+          "Loofy147/ai-meta-orchestrator",
+          "named orchestration project referenced by m0 docs"
+        ],
+        [
+          "Loofy147/competitions",
+          "MCP agent interaction surface"
+        ]
+      ]
+    },
+    {
+      "domain": "runtime_hosting_and_capability_boundaries",
+      "evidence_level": "SIGNAL",
+      "candidates": [
+        [
+          "Loofy147/Wedgettok",
+          "Experience/runtime/capability host boundary"
+        ],
+        [
+          "Loofy147/Wedgettok-Next",
+          "second-generation Experience/runtime surface"
+        ],
+        [
+          "Loofy147/la-rouine-platform",
+          "manifest/runtime validator and publication gates"
+        ],
+        [
+          "Loofy147/LinuxOnAndroid",
+          "Android runtime substrate; external fork/reference"
+        ],
+        [
+          "Loofy147/Agora-32Bit",
+          "Android/MCP/local-model automation; external fork/reference"
+        ]
+      ]
+    },
+    {
+      "domain": "decision_ledger_and_source_of_truth",
+      "evidence_level": "SIGNAL",
+      "candidates": [
+        [
+          "Loofy147/ledger-system-source-of-truth",
+          "deterministic decision ledger/contradiction handling"
+        ],
+        [
+          "Loofy147/unified-knowledge-work-system",
+          "relationship/decision provenance surfaces"
+        ],
+        [
+          "Loofy147/Moaziz-system-",
+          "system/access and MCP surfaces"
+        ]
+      ]
+    },
+    {
+      "domain": "database_persistence_and_application_infrastructure",
+      "evidence_level": "SIGNAL",
+      "candidates": [
+        [
+          "Loofy147/unified-knowledge-work-system",
+          "persistent execution/evidence backend"
+        ],
+        [
+          "Loofy147/spotup-platform",
+          "Drizzle database/server infrastructure"
+        ],
+        [
+          "Loofy147/algeria-digital-venture-operating-system",
+          "application/server scaffold"
+        ],
+        [
+          "Loofy147/Taskflow",
+          "Supabase/MCP database integration signal"
+        ],
+        [
+          "Loofy147/ledger-system-source-of-truth",
+          "file-backed state/ledger"
+        ]
+      ]
+    }
+  ],
+  "newly_noted_candidates": [
+    "Loofy147/canonical-capability-core",
+    "Loofy147/SIE",
+    "Loofy147/Taskflow",
+    "Loofy147/Global-theorem-",
+    "Loofy147/Universal-intilegence-",
+    "Loofy147/Ai-taxonomy",
+    "Loofy147/Spike-Function-Framework",
+    "Loofy147/Software-res",
+    "Loofy147/competitions",
+    "Loofy147/outonomos-system"
+  ],
+  "boundary": "Search hits establish capability signals only. No project is promoted, ranked, merged, or treated as reusable without targeted evidence."
+}

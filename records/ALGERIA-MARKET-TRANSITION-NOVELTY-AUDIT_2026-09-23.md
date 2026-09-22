@@ -208,3 +208,66 @@ baseline → changed state → failure → current workaround → economic loss 
 
 Do not build software before this evidence exists.
 
+
+
+## Additional observed transition deltas
+
+### Customs paper → ALCES electronic single window
+
+ESTABLISHED:
+A new electronic single-window module within ALCES was put into service in August 2026 for certain administrative authorizations/certificates required for customs clearance; during the transition, electronic submission runs in parallel with paper submission before full paper removal. The official ALCES portal currently exposes document-entry, status/error handling, helpdesk and user guidance.
+
+Source anchors:
+- Algerian Customs ALCES portal.
+- 18 Aug 2026 customs notice as reported by Algerie Eco.
+
+Interpretation:
+This is a high-freshness transition seam because the workflow is explicitly in a dual-mode state.
+
+Pre-kill:
+- Do not recreate ALCES.
+- Do not sell generic customs declaration/commissionnaire services.
+- Training and procedural education already exist in the market, including current 2026 ALCES training offers.
+
+Research question:
+Does the dual paper/electronic transition create a recurring private-side reconciliation error, document/version mismatch, status ambiguity or delay that a bounded artifact can prevent?
+
+Payer:
+likely importer/commissionnaire as economic owner in some cases, but **UNVERIFIED**; must be tested with an actual transaction.
+
+Status: OPEN / strong transition signal / payer unverified.
+
+### Insurance claims → digital processing
+
+ESTABLISHED:
+The Algerian National Council of Insurance's 2026 publications explicitly identify delays in indemnification and complexity in some claim files as persistent issues, while describing digitalization as a means to improve processing fluidity, traceability and coordination.
+
+Interpretation:
+The important transition is not merely "insurance needs software"; insurers are already transforming internal systems. The potential external seam, if any, is therefore between insured/broker/expert/insurer and the evidence needed to move a claim through the process.
+
+Pre-kill:
+- Do not build an insurer claims-management system.
+- Do not act as an insurer or regulated expert.
+- Do not assume the insurer pays for pre-claim evidence.
+
+Research question:
+Does a specific claim class create a privately purchased evidence/reconciliation need outside the insurer's internal workflow?
+
+Payer:
+UNVERIFIED.
+
+Status: OPEN / transition signal only.
+
+## Updated interpretation of novelty
+
+Freshness is strongest when the transition is **currently in migration**, because temporary dual systems, changed responsibilities, new data fields, new timing rules and version mismatches can create observable failure modes before organizations fully absorb the change.
+
+Therefore add one field to every research record:
+
+**Absorption state = NOT ABSORBED / PARTIALLY ABSORBED / ABSORBED / UNKNOWN**
+
+A high-priority research target is:
+
+**Recent transition + partial absorption + costly exception + identifiable payer.**
+
+However, this remains a search heuristic, not evidence of market demand.

@@ -95,7 +95,9 @@ The inventory is governed by a reusable repository-review operating model rather
 - `schema/relationship.v0.2.schema.json` — richer cross-repository relationship contract.
 
 - `docs/REVIEW_MODES_v0.1.md` — selects the smallest appropriate review mode for identity, implementation, experiments, lineage, integration, or revalidation.
-- `schema/review-log.schema.json` — machine-readable review-log contract.
+- `schema/review-log.schema.json` — machine-readable review-log contract (v0.2; future D4 entries require structured verification fields).
+- `schema/decision.schema.json` — machine-readable decision contract.
+- `schema/census-snapshot.schema.json` — machine-readable census observation contract.
 - `reports/case-study-machine-log-os-2026-09-18.md` — concrete example of branch-aware project identification and historical-reference handling.
 
 The protocol is compatible with the existing v0.1 inventory records; new evidence may be added without rewriting historical records.
@@ -111,3 +113,9 @@ The repository is therefore both:
 - the coordination layer for a gradually expanding audit that must preserve unresolved states rather than invent certainty.
 
 See `schema/` for machine-readable contracts.
+
+## Executable validation
+
+`python scripts/validate_inventory.py` validates the machine-readable inventory, cross-references, active decision linkage, and durable-provenance marker boundary. The same gate runs in `.github/workflows/inventory-validation.yml` for pull requests and pushes to `main`.
+
+Current census observations are kept as explicit snapshots in `records/CENSUS_SNAPSHOTS_2026-09-22.json`; they must not be collapsed into a single current-total claim.

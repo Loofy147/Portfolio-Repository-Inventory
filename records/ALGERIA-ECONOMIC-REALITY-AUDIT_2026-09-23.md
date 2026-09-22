@@ -308,3 +308,93 @@ For each segment, measure separately:
 - repeatability.
 
 No cross-segment transfer of payer or demand evidence without explicit supporting evidence.
+
+
+
+## Stronger domestic-market evidence — NESDA channels
+
+### AL TAWTEEN: operator-defined domestic needs
+
+ESTABLISHED:
+The official AL TAWTEEN program is explicitly designed to connect economic operators established in Algeria with local micro-enterprises for substitution of imported inputs, including **products and services**. Its stated service segments include generic/specific services such as design and engineering, robotics, digitalization/Industry 4.0 and logistics. The process starts from an operator communicating an actual need, followed by identification/evaluation of micro-enterprises and an accompanied matching process.
+
+Source:
+NESDA / AL TAWTEEN official platform.
+
+Current visible examples:
+- Blida, dated 10/02/2026: raw material need for a plastic-extrusion line, with monthly frequency listed at 4,500 units.
+- Algiers, dated 05/01/2026: search for approved after-sales-service agents for STREAM TV and IT products (laptops, all-in-one computers, monitors), with an annual volume of 100 units.
+
+Interpretation:
+This is stronger evidence than a provider advertisement because the platform exposes **buyer/operator-side stated needs**.
+
+Limit:
+The platform does not, in the visible record, expose the contract price, actual award, payment terms, or whether each displayed need converted into a paid transaction.
+
+Payer:
+The economic operator is the natural direct buyer candidate because it originates the need; **actual payer/payment terms remain UNKNOWN until an executed case is verified**.
+
+### NESDA Small Business Hub
+
+ESTABLISHED:
+NESDA's Business Hub explicitly offers:
+- micro/small enterprises access to partnership and subcontracting opportunities;
+- partners/large enterprises the ability to publish opportunities/tenders and access the micro-enterprise database.
+
+NESDA reported in January 2026 that its national localization/subcontracting event connected more than 300 economic operators, and that two digital programs were launched/used for this purpose: Small Business Hub for linking micro-enterprises to public/private-sector organizations, and AL TAWTEEN for local substitution of imported production inputs.
+
+Source:
+NESDA Business Hub and NESDA national localization/subcontracting event.
+
+Interpretation:
+There is an institutionalized channel inside the domestic economy for **small-firm-to-buyer matching**, not merely a large-enterprise procurement channel.
+
+Limit:
+Matching infrastructure proves access to demand, not willingness-to-pay for a particular technical service.
+
+## Revision to market-entry hypothesis
+
+The provider-to-provider wedge remains OPEN, but it is no longer the only relevant access path.
+
+A stronger domestic-market access family is:
+
+1. **Buyer-defined need → micro/small supplier** (AL TAWTEEN / Small Business Hub).
+2. **Established provider → specialist subcontractor**.
+3. **Small/private buyer → direct specialist service**.
+4. **Public/para-public buyer → eligible small supplier / consultation**.
+
+The first two have the clearest current structural support, but none has yet produced paid evidence for the founder's specific technical capabilities.
+
+## New research rule
+
+Search buyer-side demand surfaces before searching generic problem descriptions.
+
+Priority evidence sources:
+- operator-defined needs;
+- subcontracting requests;
+- consultations whose scope is technically narrow;
+- awarded service contracts;
+- repeat supplier requests;
+- direct buyer statements.
+
+Provider advertisements remain useful mainly to map competition and packaging, not demand.
+
+## New negative rule
+
+Do not use:
+- count of freelance advertisements;
+- displayed marketplace prices;
+- government matchmaking programs;
+as proof of willingness-to-pay for our particular service.
+
+They establish market infrastructure/supply signals only.
+
+## New question
+
+Instead of:
+"What problem do Algerian companies have?"
+
+Test:
+**"What do Algerian buyers already ask external suppliers to do, in bounded units, that is technically close to our existing capabilities but not yet commoditized or internally absorbed?"**
+
+This question is now the preferred bridge from market reality to a first paid experiment.

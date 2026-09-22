@@ -43,16 +43,20 @@ Status vocabulary: ESTABLISHED, EXPERIMENTALLY_SUPPORTED, LOCAL_MARKET_SIGNAL, I
 - Official laboratory testing/analysis requiring ministry approval and/or ALGERAC accreditation.
 - Statutory energy audits by approved auditors.
 
-## Strongest surviving pattern
+## Revised surviving pattern
 
-Cross-boundary exception:
-A real transaction is underway, but a failure point sits between two functions, parties, systems, or authorities; no single routine role owns the full consistency.
+Cross-boundary exception is a strong **subclass**, not the research definition.
+
+Broader pattern:
+A real economic process/event must move from one state to another, but the existing handling is incomplete, costly, ambiguous, slow, or poorly evidenced.
+
+Cross-boundary cases are especially interesting when ownership fragments, but intra-function, pre-transaction, operational and post-transaction cases remain admissible.
 
 Working structure:
-Trigger + Boundary + Exception + Economic consequence + Bounded artifact + Paying owner.
+Problem/Event + Consequence + Current Handling + Gap/Exception + Minimal Intervention + Paying Owner.
 
 Core hypothesis:
-There are Algerian cases where value already exists but is not realized because of missing evidence, inconsistent technical/commercial information, coordination gaps, timing, compliance, acceptance friction, or hidden operational loss.
+There are Algerian cases where value already exists but is not realized because of missing evidence, inconsistent technical/commercial information, coordination gaps, timing, compliance, acceptance friction, hidden operational loss, or other incomplete transition handling.
 
 Status: HYPOTHESIS / OPEN.
 
@@ -319,3 +323,10 @@ A 2026 audit refined "novelty" into a measurable Transition Delta rather than tr
 Rule: Transition Delta is a trigger for inspection, not a market verdict. A candidate advances only if the changed boundary creates an unabsorbed gap with material economic consequence, identifiable loss owner, identifiable payer/buying authority, bounded intervention, and credible acceptance/payment.
 
 See: records/ALGERIA-MARKET-TRANSITION-NOVELTY-AUDIT_2026-09-23.md
+
+## Method audit — 2026-09-23
+
+The 2026 methodology audit found that "cross-boundary", "transaction", and "transition novelty" must not become hard filters. Cross-boundary is a high-value subclass; transaction is the observation unit but pre/post-transaction and operational cases remain admissible; novelty is a freshness/change field only. Full schema and gates are recorded in records/ALGERIA-MARKET-RESEARCH-METHOD-AUDIT_2026-09-23.md.
+
+Revised loop:
+Observe → Identify economic consequence → Map current handling → Pre-kill incumbents/internalization/regulation → Identify buyer/payer → Define minimal paid intervention → Run paid test → Measure delivery economics → Revalidate → only then build/reuse software.

@@ -1,0 +1,106 @@
+{
+  "schema_version": "0.2.0",
+  "repository": {
+    "full_name": "Loofy147/adaptive-reasoning-os",
+    "url": "https://github.com/Loofy147/adaptive-reasoning-os",
+    "default_branch": "main",
+    "visibility": "public",
+    "archived": false
+  },
+  "observation": {
+    "observed_at": "2026-09-22",
+    "ref": "main",
+    "commit": "5ef38bf8bf96ba98f8c39a643c0350ceb3b30616",
+    "branches_inspected": [
+      "main"
+    ],
+    "surfaces_inspected": [
+      "RESEARCH_BASELINE.md",
+      "experiments/README.md",
+      "experiments/experiment_001_selective_activation.py",
+      "experiments/test_experiment_001.py",
+      ".github/workflows/experiment-tests.yml",
+      "GitHub Actions associated with observed commit"
+    ],
+    "depth": "D3"
+  },
+  "state": {
+    "project_status": "DEFAULT-BRANCH",
+    "interpretation": "Pre-architecture research repository with one executable deterministic measurement protocol; no architecture promotion is justified by the inspected evidence alone."
+  },
+  "evidence": [
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "The repository explicitly remains pre-architecture research and labels selective activation, relational context representation, state-conditioned control, and recursive self-improvement as hypotheses or heuristics rather than settled architecture.",
+      "source": "RESEARCH_BASELINE.md",
+      "limits": "This is the repository's research posture, not independent validation of the underlying literature claims."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "EXPERIMENTALLY_SUPPORTED",
+      "statement": "Experiment 001 is an executable six-task deterministic harness comparing a full mechanism set with a heuristic selective selector and records activation, context, verification, outcome, correction, and control-overhead fields.",
+      "source": "experiments/README.md and experiments/experiment_001_selective_activation.py",
+      "limits": "The harness is synthetic/deterministic and does not call an LLM or measure real reasoning quality."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "The selective selector does not read the evaluation-only ground-truth required_mechanisms field; it uses task kind, tool count, context size, and verification-step features.",
+      "source": "experiments/experiment_001_selective_activation.py",
+      "limits": "The fixture still encodes task requirements directly, so generalization beyond the six fixture tasks remains open."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "UNKNOWN",
+      "statement": "No GitHub Actions workflow run was surfaced for the observed main commit through the connected workflow-run endpoint.",
+      "source": "GitHub Actions workflow runs associated with commit 5ef38bf8bf96ba98f8c39a643c0350ceb3b30616",
+      "limits": "The repository contains a workflow; absence from this endpoint does not prove the workflow never ran."
+    },
+    {
+      "class": "INFERRED",
+      "claim_status": "HYPOTHESIS",
+      "statement": "The highest-value reusable primitive for UWS is the experiment protocol shape—claim/property boundary, baseline-vs-minimal procedure, explicit control overhead, and task-level outcome fields—rather than the current selector heuristic.",
+      "source": "Synthesis of inspected baseline and experiment code",
+      "limits": "This is an integration hypothesis requiring a UWS-specific reproduction."
+    }
+  ],
+  "assumptions": [],
+  "suggestions": [
+    "Re-run Experiment 001 in a real task slice with model/tool execution and independent outcome scoring before promoting selective activation beyond hypothesis status.",
+    "Add an explicit null/no-selection baseline and a predefined equivalence or non-inferiority rule for outcome preservation."
+  ],
+  "decisions": [],
+  "unknowns": [
+    "Whether selective activation improves real task outcomes or only reduces nominal mechanism counts.",
+    "Whether the same protocol remains predictive when task requirements are not supplied as fixture ground truth.",
+    "Whether controller overhead outweighs saved context/tool work."
+  ],
+  "contradictions": [],
+  "relationships": [
+    {
+      "target": "Loofy147/unified-knowledge-work-system",
+      "relation": "RELEVANT_REUSABLE_PRIMITIVE",
+      "status": "INFERRED",
+      "evidence_refs": [
+        "adaptive-reasoning-os: Experiment 001 protocol"
+      ],
+      "notes": "Potentially reusable as UWS experiment/verification protocol; do not import selector logic without a controlled reproduction."
+    }
+  ],
+  "verification": {
+    "tests_inspected": [
+      "experiments/test_experiment_001.py"
+    ],
+    "tests_executed": [],
+    "artifacts": [
+      ".github/workflows/experiment-tests.yml"
+    ],
+    "reproducibility": "Executable deterministic harness and pytest workflow are present; current connected GitHub workflow-run endpoint returned no run for the observed commit, so CI execution is not independently established in this review.",
+    "falsifiers": [
+      "A model-backed controlled run shows no material outcome preservation with reduced work/context, or control overhead dominates.",
+      "A better null/minimal baseline invalidates the observed protocol conclusions."
+    ]
+  },
+  "next_test": "Run a UWS task-level A/B reproduction using identical tasks, fixed downstream outcome rubric, minimal-selection versus current procedure, and independent verification of claims/corrections/cost."
+}

@@ -146,13 +146,11 @@ The future corpus may contain stronger historical context than the repositories,
 
 ## 9. Current portfolio census boundary
 
-The portfolio inventory repository records a 2026-08-30 search snapshot of 313 repositories.
+The portfolio inventory repository preserves a 2026-08-30 historical search snapshot of 313 repositories.
 
-A direct current GitHub installation census on 2026-09-18 observed 331 repositories accessible through the current connection.
+A deliberate re-census on 2026-09-22 returned **339 unique repositories** through GitHub repository search and the connected installed-repository search, with exact identity-set equality across both methods. All 319 identities already present in the stored inventory remain present, and 20 repositories are newly observed.
 
-These are different snapshots and must not be silently mixed.
-
-The 331-repository observation is an operational freshness signal, not yet the new canonical inventory snapshot. The inventory should be deliberately re-censused and reconciled before its stored census is promoted.
+The 2026-09-18 observation of 331 repositories is now a superseded operational snapshot. The current 339-set is recorded as the operational census overlay rather than rewriting the historical 313-record inventory.
 
 ## 10. Non-goals for the current phase
 
@@ -181,7 +179,7 @@ Only then should the portfolio move from collection + evolution into intentional
 - Future integration objective: ACCEPTED AS STRATEGIC DIRECTION
 - Immediate requirement for global consolidation: NO
 - Current project autonomy: PRESERVED
-- Portfolio census: STALE RELATIVE TO CURRENT OBSERVED ACCESS; RECONCILIATION OPEN
+- Portfolio census: CURRENT OPERATIONAL CENSUS = 339; historical 313 snapshot preserved
 - Cross-repository lineage: PARTIALLY MAPPED
 - Deep portfolio synthesis: OPEN
 - Private-file integration design: FUTURE WORK

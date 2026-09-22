@@ -52,10 +52,22 @@ def main() -> int:
     Draft202012Validator.check_schema(repository_schema)
     for index, record in enumerate(repositories["repositories"]):
         validate(record, "schema/repository.schema.json", f"repositories[{index}]")
-    validate(triage, "schema/triage.schema.json", "triage")
-    validate(assessments, "schema/assessment.schema.json", "assessments")
+    triage_schema = load_json("schema/triage.schema.json")
+    Draft202012Validator.check_schema(triage_schema)
+    for index, record in enumerate(triage["records"]):
+        validate(record, "schema/triage.schema.json", f"triage[{index}]")
+
+    assessment_schema = load_json("schema/assessment.schema.json")
+    Draft202012Validator.check_schema(assessment_schema)
+    for index, record in enumerate(assessments["assessments"]):
+        validate(record, "schema/assessment.schema.json", f"assessments[{index}]")
+
     validate(review_log, "schema/review-log.schema.json", "review-log")
-    validate(relationships, "schema/relationship.schema.json", "relationships (legacy)")
+
+    relationship_schema = load_json("schema/relationship.schema.json")
+    Draft202012Validator.check_schema(relationship_schema)
+    for index, record in enumerate(relationships["relationships"]):
+        validate(record, "schema/relationship.schema.json", f"relationships[{index}]")
     validate(clusters, "schema/cluster.schema.json", "cluster candidates")
     validate(deep_review, "schema/repository-review.schema.json", "Machine deep review")
     validate(decisions, "schema/decision.schema.json", "decision ledger")

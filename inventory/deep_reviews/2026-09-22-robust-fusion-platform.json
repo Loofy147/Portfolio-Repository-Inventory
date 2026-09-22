@@ -1,0 +1,107 @@
+{
+  "schema_version": "0.2.0",
+  "repository": {
+    "full_name": "Loofy147/robust-fusion-platform",
+    "url": "https://github.com/Loofy147/robust-fusion-platform",
+    "default_branch": "master",
+    "visibility": "public",
+    "archived": false
+  },
+  "observation": {
+    "observed_at": "2026-09-22",
+    "ref": "master",
+    "commit": "e300d63f6b58dea8e94760d6b985b3bd88928702",
+    "branches_inspected": [
+      "master"
+    ],
+    "surfaces_inspected": [
+      "README.md",
+      "package.json",
+      ".github/workflows/ci.yml",
+      ".github/workflows/security.yml",
+      "engine/fusion_engine_release service/bridge references"
+    ],
+    "depth": "D3"
+  },
+  "state": {
+    "project_status": "CURRENT",
+    "interpretation": "Substantive application plus a versioned Python engine bridge and database-backed workflows. Strong implementation surface, but engine safety/production correctness remain bounded by repository-local validation and deployment-specific evidence."
+  },
+  "evidence": [
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "The web application demo procedure invokes the actual versioned Python fusion engine rather than a browser-only mock, and returns fused state, sensor trust, diagnostics, and timeline data.",
+      "source": "README.md",
+      "limits": "The repository states this behavior; deployment-level invocation was not independently executed in this review."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "EXPERIMENTALLY_SUPPORTED",
+      "statement": "CI defines separate web and engine gates: TypeScript check, Vitest, production build, Python production tests, engine regression tests, and theorem verification.",
+      "source": ".github/workflows/ci.yml",
+      "limits": "Workflow definition proves intended verification coverage, not a successful run for the observed commit."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "EXPERIMENTALLY_SUPPORTED",
+      "statement": "The repository includes 25 release regressions/theorem verification, versioned engine persistence, structured telemetry, and explicit security-audit workflows for Node and Python dependencies.",
+      "source": "README.md and .github/workflows/security.yml",
+      "limits": "Counts and coverage are repository claims until tied to specific passing workflow artifacts."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "When no database is configured, the application reports requests as not persisted instead of silently claiming durable storage; license requests are explicitly not payment receipts or license grants.",
+      "source": "README.md",
+      "limits": "This establishes intended truth-boundary behavior, not all UI/API paths."
+    },
+    {
+      "class": "INFERRED",
+      "claim_status": "HYPOTHESIS",
+      "statement": "For UWS, the reusable primitive is the pattern of isolating a bounded domain engine behind an explicit bridge while emitting diagnostics/version/timeline evidence, rather than importing the fusion domain itself.",
+      "source": "Synthesis of inspected surfaces",
+      "limits": "Requires a UWS execution/evidence integration experiment."
+    }
+  ],
+  "suggestions": [
+    "Map engine version, input snapshot, diagnostics, and timeline into UWS Execution→Observation traces for one deterministic tool call.",
+    "Require deployment-specific safety validation before any engine capability is treated as trusted runtime authority."
+  ],
+  "decisions": [],
+  "unknowns": [
+    "Observed-commit CI outcome.",
+    "Failure/restart semantics of the Python bridge under concurrent requests.",
+    "Whether database persistence is idempotent across retries."
+  ],
+  "contradictions": [],
+  "relationships": [
+    {
+      "target": "Loofy147/unified-knowledge-work-system",
+      "relation": "RELEVANT_REUSABLE_PRIMITIVE",
+      "status": "INFERRED",
+      "evidence_refs": [
+        "robust-fusion-platform: Python engine bridge",
+        "robust-fusion-platform: CI separation"
+      ],
+      "notes": "Reference for bounded engine execution, diagnostic traces, and explicit persistence truth boundaries."
+    }
+  ],
+  "verification": {
+    "tests_inspected": [
+      ".github/workflows/ci.yml"
+    ],
+    "tests_executed": [],
+    "artifacts": [
+      "README.md",
+      ".github/workflows/ci.yml",
+      ".github/workflows/security.yml"
+    ],
+    "reproducibility": "Verification commands are explicit in CI; no local execution performed in this review.",
+    "falsifiers": [
+      "UWS integration shows bridge-level evidence cannot be made deterministic/idempotent.",
+      "Deployment-specific tests reveal engine outputs or persistence semantics differ materially from repository contracts."
+    ]
+  },
+  "next_test": "Build one UWS bridge fixture that records engine version, input hash, output hash, diagnostics, retry identity, and persistence outcome under success/failure/retry paths."
+}

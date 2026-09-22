@@ -1,78 +1,106 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
+  "migrated_from": "0.1.0",
+  "migrated_on": "2026-09-22",
   "relationships": [
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/Software-res",
       "target": "Loofy147/canonical-capability-core",
-      "type": "research_source",
+      "relation": "RESEARCH_SOURCE",
+      "status": "DERIVED",
       "confidence": "medium",
       "evidence_refs": [
         "Software-res:README.md",
         "Software-res:RELEASE.md",
         "canonical-capability-core:CANONICAL_BASELINE.md"
       ],
-      "notes": "Both implement evidence-governed decision/execution concepts; direct code lineage is not established yet."
+      "notes": "Both implement evidence-governed decision/execution concepts; direct code lineage is not established yet.",
+      "status_basis": "The relationship is derived from overlap across the cited repository surfaces; it is not direct lineage evidence.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/algeria-ai-product-fabric",
       "target": "Loofy147/canonical-capability-core",
-      "type": "component_source",
+      "relation": "COMPONENT_SOURCE",
+      "status": "INFERRED",
       "confidence": "medium",
       "evidence_refs": [
         "algeria-ai-product-fabric:README.md",
         "canonical-capability-core:CANONICAL_BASELINE.md"
       ],
-      "notes": "Potential composition/reuse relationship; imports and copied modules must be verified."
+      "notes": "Potential composition/reuse relationship; imports and copied modules must be verified.",
+      "status_basis": "The relationship is presented as a candidate inference in the recorded note and is not directly established.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/Healer-",
       "target": "Loofy147/-Fiber-Stratified-Optimization---FSO-",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "INFERRED",
       "confidence": "low",
       "evidence_refs": [
         "Healer-:README.md",
         "FSO:README.md"
       ],
-      "notes": "FSO terminology is present in the contexts, but the FSO repository currently exposes insufficient content evidence."
+      "notes": "FSO terminology is present in the contexts, but the FSO repository currently exposes insufficient content evidence.",
+      "status_basis": "The recorded evidence supports a candidate relationship but explicitly leaves verification open.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/algeria-multi-agent-platform",
       "target": "Loofy147/algeria-multiagent-platform",
-      "type": "duplicate_candidate",
+      "relation": "DUPLICATE_CANDIDATE",
+      "status": "INFERRED",
       "confidence": "medium",
       "evidence_refs": [
         "algeria-multi-agent-platform:README.md",
         "algeria-multiagent-platform:README.md",
         "algeria-multi-agent-platform:ARCHITECTURE.md"
       ],
-      "notes": "Near-identical naming and overlapping domain. Requires content/history comparison."
+      "notes": "Near-identical naming and overlapping domain. Requires content/history comparison.",
+      "status_basis": "The relationship is presented as a candidate inference in the recorded note and is not directly established.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/ai-meta-orchestrator",
       "target": "Loofy147/Unified-ai",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "DERIVED",
       "confidence": "low",
       "evidence_refs": [
         "ai-meta-orchestrator:root",
         "Unified-ai:README.md"
       ],
-      "notes": "Both describe broad AI orchestration layers; implementation equivalence is not established."
+      "notes": "Both describe broad AI orchestration layers; implementation equivalence is not established.",
+      "status_basis": "The relationship is derived from overlap across the cited repository surfaces; it is not direct lineage evidence.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/-AI-Driven-Crypto-Portfolio-Manager-",
       "target": "Loofy147/ai-meta-orchestrator",
-      "type": "component_source",
+      "relation": "COMPONENT_SOURCE",
+      "status": "INFERRED",
       "confidence": "low",
       "evidence_refs": [
         "AI-Driven-Crypto-Portfolio-Manager:README.md",
         "ai-meta-orchestrator:root"
       ],
-      "notes": "The trading project contains an orchestration layer; direct reuse is not yet verified."
+      "notes": "The trading project contains an orchestration layer; direct reuse is not yet verified.",
+      "status_basis": "Legacy relationship claim preserved with an explicit non-observed epistemic state; further verification remains governed by the recorded notes.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/Global-structure-",
       "target": "Loofy147/Global-theorem-",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "DERIVED",
       "confidence": "high",
       "evidence_refs": [
         "Global-structure-:README.md",
@@ -80,189 +108,257 @@
         "Global-theorem-:README.md",
         "Global-theorem-:docs/LAWS.md"
       ],
-      "notes": "Both explicitly define TGI/FSO over Z_m^k, Hamiltonian/topological reasoning and the same algebraic framework. Code ancestry remains to be checked."
+      "notes": "Both explicitly define TGI/FSO over Z_m^k, Hamiltonian/topological reasoning and the same algebraic framework. Code ancestry remains to be checked.",
+      "status_basis": "The relationship is derived from overlap across the cited repository surfaces; it is not direct lineage evidence.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/Symmetric-HAG",
       "target": "Loofy147/Global-theorem-",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "OBSERVED",
       "confidence": "high",
       "evidence_refs": [
         "Symmetric-HAG:README.md"
       ],
-      "notes": "Symmetric-HAG directly links to Global-theorem-. This is explicit cross-repository bridge evidence."
+      "notes": "Symmetric-HAG directly links to Global-theorem-. This is explicit cross-repository bridge evidence.",
+      "status_basis": "The source note records an explicit repository-to-repository link.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/Symmetric-HAG",
       "target": "Loofy147/HAG",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "OBSERVED",
       "confidence": "high",
       "evidence_refs": [
         "Symmetric-HAG:README.md"
       ],
-      "notes": "Symmetric-HAG directly links to HAG. This is explicit cross-repository bridge evidence."
+      "notes": "Symmetric-HAG directly links to HAG. This is explicit cross-repository bridge evidence.",
+      "status_basis": "The source note records an explicit repository-to-repository link.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/HAG",
       "target": "Loofy147/Global-structure-",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "DERIVED",
       "confidence": "medium",
       "evidence_refs": [
         "HAG:ROADMAP.md",
         "HAG:HAG_Sovereign_Research_Paper.md",
         "Global-structure-:README.md"
       ],
-      "notes": "HAG explicitly connects TGI, Closure Lemma and recursive self-improvement to sovereign desktop execution; exact implementation lineage is unverified."
+      "notes": "HAG explicitly connects TGI, Closure Lemma and recursive self-improvement to sovereign desktop execution; exact implementation lineage is unverified.",
+      "status_basis": "The source note records an explicit conceptual connection, while implementation lineage remains unverified.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/Healer-",
       "target": "Loofy147/Global-structure-",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "INFERRED",
       "confidence": "medium",
       "evidence_refs": [
         "Healer-:README.md",
         "Global-structure-:GEOMETRIC_CONSTRUCTION.md"
       ],
-      "notes": "Healer describes FSC/FSO concepts and Global-structure contains the FSO geometric construction. Shared implementation not established."
+      "notes": "Healer describes FSC/FSO concepts and Global-structure contains the FSO geometric construction. Shared implementation not established.",
+      "status_basis": "The recorded evidence supports a candidate relationship but explicitly leaves verification open.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/Sovereign-OS",
       "target": "Loofy147/HAG",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "DERIVED",
       "confidence": "low",
       "evidence_refs": [
         "Sovereign-OS:README.md",
         "HAG:README.md"
       ],
-      "notes": "Both use sovereign, torus/kernel and autonomous execution concepts; direct lineage not established."
+      "notes": "Both use sovereign, torus/kernel and autonomous execution concepts; direct lineage not established.",
+      "status_basis": "The relationship is derived from overlap across the cited repository surfaces; it is not direct lineage evidence.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/STRATOS",
       "target": "Loofy147/Sovereign-OS",
-      "type": "successor",
+      "relation": "SUCCESSOR",
+      "status": "DERIVED",
       "confidence": "low",
       "evidence_refs": [
         "STRATOS:README.md",
         "Sovereign-OS:README.md"
       ],
-      "notes": "Both present sovereign computing/OS architecture, but chronology and code lineage have not been compared."
+      "notes": "Both present sovereign computing/OS architecture, but chronology and code lineage have not been compared.",
+      "status_basis": "The relationship is derived from overlap across the cited repository surfaces; it is not direct lineage evidence.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/Meta-meta",
       "target": "Loofy147/-AI-Driven-Crypto-Portfolio-Manager-",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "DERIVED",
       "confidence": "medium",
       "evidence_refs": [
         "Meta-meta:README.md",
         "Meta-meta:root",
         "AI-Driven-Crypto-Portfolio-Manager:README.md"
       ],
-      "notes": "Both describe autonomous trading systems with orchestration, risk, execution and monitoring concerns. Direct code lineage remains unverified."
+      "notes": "Both describe autonomous trading systems with orchestration, risk, execution and monitoring concerns. Direct code lineage remains unverified.",
+      "status_basis": "The relationship is derived from overlap across the cited repository surfaces; it is not direct lineage evidence.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/Drogon",
       "target": "Loofy147/Meta-meta",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "INFERRED",
       "confidence": "low",
       "evidence_refs": [
         "Drogon:README.md",
         "Meta-meta:README.md"
       ],
-      "notes": "Drogon contains AutoRevenue strategy/execution concepts; overlap is conceptual until implementation comparison is done."
+      "notes": "Drogon contains AutoRevenue strategy/execution concepts; overlap is conceptual until implementation comparison is done.",
+      "status_basis": "Legacy relationship claim preserved with an explicit non-observed epistemic state; further verification remains governed by the recorded notes.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/Ai-e-commerce-marketplace",
       "target": "Loofy147/AI-Ecommerce-Social-Marketplace2",
-      "type": "successor",
+      "relation": "SUCCESSOR",
+      "status": "INFERRED",
       "confidence": "medium",
       "evidence_refs": [
         "Ai-e-commerce-marketplace:README.md",
         "Ai-e-commerce-marketplace:root",
         "AI-Ecommerce-Social-Marketplace2:README.md"
       ],
-      "notes": "Both names and stated concept indicate the same AI/social-commerce direction; the second repository is currently minimal. Git chronology must confirm evolution."
+      "notes": "Both names and stated concept indicate the same AI/social-commerce direction; the second repository is currently minimal. Git chronology must confirm evolution.",
+      "status_basis": "Legacy relationship claim preserved with an explicit non-observed epistemic state; further verification remains governed by the recorded notes.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/Ai-e-commerce-marketplace",
       "target": "Loofy147/Shop-one",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "INFERRED",
       "confidence": "low",
       "evidence_refs": [
         "Ai-e-commerce-marketplace:README.md",
         "Shop-one:root"
       ],
-      "notes": "Both are plausible e-commerce platform candidates; Shop-one requires inspection of its large README artifact and workflows."
+      "notes": "Both are plausible e-commerce platform candidates; Shop-one requires inspection of its large README artifact and workflows.",
+      "status_basis": "The recorded evidence supports a candidate relationship but explicitly leaves verification open.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/smart-delivery-platform-2",
       "target": "Loofy147/smart-delivery-plat",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "INFERRED",
       "confidence": "medium",
       "evidence_refs": [
         "smart-delivery-platform-2:README.md",
         "smart-delivery-plat:repository-name"
       ],
-      "notes": "Naming and stated delivery domain align; content/history comparison remains required."
+      "notes": "Naming and stated delivery domain align; content/history comparison remains required.",
+      "status_basis": "The relationship is presented as a candidate inference in the recorded note and is not directly established.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/smart-delivery-platform-2",
       "target": "Loofy147/delivery-app",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "INFERRED",
       "confidence": "low",
       "evidence_refs": [
         "smart-delivery-platform-2:README.md",
         "delivery-app:repository-name"
       ],
-      "notes": "Likely delivery-family candidate, but implementation evidence is pending."
+      "notes": "Likely delivery-family candidate, but implementation evidence is pending.",
+      "status_basis": "The relationship is presented as a candidate inference in the recorded note and is not directly established.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/Global-redteam",
       "target": "Loofy147/Red-team-defence2-",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "INFERRED",
       "confidence": "low",
       "evidence_refs": [
         "Global-redteam:README.md",
         "Red-team-defence2-:repository-name"
       ],
-      "notes": "Security/red-team naming overlap only; content review required."
+      "notes": "Security/red-team naming overlap only; content review required.",
+      "status_basis": "The relationship is presented as a candidate inference in the recorded note and is not directly established.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/HiveMind-RL",
       "target": "Loofy147/Unified-ai",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "INFERRED",
       "confidence": "low",
       "evidence_refs": [
         "HiveMind-RL:README.md",
         "Unified-ai:README.md"
       ],
-      "notes": "Both cover multi-agent/RL systems, but HiveMind is a swarm research application while Unified-ai is an umbrella architecture."
+      "notes": "Both cover multi-agent/RL systems, but HiveMind is a swarm research application while Unified-ai is an umbrella architecture.",
+      "status_basis": "Legacy relationship claim preserved with an explicit non-observed epistemic state; further verification remains governed by the recorded notes.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/agentic-apis",
       "target": "Loofy147/ai-meta-orchestrator",
-      "type": "component_source",
+      "relation": "COMPONENT_SOURCE",
+      "status": "INFERRED",
       "confidence": "low",
       "evidence_refs": [
         "agentic-apis:README.md",
         "ai-meta-orchestrator:root"
       ],
-      "notes": "Agentic APIs can plausibly serve as a tool/resource layer for an orchestrator; direct integration not established."
+      "notes": "Agentic APIs can plausibly serve as a tool/resource layer for an orchestrator; direct integration not established.",
+      "status_basis": "The relationship is presented as a candidate inference in the recorded note and is not directly established.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/The-adaptive-methodology",
       "target": "Loofy147/ai-meta-orchestrator",
-      "type": "same_idea",
+      "relation": "SAME_IDEA",
+      "status": "DERIVED",
       "confidence": "medium",
       "evidence_refs": [
         "The-adaptive-methodology:README.md",
         "ai-meta-orchestrator:root"
       ],
-      "notes": "Both implement orchestration and lifecycle/gate concepts, but scopes differ and code reuse is unverified."
+      "notes": "Both implement orchestration and lifecycle/gate concepts, but scopes differ and code reuse is unverified.",
+      "status_basis": "The relationship is derived from overlap across the cited repository surfaces; it is not direct lineage evidence.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     },
     {
+      "schema_version": "0.2.0",
       "source": "Loofy147/Machine",
       "target": "Loofy147/log-os",
-      "type": "historical_reference",
+      "relation": "HISTORICAL_REFERENCE",
+      "status": "OBSERVED",
       "confidence": "medium",
       "evidence_refs": [
         "Machine:docs/BRANCH-EVIDENCE-AND-RESEARCH-HANDLING.md",
@@ -271,7 +367,9 @@
         "log-os:main:core/types.py",
         "log-os:main:stdlib/multimethods.l0"
       ],
-      "notes": "Log-Os is a useful historical interpreter reference for CPS/trampoline, lexical environment, object-language procedures/macros, continuation objects, and L0 multimethod dispatch. Direct Machine -> Log-Os lineage is UNKNOWN and must not be inferred from semantic similarity."
+      "notes": "Log-Os is a useful historical interpreter reference for CPS/trampoline, lexical environment, object-language procedures/macros, continuation objects, and L0 multimethod dispatch. Direct Machine -> Log-Os lineage is UNKNOWN and must not be inferred from semantic similarity.",
+      "status_basis": "Direct historical-reference statement and named source surfaces are explicitly recorded.",
+      "next_test": "Complete the discriminating verification stated by the relationship note before upgrading the epistemic status."
     }
   ]
 }

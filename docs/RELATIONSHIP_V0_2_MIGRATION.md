@@ -2,26 +2,28 @@
 
 ## Current state
 
-`inventory/relationships.json` remains a legacy-contract dataset validated against `schema/relationship.schema.json`.
+`inventory/relationships.json` is now the **canonical operational relationship dataset** under the v0.2 epistemic model.
 
-`schema/relationship.v0.2.schema.json` is the newer relationship contract. It requires an explicit epistemic `status` in addition to relation semantics and evidence references.
+The previous v0.1 dataset is preserved exactly at:
 
-## Migration rule
+`inventory/relationships.v0.1-legacy.json`
 
-Do not derive `status` mechanically from the legacy `confidence` field.
+The migration contains all 24 legacy relationship records. Relation semantics, confidence, evidence references, and notes were preserved. Each migrated record now also carries an explicit epistemic `status`, a `status_basis`, and a `next_test`.
 
-Each relationship must be reviewed at claim level and assigned one of the v0.2 epistemic states:
+## Epistemic rule
 
-- `OBSERVED`
-- `DERIVED`
-- `INFERRED`
-- `USER_REPORTED`
-- `UNKNOWN`
-- `CONTRADICTED`
-- `OPEN`
+Status was not derived mechanically from `confidence`.
 
-A semantic similarity can be `INFERRED`; it does not become `OBSERVED` merely because confidence is high. Direct repository statements can support `OBSERVED` only when the evidence actually records that relationship.
+The migration classified each relationship from the claim language and evidence notes:
 
-## Completion boundary
+- `OBSERVED`: the recorded evidence explicitly states or directly links the relationship.
+- `DERIVED`: the relationship is derived from multiple cited surfaces or explicit conceptual connections.
+- `INFERRED`: the relationship is a candidate inference or remains explicitly unverified.
 
-This document records the migration requirement; it does not claim that the 24 legacy relationships have been migrated. Until a claim-level migration is completed, consumers must treat `inventory/relationships.json` as legacy epistemic data.
+This classification is an epistemic normalization step. It is **not** a claim that the underlying lineage, dependency, or equivalence has been independently proven.
+
+## Remaining boundary
+
+Candidate lineage and reuse relationships remain unresolved where their source notes require chronology, tree comparison, imports, copied-code analysis, or other discriminating checks. Those relationships remain non-final and retain explicit next-test instructions.
+
+Future relationship updates must use the v0.2 contract and must preserve the distinction between relation semantics, epistemic status, confidence, and evidence provenance.

@@ -47,6 +47,14 @@ def main() -> int:
     clusters = load_json("inventory/cluster-candidates.json")
     deep_review_dir = ROOT / "inventory/deep_reviews"
     deep_review_files = sorted(deep_review_dir.glob("*.json"))
+    current_deep_review_files = []
+    legacy_deep_review_files = []
+    for path in deep_review_files:
+        payload = load_json(str(path.relative_to(ROOT)))
+        if isinstance(payload, dict) and payload.get("schema_version") == "0.2.0":
+            current_deep_review_files.append(path)
+        else:
+            legacy_deep_review_files.append(path)
     decisions = load_json("records/DECISION_LEDGER_2026-09-22.json")
     census = load_json("records/CENSUS_SNAPSHOTS_2026-09-22.json")
     current_census = load_json("inventory/current-census-2026-09-22.json")
@@ -74,13 +82,15 @@ def main() -> int:
     for index, record in enumerate(legacy_relationships["relationships"]):
         validate(record, "schema/relationship.schema.json", f"legacy relationships[{index}]")
     validate(clusters, "schema/cluster.schema.json", "cluster candidates")
-    assert_true(bool(deep_review_files), "at least one deep-review record is required")
-    for path in deep_review_files:
+    assert_true(bool(current_deep_review_files), "at least one v0.2 deep-review record is required")
+    for path in current_deep_review_files:
         validate(
             load_json(str(path.relative_to(ROOT))),
             "schema/repository-review.schema.json",
             f"deep review {path.name}",
         )
+    # Legacy batch review artifacts remain historical records and are not silently
+    # coerced into the v0.2 repository-review schema.
     validate(decisions, "schema/decision.schema.json", "decision ledger")
     validate(census, "schema/census-snapshot.schema.json", "census snapshots")
     validate(current_census, "schema/current-census.schema.json", "current census overlay")

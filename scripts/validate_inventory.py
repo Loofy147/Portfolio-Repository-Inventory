@@ -43,8 +43,10 @@ def main() -> int:
     assessments = load_json("inventory/assessments.json")
     review_log = load_json("inventory/review-log.json")
     relationships = load_json("inventory/relationships.json")
+    legacy_relationships = load_json("inventory/relationships.v0.1-legacy.json")
     clusters = load_json("inventory/cluster-candidates.json")
     deep_review = load_json("inventory/deep_reviews/2026-09-18-machine.json")
+    machine_revalidation = load_json("inventory/deep_reviews/2026-09-22-machine-revalidation.json")
     decisions = load_json("records/DECISION_LEDGER_2026-09-22.json")
     census = load_json("records/CENSUS_SNAPSHOTS_2026-09-22.json")
 
@@ -64,12 +66,14 @@ def main() -> int:
 
     validate(review_log, "schema/review-log.schema.json", "review-log")
 
+    validate(relationships, "schema/relationship-inventory.v0.2.schema.json", "relationships v0.2")
     relationship_schema = load_json("schema/relationship.schema.json")
     Draft202012Validator.check_schema(relationship_schema)
-    for index, record in enumerate(relationships["relationships"]):
-        validate(record, "schema/relationship.schema.json", f"relationships[{index}]")
+    for index, record in enumerate(legacy_relationships["relationships"]):
+        validate(record, "schema/relationship.schema.json", f"legacy relationships[{index}]")
     validate(clusters, "schema/cluster.schema.json", "cluster candidates")
-    validate(deep_review, "schema/repository-review.schema.json", "Machine deep review")
+    validate(deep_review, "schema/repository-review.schema.json", "Machine historical deep review")
+    validate(machine_revalidation, "schema/repository-review.schema.json", "Machine revalidation")
     validate(decisions, "schema/decision.schema.json", "decision ledger")
     validate(census, "schema/census-snapshot.schema.json", "census snapshots")
 
@@ -141,7 +145,7 @@ def main() -> int:
     print("Portfolio inventory validation: PASS")
     print(f"Repositories: {len(repo_records)}")
     print(f"Review records: {len(review_log['records'])}")
-    print(f"Relationships (legacy): {len(relationships['relationships'])}")
+    print(f"Relationships (v0.2): {len(relationships['relationships'])}")
     print(f"Clusters: {len(clusters['clusters'])}")
     print("Current target decision: PASS")
     print("Durable provenance marker gate: PASS")

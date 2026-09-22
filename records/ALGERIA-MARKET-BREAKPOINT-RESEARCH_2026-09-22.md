@@ -311,3 +311,11 @@ Do not re-open a KILLED candidate merely because a new technology makes implemen
 - Ministry of Labour: 2025/first-half 2026 inspection statistics and HSE framework.
 - Ministry of Environment: hazardous-waste authorizations, approved-operator lists and 2026 digitalization work.
 - ALGERAC: accredited conformity-assessment directory and regulatory watch.
+
+## Transition novelty audit — 2026-09-23
+
+A 2026 audit refined "novelty" into a measurable Transition Delta rather than treating recency as opportunity evidence. Recent verified examples include the May 2026 Bank of Algeria import-sequence requirement, 2026 mandatory online tax declaration/payment transitions, the 2027→2028 pharmaceutical serialization transition, and September 2026 digital-interoperability work.
+
+Rule: Transition Delta is a trigger for inspection, not a market verdict. A candidate advances only if the changed boundary creates an unabsorbed gap with material economic consequence, identifiable loss owner, identifiable payer/buying authority, bounded intervention, and credible acceptance/payment.
+
+See: records/ALGERIA-MARKET-TRANSITION-NOVELTY-AUDIT_2026-09-23.md

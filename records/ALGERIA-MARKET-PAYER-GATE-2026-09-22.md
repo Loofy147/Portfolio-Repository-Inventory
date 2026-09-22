@@ -191,3 +191,25 @@ Only levels 1–3 should materially upgrade payer confidence.
 ## Negative rule
 
 Never infer payer from beneficiary. Never infer willingness-to-pay from legal obligation. Never infer budget authority from job title alone. Record UNKNOWN when provenance is insufficient.
+
+## 2026-09-23 method audit additions
+
+Payer identity remains a hard gate, but payer alone does not establish entry feasibility.
+
+Every candidate must now distinguish:
+- Market opportunity: real economic problem + plausible spending.
+- Entry feasibility: reachable buyer + direct authority + low enough capital/liability/sales friction + executable first delivery.
+
+Add to every payer record:
+- sales cycle;
+- reachable channel;
+- working-capital requirement;
+- delivery cost/effort;
+- liability exposure;
+- time-to-cash;
+- whether first transaction can be invoiced directly.
+
+Do not upgrade payer confidence from novelty, regulation, beneficiary status, job title, or public vendor existence.
+
+Paid evidence remains the strongest validation:
+actual invoice/PO/paid engagement > stated intent.

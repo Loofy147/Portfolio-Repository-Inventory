@@ -1,0 +1,54 @@
+{
+  "schema_version":"0.2.0",
+  "repository":{
+    "full_name":"Loofy147/Machine",
+    "url":"https://github.com/Loofy147/Machine",
+    "default_branch":"main",
+    "visibility":"public",
+    "archived":false
+  },
+  "observation":{
+    "observed_at":"2026-09-22",
+    "ref":"research/machine-native-primitives-v0",
+    "commit":"f752aac015d9f837bc6a89d44eed50e0325b60a6",
+    "branches_inspected":["main","research/machine-native-primitives-v0"],
+    "surfaces_inspected":["GitHub branch enumeration","main vs research branch comparison","research branch tip commit"],
+    "depth":"D2"
+  },
+  "state":{
+    "project_status":"RESEARCH-FRONTIER",
+    "interpretation":"The research/machine-native-primitives-v0 ref remains the substantive research frontier and is distinct from main."
+  },
+  "evidence":[
+    {
+      "class":"OBSERVED",
+      "claim_status":"ESTABLISHED",
+      "statement":"The current research/machine-native-primitives-v0 tip is f752aac015d9f837bc6a89d44eed50e0325b60a6.",
+      "source":"GitHub commits endpoint for research/machine-native-primitives-v0",
+      "limits":"The branch is a moving ref; this SHA is the observed tip on 2026-09-22."
+    },
+    {
+      "class":"OBSERVED",
+      "claim_status":"ESTABLISHED",
+      "statement":"Against main at 1626bac2f5c478294afa4b9463f694608c322117, the research branch is 50 commits ahead and 3 commits behind, with merge base 641517a26790c40295606f12fd6e4a87fcab7186.",
+      "source":"GitHub compare main...research/machine-native-primitives-v0",
+      "limits":"Ahead/behind counts and branch tip can change as either ref moves."
+    }
+  ],
+  "assumptions":[],
+  "suggestions":[],
+  "decisions":[],
+  "unknowns":[
+    "The branch's substantive experimental claims still require claim-scoped execution/reproduction; branch freshness alone does not validate the experiments."
+  ],
+  "contradictions":[],
+  "relationships":[],
+  "verification":{
+    "tests_inspected":[],
+    "tests_executed":[],
+    "artifacts":[],
+    "reproducibility":"Revalidation establishes ref identity and divergence only; it does not reproduce the research experiments.",
+    "falsifiers":["A different branch tip is returned for the same ref, or compare metadata changes on a later observation."]
+  },
+  "next_test":"Revalidate this record whenever research/machine-native-primitives-v0 moves or when a specific research claim becomes relevant to an implementation decision."
+}

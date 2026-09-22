@@ -126,10 +126,10 @@ def main() -> int:
 
     target = active_target[0]["subject"]
     current_census_names = {record["repository_full_name"] for record in current_census["repositories"]}
+    historical_names = set(repo_names)
     triage_names = {record["repository_full_name"] for record in current_triage["records"]}
     new_triage_expected = current_census_names - historical_names
     assert_true(triage_names == new_triage_expected, "current triage must cover exactly the newly observed repository identities")
-    historical_names = set(repo_names)
     assert_true(historical_names.issubset(current_census_names), "current census must contain every historical inventory identity")
     assert_true(current_census["search_method"]["total"] == len(current_census_names), "current census search total must equal unique repository records")
     assert_true(current_census["installed_search_method"]["total"] == len(current_census_names), "installed search total must equal unique repository records")

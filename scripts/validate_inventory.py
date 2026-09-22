@@ -105,6 +105,7 @@ def main() -> int:
     working_set = set(active_working_sets[0]["subject"])
     assert_true(target in working_set, "current target must be a member of the active core working set")
 
+    marker = "\ue080filecite\ue080"
     bad_markers: list[str] = []
     for base in ("catalog", "inventory", "records", "reports", "docs", "schema"):
         directory = ROOT / base
@@ -117,10 +118,10 @@ def main() -> int:
             ):
                 continue
             content = path.read_text(encoding="utf-8", errors="ignore")
-            if "filecite" in content:
+            if marker in content:
                 bad_markers.append(str(path.relative_to(ROOT)))
 
-    assert_true(not bad_markers, f"conversation-scoped filecite markers remain: {bad_markers}")
+    assert_true(not bad_markers, f"conversation-scoped citation markers remain: {bad_markers}")
 
     print("Portfolio inventory validation: PASS")
     print(f"Repositories: {len(repo_records)}")

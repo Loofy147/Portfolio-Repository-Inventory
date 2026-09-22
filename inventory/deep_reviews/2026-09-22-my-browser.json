@@ -1,0 +1,108 @@
+{
+  "schema_version": "0.2.0",
+  "repository": {
+    "full_name": "Loofy147/My_browser",
+    "url": "https://github.com/Loofy147/My_browser",
+    "default_branch": "main",
+    "visibility": "public",
+    "archived": false
+  },
+  "observation": {
+    "observed_at": "2026-09-22",
+    "ref": "main",
+    "commit": "402121c0e6cf9294d8e71feecd5752eade859807",
+    "branches_inspected": [
+      "main"
+    ],
+    "surfaces_inspected": [
+      "README.md",
+      ".github/workflows/ci.yml",
+      "tests/kernel_invariants.test.js",
+      "tests/replay.test.js",
+      "GitHub Issue #2"
+    ],
+    "depth": "D3"
+  },
+  "state": {
+    "project_status": "CURRENT",
+    "interpretation": "Validated internal acquisition/evidence kernel for the tested fixture scope; downstream value experiment is explicitly the next gate."
+  },
+  "evidence": [
+    {
+      "class": "OBSERVED",
+      "claim_status": "EXPERIMENTALLY_SUPPORTED",
+      "statement": "CI is documented as passing Node 22.x and 24.x with 19/19 tests, two end-to-end starts, deterministic generated-lock comparison, npm ci, and artifact checks.",
+      "source": "README.md commit 402121c0e6cf9294d8e71feecd5752eade859807",
+      "limits": "This review relies on the repository's recorded CI result; no workflow run was returned for the old commit via the connected run endpoint."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "EXPERIMENTALLY_SUPPORTED",
+      "statement": "The kernel tests assert common semantic output across web, PDF, and GitHub adapters, canonical identity enforcement, changed-content detection, provenance capture, foreign-key enforcement, and canonicalization rejection of unsupported values.",
+      "source": "tests/kernel_invariants.test.js",
+      "limits": "PDF and GitHub probes intentionally stop at already-extracted input/response boundaries; they are not full transport/parsing implementations."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "EXPERIMENTALLY_SUPPORTED",
+      "statement": "Raw-artifact retention and deterministic transform replay are tested, including raw-byte hash stability, transform lineage, replayed normalized artifact identity, and changed transform versions producing different hashes.",
+      "source": "tests/replay.test.js and README.md",
+      "limits": "These are fixture-level deterministic properties, not source authenticity guarantees."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "EXPERIMENTALLY_SUPPORTED",
+      "statement": "Issue #2 defines a controlled downstream comparison with unchanged decision logic and names traceability, replayability, change detection, contradiction preservation, repeated-output consistency, and audit effort as primary measurements.",
+      "source": "GitHub Issue #2",
+      "limits": "The first recorded harness result explicitly does not claim live My_browser invocation, raw-byte retrieval, or transform replay in the downstream system."
+    },
+    {
+      "class": "INFERRED",
+      "claim_status": "HYPOTHESIS",
+      "statement": "The strongest UWS reuse candidate is the explicit Execution→Observation→Evidence→Verification→Provenance/History lifecycle and deterministic replay identity, especially for tool outputs and external observations.",
+      "source": "Synthesis of inspected kernel contracts and tests",
+      "limits": "Requires an integration experiment against actual UWS tool/evidence flows."
+    }
+  ],
+  "assumptions": [],
+  "suggestions": [
+    "Use the kernel as a reference architecture for UWS evidence records rather than importing the entire browser-facing package.",
+    "Advance Issue #2 before adding additional adapters so value is measured before capability surface expands."
+  ],
+  "decisions": [],
+  "unknowns": [
+    "Whether canonical acquisition/evidence metadata produces measurable downstream decision value.",
+    "How the kernel behaves under real connector/API transports and source failures.",
+    "Whether the current SQLite lifecycle is adequate for multi-process or durable distributed UWS execution."
+  ],
+  "contradictions": [],
+  "relationships": [
+    {
+      "target": "Loofy147/unified-knowledge-work-system",
+      "relation": "RELEVANT_REUSABLE_PRIMITIVE",
+      "status": "INFERRED",
+      "evidence_refs": [
+        "My_browser: kernel_invariants.test.js",
+        "My_browser: Issue #2"
+      ],
+      "notes": "High relevance to UWS claim/evidence/tool trace design; integration must preserve UWS authority and lifecycle semantics."
+    }
+  ],
+  "verification": {
+    "tests_inspected": [
+      "tests/kernel_invariants.test.js",
+      "tests/replay.test.js",
+      ".github/workflows/ci.yml"
+    ],
+    "tests_executed": [],
+    "artifacts": [
+      "GitHub Issue #2 controlled experiment"
+    ],
+    "reproducibility": "The repository documents a CI gate and deterministic fixture tests; this review did not execute the code locally.",
+    "falsifiers": [
+      "Downstream A/B experiment shows no material traceability, replay, audit, or decision-value improvement.",
+      "Real connector integration requires source-specific semantics to leak into the kernel."
+    ]
+  },
+  "next_test": "Run the bounded Issue #2 comparison end-to-end and map the winning measurable properties onto one UWS evidence/traces fixture without changing downstream decision logic."
+}

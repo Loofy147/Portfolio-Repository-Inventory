@@ -10,14 +10,14 @@ Scope: continued owner-scoped census and structural interpretation. No strategic
 - README explicitly states one setup script is not yet implemented and is planned.
 - Example interface defines a `create_world` action with world size and physics parameters.
 - Status: early-stage architecture/prototype surface; explicit incompleteness recorded.
-- Evidence: fileciteturn636file0
+- Evidence:
 
 ### `Loofy147/Api-algeria`
 - Default branch: `main`.
 - README is title-only (`Api-algeria`).
 - Repository metadata shows non-trivial size, so current identity is unresolved rather than treated as empty.
 - Status: minimal semantic evidence; tree/source/history inspection required.
-- Evidence: fileciteturn637file0
+- Evidence:
 
 ### `Loofy147/api-platform-algeria`
 - Default branch: `master`.
@@ -25,7 +25,7 @@ Scope: continued owner-scoped census and structural interpretation. No strategic
 - Declared structure: infrastructure, Node.js/TypeScript backend, future/later Python ML engine, docs and automation scripts.
 - Declared controls include JWT/refresh tokens, Redis rate limiting, Zod validation, Helmet, and tenant isolation/RLS.
 - Status: substantial platform architecture candidate; production-grade wording remains a repository claim until implementation/tests/deployment evidence are inspected.
-- Evidence: fileciteturn638file0
+- Evidence:
 
 ### `Loofy147/APK--builder`
 - Default branch: `main`.
@@ -33,14 +33,14 @@ Scope: continued owner-scoped census and structural interpretation. No strategic
 - Versioned documentation includes v1.1 performance, 50+ curated questions, persistence, ease-factor scheduling, JUnit/Robolectric/Espresso, CI/CD and APK optimization.
 - SRS parameters are explicitly specified (interval schedule, ease range and adjustment factors).
 - Status: concrete mobile-learning implementation/release-oriented repository; documentation contains many quantitative/test claims that still need CI/build artifact verification.
-- Evidence: fileciteturn639file0
+- Evidence:
 
 ### `Loofy147/ARC-AGI-NCA-Solver`
 - Default branch: `main`.
 - README identifies an ARC solver using a Residual Blueprint NCA.
 - Repository metadata is extremely small, so implementation depth remains unresolved.
 - Status: minimal but semantically identified research direction; keep separate from other ARC/NCA repositories until source/history comparison.
-- Evidence: fileciteturn640file0
+- Evidence:
 
 ### `Loofy147/atlas-lifehacks`
 - Default branch: `main`.
@@ -48,13 +48,13 @@ Scope: continued owner-scoped census and structural interpretation. No strategic
 - It explicitly applies an abstraction-to-implementation method, asks five system-design questions, and states boundary conditions for principles.
 - The 52-entry catalog spans control theory, ergodicity, queueing, systems engineering, decision science, cryptography, network science, information economics, statistics, evolutionary theory, reliability, distributed systems, and meta-patterns such as conservation of trust/risk and hysteresis.
 - Status: high-value knowledge/research synthesis artifact rather than a conventional application repository. Claims and classifications within the catalog require source/references audit before treating them as canonical.
-- Evidence: fileciteturn641file0
+- Evidence:
 
 ### `Loofy147/atoms`
 - Default branch: `main`.
 - README is title-only.
 - Metadata indicates a small public repository; semantic identity remains unresolved.
-- Evidence: fileciteturn642file0
+- Evidence:
 
 ### `Loofy147/canonical-capability-core`
 - Default branch: `master`.
@@ -64,7 +64,7 @@ Scope: continued owner-scoped census and structural interpretation. No strategic
 - v0.22 is described as a conformance-hardening candidate with 132 passing tests, 500/500 cross-domain lifecycle cycles and 2,128/2,128 mutation attempts rejected without unexpected mutation; these remain repository-reported results until independently reproduced.
 - v0.22.1rc2 is explicitly separated from the archived v0.22 release, with a rehydration invariant (`Persist(command) → Reload(command) ≡ command`) and a reported 150-test candidate suite.
 - Status: major canonical verification/evidence system. This is no longer merely a research idea; it contains explicit versioned release/evidence architecture and should be treated as a high-priority lineage anchor for later reconciliation with staging/qualification repositories.
-- Evidence: fileciteturn643file0
+- Evidence:
 
 ### `Loofy147/algeria-ai-product-fabric`
 - Default branch: `main`.
@@ -73,34 +73,34 @@ Scope: continued owner-scoped census and structural interpretation. No strategic
 - Current first vertical is Document → Quote → Decision → Evidence.
 - README explicitly states deterministic code owns critical calculations/policy checks, evidence is first-class, and LLMs are limited to extraction/normalization/classification/proposal/explanation roles.
 - Status: major platform/research monorepo with evidence-first design; currently one of the strongest architectural integration points in the portfolio.
-- Evidence: fileciteturn644file0
+- Evidence:
 
 ### `Loofy147/Algerian-datasets`
 - Default branch: `main`.
 - README identifies an Algeria Data Platform: FastAPI service for cleaned/validated Algerian-market data, with company/salary/demographic ingestion, Great Expectations, LASSO-OLS hybrid forecasting, Algerian legal-form/wilaya logic and operations/runbooks.
 - Explicitly defines API, services, database, data, Great Expectations configuration and Alembic migrations.
 - Status: substantial data-platform implementation candidate; data provenance, privacy, licensing and actual test/forecast validity remain to be inspected.
-- Evidence: fileciteturn645file0
+- Evidence:
 
 ### `Loofy147/algeria-multi-agent-platform`
 - Default branch: `main`.
 - README identifies an Algeria-specific automation platform claiming 120+ intelligent workflows, orchestration, Arabic/French support, cost optimization, local integrations, <500ms routing and enterprise security.
 - These are headline repository claims; source-level implementation and benchmarks were not inspected in this batch.
 - Status: substantial declared platform; high-value target for comparison with `Business-Operating-System`, `api-platform-algeria`, and other Algeria orchestration systems.
-- Evidence: fileciteturn646file0
+- Evidence:
 
 ### `Loofy147/Ai`
 - Default branch: `main`.
 - README is title-only.
 - Metadata indicates a non-trivial repository size; identity unresolved.
-- Evidence: fileciteturn647file0
+- Evidence:
 
 ### `Loofy147/Ai-e-commerce-marketplace`
 - Default branch: `main`.
 - README describes a social-network + AI + e-commerce marketplace concept, explicitly positioning it as an integrated AI-commerce-social platform.
 - Current evidence is concept-level; implementation depth remains to be established from tree/source.
 - Status: concept/product lineage candidate, likely relevant to the larger e-commerce/marketplace family.
-- Evidence: fileciteturn648file0
+- Evidence:
 
 ### `Loofy147/Contacto`
 - Default branch: `main`.
@@ -108,28 +108,28 @@ Scope: continued owner-scoped census and structural interpretation. No strategic
 - Architecture described as event-driven microservices behind an API gateway, using Kafka and standardized Prisma/auth/RBAC/cache utilities.
 - Roadmap separates directory → CRM/POS → financial layer/payments → government/ecosystem integration.
 - Status: major product/platform candidate and a likely lineage anchor for the separate `v0-profile-show` / Contacto surfaces; relationship should be established by file/history comparison rather than naming alone.
-- Evidence: fileciteturn649file0
+- Evidence:
 
 ### `Loofy147/cwc-Loofy-strategie`
 - `SKILL_v2.md` identifies **Weighted Conviction Trend Engine (WCTE) v2**, a rules-based trading skill using nine weighted rules, a Choppiness Index gate, optional regime-adaptive risk and Monte Carlo/walk-forward validation.
 - The methodology explicitly uses multiple seeds and a continuous Markov regime-switching series, contrasting static and adaptive variants with a naive EMA baseline.
 - The document itself reports significant comparisons but also honestly states where results are not significant; because these figures are repository artifacts, they remain claims until benchmark code is executed independently.
 - Status: substantive quantitative strategy/research artifact; especially valuable as a reproducibility target because the validation protocol is explicitly described.
-- Evidence: fileciteturn650file0
+- Evidence:
 
 ### `Loofy147/Degf`
 - README identifies the **Dynamic Entropy Genuineness Framework**, with real-time reasoning monitoring, thermodynamic training signal, SGS-2 architecture and APEX unified orchestrator.
 - Reports GPT-2-small ablation results and explicitly names scripts for test, ablation, monitoring and inference simulation.
 - Strong relationship signal with `Genieune`, but exact lineage must be established via file hashes/history rather than naming.
 - Status: major reasoning/interpretability research line; benchmark/ablation results remain repository-reported until independently reproduced.
-- Evidence: fileciteturn651file0
+- Evidence:
 
 ### `Loofy147/dyad-algerian-builder-`
 - Default branch: `main`.
 - README identifies the project as **Dyad**, a local open-source AI app builder with local/bring-your-own-key/cross-platform positioning.
 - This is clearly external/upstream-origin software or a forked/derived surface; it is not safe to attribute all capabilities to local authorship.
 - Status: provenance-first candidate; compare commit ancestry and local divergence before portfolio attribution.
-- Evidence: fileciteturn652file0
+- Evidence:
 
 ## Important census correction
 

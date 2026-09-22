@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.2.0",
+  "repository": {
+    "full_name": "Loofy147/spotup-platform",
+    "url": "https://github.com/Loofy147/spotup-platform",
+    "default_branch": "main",
+    "visibility": "public",
+    "archived": false
+  },
+  "observation": {
+    "observed_at": "2026-09-22",
+    "ref": "main",
+    "commit": "6ae20ad36e66832b2c9267a6c74fb192627774a5",
+    "branches_inspected": [
+      "main"
+    ],
+    "surfaces_inspected": [
+      "package.json",
+      "todo.md",
+      "client/server/shared/drizzle structure from census triage"
+    ],
+    "depth": "D2"
+  },
+  "state": {
+    "project_status": "CURRENT",
+    "interpretation": "Substantive product scaffold with database/server infrastructure implemented, but large portions of application behavior and testing remain explicitly unchecked."
+  },
+  "evidence": [
+    {
+      "class": "OBSERVED",
+      "claim_status": "EXPERIMENTALLY_SUPPORTED",
+      "statement": "The repository defines a typed web application stack with React/Vite/server bundling, Drizzle migrations, Vitest, and server-side tRPC structure.",
+      "source": "package.json",
+      "limits": "Presence of tooling does not establish that the unimplemented phases are complete."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "todo.md marks core database schema items and server-side infrastructure such as DB helpers, tRPC routers, trust-signal calculation, RSVP validation, and seeded Selection Engine functions as complete.",
+      "source": "todo.md",
+      "limits": "Checked boxes are project-maintained implementation assertions; no CI run was independently established in this review."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "todo.md leaves authentication, community/activity flows, discovery ranking, UI phases, realtime, admin tooling, testing, performance, documentation, security audit, and production launch items largely unchecked.",
+      "source": "todo.md",
+      "limits": "Task lists can lag implementation; this is evidence of documented incompleteness, not proof every unchecked item is absent."
+    },
+    {
+      "class": "INFERRED",
+      "claim_status": "HYPOTHESIS",
+      "statement": "The reusable UWS value is limited at present to server-side state-machine/seeded-selection patterns, not the unfinished social product surface.",
+      "source": "Synthesis of package.json and todo.md",
+      "limits": "Requires direct code tests before reuse."
+    }
+  ],
+  "suggestions": [
+    "Do not promote the Q-value framework or ranking weights as validated decision mechanisms merely because they exist in the scaffold.",
+    "Inspect the completed RSVP and Selection Engine implementations before any extraction into UWS."
+  ],
+  "decisions": [],
+  "unknowns": [
+    "Actual coverage of the claimed completed server logic.",
+    "Whether Vitest suites exist and pass on current main.",
+    "Current persistence and deployment behavior."
+  ],
+  "contradictions": [],
+  "relationships": [
+    {
+      "target": "Loofy147/unified-knowledge-work-system",
+      "relation": "POTENTIAL_REFERENCE",
+      "status": "INFERRED",
+      "evidence_refs": [
+        "spotup-platform: todo.md"
+      ],
+      "notes": "Potential source of state-machine/reproducible selection patterns only; broad product architecture is not a UWS reuse candidate yet."
+    }
+  ],
+  "verification": {
+    "tests_inspected": [],
+    "tests_executed": [],
+    "artifacts": [
+      "package.json",
+      "todo.md"
+    ],
+    "reproducibility": "Implementation and tests need direct inspection; current review is structural D2.",
+    "falsifiers": [
+      "Direct inspection shows core server mechanisms are absent or non-deterministic.",
+      "Current CI/test evidence demonstrates broader completed behavior than the TODO state indicates, changing the review depth."
+    ]
+  },
+  "next_test": "Inspect the implemented RSVP state machine and seeded Selection Engine, then run focused tests or CI evidence before recording any reusable primitive."
+}

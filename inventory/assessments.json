@@ -1,1 +1,237 @@
-{"schema_version":"0.1.0","assessments":[]}
+{
+  "schema_version": "0.1.0",
+  "assessments": [
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Wedgettok",
+      "assessment_id": "2026-09-22-Wedgettok-core",
+      "dimensions": {
+        "technical_substance": {
+          "value": 5,
+          "confidence": "high",
+          "basis": "Current main exposes a feed-native Experience runtime, host-owned lifecycle/capability boundaries, multiple runtime adapters, semantic integrity gates, and a substantial executable test surface."
+        },
+        "validation": {
+          "value": 5,
+          "confidence": "high",
+          "basis": "Current HEAD e0b4a9599fc2aa61995fda579b0a7ea2a7054095 has CI/CD run 480 completed successfully; the workflow covers lint, type checking, data/experience/runtime/adversarial/feed/invariant tests, production build, and bundle verification."
+        },
+        "strategic_value": {
+          "value": 5,
+          "confidence": "high",
+          "basis": "Wedgettok is explicitly the owner-selected current implementation target in the active Core Working Set."
+        },
+        "reuse_potential": {
+          "value": 4,
+          "confidence": "medium",
+          "basis": "Experience contracts, runtime adapters, capability gates, semantic provenance, and feed/runtime control boundaries are reusable platform primitives; direct cross-project reuse is not yet independently demonstrated."
+        },
+        "completion_cost": {
+          "value": 5,
+          "confidence": "high",
+          "basis": "The current evidence packet explicitly leaves browser/device E2E, durable backend truth, community publication, sandboxing, process-restart idempotency, observability, production MCP, and product/user evidence open."
+        }
+      },
+      "rationale": "High implementation and validation evidence exists at the current ref, while the remaining frontier is predominantly real-world/durability/product validation rather than basic prototype construction.",
+      "evidence_refs": [
+        "Loofy147/Wedgettok@e0b4a9599fc2aa61995fda579b0a7ea2a7054095:ROADMAP.md",
+        "Loofy147/Wedgettok@e0b4a9599fc2aa61995fda579b0a7ea2a7054095:.github/workflows/ci.yml",
+        "Loofy147/Wedgettok@e0b4a9599fc2aa61995fda579b0a7ea2a7054095:docs/DELIVERY_PATH.md",
+        "GitHub Actions run 35725077057 / CI #480"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/unified-knowledge-work-system",
+      "assessment_id": "2026-09-22-UWS-core",
+      "dimensions": {
+        "technical_substance": {
+          "value": 5,
+          "confidence": "high",
+          "basis": "Current main contains the UWS operating contract, relation-aware routing/evaluation infrastructure, control-plane persistence, integration tests, and a broad executable validation workflow."
+        },
+        "validation": {
+          "value": 5,
+          "confidence": "high",
+          "basis": "Current HEAD a6cbb2d3f155cfa897716857318374d842f3ae25 has system-validation run 299 successful and a current Vercel status success; the workflow covers system tests, validators, research refresh, persistence migrations/idempotency, persistence integration, and production build."
+        },
+        "strategic_value": {
+          "value": 5,
+          "confidence": "high",
+          "basis": "UWS is a Core Working Set support repository and provides evidence/control-plane primitives directly relevant to coordinated work on the current target."
+        },
+        "reuse_potential": {
+          "value": 5,
+          "confidence": "high",
+          "basis": "The repository explicitly packages reusable operating contracts, module registry/relationship ledger, evaluation harnesses, persistence, and actor/evidence semantics."
+        },
+        "completion_cost": {
+          "value": 4,
+          "confidence": "high",
+          "basis": "The system has broad executable coverage, but broader real-world validation and product-surface alignment remain open; current Projects.tsx still contains stale copy claiming persistence is not ready."
+        }
+      },
+      "rationale": "The implementation/validation layer is mature relative to its stated control-plane scope, but documentation/UI reconciliation and heterogeneous external validation remain material work.",
+      "evidence_refs": [
+        "Loofy147/unified-knowledge-work-system@a6cbb2d3f155cfa897716857318374d842f3ae25:README.md",
+        "Loofy147/unified-knowledge-work-system@a6cbb2d3f155cfa897716857318374d842f3ae25:.github/workflows/system-validation.yml",
+        "Loofy147/unified-knowledge-work-system@a6cbb2d3f155cfa897716857318374d842f3ae25:control-plane/server/persistence.integration.test.ts",
+        "Loofy147/unified-knowledge-work-system@a6cbb2d3f155cfa897716857318374d842f3ae25:control-plane/client/src/pages/Projects.tsx",
+        "GitHub Actions run 35647638864 / system-validation #299"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Llms-mcp-android",
+      "assessment_id": "2026-09-22-Llms-mcp-android-core",
+      "dimensions": {
+        "technical_substance": {
+          "value": 4,
+          "confidence": "high",
+          "basis": "Current main exposes a unified Android agent runtime/control plane with explicit action/policy/approval/egress/run/verification boundaries and durable local execution state."
+        },
+        "validation": {
+          "value": 5,
+          "confidence": "high",
+          "basis": "Current HEAD 7a7e1c67d1dce15457b62cf173d159a7be15f9ce passed CI run 312; the workflow runs unit tests, builds a debug APK, uploads an artifact, and executes Android instrumentation tests on an API-35 emulator."
+        },
+        "strategic_value": {
+          "value": 4,
+          "confidence": "high",
+          "basis": "It is a Core Working Set support repository with a reusable mobile agent-runtime/control-plane boundary."
+        },
+        "reuse_potential": {
+          "value": 4,
+          "confidence": "medium",
+          "basis": "The AgentRuntime, policy/approval/egress boundaries and capability execution model are designed as reusable runtime primitives, although cross-project integration is not yet established."
+        },
+        "completion_cost": {
+          "value": 5,
+          "confidence": "high",
+          "basis": "Current evidence explicitly leaves caller-side durable UNKNOWN_OUTCOME, concurrency recovery, stale callback ordering, process-death/restart integration, real external reconciliation, and several security durability properties open."
+        }
+      },
+      "rationale": "Strong current executable validation exists, but the highest-risk remaining frontier is cross-process/provider recovery and durable exactly-once/unknown-outcome semantics.",
+      "evidence_refs": [
+        "Loofy147/Llms-mcp-android@7a7e1c67d1dce15457b62cf173d159a7be15f9ce:README.md",
+        "Loofy147/Llms-mcp-android@7a7e1c67d1dce15457b62cf173d159a7be15f9ce:.github/workflows/build-apk.yml",
+        "Loofy147/Llms-mcp-android@7a7e1c67d1dce15457b62cf173d159a7be15f9ce:docs/architecture/ARCHITECTURE_STATE_SYNC_2026-09-17.md",
+        "GitHub Actions run 35536154833 / build run #312"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/Machine",
+      "assessment_id": "2026-09-22-Machine-core",
+      "dimensions": {
+        "technical_substance": {
+          "value": 4,
+          "confidence": "medium",
+          "basis": "The repository is a substantive machine/interpreter/substrate research line with a moving research branch containing a large body of executable/docs/experimental material."
+        },
+        "validation": {
+          "value": 2,
+          "confidence": "medium",
+          "basis": "Current research branch identity and divergence are revalidated, and the branch contains experiment protocols/harnesses; no current-head CI or independent fresh execution result was established in this census pass."
+        },
+        "strategic_value": {
+          "value": 4,
+          "confidence": "high",
+          "basis": "Machine is explicitly part of the Core Working Set as machine-native/interpreter/substrate research and is a reusable reference source for lower-level execution mechanisms."
+        },
+        "reuse_potential": {
+          "value": 4,
+          "confidence": "medium",
+          "basis": "The research branch exposes candidate machine-native primitives and interpreter/substrate mechanisms that may become reusable, but cross-project extraction is not yet established."
+        },
+        "completion_cost": {
+          "value": 5,
+          "confidence": "medium",
+          "basis": "The active research frontier is branch-scoped and has substantial open experimental questions; the branch moves independently of main and requires claim-level reproduction before institutionalization."
+        }
+      },
+      "rationale": "The strongest evidence is architectural/research and branch provenance rather than current automated validation. The 2026-09-22 revalidation confirms exactly which moving ref carries the research frontier.",
+      "evidence_refs": [
+        "Loofy147/Machine@1626bac2f5c478294afa4b9463f694608c322117:docs/BRANCH-EVIDENCE-AND-RESEARCH-HANDLING.md",
+        "Loofy147/Machine research/machine-native-primitives-v0@f752aac015d9f837bc6a89d44eed50e0325b60a6",
+        "Machine compare main...research/machine-native-primitives-v0: 50 ahead / 3 behind; merge base 641517a26790c40295606f12fd6e4a87fcab7186"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/m0-durable-run",
+      "assessment_id": "2026-09-22-m0-durable-run-core",
+      "dimensions": {
+        "technical_substance": {
+          "value": 3,
+          "confidence": "high",
+          "basis": "M0 is intentionally small but contains a concrete append-only durable-run primitive, persistence boundary, restart demonstration, and an end-to-end experiment-to-run-to-evidence slice."
+        },
+        "validation": {
+          "value": 3,
+          "confidence": "high",
+          "basis": "The repository includes executable in-process invariant tests and a two-process restart demonstration; no current GitHub Actions validation run was found for the current main HEAD."
+        },
+        "strategic_value": {
+          "value": 4,
+          "confidence": "high",
+          "basis": "It is explicitly a Core Working Set support primitive for durable execution."
+        },
+        "reuse_potential": {
+          "value": 5,
+          "confidence": "high",
+          "basis": "The repository is intentionally minimal and isolates durable/idempotent/restart semantics that can serve as a reusable primitive."
+        },
+        "completion_cost": {
+          "value": 2,
+          "confidence": "medium",
+          "basis": "The core primitive is small and bounded; the remaining work is mainly provider variation, stronger abstraction boundaries, and broader integration rather than basic implementation."
+        }
+      },
+      "rationale": "M0 has a narrower technical surface than the platform repositories but a high reuse signal because the primitive is explicitly isolated around durability and restart behavior.",
+      "evidence_refs": [
+        "Loofy147/m0-durable-run@9436841c77d5a1cb9d23051a3db69eb93ec6240d:README.md",
+        "Loofy147/m0-durable-run@9436841c77d5a1cb9d23051a3db69eb93ec6240d:test_m0.py",
+        "Loofy147/m0-durable-run@9436841c77d5a1cb9d23051a3db69eb93ec6240d:restart_demo.py"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "repository_full_name": "Loofy147/la-rouine-platform",
+      "assessment_id": "2026-09-22-la-rouine-platform-core",
+      "dimensions": {
+        "technical_substance": {
+          "value": 4,
+          "confidence": "high",
+          "basis": "The repository contains a declarative Experience model, schema validation, renderer, deterministic execution, remix/lineage logic, and bounded runtime contracts."
+        },
+        "validation": {
+          "value": 4,
+          "confidence": "high",
+          "basis": "Current RESULT/run_all evidence reports 2000 deterministic renders with one distinct output hash, structural/security rejection cases, tamper detection, and remix validation; the evidence is bounded to the runtime contract slice."
+        },
+        "strategic_value": {
+          "value": 4,
+          "confidence": "medium",
+          "basis": "It is a Core Working Set runtime surface and provides a reusable declarative Experience/rendering model relevant to the current product target."
+        },
+        "reuse_potential": {
+          "value": 4,
+          "confidence": "medium",
+          "basis": "The manifest schema, deterministic renderer, validation, and hash-linked remix lineage are potentially reusable Experience-runtime primitives."
+        },
+        "completion_cost": {
+          "value": 4,
+          "confidence": "high",
+          "basis": "The repository contract explicitly leaves feed, creation, moderation, and offline/online gates open; current evidence is strong but deliberately bounded."
+        }
+      },
+      "rationale": "Strong bounded runtime evidence exists, but the repository is not equivalent to a complete production content platform; the open gates remain explicit in its contract.",
+      "evidence_refs": [
+        "Loofy147/la-rouine-platform@3f2a7f4d2cb16db7488afdb16f1610c27ae3d1ca:CONTRACT.md",
+        "Loofy147/la-rouine-platform@3f2a7f4d2cb16db7488afdb16f1610c27ae3d1ca:run_all.py",
+        "Loofy147/la-rouine-platform@3f2a7f4d2cb16db7488afdb16f1610c27ae3d1ca:RESULTS.txt"
+      ]
+    }
+  ]
+}

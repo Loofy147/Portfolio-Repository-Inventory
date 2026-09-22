@@ -166,10 +166,10 @@
       "ref": "main",
       "commit": "afe257e6b15d875a9819c5405094b55b87211aa6",
       "provenance": {
-        "fork": "false",
+        "fork": false,
         "parent": null,
         "source": null,
-        "status": "external_fork"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -724,10 +724,10 @@
       "ref": "main",
       "commit": "6ae20ad36e66832b2c9267a6c74fb192627774a5",
       "provenance": {
-        "fork": "false",
+        "fork": false,
         "parent": null,
         "source": null,
-        "status": "external_fork"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "private",

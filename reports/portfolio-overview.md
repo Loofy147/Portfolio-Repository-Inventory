@@ -17,11 +17,11 @@ The durable operating documents are:
 
 ## Census
 
-The canonical stored census contains **313 deduplicated repositories**, collected on 2026-08-30 from four search pages (100/100/100/13).
+The stored `inventory/repositories.json` remains a **historical 2026-08-30 snapshot** with 313 deduplicated repositories.
 
-This is an accessible census snapshot, not a proof that every possible repository surface is included. A later direct GitHub observation on 2026-09-18 exposed a larger accessible set, but it has not been promoted to the canonical inventory yet.
+The current operational census was revalidated on 2026-09-22: GitHub repository search and connected installed-repository search both return **339 unique identities**, with exact set equality. All 319 identities already stored in the inventory are present, and 20 new repositories are newly observed.
 
-The census must be deliberately refreshed and reconciled before the stored repository set is replaced or promoted.
+The full current identity set is recorded in `inventory/current-census-2026-09-22.json`. The historical 313-record file is intentionally not overwritten because changing it would collapse two observation epochs.
 
 ## Structural triage rule
 

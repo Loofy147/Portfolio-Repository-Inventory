@@ -213,3 +213,16 @@ Do not upgrade payer confidence from novelty, regulation, beneficiary status, jo
 
 Paid evidence remains the strongest validation:
 actual invoice/PO/paid engagement > stated intent.
+
+
+## 2026-09-23 public-procurement correction
+
+Do not treat public/para-public procurement as categorically inaccessible to new low-capital entrants.
+
+Sonelgaz Decision N°225/PDG/2025 contains an explicit mechanism for needs that can be satisfied by small/very-small enterprises and labeled startups: such services should generally be reserved for them, and newly created micro-enterprises without a first-year balance sheet are not to be required to provide similar professional references; diploma-based references may be considered.
+
+Payer implication:
+The contracting Sonelgaz-group entity can be the direct payer, but procurement qualification, acceptance, guarantees and payment timing remain case-specific.
+
+Research implication:
+Test specific micro/small-eligible consultations/lots rather than broad public tenders.

@@ -45,8 +45,8 @@ def main() -> int:
     relationships = load_json("inventory/relationships.json")
     legacy_relationships = load_json("inventory/relationships.v0.1-legacy.json")
     clusters = load_json("inventory/cluster-candidates.json")
-    deep_review = load_json("inventory/deep_reviews/2026-09-18-machine.json")
-    machine_revalidation = load_json("inventory/deep_reviews/2026-09-22-machine-revalidation.json")
+    deep_review_dir = ROOT / "inventory/deep_reviews"
+    deep_review_files = sorted(deep_review_dir.glob("*.json"))
     decisions = load_json("records/DECISION_LEDGER_2026-09-22.json")
     census = load_json("records/CENSUS_SNAPSHOTS_2026-09-22.json")
     current_census = load_json("inventory/current-census-2026-09-22.json")
@@ -74,8 +74,13 @@ def main() -> int:
     for index, record in enumerate(legacy_relationships["relationships"]):
         validate(record, "schema/relationship.schema.json", f"legacy relationships[{index}]")
     validate(clusters, "schema/cluster.schema.json", "cluster candidates")
-    validate(deep_review, "schema/repository-review.schema.json", "Machine historical deep review")
-    validate(machine_revalidation, "schema/repository-review.schema.json", "Machine revalidation")
+    assert_true(bool(deep_review_files), "at least one deep-review record is required")
+    for path in deep_review_files:
+        validate(
+            load_json(str(path.relative_to(ROOT))),
+            "schema/repository-review.schema.json",
+            f"deep review {path.name}",
+        )
     validate(decisions, "schema/decision.schema.json", "decision ledger")
     validate(census, "schema/census-snapshot.schema.json", "census snapshots")
     validate(current_census, "schema/current-census.schema.json", "current census overlay")

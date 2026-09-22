@@ -271,3 +271,22 @@ A high-priority research target is:
 **Recent transition + partial absorption + costly exception + identifiable payer.**
 
 However, this remains a search heuristic, not evidence of market demand.
+
+
+## Pre-kill refinement — insurance transition
+
+New evidence materially strengthens the kill side:
+
+- CNA identifies claim-processing complexity and indemnification delays, but also describes insurer-side digital transformation as the response.
+- Existing Algerian offerings include digital claim intake/management, electronic accident reporting, remote/digital expertise, and established expert networks.
+- The CNA states that insurance expertise is a regulated professional activity with accreditation requirements.
+
+Interpretation:
+"Insurance evidence preparation" is not a clean entry wedge by itself.
+
+Status:
+**LOWER PRIORITY / OPEN ONLY FOR A NARROW PRIVATE-SIDE GAP**.
+
+Reopen only if a concrete claim class produces a recurring, paid, pre-expert evidence/reconciliation need that existing insurer/expert systems do not absorb.
+
+Payer must still be proven; do not assume insurer, insured, or broker.

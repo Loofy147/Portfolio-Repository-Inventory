@@ -49,6 +49,7 @@ def main() -> int:
     machine_revalidation = load_json("inventory/deep_reviews/2026-09-22-machine-revalidation.json")
     decisions = load_json("records/DECISION_LEDGER_2026-09-22.json")
     census = load_json("records/CENSUS_SNAPSHOTS_2026-09-22.json")
+    current_census = load_json("inventory/current-census-2026-09-22.json")
 
     repository_schema = load_json("schema/repository.schema.json")
     Draft202012Validator.check_schema(repository_schema)
@@ -76,6 +77,7 @@ def main() -> int:
     validate(machine_revalidation, "schema/repository-review.schema.json", "Machine revalidation")
     validate(decisions, "schema/decision.schema.json", "decision ledger")
     validate(census, "schema/census-snapshot.schema.json", "census snapshots")
+    validate(current_census, "schema/current-census.schema.json", "current census overlay")
 
     repo_records = repositories["repositories"]
     repo_names = [record["repository_full_name"] for record in repo_records]
@@ -121,6 +123,16 @@ def main() -> int:
     )
 
     target = active_target[0]["subject"]
+    current_census_names = {record["repository_full_name"] for record in current_census["repositories"]}
+    historical_names = set(repo_names)
+    assert_true(historical_names.issubset(current_census_names), "current census must contain every historical inventory identity")
+    assert_true(current_census["search_method"]["total"] == len(current_census_names), "current census search total must equal unique repository records")
+    assert_true(current_census["installed_search_method"]["total"] == len(current_census_names), "installed search total must equal unique repository records")
+    assert_true(current_census["reconciliation"]["exact_set_match"], "current census methods must reconcile exactly")
+    core_set = set(active_working_sets[0]["subject"])
+    assessed_repos = {record["repository_full_name"] for record in assessments["assessments"]}
+    assert_true(assessed_repos.issubset(core_set), "assessments must be limited to current core working set")
+    assert_true(len(assessed_repos) == len(assessments["assessments"]), "duplicate assessment repository detected")
     working_set = set(active_working_sets[0]["subject"])
     assert_true(target in working_set, "current target must be a member of the active core working set")
 

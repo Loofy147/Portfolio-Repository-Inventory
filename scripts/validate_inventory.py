@@ -48,7 +48,10 @@ def main() -> int:
     decisions = load_json("records/DECISION_LEDGER_2026-09-22.json")
     census = load_json("records/CENSUS_SNAPSHOTS_2026-09-22.json")
 
-    validate(repositories, "schema/repository.schema.json", "repositories")
+    repository_schema = load_json("schema/repository.schema.json")
+    Draft202012Validator.check_schema(repository_schema)
+    for index, record in enumerate(repositories["repositories"]):
+        validate(record, "schema/repository.schema.json", f"repositories[{index}]")
     validate(triage, "schema/triage.schema.json", "triage")
     validate(assessments, "schema/assessment.schema.json", "assessments")
     validate(review_log, "schema/review-log.schema.json", "review-log")

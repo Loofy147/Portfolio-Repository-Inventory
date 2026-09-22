@@ -1,0 +1,113 @@
+{
+  "schema_version": "0.2.0",
+  "repository": {
+    "full_name": "Loofy147/Wedgettok-Next",
+    "url": "https://github.com/Loofy147/Wedgettok-Next",
+    "default_branch": "main",
+    "visibility": "private",
+    "archived": false
+  },
+  "observation": {
+    "observed_at": "2026-09-22",
+    "ref": "main",
+    "commit": "ea7872521f05a00118b4c6337ba30213c5463902",
+    "branches_inspected": [
+      "main"
+    ],
+    "surfaces_inspected": [
+      "README.md",
+      "package.json",
+      "ROADMAP.md",
+      "docs/EXPERIENCE_MODEL.md",
+      "docs/DELIVERY_PATH.md",
+      "first commit 907c1c2c",
+      "recent commit history"
+    ],
+    "depth": "D3"
+  },
+  "state": {
+    "project_status": "CURRENT",
+    "interpretation": "A separately initialized second-generation repository that reuses WidgetTok concepts/contracts and appears to be an active product/runtime line, but it is not yet proven to be a git-level successor or clean extraction from Wedgettok."
+  },
+  "evidence": [
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "The repository was initialized independently on 2026-09-22 with commit 907c1c2c and then developed through a short five-commit sequence to the observed head ea7872521f05a00118b4c6337ba30213c5463902.",
+      "source": "GitHub commit history for Wedgettok-Next",
+      "limits": "Independent initialization does not establish absence of copied code/content."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "README explicitly describes the repository as a calmer second-generation version of Wedgettok and names truthful Experience contracts, local-first behavior, lazy-loaded runtimes, deterministic tests, and a TikTok-style vertical feed as retained foundations.",
+      "source": "Wedgettok-Next README.md",
+      "limits": "This is project-authored lineage language, not independent provenance proof."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "EXPERIMENTALLY_SUPPORTED",
+      "statement": "The package defines a large explicit verification surface covering contracts, host/runtime behavior, adversarial runtime probes, feed control/selection, semantic integrity, lifecycle, data truth, and build verification.",
+      "source": "package.json",
+      "limits": "The presence of test scripts does not prove current execution; the connected workflow endpoint did not surface a current run for the observed head."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "CONTRADICTED",
+      "statement": "ROADMAP.md still names 2448d38d0a59cd3e797d761f37efb68f2d0753ea as the current baseline even though observed main is ea7872521f05a00118b4c6337ba30213c5463902.",
+      "source": "ROADMAP.md versus current GitHub main commit",
+      "limits": "The document calls this a documentation synchronization baseline, but the mismatch makes current-state claims unsafe until synchronized."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "EXPERIMENTALLY_SUPPORTED",
+      "statement": "The first commit already contained the Experience roadmap, CI/CD workflow, package/tooling, and a large implementation surface, indicating this repository was initialized as a substantial product line rather than a one-file fork created from the current Wedgettok repository.",
+      "source": "GitHub commit 907c1c2c",
+      "limits": "This does not prove which assets were copied from other sources."
+    }
+  ],
+  "assumptions": [],
+  "suggestions": [
+    "Treat Wedgettok-Next as a parallel/second-generation line until a content/history equivalence audit establishes exact lineage with Wedgettok.",
+    "Synchronize ROADMAP.md baseline and CI evidence to the actual current head before using it as a source of truth."
+  ],
+  "decisions": [],
+  "unknowns": [
+    "Exact file/content lineage versus Wedgettok, including copied, adapted, and removed components.",
+    "Whether Next is intended to replace, succeed, or coexist with Wedgettok.",
+    "Current CI execution state for ea7872521f05a00118b4c6337ba30213c5463902."
+  ],
+  "contradictions": [
+    "ROADMAP current baseline is stale relative to main HEAD."
+  ],
+  "relationships": [
+    {
+      "target": "Loofy147/Wedgettok",
+      "relation": "LINEAGE_REVIEW_REQUIRED",
+      "status": "INFERRED",
+      "evidence_refs": [
+        "Wedgettok-Next README",
+        "Wedgettok-Next commit 907c1c2c",
+        "Wedgettok-Next current commit ea7872521"
+      ],
+      "notes": "Strong conceptual lineage is documented, but content/history comparison is still required before classifying successor/parallel/extraction."
+    }
+  ],
+  "verification": {
+    "tests_inspected": [
+      "package.json verification scripts",
+      "ROADMAP.md CI description"
+    ],
+    "tests_executed": [],
+    "artifacts": [
+      "GitHub commit history",
+      "ROADMAP.md"
+    ],
+    "reproducibility": "Verification surface is explicit in package.json; no current workflow execution was independently surfaced for the observed head.",
+    "falsifiers": [
+      "File/content/history comparison shows no substantive reuse from Wedgettok and a distinct product line.",
+      "A synchronized current roadmap proves the baseline mismatch was already resolved on the observed head."
+    ]
+  },
+  "next_test": "Perform a file-level and contract-level comparison between Wedgettok-Next and Wedgettok, then classify the relationship as successor, parallel rewrite, extraction, or independent implementation."
+}

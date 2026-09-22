@@ -330,3 +330,22 @@ The 2026 methodology audit found that "cross-boundary", "transaction", and "tran
 
 Revised loop:
 Observe → Identify economic consequence → Map current handling → Pre-kill incumbents/internalization/regulation → Identify buyer/payer → Define minimal paid intervention → Run paid test → Measure delivery economics → Revalidate → only then build/reuse software.
+
+
+## Economic reality revalidation — 2026-09-23
+
+The broader audit confirms that the breakpoint method must not be biased toward private-sector-only or cross-boundary cases.
+
+Observed buying mechanisms include:
+- direct large-company procurement with formal qualification;
+- specialist external professional services;
+- provider-to-provider/freelance subcontracting;
+- managed services;
+- project-specific external capacity;
+- micro/small-enterprise eligible procurement within at least the Sonelgaz group.
+
+New hypotheses:
+1. Provider-to-provider wedge: an existing provider pays a new entrant for a narrow production task.
+2. Micro/small-eligible para-public wedge: a contracting entity reserves a bounded need for small/new firms under its procurement rules.
+
+Both are HYPOTHESIS/OPEN until specific current purchasable cases and payer evidence are found.

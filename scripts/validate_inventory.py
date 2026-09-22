@@ -74,7 +74,7 @@ def main() -> int:
     validate(census, "schema/census-snapshot.schema.json", "census snapshots")
 
     repo_records = repositories["repositories"]
-    repo_names = [record["full_name"] for record in repo_records]
+    repo_names = [record["repository_full_name"] for record in repo_records]
     assert_true(len(repo_names) == len(set(repo_names)), "duplicate repository full_name detected")
     repo_set = set(repo_names)
 

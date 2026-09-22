@@ -192,3 +192,41 @@ For each:
 - what evidence is required to onboard a new subcontractor?
 
 Do not infer paid demand from job listings or marketplace offers. Seek actual tenders, awarded contracts, explicit subcontracting terms, or direct buyer evidence.
+
+
+## Important correction to earlier public-procurement kill
+
+Earlier research treated public/large-enterprise procurement as generally unsuitable for low-capital entry because many current tenders require references, revenue thresholds or guarantees.
+
+This is too broad.
+
+ESTABLISHED:
+Sonelgaz's current market/command regulation, Decision N°225/PDG of 10 March 2025, explicitly states that when certain needs can be satisfied by small/very-small enterprises or labeled startups, those services should, except for justified exceptions, be reserved for them. Such needs may be separated into a dedicated cahier des charges or lot. Newly created micro-enterprises lacking a first-year balance sheet are not to be required to provide similar professional references; justified diploma-based references can be considered.
+
+The same regulation also requires periodic updating of prequalified lists and describes payment through advances/instalments/final settlement. For commands, a maximum 15% forfaitary advance may be provided subject to an advance-repayment guarantee; contractual payment/mandatement procedures are explicitly defined.
+
+Sources:
+Sonelgaz Decision N°225/PDG/2025, Articles 68 and 15.
+
+Interpretation:
+A public/para-public buyer is not automatically disqualified as a first channel. The relevant question is now:
+**Is the specific need one of the bounded services that the buyer's procurement regime can legitimately allocate to a micro/small/new enterprise, and can the entrant get qualified/prequalified?**
+
+Status:
+ESTABLISHED policy mechanism; **OPEN commercial applicability to a new entrant**.
+
+New research path:
+Do not search "public procurement" broadly. Search for **micro/small-enterprise-eligible lots and consultations** involving:
+- studies;
+- technical/documentary services;
+- IT/digital services;
+- maintenance/support sub-services;
+- data/inspection preparation that does not require a regulated signature;
+- other bounded professional services.
+
+Payer:
+The contracting company/entity is the direct payer under the command/contract, subject to its procurement and acceptance process.
+
+Entry risks:
+qualification/prequalification, guarantees, documentation, delivery liability and time-to-cash remain to be tested case by case.
+

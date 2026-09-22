@@ -56,15 +56,15 @@ Python-heavy multi-module repository with `MANIFEST.md`, `exchange.py`, `auditor
 Artifact-heavy V4 STRATOS repository. Root contains multiple large ZIP archives including `STRATOS_MANIFOLD_COMPREHENSIVE (7)`, `STRATOS_MANIFOLD_FINAL_V4_2048D`, and an `UPGRADED` variant, plus `STRATOS_OMEGA_SUPREME.py` and a technical specification. This repository is especially important for version/artifact lineage because multiple packaged generations coexist in one tree.
 
 ## Evidence notes
-- `TML-Virtual-Machine` demonstrates again that a short README can coexist with custom source/tests/artifacts. fileciteturn186file0
-- `One-handed` explicitly describes itself as an agent asset ecosystem and exposes multiple specialized asset domains. fileciteturn187file0
-- `Maintenance-life` contains a documented enterprise maintenance-system architecture, including API, architecture, checklist, developer guide, Docker and roadmap material. fileciteturn185file0 fileciteturn188file0
-- `Research-framwork` explicitly defines the meta-orchestrator/agent-variant experiment model and CLI flow. fileciteturn189file0
-- `SPEC-BPE` has a Python package, examples, scripts, requirements, and tests. fileciteturn190file0
-- `Symlib` presents explicit mathematical structures and test claims that will require independent verification. fileciteturn194file0
-- `Ai-taxonomy` presents a broad formal verification and procedure-intelligence design; the implementation claims must still be separated from the specification. fileciteturn195file0
-- `Ai-hichem` identifies a concrete FastAPI + VS Code extension + local infrastructure architecture. fileciteturn196file0
-- `Deal-Stream` has a nontrivial TypeScript workspace/build surface even though a README was not available through the current path. fileciteturn197file0
-- `The-new-era` defines an AI Operating System composition framework with agents, services, protocols, infrastructure and tests. fileciteturn198file0
-- `Claude-genieune` contains substantial benchmark and causal-ablation artifacts despite its 17-byte README. fileciteturn199file0 fileciteturn200file0
-- `TNN-ARC-AGI-2026` has actual `src`, `data`, and `docs` directories behind its concise README. fileciteturn192file0 fileciteturn193file0
+- `TML-Virtual-Machine` demonstrates again that a short README can coexist with custom source/tests/artifacts.
+- `One-handed` explicitly describes itself as an agent asset ecosystem and exposes multiple specialized asset domains.
+- `Maintenance-life` contains a documented enterprise maintenance-system architecture, including API, architecture, checklist, developer guide, Docker and roadmap material.
+- `Research-framwork` explicitly defines the meta-orchestrator/agent-variant experiment model and CLI flow.
+- `SPEC-BPE` has a Python package, examples, scripts, requirements, and tests.
+- `Symlib` presents explicit mathematical structures and test claims that will require independent verification.
+- `Ai-taxonomy` presents a broad formal verification and procedure-intelligence design; the implementation claims must still be separated from the specification.
+- `Ai-hichem` identifies a concrete FastAPI + VS Code extension + local infrastructure architecture.
+- `Deal-Stream` has a nontrivial TypeScript workspace/build surface even though a README was not available through the current path.
+- `The-new-era` defines an AI Operating System composition framework with agents, services, protocols, infrastructure and tests.
+- `Claude-genieune` contains substantial benchmark and causal-ablation artifacts despite its 17-byte README.
+- `TNN-ARC-AGI-2026` has actual `src`, `data`, and `docs` directories behind its concise README.

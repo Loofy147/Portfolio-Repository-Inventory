@@ -28,28 +28,28 @@ This batch was discovered from direct repository search for `user:Loofy147`, sup
 ## Important source evidence captured during this batch
 
 ### PRAGMA
-The README defines an on-chain agent coordination/economic protocol on Solana and identifies four Anchor programs (`pragma-registry`, `pragma-task`, `pragma-staking`, `pragma-fees`), an SDK, simulations and tests. It instructs `anchor build`, `node validate_all.js`, and integration tests, and claims an 87-assertion validation suite. fileciteturn526file0
+The README defines an on-chain agent coordination/economic protocol on Solana and identifies four Anchor programs (`pragma-registry`, `pragma-task`, `pragma-staking`, `pragma-fees`), an SDK, simulations and tests. It instructs `anchor build`, `node validate_all.js`, and integration tests, and claims an 87-assertion validation suite.
 
 ### Self-Growing Machine
-The README identifies a Growing Neural Cellular Automaton with local update rules, 3×3 perception, Sobel filters and a hidden-channel DNA signal controlling morphology. It names training/verification tooling and reports growth, maintenance, healing and multi-shape morphogenesis as intended/claimed capabilities. fileciteturn530file0
+The README identifies a Growing Neural Cellular Automaton with local update rules, 3×3 perception, Sobel filters and a hidden-channel DNA signal controlling morphology. It names training/verification tooling and reports growth, maintenance, healing and multi-shape morphogenesis as intended/claimed capabilities.
 
 ### Adaptive Methodology
-The README specifies a six-stage task lifecycle (discover, plan, implement, verify, operate, improve), automated gates, Python orchestration, markdown persistence, CI checks and API transitions. It also describes cost-watchdog behavior and ADR/security/value gates. fileciteturn529file0
+The README specifies a six-stage task lifecycle (discover, plan, implement, verify, operate, improve), automated gates, Python orchestration, markdown persistence, CI checks and API transitions. It also describes cost-watchdog behavior and ADR/security/value gates.
 
 ### Methodology Explorer
-The README describes a full-stack implementation with React 19, Tailwind, Express/tRPC, MySQL/Drizzle, Gemini and Vitest, plus an interactive lifecycle explorer and AI-generated tasks with structured validation. fileciteturn533file0
+The README describes a full-stack implementation with React 19, Tailwind, Express/tRPC, MySQL/Drizzle, Gemini and Vitest, plus an interactive lifecycle explorer and AI-generated tasks with structured validation.
 
 ### LightRAG
-The README is explicitly for the upstream LightRAG project and references `HKUDS/LightRAG`, its arXiv paper, PyPI package and feature chronology. It documents a substantial RAG implementation, server, multimodal integration, graph/vector storage options, evaluation and observability. fileciteturn531file0
+The README is explicitly for the upstream LightRAG project and references `HKUDS/LightRAG`, its arXiv paper, PyPI package and feature chronology. It documents a substantial RAG implementation, server, multimodal integration, graph/vector storage options, evaluation and observability.
 
 ### Rust Agents
-The README describes a Rust hierarchical multi-agent framework with Orchestrator, SupervisorAgent and ExecutorAgent, OpenAI/Mock LLM implementations, file/system/web tools, and OpenTelemetry/Jaeger observability. fileciteturn535file0
+The README describes a Rust hierarchical multi-agent framework with Orchestrator, SupervisorAgent and ExecutorAgent, OpenAI/Mock LLM implementations, file/system/web tools, and OpenTelemetry/Jaeger observability.
 
 ### Business Operating System
-The README defines an AI-BOS with agent kernel, orchestration, memory, model routing, optimization, traceability, governance, HITL and three mandatory validation gates. fileciteturn534file0
+The README defines an AI-BOS with agent kernel, orchestration, memory, model routing, optimization, traceability, governance, HITL and three mandatory validation gates.
 
 ### Farming simulation
-`Kaggriculture` contains an unusually detailed state/action/economy specification: timed crops, animals, care/feed/water rules, hiring costs based on Fibonacci numbers, land costs, market orders, sheds and dynamic town shops. The current document is a game/simulation specification; implementation provenance still needs separate inspection. fileciteturn528file0
+`Kaggriculture` contains an unusually detailed state/action/economy specification: timed crops, animals, care/feed/water rules, hiring costs based on Fibonacci numbers, land costs, market orders, sheds and dynamic town shops. The current document is a game/simulation specification; implementation provenance still needs separate inspection.
 
 ## Census note
 The direct `user:Loofy147` search is currently a stronger discovery mechanism than the earlier snapshots alone. It surfaces additional repositories such as `LightRAG`, `PraGma`, `self-growing-machine`, `Business-Operating-System`, `methodology-explorer`, `Realizations-engine-`, `autonomous-manifold-v2-analysis`, and others. Therefore earlier numeric totals must remain historical snapshots rather than authoritative totals.

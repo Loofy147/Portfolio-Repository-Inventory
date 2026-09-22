@@ -83,16 +83,16 @@ Newly inspected repositories from the current owner listing. Observations only; 
 - Status: provenance-first review candidate.
 
 ### Learning-agent identity correction
-- Confirmed again: README identifies the repository as a BTC Trading Simulator despite the repository name `Learning-agent`. fileciteturn426file0
+- Confirmed again: README identifies the repository as a BTC Trading Simulator despite the repository name `Learning-agent`.
 
 ### supporting observations
 - `Django`: prior inspection already showed repository/package identity divergence; README and package metadata do not describe the same obvious surface.
-- `Algerian-foundation`: README is short, but root has Docker, Prisma, TypeScript and `src/`, proving a real implementation surface. fileciteturn438file0 fileciteturn439file0
-- `2026-2032`: technology-foresight observatory with explicit evidence/inference/hypothesis/forecast distinctions and a mechanism-level causal chain. fileciteturn440file0
-- `Honestly-`: root README identifies `suffix-smoother` and reports v0.3.0 performance/conformal-prediction features; metrics remain claims until benchmark reproduction. fileciteturn441file0
-- `Ace2`: README identifies a functional A/B-testing framework with multi-tier contextual caching, LLM integration and prompt-injection checks. fileciteturn442file0
-- `Laika`: README identifies an AI Memory System with event-driven memory and ODE-based memory dynamics; theoretical stability statements remain hypotheses/claims until mathematical/source review. fileciteturn443file0
-- `Quantum-market-analyzer-`: a mixed documentation/source snapshot; the mobile documentation is substantial even though the root README is minimal. fileciteturn444file0
+- `Algerian-foundation`: README is short, but root has Docker, Prisma, TypeScript and `src/`, proving a real implementation surface.
+- `2026-2032`: technology-foresight observatory with explicit evidence/inference/hypothesis/forecast distinctions and a mechanism-level causal chain.
+- `Honestly-`: root README identifies `suffix-smoother` and reports v0.3.0 performance/conformal-prediction features; metrics remain claims until benchmark reproduction.
+- `Ace2`: README identifies a functional A/B-testing framework with multi-tier contextual caching, LLM integration and prompt-injection checks.
+- `Laika`: README identifies an AI Memory System with event-driven memory and ODE-based memory dynamics; theoretical stability statements remain hypotheses/claims until mathematical/source review.
+- `Quantum-market-analyzer-`: a mixed documentation/source snapshot; the mobile documentation is substantial even though the root README is minimal.
 
 ## Batch interpretation
 This batch further reinforces that repository-level inventory must preserve:

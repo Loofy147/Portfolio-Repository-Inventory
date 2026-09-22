@@ -1,18 +1,30 @@
 {
   "$schema":"https://json-schema.org/draft/2020-12/schema",
   "$id":"https://github.com/Loofy147/Portfolio-Repository-Inventory/schema/cluster.schema.json",
-  "title":"ClusterCandidate",
+  "title":"ClusterCandidateInventoryV0.1",
   "type":"object",
   "additionalProperties":false,
-  "required":["schema_version","cluster_id","label","status","confidence","repositories","basis","required_next_checks"],
+  "required":["schema_version","assessed_at","status","clusters"],
   "properties":{
     "schema_version":{"type":"string","const":"0.1.0"},
-    "cluster_id":{"type":"string"},
-    "label":{"type":"string"},
-    "status":{"type":"string","enum":["candidate","validated","rejected","split","merged"]},
-    "confidence":{"type":"string","enum":["low","medium_low","medium","medium_high","high","unknown"]},
-    "repositories":{"type":"array","items":{"type":"string","pattern":"^[^/]+/[^/]+$"}},
-    "basis":{"type":"array","items":{"type":"string"}},
-    "required_next_checks":{"type":"array","items":{"type":"string"}}
+    "assessed_at":{"type":"string","pattern":"^\\d{4}-\\d{2}-\\d{2}$"},
+    "status":{"type":"string","const":"candidate_only"},
+    "clusters":{"type":"array","items":{"$ref":"#/$defs/cluster"}}
+  },
+  "$defs":{
+    "cluster":{
+      "type":"object",
+      "additionalProperties":false,
+      "required":["cluster_id","label","status","confidence","repositories","basis","required_next_checks"],
+      "properties":{
+        "cluster_id":{"type":"string"},
+        "label":{"type":"string"},
+        "status":{"type":"string","enum":["candidate","validated","rejected","split","merged"]},
+        "confidence":{"type":"string","enum":["low","medium_low","medium","medium_high","high","unknown"]},
+        "repositories":{"type":"array","uniqueItems":true,"items":{"type":"string","pattern":"^[^/]+/[^/]+$"}},
+        "basis":{"type":"array","items":{"type":"string"}},
+        "required_next_checks":{"type":"array","items":{"type":"string"}}
+      }
+    }
   }
 }

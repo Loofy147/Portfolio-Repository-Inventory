@@ -72,26 +72,26 @@ Coverage rule: each card records only what was directly observed in the reposito
 - Observed: README describes an enterprise-grade delivery ecosystem connecting customers, drivers and stores; documentation is referenced and the project is under active development.
 - Type: delivery platform.
 - Relationship clue: name strongly suggests a later/alternate delivery-platform line; relationship not yet proven.
-- Review level: D2 candidate. fileciteturn225file0
+- Review level: D2 candidate.
 
 ### `Doha-platform`
 - Observed: Arabic README identifies `لمسة ضحى / Lamsa Doha`, an Algeria/Arab-region marketplace focused on women entrepreneurs and creators, with selling/rental/services, shops, orders, analytics, community, AI-assisted product descriptions, and mocked backend functions.
 - Stack stated: Next.js, TypeScript, Tailwind/ShadCN, Framer Motion, Genkit, Zod; backend currently simulated according to README.
 - Type: marketplace / social-commerce concept and implementation.
 - Relationship clue: likely related to `Doha-platform-`; verify via tree/history before classification.
-- Review level: D2. fileciteturn226file0
+- Review level: D2.
 
 ### `Doha-platform-`
 - Observed: README content is materially the same `لمسة ضحى / Lamsa Doha` marketplace description as `Doha-platform`.
 - Type: marketplace variant / probable duplicate or iteration.
 - Relationship clue: `Doha-platform` ↔ `Doha-platform-` is a high-confidence duplicate-candidate requiring history/tree comparison.
-- Review level: D2. fileciteturn227file0
+- Review level: D2.
 
 ### `E-commerce-Alg-rie-`
 - Observed: README identifies a StackBlitz-generated project and links to its StackBlitz editor.
 - Type: generated ecommerce prototype.
 - Purpose beyond ecommerce: unknown from README alone.
-- Review level: D1/D2 boundary. fileciteturn230file0
+- Review level: D1/D2 boundary.
 
 ## Agent / orchestration / AI engineering
 
@@ -99,13 +99,13 @@ Coverage rule: each card records only what was directly observed in the reposito
 - Observed: README defines a Meta Orchestrator AI template with `orchestrator.py`, Slack Bolt integration, prompt templates, examples, configuration, retry/backoff, validation and asynchronous Slack handling.
 - Type: AI orchestrator + Slack integration prototype.
 - Relationship clue: directly overlaps conceptually with `ai-meta-orchestrator`; compare implementation/history.
-- Review level: D2. fileciteturn229file0
+- Review level: D2.
 
 ### `ACE-Agentic-Context-Engineering`
 - Observed: Python implementation/scaffold of Agentic Context Engineering. Generator → Reflector → Curator pipeline; playbook persistence in SQLite; semantic deduplication; CLI; FastAPI API; plugins; async pipeline; self-healing mechanism; Docker/Kubernetes deployment path.
 - Type: agentic context / self-improving systems framework.
 - Relationship clue: likely intersects `The-adaptive-methodology`, `Learning-agent`, `ai-meta-orchestrator` and other agent-learning work; relationship not yet established.
-- Review level: D2/high information density. fileciteturn231file0
+- Review level: D2/high information density.
 
 ### `meta-mega-orchestration-teams-system-core`
 - Observed metadata: described as the core repository for an enterprise-level GitHub orchestration system, containing standards, automation scripts and templates.
@@ -137,17 +137,17 @@ Coverage rule: each card records only what was directly observed in the reposito
 - Observed: README describes a quantum-inspired computational framework for emergent spacetime, RKHS transfer, autonomous governance, universal problem solving and differentiable physics, with JAX/Optax/OTT-JAX dependencies and research documentation.
 - Type: research/computational framework.
 - Note: strong claims and theoretical framing require evidence review before treating them as validated results.
-- Review level: D2/high-claim review. fileciteturn213file0
+- Review level: D2/high-claim review.
 
 ### `self-growing-machine`
 - Observed: Growing Neural Cellular Automaton with growth, self-maintenance, self-healing, robust adaptation and programmable morphogenesis; includes training and verification scripts/notebook.
 - Type: ML research experiment.
-- Review level: D2. fileciteturn192file0
+- Review level: D2.
 
 ### `RE-UP`
 - Observed: lightweight blueprint/scaffold for a relational hierarchy learning research stack; README explicitly says it is ready to expand into PyTorch.
 - Type: research scaffold.
-- Review level: D2 for research-lineage purposes. fileciteturn208file0
+- Review level: D2 for research-lineage purposes.
 
 ### `HCA`
 - Observed metadata: described as `The Theory of Hierarchical Cyclic Arborization (HCA)`.
@@ -167,18 +167,18 @@ Coverage rule: each card records only what was directly observed in the reposito
 - Observed: README says it is synchronized with a v0.app deployment and deployed on Vercel; changes are pushed from v0.
 - Type: generated frontend/deployment artifact rather than an independent research core.
 - Relationship clue: compare with `Grok-supreme` and trading repositories before assigning project lineage.
-- Review level: D1/D2. fileciteturn198file0
+- Review level: D1/D2.
 
 ### `Meta-meta`
 - Observed: event-driven autonomous trading platform with Redis Streams, TimescaleDB, FastAPI, modular strategies, signal aggregation, backtesting, risk validation, portfolio management, performance tracking and LLM analysis.
 - Type: algorithmic trading system.
-- Review level: D2/high information density. fileciteturn189file0
+- Review level: D2/high information density.
 
 ### `Grok-supreme`
 - Observed: simulation-only cryptocurrency trading dashboard with Grok analysis, OMEGA skill orchestration, backtesting, Kaggle training integration and Next.js/Python stack.
 - Type: trading research/simulation application.
 - Note: numerical performance figures in README remain claims until experiments/artifacts are inspected.
-- Review level: D2/high-claim review. fileciteturn206file0
+- Review level: D2/high-claim review.
 
 ## Provenance / upstream-derived repositories
 
@@ -192,7 +192,7 @@ Coverage rule: each card records only what was directly observed in the reposito
 - Observed: README explicitly identifies `HKUDS/LightRAG`, arXiv and PyPI project references.
 - Type: upstream/forked research codebase or imported project.
 - Required action later: establish provenance and local modifications.
-- Review level: D2 provenance. fileciteturn210file0
+- Review level: D2 provenance.
 
 ### `context7`
 - Observed metadata: public MCP server described as providing up-to-date code documentation for LLMs and AI code editors.

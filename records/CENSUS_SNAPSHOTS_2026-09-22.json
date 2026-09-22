@@ -1,0 +1,39 @@
+{
+  "schema_version":"0.1.0",
+  "snapshots":[
+    {
+      "snapshot_id":"search-snapshot-2026-08-30",
+      "observed_on":"2026-08-30",
+      "method":"GitHub repository search pages",
+      "scope":"Loofy147 portfolio search snapshot",
+      "observed_count":313,
+      "completeness":"historical_snapshot",
+      "canonicality":"canonical_historical",
+      "evidence_refs":["README.md","reports/PORTFOLIO_STRATEGY_AND_FUTURE_INTEGRATION_PLAN_v0.1.md"],
+      "notes":"Search pages yielded 100/100/100/13 results after deduplication. This is a historical search snapshot, not proof of current total."
+    },
+    {
+      "snapshot_id":"direct-owner-observation-2026-09-18",
+      "observed_on":"2026-09-18",
+      "method":"direct authenticated owner/installation observation",
+      "scope":"repositories accessible through the connected GitHub surface",
+      "observed_count":331,
+      "completeness":"bounded_partial",
+      "canonicality":"operational_observation",
+      "evidence_refs":["reports/PORTFOLIO_STRATEGY_AND_FUTURE_INTEGRATION_PLAN_v0.1.md"],
+      "notes":"This observation was not promoted to the canonical historical census. It is a freshness signal with a different observation method."
+    },
+    {
+      "snapshot_id":"connector-enumeration-2026-09-22",
+      "observed_on":"2026-09-22",
+      "method":"owner affiliation enumeration through connected connector",
+      "scope":"owner-visible repositories through the current connector",
+      "observed_count":100,
+      "completeness":"bounded_partial",
+      "canonicality":"not_canonical",
+      "pagination":[{"offset":0,"count":100},{"offset":100,"count":0}],
+      "evidence_refs":["README.md"],
+      "notes":"This is a bounded connector observation, not a current portfolio total. Do not subtract it from or equate it with historical search counts."
+    }
+  ]
+}

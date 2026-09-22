@@ -1,0 +1,32 @@
+{
+  "schema_version":"0.1.0",
+  "decisions":[
+    {
+      "decision_id":"current-target-2026-09-21",
+      "decision_type":"current_target",
+      "status":"active",
+      "decided_on":"2026-09-21",
+      "basis":"owner_selected",
+      "subject":"Loofy147/Wedgettok",
+      "evidence_refs":["records/CORE_WORKING_SET_2026-09-21.md","README.md"],
+      "notes":"Active implementation target. This is a working decision, not a claim about technical superiority, lineage, or portfolio-wide value."
+    },
+    {
+      "decision_id":"core-working-set-2026-09-21",
+      "decision_type":"core_working_set",
+      "status":"active",
+      "decided_on":"2026-09-21",
+      "basis":"owner_selected",
+      "subject":[
+        "Loofy147/Llms-mcp-android",
+        "Loofy147/Machine",
+        "Loofy147/unified-knowledge-work-system",
+        "Loofy147/m0-durable-run",
+        "Loofy147/la-rouine-platform",
+        "Loofy147/Wedgettok"
+      ],
+      "evidence_refs":["records/CORE_WORKING_SET_2026-09-21.md"],
+      "notes":"Portfolio coordination decision. Membership does not assert shared project identity, lineage, dependency, or mergeability."
+    }
+  ]
+}

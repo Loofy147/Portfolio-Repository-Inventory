@@ -1,39 +1,138 @@
 {
-  "schema_version":"0.1.0",
-  "snapshots":[
+  "schema_version": "0.1.0",
+  "snapshots": [
     {
-      "snapshot_id":"search-snapshot-2026-08-30",
-      "observed_on":"2026-08-30",
-      "method":"GitHub repository search pages",
-      "scope":"Loofy147 portfolio search snapshot",
-      "observed_count":313,
-      "completeness":"historical_snapshot",
-      "canonicality":"canonical_historical",
-      "evidence_refs":["README.md","reports/PORTFOLIO_STRATEGY_AND_FUTURE_INTEGRATION_PLAN_v0.1.md"],
-      "notes":"Search pages yielded 100/100/100/13 results after deduplication. This is a historical search snapshot, not proof of current total."
+      "snapshot_id": "search-snapshot-2026-08-30",
+      "observed_on": "2026-08-30",
+      "method": "GitHub repository search pages",
+      "scope": "Loofy147 portfolio search snapshot",
+      "observed_count": 313,
+      "completeness": "historical_snapshot",
+      "canonicality": "canonical_historical",
+      "evidence_refs": [
+        "README.md",
+        "reports/PORTFOLIO_STRATEGY_AND_FUTURE_INTEGRATION_PLAN_v0.1.md"
+      ],
+      "notes": "Search pages yielded 100/100/100/13 results after deduplication. This is a historical search snapshot, not proof of current total."
     },
     {
-      "snapshot_id":"direct-owner-observation-2026-09-18",
-      "observed_on":"2026-09-18",
-      "method":"direct authenticated owner/installation observation",
-      "scope":"repositories accessible through the connected GitHub surface",
-      "observed_count":331,
-      "completeness":"bounded_partial",
-      "canonicality":"operational_observation",
-      "evidence_refs":["reports/PORTFOLIO_STRATEGY_AND_FUTURE_INTEGRATION_PLAN_v0.1.md"],
-      "notes":"This observation was not promoted to the canonical historical census. It is a freshness signal with a different observation method."
+      "snapshot_id": "direct-owner-observation-2026-09-18",
+      "observed_on": "2026-09-18",
+      "method": "direct authenticated owner/installation observation",
+      "scope": "repositories accessible through the connected GitHub surface",
+      "observed_count": 331,
+      "completeness": "bounded_partial",
+      "canonicality": "operational_observation",
+      "evidence_refs": [
+        "reports/PORTFOLIO_STRATEGY_AND_FUTURE_INTEGRATION_PLAN_v0.1.md"
+      ],
+      "notes": "This observation was not promoted to the canonical historical census. It is a freshness signal with a different observation method."
     },
     {
-      "snapshot_id":"connector-enumeration-2026-09-22",
-      "observed_on":"2026-09-22",
-      "method":"owner affiliation enumeration through connected connector",
-      "scope":"owner-visible repositories through the current connector",
-      "observed_count":100,
-      "completeness":"bounded_partial",
-      "canonicality":"not_canonical",
-      "pagination":[{"offset":0,"count":100},{"offset":100,"count":0}],
-      "evidence_refs":["README.md"],
-      "notes":"This is a bounded connector observation, not a current portfolio total. Do not subtract it from or equate it with historical search counts."
+      "snapshot_id": "connector-enumeration-2026-09-22",
+      "observed_on": "2026-09-22",
+      "method": "owner affiliation enumeration through connected connector",
+      "scope": "owner-visible repositories through the current connector",
+      "observed_count": 100,
+      "completeness": "bounded_partial",
+      "canonicality": "not_canonical",
+      "pagination": [
+        {
+          "offset": 0,
+          "count": 100
+        },
+        {
+          "offset": 100,
+          "count": 0
+        }
+      ],
+      "evidence_refs": [
+        "README.md"
+      ],
+      "notes": "This is a bounded connector observation, not a current portfolio total. Do not subtract it from or equate it with historical search counts."
+    },
+    {
+      "snapshot_id": "current-search-census-2026-09-22",
+      "observed_on": "2026-09-22",
+      "method": "GitHub repository search query user:Loofy147",
+      "scope": "current connected GitHub search result",
+      "observed_count": 339,
+      "completeness": "complete",
+      "canonicality": "operational_observation",
+      "pagination": [
+        {
+          "offset": 0,
+          "count": 100
+        },
+        {
+          "offset": 100,
+          "count": 100
+        },
+        {
+          "offset": 200,
+          "count": 100
+        },
+        {
+          "offset": 300,
+          "count": 39
+        },
+        {
+          "offset": 400,
+          "count": 0
+        }
+      ],
+      "evidence_refs": [
+        "inventory/current-census-2026-09-22.json"
+      ],
+      "notes": "The paged query returned 339 unique repositories with no duplicates. Completeness means complete for this observed GitHub search query; it is not a claim about repositories outside the connected/search surface."
+    },
+    {
+      "snapshot_id": "current-installed-search-census-2026-09-22",
+      "observed_on": "2026-09-22",
+      "method": "connected GitHub installed-repository search query user:Loofy147",
+      "scope": "current installed-repository search result",
+      "observed_count": 339,
+      "completeness": "complete",
+      "canonicality": "operational_observation",
+      "pagination": [
+        {
+          "offset": 0,
+          "count": 100
+        },
+        {
+          "offset": 100,
+          "count": 100
+        },
+        {
+          "offset": 200,
+          "count": 100
+        },
+        {
+          "offset": 300,
+          "count": 39
+        },
+        {
+          "offset": 400,
+          "count": 0
+        }
+      ],
+      "evidence_refs": [
+        "inventory/current-census-2026-09-22.json"
+      ],
+      "notes": "The installed-repository search returned the same 339 repository identities as the GitHub repository search."
+    },
+    {
+      "snapshot_id": "current-census-reconciliation-2026-09-22",
+      "observed_on": "2026-09-22",
+      "method": "cross-method identity reconciliation",
+      "scope": "Loofy147 current repository identity set",
+      "observed_count": 339,
+      "completeness": "complete",
+      "canonicality": "operational_observation",
+      "evidence_refs": [
+        "inventory/current-census-2026-09-22.json"
+      ],
+      "notes": "Both current enumeration methods matched exactly at 339 unique identities. All 319 identities in the historical inventory are present; 20 additional repositories are newly observed. No historical inventory identity was absent from the current set."
     }
   ]
 }

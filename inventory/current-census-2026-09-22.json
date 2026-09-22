@@ -1,0 +1,3811 @@
+{
+  "schema_version": "0.1.0",
+  "snapshot_id": "current-github-census-2026-09-22",
+  "observed_on": "2026-09-22",
+  "scope": "Loofy147 repositories visible through current connected GitHub search",
+  "search_method": {
+    "query": "user:Loofy147",
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "counts": [
+      {
+        "page": 1,
+        "count": 100
+      },
+      {
+        "page": 2,
+        "count": 100
+      },
+      {
+        "page": 3,
+        "count": 100
+      },
+      {
+        "page": 4,
+        "count": 39
+      },
+      {
+        "page": 5,
+        "count": 0
+      }
+    ],
+    "total": 339
+  },
+  "installed_search_method": {
+    "query": "user:Loofy147",
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "counts": [
+      {
+        "page": 1,
+        "count": 100
+      },
+      {
+        "page": 2,
+        "count": 100
+      },
+      {
+        "page": 3,
+        "count": 100
+      },
+      {
+        "page": 4,
+        "count": 39
+      },
+      {
+        "page": 5,
+        "count": 0
+      }
+    ],
+    "total": 339
+  },
+  "reconciliation": {
+    "exact_set_match": true,
+    "search_only": [],
+    "installed_only": [],
+    "prior_inventory_count": 319,
+    "prior_inventory_overlap": 319,
+    "newly_observed_count": 20
+  },
+  "repositories": [
+    {
+      "repository_full_name": "Loofy147/Scraper",
+      "identity": {
+        "name": "Scraper",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "feat/developer-resources-explorer",
+        "archived": false,
+        "size_kb": 12
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Gptscraper",
+      "identity": {
+        "name": "Gptscraper",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/socials",
+      "identity": {
+        "name": "socials",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 82
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Bravolino",
+      "identity": {
+        "name": "Bravolino",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 31327
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Smart-bot",
+      "identity": {
+        "name": "Smart-bot",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 23
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Drogon",
+      "identity": {
+        "name": "Drogon",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "feature/autorevenue-agent",
+        "archived": false,
+        "size_kb": 5001
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/ClimateNow",
+      "identity": {
+        "name": "ClimateNow",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "feat/initial-project-setup",
+        "archived": false,
+        "size_kb": 176
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/ai-meta-orchestrator",
+      "identity": {
+        "name": "ai-meta-orchestrator",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 132
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/smart-delivery-plat",
+      "identity": {
+        "name": "smart-delivery-plat",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/A-louer",
+      "identity": {
+        "name": "A-louer",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 289
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/gemini-cli",
+      "identity": {
+        "name": "gemini-cli",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 23013
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/termux-alo",
+      "identity": {
+        "name": "termux-alo",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "master",
+        "archived": false,
+        "size_kb": 82
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/hichem-project",
+      "identity": {
+        "name": "hichem-project",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 228
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/CloudCostGuard",
+      "identity": {
+        "name": "CloudCostGuard",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 296
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/studio",
+      "identity": {
+        "name": "studio",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "master",
+        "archived": false,
+        "size_kb": 559
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/training-home",
+      "identity": {
+        "name": "training-home",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 5939
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Slack-bot",
+      "identity": {
+        "name": "Slack-bot",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 176
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Rust",
+      "identity": {
+        "name": "Rust",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 162335
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Doha-platform-",
+      "identity": {
+        "name": "Doha-platform-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 28380
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Ai",
+      "identity": {
+        "name": "Ai",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1302
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Viral",
+      "identity": {
+        "name": "Viral",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 116
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Django",
+      "identity": {
+        "name": "Django",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1349
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Larouine",
+      "identity": {
+        "name": "Larouine",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "master",
+        "archived": false,
+        "size_kb": 143
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/-ducation-",
+      "identity": {
+        "name": "-ducation-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 98
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Laika",
+      "identity": {
+        "name": "Laika",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 218
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/E-commercedz",
+      "identity": {
+        "name": "E-commercedz",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Doha-platform",
+      "identity": {
+        "name": "Doha-platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 28330
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/context7",
+      "identity": {
+        "name": "context7",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "master",
+        "archived": false,
+        "size_kb": 266
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Trendz",
+      "identity": {
+        "name": "Trendz",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 796
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/DernAi",
+      "identity": {
+        "name": "DernAi",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/ACE-Agentic-Context-Engineering",
+      "identity": {
+        "name": "ACE-Agentic-Context-Engineering",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 137
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/E-commerce-Alg-rie-",
+      "identity": {
+        "name": "E-commerce-Alg-rie-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 64
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/delivery-app",
+      "identity": {
+        "name": "delivery-app",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/hichem-app",
+      "identity": {
+        "name": "hichem-app",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Ai-e-commerce-marketplace",
+      "identity": {
+        "name": "Ai-e-commerce-marketplace",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1269
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/openclaw",
+      "identity": {
+        "name": "openclaw",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 183242
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/operator",
+      "identity": {
+        "name": "operator",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 7
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Llms-mcp-android",
+      "identity": {
+        "name": "Llms-mcp-android",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 531
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/All-in-Ai",
+      "identity": {
+        "name": "All-in-Ai",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "phase-0-initial-setup",
+        "archived": false,
+        "size_kb": 497
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Syst-me-d-fensif-",
+      "identity": {
+        "name": "Syst-me-d-fensif-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 786
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Free-Will-framework-",
+      "identity": {
+        "name": "Free-Will-framework-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 3256
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Boofa-skiler",
+      "identity": {
+        "name": "Boofa-skiler",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 5464
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Workflows--ci-cd",
+      "identity": {
+        "name": "Workflows--ci-cd",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 39
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Razor-decision",
+      "identity": {
+        "name": "Razor-decision",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 48
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/woohan",
+      "identity": {
+        "name": "woohan",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 624
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Crypto-spaces-",
+      "identity": {
+        "name": "Crypto-spaces-",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 208
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Global-theorem-",
+      "identity": {
+        "name": "Global-theorem-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 9804
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/adaptive-reasoning-os",
+      "identity": {
+        "name": "adaptive-reasoning-os",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 18
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/proposals",
+      "identity": {
+        "name": "proposals",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 18
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Adapter-ai",
+      "identity": {
+        "name": "Adapter-ai",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 6
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/DevCompanion",
+      "identity": {
+        "name": "DevCompanion",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Workflows-n8n-builder-",
+      "identity": {
+        "name": "Workflows-n8n-builder-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 465
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Ai-is-clever",
+      "identity": {
+        "name": "Ai-is-clever",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 91
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/PraGma",
+      "identity": {
+        "name": "PraGma",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 355
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/negative-space",
+      "identity": {
+        "name": "negative-space",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 250
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Kaggriculture",
+      "identity": {
+        "name": "Kaggriculture",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 2549
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/ledger-system-source-of-truth",
+      "identity": {
+        "name": "ledger-system-source-of-truth",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 41
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Child-AI-System-Final-Level",
+      "identity": {
+        "name": "Child-AI-System-Final-Level",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 396
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/meta-secure-framework",
+      "identity": {
+        "name": "meta-secure-framework",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 113
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/dyad-algerian-builder-",
+      "identity": {
+        "name": "dyad-algerian-builder-",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 23963
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/methodology-explorer",
+      "identity": {
+        "name": "methodology-explorer",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 413
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Smasri",
+      "identity": {
+        "name": "Smasri",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/device-activity-tracker",
+      "identity": {
+        "name": "device-activity-tracker",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "master",
+        "archived": false,
+        "size_kb": 374
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/School-",
+      "identity": {
+        "name": "School-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 578
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/leverscan-app",
+      "identity": {
+        "name": "leverscan-app",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 319
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/new-math",
+      "identity": {
+        "name": "new-math",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 166
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Intellectual-intelligence.-",
+      "identity": {
+        "name": "Intellectual-intelligence.-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 347
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/nextjs-ai-chatbot",
+      "identity": {
+        "name": "nextjs-ai-chatbot",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 690
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Real-estate-algeria",
+      "identity": {
+        "name": "Real-estate-algeria",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/v0-la-rouine-youth-app",
+      "identity": {
+        "name": "v0-la-rouine-youth-app",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 830
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/SIE",
+      "identity": {
+        "name": "SIE",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 15
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/researchers",
+      "identity": {
+        "name": "researchers",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 592
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Dz-blockchain",
+      "identity": {
+        "name": "Dz-blockchain",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 91
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/run-gemini-cli",
+      "identity": {
+        "name": "run-gemini-cli",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 458
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Helix",
+      "identity": {
+        "name": "Helix",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 249
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Multi-layer",
+      "identity": {
+        "name": "Multi-layer",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/hichem",
+      "identity": {
+        "name": "hichem",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Solver",
+      "identity": {
+        "name": "Solver",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 3836
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Agents-box-comunication",
+      "identity": {
+        "name": "Agents-box-comunication",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 9
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Sovereign-OS",
+      "identity": {
+        "name": "Sovereign-OS",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 679
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Masks",
+      "identity": {
+        "name": "Masks",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 39
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/My_browser",
+      "identity": {
+        "name": "My_browser",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 155
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/digital-twin",
+      "identity": {
+        "name": "digital-twin",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 92
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/atlas-lifehacks",
+      "identity": {
+        "name": "atlas-lifehacks",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 731
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/El-marchi",
+      "identity": {
+        "name": "El-marchi",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1098
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/ai-chatbot",
+      "identity": {
+        "name": "ai-chatbot",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 5277
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Api-algeria",
+      "identity": {
+        "name": "Api-algeria",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 371
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/nina-project",
+      "identity": {
+        "name": "nina-project",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 31342
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/v0-portfolio-manager-framework",
+      "identity": {
+        "name": "v0-portfolio-manager-framework",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 191
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/New-formula",
+      "identity": {
+        "name": "New-formula",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 33
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/MARL-Pro",
+      "identity": {
+        "name": "MARL-Pro",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 20
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/topo-neural",
+      "identity": {
+        "name": "topo-neural",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 157
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Regular",
+      "identity": {
+        "name": "Regular",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 160
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/agentic-apis",
+      "identity": {
+        "name": "agentic-apis",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1130
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Singularity",
+      "identity": {
+        "name": "Singularity",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 2046
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Fln",
+      "identity": {
+        "name": "Fln",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 164
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Baddel",
+      "identity": {
+        "name": "Baddel",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 741
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/-Highly-Symmetric-HAG",
+      "identity": {
+        "name": "-Highly-Symmetric-HAG",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1954
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/new-algorithms-",
+      "identity": {
+        "name": "new-algorithms-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 18
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/The-industry-",
+      "identity": {
+        "name": "The-industry-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 372
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Dig-place",
+      "identity": {
+        "name": "Dig-place",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 128
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Contacto-platform",
+      "identity": {
+        "name": "Contacto-platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/competitions",
+      "identity": {
+        "name": "competitions",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 142
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Algorithms-",
+      "identity": {
+        "name": "Algorithms-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1857
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Compute-Qualification-Infrastructure",
+      "identity": {
+        "name": "Compute-Qualification-Infrastructure",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 103
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/external-staging-authority",
+      "identity": {
+        "name": "external-staging-authority",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 18
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/m0-durable-run",
+      "identity": {
+        "name": "m0-durable-run",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 49
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/System-manifi",
+      "identity": {
+        "name": "System-manifi",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 78
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Meta-meta",
+      "identity": {
+        "name": "Meta-meta",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 236
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Symmetric-HAG",
+      "identity": {
+        "name": "Symmetric-HAG",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Ket-apk",
+      "identity": {
+        "name": "Ket-apk",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 13
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/v0-crypto-dashboard",
+      "identity": {
+        "name": "v0-crypto-dashboard",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 122
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Marchants",
+      "identity": {
+        "name": "Marchants",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1620
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Twin-ai",
+      "identity": {
+        "name": "Twin-ai",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 939
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/general-engine",
+      "identity": {
+        "name": "general-engine",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 137
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/NeuroGolf",
+      "identity": {
+        "name": "NeuroGolf",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 47
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Economic-luncher",
+      "identity": {
+        "name": "Economic-luncher",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 104
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/escapement-learning-edition",
+      "identity": {
+        "name": "escapement-learning-edition",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 713
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/screal",
+      "identity": {
+        "name": "screal",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 11786
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/NeuraGrid",
+      "identity": {
+        "name": "NeuraGrid",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 715
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Gemini-app",
+      "identity": {
+        "name": "Gemini-app",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 354
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Exchange",
+      "identity": {
+        "name": "Exchange",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 95
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Vipers-",
+      "identity": {
+        "name": "Vipers-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 353
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/algeria-multi-agent-platform",
+      "identity": {
+        "name": "algeria-multi-agent-platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 34
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Grok-supreme",
+      "identity": {
+        "name": "Grok-supreme",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 501
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Jules-orchestrator-",
+      "identity": {
+        "name": "Jules-orchestrator-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 59
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/RE-UP",
+      "identity": {
+        "name": "RE-UP",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 50
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Orvio",
+      "identity": {
+        "name": "Orvio",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 358
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Wedgettok-Next",
+      "identity": {
+        "name": "Wedgettok-Next",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 329
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Yes-men",
+      "identity": {
+        "name": "Yes-men",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/NextGen_Enterprise",
+      "identity": {
+        "name": "NextGen_Enterprise",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 39
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Realizations-engine-",
+      "identity": {
+        "name": "Realizations-engine-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Global-redteam",
+      "identity": {
+        "name": "Global-redteam",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 468
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/yudao-cloud",
+      "identity": {
+        "name": "yudao-cloud",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "master",
+        "archived": false,
+        "size_kb": 48291
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/The-matching-engine-",
+      "identity": {
+        "name": "The-matching-engine-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 40
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/algeria-multiagent-platform",
+      "identity": {
+        "name": "algeria-multiagent-platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 3
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/One-handed",
+      "identity": {
+        "name": "One-handed",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 200
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Cwc-loofy",
+      "identity": {
+        "name": "Cwc-loofy",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 33
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/2026-2032",
+      "identity": {
+        "name": "2026-2032",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 106
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Honestly-",
+      "identity": {
+        "name": "Honestly-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 347
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/-Fiber-Stratified-Optimization---FSO-",
+      "identity": {
+        "name": "-Fiber-Stratified-Optimization---FSO-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 66
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Ch3al-taswa",
+      "identity": {
+        "name": "Ch3al-taswa",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/The-adaptive-methodology",
+      "identity": {
+        "name": "The-adaptive-methodology",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 127
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/LibraNexus",
+      "identity": {
+        "name": "LibraNexus",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 77
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/New-system-indutry",
+      "identity": {
+        "name": "New-system-indutry",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 10
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Crispo",
+      "identity": {
+        "name": "Crispo",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 433
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Personal-ai-system",
+      "identity": {
+        "name": "Personal-ai-system",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 37
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/specs",
+      "identity": {
+        "name": "specs",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 109
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/METATRON",
+      "identity": {
+        "name": "METATRON",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 2138
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/canonical-capability-core",
+      "identity": {
+        "name": "canonical-capability-core",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "master",
+        "archived": false,
+        "size_kb": 551
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Machine",
+      "identity": {
+        "name": "Machine",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 576
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Wedgettok",
+      "identity": {
+        "name": "Wedgettok",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 822
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Portfolio-Repository-Inventory",
+      "identity": {
+        "name": "Portfolio-Repository-Inventory",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 407
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Zebra",
+      "identity": {
+        "name": "Zebra",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 202
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/super-agents",
+      "identity": {
+        "name": "super-agents",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 309
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Youcef-app",
+      "identity": {
+        "name": "Youcef-app",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 133
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Quantum-leap-",
+      "identity": {
+        "name": "Quantum-leap-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 7628
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Prompt-dashboard-",
+      "identity": {
+        "name": "Prompt-dashboard-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 606
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Work",
+      "identity": {
+        "name": "Work",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 824
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Red-team-defence2-",
+      "identity": {
+        "name": "Red-team-defence2-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 102
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/api-platform-algeria",
+      "identity": {
+        "name": "api-platform-algeria",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "master",
+        "archived": false,
+        "size_kb": 196
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/epistemic",
+      "identity": {
+        "name": "epistemic",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 4642
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/algeria-ai-product-fabric",
+      "identity": {
+        "name": "algeria-ai-product-fabric",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 409
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Free-ai",
+      "identity": {
+        "name": "Free-ai",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 144
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/cognitive-dissonance",
+      "identity": {
+        "name": "cognitive-dissonance",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 2667
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Herarchecal-agent",
+      "identity": {
+        "name": "Herarchecal-agent",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 105
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/q-optimized-small-model",
+      "identity": {
+        "name": "q-optimized-small-model",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 127
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Paperwork-",
+      "identity": {
+        "name": "Paperwork-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 93
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Model-era",
+      "identity": {
+        "name": "Model-era",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 119
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/call-centre",
+      "identity": {
+        "name": "call-centre",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 7091
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/LightRAG",
+      "identity": {
+        "name": "LightRAG",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 83220
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/master",
+      "identity": {
+        "name": "master",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 578
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/STRATOS_OMEGA_ULTIMATE_V4",
+      "identity": {
+        "name": "STRATOS_OMEGA_ULTIMATE_V4",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 122222
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/self-growing-machine",
+      "identity": {
+        "name": "self-growing-machine",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 284
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/autonomous-manifold-v2-analysis",
+      "identity": {
+        "name": "autonomous-manifold-v2-analysis",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 585
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Ai-frombolt1",
+      "identity": {
+        "name": "Ai-frombolt1",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 194
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/D-centralisation-Ai-Ml-blockchain",
+      "identity": {
+        "name": "D-centralisation-Ai-Ml-blockchain",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 78
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/The-algerien-market",
+      "identity": {
+        "name": "The-algerien-market",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 4
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/smart-delivery-platform-2",
+      "identity": {
+        "name": "smart-delivery-platform-2",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 107
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/M-L_-Pos",
+      "identity": {
+        "name": "M-L_-Pos",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 19
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Algerian-Print-on-Demand-Platform",
+      "identity": {
+        "name": "Algerian-Print-on-Demand-Platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 43
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Thoughtgraphics",
+      "identity": {
+        "name": "Thoughtgraphics",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 235
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/MARK-10",
+      "identity": {
+        "name": "MARK-10",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 22
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Tycoon-",
+      "identity": {
+        "name": "Tycoon-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1795
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/meta-framework",
+      "identity": {
+        "name": "meta-framework",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 36
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/TOL",
+      "identity": {
+        "name": "TOL",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 56
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Nexus-Poc",
+      "identity": {
+        "name": "Nexus-Poc",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 163
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/End-to-end-ecosystem-",
+      "identity": {
+        "name": "End-to-end-ecosystem-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 3268
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/AI-Ecommerce-Social-Marketplace2",
+      "identity": {
+        "name": "AI-Ecommerce-Social-Marketplace2",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/HiveMind-RL",
+      "identity": {
+        "name": "HiveMind-RL",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 8
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Sentinel",
+      "identity": {
+        "name": "Sentinel",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/HAG",
+      "identity": {
+        "name": "HAG",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 679
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Do-it-",
+      "identity": {
+        "name": "Do-it-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 579
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/STRATOS",
+      "identity": {
+        "name": "STRATOS",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 419
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/the-rainer-system",
+      "identity": {
+        "name": "the-rainer-system",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "master",
+        "archived": false,
+        "size_kb": 15643
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Testing-blockchain",
+      "identity": {
+        "name": "Testing-blockchain",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 32
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Tonton",
+      "identity": {
+        "name": "Tonton",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 7
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Axe",
+      "identity": {
+        "name": "Axe",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 743
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Schieder-services-",
+      "identity": {
+        "name": "Schieder-services-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 592
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/November-",
+      "identity": {
+        "name": "November-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 60
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/La-rouine-full-system-Ai",
+      "identity": {
+        "name": "La-rouine-full-system-Ai",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 80
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/HAMHA-LMA",
+      "identity": {
+        "name": "HAMHA-LMA",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 550
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/The-edge",
+      "identity": {
+        "name": "The-edge",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 34
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Ace2",
+      "identity": {
+        "name": "Ace2",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 62
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Shop-one",
+      "identity": {
+        "name": "Shop-one",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 57783
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Goat",
+      "identity": {
+        "name": "Goat",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 17530
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Algerian-foundation",
+      "identity": {
+        "name": "Algerian-foundation",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 158
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Quantum-Arabic-",
+      "identity": {
+        "name": "Quantum-Arabic-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 426
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Artificial-Reality",
+      "identity": {
+        "name": "Artificial-Reality",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 184
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/The-derba-system",
+      "identity": {
+        "name": "The-derba-system",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 153
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/dzd-rates",
+      "identity": {
+        "name": "dzd-rates",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 13
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/SpotUp-gg",
+      "identity": {
+        "name": "SpotUp-gg",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1440
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/agentdit",
+      "identity": {
+        "name": "agentdit",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 390
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/algeria-digital-venture-operating-system",
+      "identity": {
+        "name": "algeria-digital-venture-operating-system",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 177
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/unified-knowledge-work-system",
+      "identity": {
+        "name": "unified-knowledge-work-system",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1025
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Fusion-Engine",
+      "identity": {
+        "name": "Fusion-Engine",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 117
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Rationale-agent",
+      "identity": {
+        "name": "Rationale-agent",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 77
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Hbo",
+      "identity": {
+        "name": "Hbo",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 2670
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Moaziz-system-",
+      "identity": {
+        "name": "Moaziz-system-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1225
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Payment-managment",
+      "identity": {
+        "name": "Payment-managment",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 31
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Os",
+      "identity": {
+        "name": "Os",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/LAA",
+      "identity": {
+        "name": "LAA",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 154
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/omar-app",
+      "identity": {
+        "name": "omar-app",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/TNN-ARC-AGI-2026",
+      "identity": {
+        "name": "TNN-ARC-AGI-2026",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 65
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Software-res",
+      "identity": {
+        "name": "Software-res",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 5184
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Quantum-market-analyzer-",
+      "identity": {
+        "name": "Quantum-market-analyzer-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 145
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Trading-app",
+      "identity": {
+        "name": "Trading-app",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1553
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Block-chain-",
+      "identity": {
+        "name": "Block-chain-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 8
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Bots-platfom",
+      "identity": {
+        "name": "Bots-platfom",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 25
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Bedrani--enterprises-",
+      "identity": {
+        "name": "Bedrani--enterprises-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 221
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/APK--builder",
+      "identity": {
+        "name": "APK--builder",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 271
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Discovery-engine-",
+      "identity": {
+        "name": "Discovery-engine-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1000
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Red-team",
+      "identity": {
+        "name": "Red-team",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 132
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Just-asystem",
+      "identity": {
+        "name": "Just-asystem",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 9
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Taskflow",
+      "identity": {
+        "name": "Taskflow",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 14588
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Maintenance-life",
+      "identity": {
+        "name": "Maintenance-life",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1512
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Personal-ai",
+      "identity": {
+        "name": "Personal-ai",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Prime",
+      "identity": {
+        "name": "Prime",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 33
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/troubles",
+      "identity": {
+        "name": "troubles",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 3775
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/recursive-audit",
+      "identity": {
+        "name": "recursive-audit",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 58
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/The-new-era",
+      "identity": {
+        "name": "The-new-era",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 3709
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Ai-hichem",
+      "identity": {
+        "name": "Ai-hichem",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "feature/initial-project-setup",
+        "archived": false,
+        "size_kb": 163
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Learning-agent",
+      "identity": {
+        "name": "Learning-agent",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 5386
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Finding",
+      "identity": {
+        "name": "Finding",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 241
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Genieune",
+      "identity": {
+        "name": "Genieune",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 11100
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/STRATOS_OMEGA_MANIFOLD",
+      "identity": {
+        "name": "STRATOS_OMEGA_MANIFOLD",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Research-framwork",
+      "identity": {
+        "name": "Research-framwork",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 634
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/system-design-academy",
+      "identity": {
+        "name": "system-design-academy",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 347
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Degf",
+      "identity": {
+        "name": "Degf",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 6297
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Healer-",
+      "identity": {
+        "name": "Healer-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1445
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/robust-fusion-platform",
+      "identity": {
+        "name": "robust-fusion-platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "master",
+        "archived": false,
+        "size_kb": 375
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Yassir-agent",
+      "identity": {
+        "name": "Yassir-agent",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 318
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Rainar",
+      "identity": {
+        "name": "Rainar",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 199
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Jack-sparo",
+      "identity": {
+        "name": "Jack-sparo",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 117
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Full-system-repository",
+      "identity": {
+        "name": "Full-system-repository",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 142
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Marlboro",
+      "identity": {
+        "name": "Marlboro",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 22818
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Swarm-AGI",
+      "identity": {
+        "name": "Swarm-AGI",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 3518
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/oncoder",
+      "identity": {
+        "name": "oncoder",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 54
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Bounties",
+      "identity": {
+        "name": "Bounties",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 170
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Smart-delivery-platform",
+      "identity": {
+        "name": "Smart-delivery-platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/the-manager",
+      "identity": {
+        "name": "the-manager",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 460
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/vO_trading_donors",
+      "identity": {
+        "name": "vO_trading_donors",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 4928
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/segment-framwork",
+      "identity": {
+        "name": "segment-framwork",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 5
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Global-structure-",
+      "identity": {
+        "name": "Global-structure-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1273
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/getpath",
+      "identity": {
+        "name": "getpath",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 36
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/v0-spokecosystem",
+      "identity": {
+        "name": "v0-spokecosystem",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 163
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/meta-mega-orchestration-teams-system-core",
+      "identity": {
+        "name": "meta-mega-orchestration-teams-system-core",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 32
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Union",
+      "identity": {
+        "name": "Union",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 4754
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Daemon",
+      "identity": {
+        "name": "Daemon",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 52
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/orbit-agent",
+      "identity": {
+        "name": "orbit-agent",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 2315
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Ai-evaluation-system",
+      "identity": {
+        "name": "Ai-evaluation-system",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 13
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/la-rouine-agent",
+      "identity": {
+        "name": "la-rouine-agent",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 117
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/coin-games-comunity",
+      "identity": {
+        "name": "coin-games-comunity",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 437
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Guardian-Ai",
+      "identity": {
+        "name": "Guardian-Ai",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 991
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Model-methodology",
+      "identity": {
+        "name": "Model-methodology",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 63
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Business-Operating-System",
+      "identity": {
+        "name": "Business-Operating-System",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 199
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/ARC-AGI-NCA-Solver",
+      "identity": {
+        "name": "ARC-AGI-NCA-Solver",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 2
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Symlib",
+      "identity": {
+        "name": "Symlib",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 975
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/TML-Virtual-Machine",
+      "identity": {
+        "name": "TML-Virtual-Machine",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 64
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/TGI-Market-Engine",
+      "identity": {
+        "name": "TGI-Market-Engine",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 542
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/srtrma",
+      "identity": {
+        "name": "srtrma",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 78
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Ai-taxonomy",
+      "identity": {
+        "name": "Ai-taxonomy",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 345
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/spacy-models",
+      "identity": {
+        "name": "spacy-models",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "master",
+        "archived": false,
+        "size_kb": 6808
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Shop-grocery-",
+      "identity": {
+        "name": "Shop-grocery-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 4
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/-O-M-N-I-S-2.0---NODE-",
+      "identity": {
+        "name": "-O-M-N-I-S-2.0---NODE-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 2144
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Skkiler",
+      "identity": {
+        "name": "Skkiler",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 636
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Unified-ai",
+      "identity": {
+        "name": "Unified-ai",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 317
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Algerian-datasets",
+      "identity": {
+        "name": "Algerian-datasets",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 218
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Loofyloo-",
+      "identity": {
+        "name": "Loofyloo-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 36
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/hunter",
+      "identity": {
+        "name": "hunter",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 85
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/spaCy",
+      "identity": {
+        "name": "spaCy",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "master",
+        "archived": false,
+        "size_kb": 204529
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/outonomos-system",
+      "identity": {
+        "name": "outonomos-system",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 561
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Claude-genieune",
+      "identity": {
+        "name": "Claude-genieune",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 81670
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Lsp",
+      "identity": {
+        "name": "Lsp",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 155
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Workflows-academy",
+      "identity": {
+        "name": "Workflows-academy",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 4327
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/bro_agree",
+      "identity": {
+        "name": "bro_agree",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 52
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/LinuxOnAndroid",
+      "identity": {
+        "name": "LinuxOnAndroid",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 8239
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/atoms",
+      "identity": {
+        "name": "atoms",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 34
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/trading-validations-principles",
+      "identity": {
+        "name": "trading-validations-principles",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 88212
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/moaziz-supreme-engine",
+      "identity": {
+        "name": "moaziz-supreme-engine",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "master",
+        "archived": false,
+        "size_kb": 25
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/X",
+      "identity": {
+        "name": "X",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 319
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/-Rainer-",
+      "identity": {
+        "name": "-Rainer-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 407
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Mobil-chain",
+      "identity": {
+        "name": "Mobil-chain",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1514
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Friends",
+      "identity": {
+        "name": "Friends",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 429
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Deal-Stream",
+      "identity": {
+        "name": "Deal-Stream",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 219
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/SPEC-BPE",
+      "identity": {
+        "name": "SPEC-BPE",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 245
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/No-limites",
+      "identity": {
+        "name": "No-limites",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 656
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Contacto",
+      "identity": {
+        "name": "Contacto",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1533
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/CGIT",
+      "identity": {
+        "name": "CGIT",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 74
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Signals-generator-",
+      "identity": {
+        "name": "Signals-generator-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 437
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Universal-intilegence-",
+      "identity": {
+        "name": "Universal-intilegence-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 12523
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/new-AGI",
+      "identity": {
+        "name": "new-AGI",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1674
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Residual-Opportunity-Scanner",
+      "identity": {
+        "name": "Residual-Opportunity-Scanner",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 85
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/log-os",
+      "identity": {
+        "name": "log-os",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 629
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/NeuraSynth",
+      "identity": {
+        "name": "NeuraSynth",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 15712
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/droidrun",
+      "identity": {
+        "name": "droidrun",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 83257
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Gemini-Nexus-",
+      "identity": {
+        "name": "Gemini-Nexus-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 525
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/taskflow-new-generation",
+      "identity": {
+        "name": "taskflow-new-generation",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 14516
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/HCA",
+      "identity": {
+        "name": "HCA",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 4925
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/v0-profile-show",
+      "identity": {
+        "name": "v0-profile-show",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 324
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Leak-detecteur",
+      "identity": {
+        "name": "Leak-detecteur",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 597
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/v0-website-badrani-maamer",
+      "identity": {
+        "name": "v0-website-badrani-maamer",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 231
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Cashier",
+      "identity": {
+        "name": "Cashier",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 0
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/HOLONOMY-Protocol-",
+      "identity": {
+        "name": "HOLONOMY-Protocol-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 6717
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Agora-32Bit",
+      "identity": {
+        "name": "Agora-32Bit",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "master",
+        "archived": false,
+        "size_kb": 100413
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/la-rouine-platform",
+      "identity": {
+        "name": "la-rouine-platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 66
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/spotup-platform",
+      "identity": {
+        "name": "spotup-platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 323
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/agent-hub",
+      "identity": {
+        "name": "agent-hub",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 214
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/-AI-Driven-Crypto-Portfolio-Manager-",
+      "identity": {
+        "name": "-AI-Driven-Crypto-Portfolio-Manager-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 222
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Rust-agents",
+      "identity": {
+        "name": "Rust-agents",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 204
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Agents-next-tokens",
+      "identity": {
+        "name": "Agents-next-tokens",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 109
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/synapse-platform",
+      "identity": {
+        "name": "synapse-platform",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 363
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Founders-",
+      "identity": {
+        "name": "Founders-",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 1373
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/CRMEB",
+      "identity": {
+        "name": "CRMEB",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "master",
+        "archived": false,
+        "size_kb": 302364
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Spike-Function-Framework",
+      "identity": {
+        "name": "Spike-Function-Framework",
+        "owner": "Loofy147",
+        "visibility": "private",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 2495
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/density-intilegence-",
+      "identity": {
+        "name": "density-intilegence-",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 12198
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/Autonomous-jules-.",
+      "identity": {
+        "name": "Autonomous-jules-.",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 112
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/cwc-Loofy-strategie",
+      "identity": {
+        "name": "cwc-Loofy-strategie",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 30
+      }
+    },
+    {
+      "repository_full_name": "Loofy147/moirae",
+      "identity": {
+        "name": "moirae",
+        "owner": "Loofy147",
+        "visibility": "public",
+        "default_branch": "main",
+        "archived": false,
+        "size_kb": 676
+      }
+    }
+  ]
+}

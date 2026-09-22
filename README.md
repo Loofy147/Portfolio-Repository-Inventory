@@ -50,13 +50,19 @@ These are evidence-backed portfolio decisions, not mandatory outcomes for every 
 
 `OBSERVED`, `DERIVED`, `INFERRED`, `USER_REPORTED`, `UNKNOWN`.
 
-## Census state — 2026-08-30
+## Census state
 
-The current repository census stored in `inventory/repositories.json` was generated from GitHub repository search pages 1–4 with `100/100/100/13` results, deduplicated by repository full name, yielding **313 observed repository records** in that snapshot.
+`inventory/repositories.json` remains the **historical 2026-08-30 snapshot**: 313 unique repositories from search pages `100/100/100/13`.
 
-This is a search-based snapshot, not a proof that no additional repositories exist outside the search result set or current connector visibility.
+The current operational census is now recorded separately in `inventory/current-census-2026-09-22.json`. On 2026-09-22:
 
-A later direct GitHub observation on 2026-09-18 exposed a larger accessible set, but that observation has not yet been promoted to the canonical stored census. The two snapshots must remain distinct until a deliberate re-census and reconciliation are performed.
+- GitHub repository search `user:Loofy147` returned `100/100/100/39/0` across pages 1–5 = **339 unique repositories**.
+- Connected installed-repository search returned the same **339 identities**.
+- The two sets matched exactly.
+- All **319** identities currently represented in the portfolio inventory (including the six later Core Working Set additions) are present in the current 339-set.
+- **20 repositories are newly observed** relative to the stored inventory.
+
+This establishes a current connected GitHub census under the observed search surface. It does not assert visibility outside that connected/search surface. Historical and current snapshots remain separate by design.
 
 ## Inspection protocol
 
@@ -120,4 +126,4 @@ See `schema/` for machine-readable contracts.
 
 `python scripts/validate_inventory.py` validates the machine-readable inventory, cross-references, active decision linkage, and durable-provenance marker boundary. The same gate runs in `.github/workflows/inventory-validation.yml` for pull requests and pushes to `main`.
 
-Current census observations are kept as explicit snapshots in `records/CENSUS_SNAPSHOTS_2026-09-22.json`; they must not be collapsed into a single current-total claim.
+Current census observations are kept as explicit snapshots in `records/CENSUS_SNAPSHOTS_2026-09-22.json` plus the full identity overlay `inventory/current-census-2026-09-22.json`.

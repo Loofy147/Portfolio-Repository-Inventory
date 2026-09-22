@@ -78,6 +78,13 @@
       "statement": "docs/ADVERSARIAL_RUNTIME_FAILURE_MATRIX.md exists in both repositories but has different blob SHA values at the observed heads, proving the second-generation line also contains divergent evolution rather than a pure snapshot.",
       "source": "GitHub blob metadata for both repositories",
       "limits": "The file-level difference does not classify whether changes are refactors, additions, or semantic redesign."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "Recursive Git tree comparison at the observed heads contains 135 blob paths in Wedgettok and 143 in Wedgettok-Next; 133 paths are shared, 108 shared paths have identical blob SHA values, 25 shared paths differ, 2 paths exist only in Wedgettok, and 10 only in Wedgettok-Next.",
+      "source": "GitHub recursive tree API for Wedgettok@e0b4a9599fc2aa61995fda579b0a7ea2a7054095 and Wedgettok-Next@ea7872521f05a00118b4c6337ba30213c5463902",
+      "limits": "Tree comparison establishes path/blob identity at the observed heads; it does not establish commit ancestry or semantic equivalence of divergent files."
     }
   ],
   "assumptions": [],
@@ -120,11 +127,11 @@
       "GitHub commit history",
       "ROADMAP.md"
     ],
-    "reproducibility": "Verification surface is explicit in package.json; no current workflow execution was independently surfaced for the observed head.",
+    "reproducibility": "Observed-head recursive Git tree comparison is reproducible from the two commit SHAs; the review record now stores the aggregate counts and representative blob identities.",
     "falsifiers": [
       "A complete manifest/history audit shows the matching files originated from a different common source and the repos are not operationally related.",
       "Broader comparison shows the observed identical files are isolated vendor/generated artifacts rather than project-authored lineage."
     ]
   },
-  "next_test": "Generate a complete path manifest for both observed heads, partition paths into identical/different/add-only/remove-only, then inspect commit-level provenance for representative copied and diverged files before classifying successor vs parallel rewrite vs extraction."
+  "next_test": "Combine the manifest comparison with commit-level provenance for representative identical/diverged paths, then classify the relationship as successor, parallel rewrite, extraction, or coexistence."
 }

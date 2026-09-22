@@ -50,6 +50,7 @@ def main() -> int:
     decisions = load_json("records/DECISION_LEDGER_2026-09-22.json")
     census = load_json("records/CENSUS_SNAPSHOTS_2026-09-22.json")
     current_census = load_json("inventory/current-census-2026-09-22.json")
+    current_triage = load_json("inventory/current-triage-2026-09-22.json")
 
     repository_schema = load_json("schema/repository.schema.json")
     Draft202012Validator.check_schema(repository_schema)
@@ -78,6 +79,7 @@ def main() -> int:
     validate(decisions, "schema/decision.schema.json", "decision ledger")
     validate(census, "schema/census-snapshot.schema.json", "census snapshots")
     validate(current_census, "schema/current-census.schema.json", "current census overlay")
+    validate(current_triage, "schema/current-triage.schema.json", "current structural triage")
 
     repo_records = repositories["repositories"]
     repo_names = [record["repository_full_name"] for record in repo_records]
@@ -125,6 +127,9 @@ def main() -> int:
     target = active_target[0]["subject"]
     current_census_names = {record["repository_full_name"] for record in current_census["repositories"]}
     historical_names = set(repo_names)
+    triage_names = {record["repository_full_name"] for record in current_triage["records"]}
+    new_triage_expected = current_census_names - historical_names
+    assert_true(triage_names == new_triage_expected, "current triage must cover exactly the newly observed repository identities")
     assert_true(historical_names.issubset(current_census_names), "current census must contain every historical inventory identity")
     assert_true(current_census["search_method"]["total"] == len(current_census_names), "current census search total must equal unique repository records")
     assert_true(current_census["installed_search_method"]["total"] == len(current_census_names), "installed search total must equal unique repository records")

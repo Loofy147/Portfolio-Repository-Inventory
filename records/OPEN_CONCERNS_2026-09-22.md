@@ -10,3 +10,5 @@
 | P1 | Historical catalog cards previously contained conversation-only citation markers | CLEANED WITH RESIDUAL REVALIDATION NEED | Revalidate those historical observations from repository/ref/commit evidence when they matter to current decisions |
 | C1 | Wedgettok roadmap baseline text is older than its current HEAD | OPEN | Reconcile documentation baseline with current commit e0b4a9599fc2aa61995fda579b0a7ea2a7054095 |
 | U1 | UWS Projects UI still says persistence is not ready while current backend/persistence tests exist | OPEN | Reconcile product-surface copy with current persistence implementation |
+
+| T1 | The 20 repositories newly observed in the current census lacked structural classification | RESOLVED FOR INITIAL TRIAGE | All 20 now have current ref/commit, provenance, structural signals, route, and epistemic state; deeper review remains route-specific |

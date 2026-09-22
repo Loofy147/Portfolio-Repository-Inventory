@@ -1,0 +1,804 @@
+{
+  "schema_version": "0.1.0",
+  "observed_on": "2026-09-22",
+  "snapshot_id": "new-repositories-census-2026-09-22",
+  "records": [
+    {
+      "repository_full_name": "Loofy147/adaptive-reasoning-os",
+      "ref": "main",
+      "commit": "5ef38bf8bf96ba98f8c39a643c0350ceb3b30616",
+      "provenance": {
+        "fork": false,
+        "parent": null,
+        "source": null,
+        "status": "first_party_candidate"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 18,
+        "root_signals": [
+          "RESEARCH_BASELINE.md",
+          "experiments/",
+          "main research protocol"
+        ],
+        "tests": "present",
+        "ci": "present"
+      },
+      "triage": {
+        "maturity_signal": "research_baseline_signal",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "Directly overlaps the portfolio's evidence/selection/verification research line; controlled experiments are the next useful boundary."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/adaptive-reasoning-os",
+        "Loofy147/adaptive-reasoning-os@5ef38bf8bf96ba98f8c39a643c0350ceb3b30616: root tree",
+        "Loofy147/adaptive-reasoning-os@5ef38bf8bf96ba98f8c39a643c0350ceb3b30616: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/ledger-system-source-of-truth",
+      "ref": "main",
+      "commit": "e63a92171f6c5b3a4958157be979347857f6a809",
+      "provenance": {
+        "fork": false,
+        "parent": null,
+        "source": null,
+        "status": "first_party_candidate"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 41,
+        "root_signals": [
+          "ledger.py",
+          "mcp_adapter/",
+          "hub_adapter/",
+          "docs/schema.md",
+          "protocol tests"
+        ],
+        "tests": "present",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "substantial",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "Concrete reusable contradiction/decision ledger with explicit limitations and adapters."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/ledger-system-source-of-truth",
+        "Loofy147/ledger-system-source-of-truth@e63a92171f6c5b3a4958157be979347857f6a809: root tree",
+        "Loofy147/ledger-system-source-of-truth@e63a92171f6c5b3a4958157be979347857f6a809: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/My_browser",
+      "ref": "main",
+      "commit": "402121c0e6cf9294d8e71feecd5752eade859807",
+      "provenance": {
+        "fork": false,
+        "parent": null,
+        "source": null,
+        "status": "first_party_candidate"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 155,
+        "root_signals": [
+          "package.json",
+          "src/",
+          "tests/",
+          "fixtures/",
+          "THREAT_MODEL.md",
+          "evidence kernel"
+        ],
+        "tests": "present",
+        "ci": "present"
+      },
+      "triage": {
+        "maturity_signal": "substantial",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "Evidence-oriented acquisition kernel with current CI gate and a clearly defined downstream experiment."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/My_browser",
+        "Loofy147/My_browser@402121c0e6cf9294d8e71feecd5752eade859807: root tree",
+        "Loofy147/My_browser@402121c0e6cf9294d8e71feecd5752eade859807: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Compute-Qualification-Infrastructure",
+      "ref": "main",
+      "commit": "38964f3cd0e021b53b112001faaff3e10cb3bc8c",
+      "provenance": {
+        "fork": false,
+        "parent": null,
+        "source": null,
+        "status": "first_party_candidate"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 103,
+        "root_signals": [
+          "decisions/",
+          "research/",
+          "tools/",
+          "explicit KILLED decision"
+        ],
+        "tests": "absent_verified",
+        "ci": "absent_verified"
+      },
+      "triage": {
+        "maturity_signal": "killed_research_artifact",
+        "review_priority": "low",
+        "route": "REFERENCE_ONLY",
+        "notes": "Explicitly killed product opportunity; preserve research evidence and reopen only under stated conditions."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/Compute-Qualification-Infrastructure",
+        "Loofy147/Compute-Qualification-Infrastructure@38964f3cd0e021b53b112001faaff3e10cb3bc8c: root tree",
+        "Loofy147/Compute-Qualification-Infrastructure@38964f3cd0e021b53b112001faaff3e10cb3bc8c: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Economic-luncher",
+      "ref": "main",
+      "commit": "afe257e6b15d875a9819c5405094b55b87211aa6",
+      "provenance": {
+        "fork": false,
+        "parent": null,
+        "source": null,
+        "status": "first_party_candidate"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 104,
+        "root_signals": [
+          "src/",
+          "tests/",
+          "configs/",
+          "research/pricing_snapshots/",
+          "pyproject.toml"
+        ],
+        "tests": "present",
+        "ci": "absent_verified"
+      },
+      "triage": {
+        "maturity_signal": "substantial",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "Reproducible economic-cost topology engine with dated vendor snapshots; relevant to infrastructure economics."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/Economic-luncher",
+        "Loofy147/Economic-luncher@afe257e6b15d875a9819c5405094b55b87211aa6: root tree",
+        "Loofy147/Economic-luncher@afe257e6b15d875a9819c5405094b55b87211aa6: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Wedgettok-Next",
+      "ref": "main",
+      "commit": "ea7872521f05a00118b4c6337ba30213c5463902",
+      "provenance": {
+        "fork": false,
+        "parent": null,
+        "source": null,
+        "status": "first_party_candidate"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 329,
+        "root_signals": [
+          "React/Vite app",
+          "large verify script",
+          "CI",
+          "ROADMAP.md"
+        ],
+        "tests": "present",
+        "ci": "present"
+      },
+      "triage": {
+        "maturity_signal": "substantial",
+        "review_priority": "high",
+        "route": "LINEAGE_REVIEW",
+        "notes": "Likely a parallel/second-generation line adjacent to Wedgettok; requires content/history comparison before treating as separate or successor."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/Wedgettok-Next",
+        "Loofy147/Wedgettok-Next@ea7872521f05a00118b4c6337ba30213c5463902: root tree",
+        "Loofy147/Wedgettok-Next@ea7872521f05a00118b4c6337ba30213c5463902: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/METATRON",
+      "ref": "main",
+      "commit": "9dd2ee3daa33397453c76e9fcba446f117d22cb6",
+      "provenance": {
+        "fork": true,
+        "parent": "sooryathejas/METATRON",
+        "source": "sooryathejas/METATRON",
+        "status": "external_fork"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 2138,
+        "root_signals": [
+          "Python CLI",
+          "local LLM",
+          "recon tools",
+          "MariaDB",
+          "export/reporting"
+        ],
+        "tests": "unknown",
+        "ci": "absent_verified"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "medium",
+        "route": "REFERENCE_ONLY",
+        "notes": "External fork and security-sensitive tooling; do not treat as first-party implementation without provenance/reuse review."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/METATRON",
+        "Loofy147/METATRON@9dd2ee3daa33397453c76e9fcba446f117d22cb6: root tree",
+        "Loofy147/METATRON@9dd2ee3daa33397453c76e9fcba446f117d22cb6: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/algeria-digital-venture-operating-system",
+      "ref": "main",
+      "commit": "beb11e4bf1b6d949cb47ff5e73422271068da020",
+      "provenance": {
+        "fork": false,
+        "parent": null,
+        "source": null,
+        "status": "first_party_candidate"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 177,
+        "root_signals": [
+          "client/",
+          "server/",
+          "shared/",
+          "package.json",
+          "template.json"
+        ],
+        "tests": "unknown",
+        "ci": "absent_verified"
+      },
+      "triage": {
+        "maturity_signal": "substantial",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "Substantive product/platform scaffold with direct Algeria-market context; implementation coverage needs targeted inspection."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/algeria-digital-venture-operating-system",
+        "Loofy147/algeria-digital-venture-operating-system@beb11e4bf1b6d949cb47ff5e73422271068da020: root tree",
+        "Loofy147/algeria-digital-venture-operating-system@beb11e4bf1b6d949cb47ff5e73422271068da020: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/robust-fusion-platform",
+      "ref": "master",
+      "commit": "e300d63f6b58dea8e94760d6b985b3bd88928702",
+      "provenance": {
+        "fork": false,
+        "parent": null,
+        "source": null,
+        "status": "first_party_candidate"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 400,
+        "root_signals": [
+          "client/",
+          "server/",
+          "engine/",
+          "drizzle/",
+          "vitest",
+          "CI",
+          "Python bridge"
+        ],
+        "tests": "present",
+        "ci": "present"
+      },
+      "triage": {
+        "maturity_signal": "substantial",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "Strong implementation surface with a real Python engine bridge, persistence, CI, and bounded validation."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/robust-fusion-platform",
+        "Loofy147/robust-fusion-platform@e300d63f6b58dea8e94760d6b985b3bd88928702: root tree",
+        "Loofy147/robust-fusion-platform@e300d63f6b58dea8e94760d6b985b3bd88928702: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Bounties",
+      "ref": "main",
+      "commit": "8a2663df4bcf214c9642c4351d7f3cae6a097d54",
+      "provenance": {
+        "fork": false,
+        "parent": null,
+        "source": null,
+        "status": "first_party_candidate"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 170,
+        "root_signals": [
+          "targets/",
+          "research/",
+          "archive/",
+          "security evidence lifecycle"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "research_baseline_signal",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "Independent security-research track with explicit human gate and evidence lifecycle; relevant alongside Moirae."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/Bounties",
+        "Loofy147/Bounties@8a2663df4bcf214c9642c4351d7f3cae6a097d54: root tree",
+        "Loofy147/Bounties@8a2663df4bcf214c9642c4351d7f3cae6a097d54: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/la-rouine-agent",
+      "ref": "main",
+      "commit": "72e222ad49bb82f34c22d476d443c4ee863ac7b6",
+      "provenance": {
+        "fork": false,
+        "parent": null,
+        "source": null,
+        "status": "first_party_candidate"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 117,
+        "root_signals": [
+          "eve scaffold",
+          "agent/",
+          "app/",
+          "components/",
+          "initial commit"
+        ],
+        "tests": "unknown",
+        "ci": "absent_verified"
+      },
+      "triage": {
+        "maturity_signal": "minimal",
+        "review_priority": "medium",
+        "route": "LINEAGE_REVIEW",
+        "notes": "Fresh Eve scaffold; likely related to la-rouine family but current repository evidence is too thin to establish the relationship."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/la-rouine-agent",
+        "Loofy147/la-rouine-agent@72e222ad49bb82f34c22d476d443c4ee863ac7b6: root tree",
+        "Loofy147/la-rouine-agent@72e222ad49bb82f34c22d476d443c4ee863ac7b6: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/spacy-models",
+      "ref": "master",
+      "commit": "ca6f473afda3c4943d3919d3e39406c1b3f48b85",
+      "provenance": {
+        "fork": true,
+        "parent": "explosion/spacy-models",
+        "source": "explosion/spacy-models",
+        "status": "external_fork"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 6808,
+        "root_signals": [
+          "model compatibility data",
+          "tests/",
+          "release-oriented data repository",
+          "upstream fork"
+        ],
+        "tests": "present",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "low",
+        "route": "REFERENCE_ONLY",
+        "notes": "External upstream fork. Keep as reference/provenance entity, not as first-party portfolio implementation."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/spacy-models",
+        "Loofy147/spacy-models@ca6f473afda3c4943d3919d3e39406c1b3f48b85: root tree",
+        "Loofy147/spacy-models@ca6f473afda3c4943d3919d3e39406c1b3f48b85: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/spaCy",
+      "ref": "master",
+      "commit": "26b4d1dc04a812f426e4bef3e8a1b6f159d6f048",
+      "provenance": {
+        "fork": true,
+        "parent": "explosion/spaCy",
+        "source": "explosion/spaCy",
+        "status": "external_fork"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 204529,
+        "root_signals": [
+          "industrial NLP library",
+          "pyproject.toml",
+          "large source tree",
+          "multiple upstream CI workflows"
+        ],
+        "tests": "present",
+        "ci": "present"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "low",
+        "route": "REFERENCE_ONLY",
+        "notes": "External upstream fork of explosion/spaCy; useful technical reference, not first-party portfolio work."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/spaCy",
+        "Loofy147/spaCy@26b4d1dc04a812f426e4bef3e8a1b6f159d6f048: root tree",
+        "Loofy147/spaCy@26b4d1dc04a812f426e4bef3e8a1b6f159d6f048: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/LinuxOnAndroid",
+      "ref": "main",
+      "commit": "b82cbdeb4231cf161adc93106f8e474330da8cbc",
+      "provenance": {
+        "fork": true,
+        "parent": "devwithzachary/LinuxOnAndroid",
+        "source": "devwithzachary/LinuxOnAndroid",
+        "status": "external_fork"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 8239,
+        "root_signals": [
+          "Android/Kotlin",
+          "PRoot",
+          "Gradle",
+          "multi-distro runtime",
+          "Play distribution"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "medium",
+        "route": "REFERENCE_ONLY",
+        "notes": "External fork with substantial Android/runtime overlap; valuable reference for the Android agent/runtime line."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/LinuxOnAndroid",
+        "Loofy147/LinuxOnAndroid@b82cbdeb4231cf161adc93106f8e474330da8cbc: root tree",
+        "Loofy147/LinuxOnAndroid@b82cbdeb4231cf161adc93106f8e474330da8cbc: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/trading-validations-principles",
+      "ref": "main",
+      "commit": "83d00ef04144868c4af6179f32b8e204d95b3c3c",
+      "provenance": {
+        "fork": false,
+        "parent": null,
+        "source": null,
+        "status": "first_party_candidate"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 88212,
+        "root_signals": [
+          "contracts/",
+          "data/",
+          "releases/",
+          "reports/",
+          "source/",
+          "tests/",
+          "tools/"
+        ],
+        "tests": "present",
+        "ci": "absent_verified"
+      },
+      "triage": {
+        "maturity_signal": "research_baseline_signal",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "Large provenance-preserving validation artifact with real-data gates and temporal uncertainty handling."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/trading-validations-principles",
+        "Loofy147/trading-validations-principles@83d00ef04144868c4af6179f32b8e204d95b3c3c: root tree",
+        "Loofy147/trading-validations-principles@83d00ef04144868c4af6179f32b8e204d95b3c3c: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/moaziz-supreme-engine",
+      "ref": "master",
+      "commit": "44b4268281437a6b19a502b0812317a4f32a236d",
+      "provenance": {
+        "fork": false,
+        "parent": null,
+        "source": null,
+        "status": "first_party_candidate"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 25,
+        "root_signals": [
+          "SKILL.md",
+          "AUDIT_REPORT.md",
+          "references/",
+          "scripts/",
+          "pyproject.toml"
+        ],
+        "tests": "unknown",
+        "ci": "absent_verified"
+      },
+      "triage": {
+        "maturity_signal": "substantial",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "Directly relevant to evidence-gated reasoning, calibration, bounded self-improvement, and claim/evidence separation."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/moaziz-supreme-engine",
+        "Loofy147/moaziz-supreme-engine@44b4268281437a6b19a502b0812317a4f32a236d: root tree",
+        "Loofy147/moaziz-supreme-engine@44b4268281437a6b19a502b0812317a4f32a236d: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Residual-Opportunity-Scanner",
+      "ref": "main",
+      "commit": "88684cbdde97938930e281d9bc6c9cfc1d854c1a",
+      "provenance": {
+        "fork": false,
+        "parent": null,
+        "source": null,
+        "status": "first_party_candidate"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 85,
+        "root_signals": [
+          "README.md only"
+        ],
+        "tests": "absent_verified",
+        "ci": "absent_verified"
+      },
+      "triage": {
+        "maturity_signal": "minimal",
+        "review_priority": "low",
+        "route": "HOLD",
+        "notes": "No substantive implementation evidence beyond the placeholder README."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/Residual-Opportunity-Scanner",
+        "Loofy147/Residual-Opportunity-Scanner@88684cbdde97938930e281d9bc6c9cfc1d854c1a: root tree",
+        "Loofy147/Residual-Opportunity-Scanner@88684cbdde97938930e281d9bc6c9cfc1d854c1a: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Agora-32Bit",
+      "ref": "master",
+      "commit": "f16485b19a5a74628469eb08d9fcbec4d0b6f822",
+      "provenance": {
+        "fork": true,
+        "parent": "Legend-droid7/Agora-32Bit",
+        "source": "newo-ether/Agora",
+        "status": "external_fork"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 100413,
+        "root_signals": [
+          "Android/Kotlin",
+          "Room/DataStore",
+          "MCP",
+          "automation",
+          "local models",
+          "CI",
+          "upstream fork"
+        ],
+        "tests": "unknown",
+        "ci": "present"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "medium",
+        "route": "REFERENCE_ONLY",
+        "notes": "Substantial upstream fork/reference with strong overlap to Android agent-runtime, MCP, automation, and local-model concerns."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/Agora-32Bit",
+        "Loofy147/Agora-32Bit@f16485b19a5a74628469eb08d9fcbec4d0b6f822: root tree",
+        "Loofy147/Agora-32Bit@f16485b19a5a74628469eb08d9fcbec4d0b6f822: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/spotup-platform",
+      "ref": "main",
+      "commit": "6ae20ad36e66832b2c9267a6c74fb192627774a5",
+      "provenance": {
+        "fork": false,
+        "parent": null,
+        "source": null,
+        "status": "first_party_candidate"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 323,
+        "root_signals": [
+          "client/",
+          "server/",
+          "shared/",
+          "drizzle/",
+          "Vitest",
+          "business/UX roadmap"
+        ],
+        "tests": "present",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "substantial",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "Substantive product platform with database schema and server contracts; many application gates remain unfinished."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/spotup-platform",
+        "Loofy147/spotup-platform@6ae20ad36e66832b2c9267a6c74fb192627774a5: root tree",
+        "Loofy147/spotup-platform@6ae20ad36e66832b2c9267a6c74fb192627774a5: README/manifest surfaces where present"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/moirae",
+      "ref": "main",
+      "commit": "931d8f70828a202502a0d8a66a856324c7520c0a",
+      "provenance": {
+        "fork": true,
+        "parent": "pchrysostomou/moirae",
+        "source": "pchrysostomou/moirae",
+        "status": "external_fork"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 676,
+        "root_signals": [
+          "deterministic distributed-systems simulator",
+          "Raft/Paxos",
+          "test/",
+          "CI",
+          "TypeScript monorepo"
+        ],
+        "tests": "present",
+        "ci": "present"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "high",
+        "route": "REFERENCE_ONLY",
+        "notes": "External fork/reference whose deterministic simulation and invariant workflow is directly relevant to Bounties and UWS verification methods."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-09-22"
+      },
+      "evidence_refs": [
+        "GitHub repository metadata: Loofy147/moirae",
+        "Loofy147/moirae@931d8f70828a202502a0d8a66a856324c7520c0a: root tree",
+        "Loofy147/moirae@931d8f70828a202502a0d8a66a856324c7520c0a: README/manifest surfaces where present"
+      ]
+    }
+  ]
+}

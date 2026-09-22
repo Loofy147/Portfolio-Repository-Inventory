@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "review_date": "2026-09-18",
   "purpose": "Track which portfolio repositories have received evidence inspection and at what depth.",
   "depth_levels": {
@@ -299,7 +299,16 @@
         "current head 1626bac2f5c478294afa4b9463f694608c322117 (main); active research refs inspected"
       ],
       "current_focus": "Machine-native primitives, interpreter/substrate/frontier research",
-      "next": "Keep research refs explicit; continue evidence-gated experiments and reconciliation."
+      "next": "Keep research refs explicit; continue evidence-gated experiments and reconciliation.",
+      "observed_on": "2026-09-21",
+      "ref": "main",
+      "commit": "1626bac2f5c478294afa4b9463f694608c322117",
+      "surfaces_inspected": [
+        "GitHub metadata",
+        "branches",
+        "source/docs/tests at or against main",
+        "research refs"
+      ]
     },
     {
       "repository": "Loofy147/Wedgettok",
@@ -310,7 +319,15 @@
         "current head 0d4ac8958008b305f082b806387184ce548816c0"
       ],
       "current_focus": "Experience runtime/feed surface",
-      "next": "Revalidate runtime/feed authority and distinguish proposals from exercised behavior."
+      "next": "Revalidate runtime/feed authority and distinguish proposals from exercised behavior.",
+      "observed_on": "2026-09-21",
+      "ref": "main",
+      "commit": "0d4ac8958008b305f082b806387184ce548816c0",
+      "surfaces_inspected": [
+        "GitHub metadata",
+        "branches",
+        "source/docs/tests at or against main"
+      ]
     },
     {
       "repository": "Loofy147/unified-knowledge-work-system",
@@ -321,7 +338,15 @@
         "current head 4a39bfbbcc069492a6fbd3f7ddf4ae5e5b6196b9"
       ],
       "current_focus": "Durable knowledge/control plane",
-      "next": "Broaden real-world validation while preserving control-plane invariants."
+      "next": "Broaden real-world validation while preserving control-plane invariants.",
+      "observed_on": "2026-09-21",
+      "ref": "main",
+      "commit": "4a39bfbbcc069492a6fbd3f7ddf4ae5e5b6196b9",
+      "surfaces_inspected": [
+        "GitHub metadata",
+        "branches",
+        "source/docs/tests at or against main"
+      ]
     },
     {
       "repository": "Loofy147/m0-durable-run",
@@ -332,7 +357,15 @@
         "current head 9436841c77d5a1cb9d23051a3db69eb93ec6240d"
       ],
       "current_focus": "Minimal durable execution primitive",
-      "next": "Test boundary against real provider variation before extracting abstractions."
+      "next": "Test boundary against real provider variation before extracting abstractions.",
+      "observed_on": "2026-09-21",
+      "ref": "main",
+      "commit": "9436841c77d5a1cb9d23051a3db69eb93ec6240d",
+      "surfaces_inspected": [
+        "GitHub metadata",
+        "branches",
+        "source/docs/tests at or against main"
+      ]
     },
     {
       "repository": "Loofy147/la-rouine-platform",
@@ -343,7 +376,15 @@
         "current head 3f2a7f4d2cb16db7488afdb16f1610c27ae3d1ca"
       ],
       "current_focus": "Declarative Experience runtime",
-      "next": "Advance only open feed/moderation/creation/offline-online gates that evidence requires."
+      "next": "Advance only open feed/moderation/creation/offline-online gates that evidence requires.",
+      "observed_on": "2026-09-21",
+      "ref": "main",
+      "commit": "3f2a7f4d2cb16db7488afdb16f1610c27ae3d1ca",
+      "surfaces_inspected": [
+        "GitHub metadata",
+        "branches",
+        "source/docs/tests at or against main"
+      ]
     },
     {
       "repository": "Loofy147/Llms-mcp-android",
@@ -354,7 +395,16 @@
         "current head 7a7e1c67d1dce15457b62cf173d159a7be15f9ce"
       ],
       "current_focus": "Android agent runtime/control plane",
-      "next": "B4/B5 caller recovery, B6 concurrency, B7 stale ordering, verification/egress/MCP gates."
+      "next": "B4/B5 caller recovery, B6 concurrency, B7 stale ordering, verification/egress/MCP gates.",
+      "observed_on": "2026-09-21",
+      "ref": "main",
+      "commit": "7a7e1c67d1dce15457b62cf173d159a7be15f9ce",
+      "surfaces_inspected": [
+        "GitHub metadata",
+        "branches",
+        "source/docs/tests at or against main"
+      ]
     }
-  ]
+  ],
+  "last_updated": "2026-09-22"
 }

@@ -1,0 +1,109 @@
+{
+  "schema_version": "0.2.0",
+  "repository": {
+    "full_name": "Loofy147/trading-validations-principles",
+    "url": "https://github.com/Loofy147/trading-validations-principles",
+    "default_branch": "main",
+    "visibility": "public",
+    "archived": false
+  },
+  "observation": {
+    "observed_at": "2026-09-22",
+    "ref": "main",
+    "commit": "83d00ef04144868c4af6179f32b8e204d95b3c3c",
+    "branches_inspected": [
+      "main"
+    ],
+    "surfaces_inspected": [
+      "README.md",
+      "reports/CURRENT_STATE.md",
+      "reports/M1_1_REAL_DATA_GATE.md",
+      "versioned source trees",
+      "data/raw and data/audits references",
+      "deterministic audit utilities"
+    ],
+    "depth": "D3"
+  },
+  "state": {
+    "project_status": "CURRENT",
+    "interpretation": "Evidence-heavy validation archive with preserved release provenance and an explicit temporal-normalization/replay gate. The current research frontier is still unresolved on replay comparison and OI alignment; execution remains blocked by contract."
+  },
+  "evidence": [
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "Versioned release archives are preserved unchanged and extracted source trees are browsable, with raw market data and audit outputs kept as separate provenance surfaces.",
+      "source": "README.md",
+      "limits": "Preservation structure does not independently prove the source archive's origin."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "EXPERIMENTALLY_SUPPORTED",
+      "statement": "The M1.1 temporal normalization audit passes for the 24-bar artifact, while OI timestamp alignment remains UNKNOWN and the execution permission is explicitly BLOCKED.",
+      "source": "reports/CURRENT_STATE.md and reports/M1_1_REAL_DATA_GATE.md",
+      "limits": "Replay comparison rerun is still required; normalized replay execution is explicitly user-reported local execution."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "CONTRADICTED",
+      "statement": "The first temporal replay comparison was a false negative caused by trace-derived digest fields being included in the value-derived invariance projection; the comparator was patched and a rerun is required.",
+      "source": "reports/CURRENT_STATE.md and reports/M1_1_REAL_DATA_GATE.md",
+      "limits": "The corrected comparator result is not yet established."
+    },
+    {
+      "class": "OBSERVED",
+      "claim_status": "ESTABLISHED",
+      "statement": "The current methodology explicitly avoids threshold calibration, external-label claims, and execution permission from the pilot, and keeps the OI-dependent H_SC/H_NP path gated until temporal alignment is contracted.",
+      "source": "README.md and reports/M1_1_REAL_DATA_GATE.md",
+      "limits": "This is the repository's methodological boundary, not an independent safety certification."
+    },
+    {
+      "class": "INFERRED",
+      "claim_status": "HYPOTHESIS",
+      "statement": "The reusable UWS primitive is the temporal/provenance normalization gate: separate value-derived invariants from trace-derived identity so representation changes do not create false contradictions.",
+      "source": "Synthesis of inspected gate design",
+      "limits": "Needs a UWS evidence replay example."
+    }
+  ],
+  "suggestions": [
+    "Reuse the distinction between decision/value projection and trace/provenance digests in UWS replay verification.",
+    "Do not promote normalized replay results until the corrected comparator is rerun and persisted."
+  ],
+  "decisions": [],
+  "unknowns": [
+    "Corrected comparator rerun result.",
+    "Independent reproduction of the normalized replay artifact.",
+    "Whether the same projection discipline prevents false contradictions in heterogeneous UWS evidence."
+  ],
+  "contradictions": [
+    "Initial replay comparison result was invalidated by an overly broad equality projection."
+  ],
+  "relationships": [
+    {
+      "target": "Loofy147/unified-knowledge-work-system",
+      "relation": "RELEVANT_REUSABLE_PRIMITIVE",
+      "status": "DERIVED",
+      "evidence_refs": [
+        "trading-validations-principles: temporal replay gate"
+      ],
+      "notes": "Relevant to UWS replay, contradiction lifecycle, and provenance-sensitive equality; not a trading-model recommendation."
+    }
+  ],
+  "verification": {
+    "tests_inspected": [
+      "reports/CURRENT_STATE.md",
+      "reports/M1_1_REAL_DATA_GATE.md"
+    ],
+    "tests_executed": [],
+    "artifacts": [
+      "normalized 24-bar artifact references",
+      "comparator patch e686326a9bae69ae456f4c594bb859e1a1f90057"
+    ],
+    "reproducibility": "Artifacts and deterministic utilities are preserved; current corrected comparison remains an explicit open gate.",
+    "falsifiers": [
+      "Corrected rerun shows value-derived invariants differ after normalization.",
+      "Independent replay cannot reconstruct the same normalized artifact/output."
+    ]
+  },
+  "next_test": "Rerun and persist the corrected temporal comparison, then adapt the same value-vs-provenance projection pattern to one UWS evidence replay."
+}

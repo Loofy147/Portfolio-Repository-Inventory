@@ -230,3 +230,81 @@ The contracting company/entity is the direct payer under the command/contract, s
 Entry risks:
 qualification/prequalification, guarantees, documentation, delivery liability and time-to-cash remain to be tested case by case.
 
+
+
+
+## Critical segmentation correction — 2026-09-23
+
+The following evidence domains must never be conflated:
+
+### Algeria economy / economic system
+Geographic macro context. Includes domestic demand, public activity, private activity, foreign-owned firms operating locally, exports/imports and institutional procurement.
+
+### Domestic / internal market
+Demand and transactions whose relevant buyer/customer is domestic. It includes:
+- households/consumers;
+- micro and very-small firms;
+- SMEs;
+- large private/public enterprises;
+- public-sector buyers;
+- intermediaries and providers buying from other providers.
+
+### Large-enterprise / institutional market
+A buyer segment with distinct procurement, qualification, contracting, approval and payment behavior. Djezzy, Sonelgaz, and similar sources provide evidence about this segment only.
+
+### Reachable entry market
+The subset of the domestic market that the founder can actually reach and serve given:
+- geography/channel;
+- legal setup;
+- trust;
+- procurement requirements;
+- ticket size;
+- working capital;
+- delivery capability;
+- liability;
+- payment cycle.
+
+## Evidence rule
+
+Never use a large-enterprise procurement example as direct evidence that:
+- SMEs buy the same service;
+- TPEs buy the same service;
+- households have the same problem;
+- the domestic market has the same sales cycle;
+- a low-capital entrant can access that buyer.
+
+Conversely, absence of formal large-enterprise procurement does not imply absence of private/internal-market demand.
+
+## Structural market signal
+
+Ministry of Industry SME statistics reported that at end-2022 the PME population was 1,359,803 entities, approximately 99.9% private, with micro-enterprises representing about 98% of the total. The published distribution shows a very large mass of small economic entities, but these figures are historical (2022) and must not be presented as a current 2026 count. They support market-structure reasoning, not current demand or willingness-to-pay.
+
+Source:
+Ministry of Industry SME bulletin, 2022.
+
+## Research segmentation going forward
+
+Every opportunity observation must be tagged:
+
+1. B2C / household;
+2. TPE / micro private;
+3. small private;
+4. medium private;
+5. large private;
+6. public/para-public;
+7. provider-to-provider;
+8. mixed / unknown.
+
+For each segment, measure separately:
+- problem frequency;
+- current workaround;
+- buying authority;
+- ticket size;
+- sales cycle;
+- payment timing;
+- trust barrier;
+- procurement friction;
+- competition;
+- repeatability.
+
+No cross-segment transfer of payer or demand evidence without explicit supporting evidence.

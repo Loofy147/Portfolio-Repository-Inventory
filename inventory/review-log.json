@@ -300,14 +300,17 @@
       ],
       "current_focus": "Machine-native primitives, interpreter/substrate/frontier research",
       "next": "Keep research refs explicit; continue evidence-gated experiments and reconciliation.",
-      "observed_on": "2026-09-21",
-      "ref": "main",
+      "observed_on": "2026-09-22",
+      "ref": "main + research/machine-native-primitives-v0",
       "commit": "1626bac2f5c478294afa4b9463f694608c322117",
       "surfaces_inspected": [
         "GitHub metadata",
         "branches",
         "source/docs/tests at or against main",
-        "research refs"
+        "research refs",
+        "current-head revalidation",
+        "current CI/workflow evidence where present",
+        "research branch tip revalidation"
       ]
     },
     {
@@ -320,13 +323,15 @@
       ],
       "current_focus": "Experience runtime/feed surface",
       "next": "Revalidate runtime/feed authority and distinguish proposals from exercised behavior.",
-      "observed_on": "2026-09-21",
+      "observed_on": "2026-09-22",
       "ref": "main",
-      "commit": "0d4ac8958008b305f082b806387184ce548816c0",
+      "commit": "e0b4a9599fc2aa61995fda579b0a7ea2a7054095",
       "surfaces_inspected": [
         "GitHub metadata",
         "branches",
-        "source/docs/tests at or against main"
+        "source/docs/tests at or against main",
+        "current-head revalidation",
+        "current CI/workflow evidence where present"
       ]
     },
     {
@@ -339,13 +344,15 @@
       ],
       "current_focus": "Durable knowledge/control plane",
       "next": "Broaden real-world validation while preserving control-plane invariants.",
-      "observed_on": "2026-09-21",
+      "observed_on": "2026-09-22",
       "ref": "main",
-      "commit": "4a39bfbbcc069492a6fbd3f7ddf4ae5e5b6196b9",
+      "commit": "a6cbb2d3f155cfa897716857318374d842f3ae25",
       "surfaces_inspected": [
         "GitHub metadata",
         "branches",
-        "source/docs/tests at or against main"
+        "source/docs/tests at or against main",
+        "current-head revalidation",
+        "current CI/workflow evidence where present"
       ]
     },
     {
@@ -358,13 +365,15 @@
       ],
       "current_focus": "Minimal durable execution primitive",
       "next": "Test boundary against real provider variation before extracting abstractions.",
-      "observed_on": "2026-09-21",
+      "observed_on": "2026-09-22",
       "ref": "main",
       "commit": "9436841c77d5a1cb9d23051a3db69eb93ec6240d",
       "surfaces_inspected": [
         "GitHub metadata",
         "branches",
-        "source/docs/tests at or against main"
+        "source/docs/tests at or against main",
+        "current-head revalidation",
+        "current CI/workflow evidence where present"
       ]
     },
     {
@@ -377,13 +386,15 @@
       ],
       "current_focus": "Declarative Experience runtime",
       "next": "Advance only open feed/moderation/creation/offline-online gates that evidence requires.",
-      "observed_on": "2026-09-21",
+      "observed_on": "2026-09-22",
       "ref": "main",
       "commit": "3f2a7f4d2cb16db7488afdb16f1610c27ae3d1ca",
       "surfaces_inspected": [
         "GitHub metadata",
         "branches",
-        "source/docs/tests at or against main"
+        "source/docs/tests at or against main",
+        "current-head revalidation",
+        "current CI/workflow evidence where present"
       ]
     },
     {
@@ -396,13 +407,15 @@
       ],
       "current_focus": "Android agent runtime/control plane",
       "next": "B4/B5 caller recovery, B6 concurrency, B7 stale ordering, verification/egress/MCP gates.",
-      "observed_on": "2026-09-21",
+      "observed_on": "2026-09-22",
       "ref": "main",
       "commit": "7a7e1c67d1dce15457b62cf173d159a7be15f9ce",
       "surfaces_inspected": [
         "GitHub metadata",
         "branches",
-        "source/docs/tests at or against main"
+        "source/docs/tests at or against main",
+        "current-head revalidation",
+        "current CI/workflow evidence where present"
       ]
     }
   ],

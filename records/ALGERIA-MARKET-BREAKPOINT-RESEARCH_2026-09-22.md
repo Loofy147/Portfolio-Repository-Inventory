@@ -2,7 +2,6 @@
 # Algeria Market Breakpoint Research — 2026-09-22
 
 Status: OPEN / active research frontier
-
 Purpose: preserve screened market evidence, kills, unresolved chains, and the research procedure so later opportunity work does not re-screen already-disposed claims.
 
 ## Operating procedure
@@ -19,24 +18,30 @@ For every candidate transaction:
 9. Measure delivery effort, liability, and payment cycle.
 10. Run a paid transaction test before building a dedicated product.
 
+Future searches must execute Discovery and Pre-kill simultaneously.
+
 Status vocabulary: ESTABLISHED, EXPERIMENTALLY_SUPPORTED, LOCAL_MARKET_SIGNAL, INFERENCE, HYPOTHESIS, UNKNOWN, OPEN, KILLED.
 
 ## Screened dispositions
 
 ### KILLED as entry products
-- Generic procurement outsourcing: routine procurement, stock and import coordination are visibly performed by internal roles in Algerian firms.
+- Generic procurement outsourcing: routine procurement/stock/import coordination is visibly staffed internally by Algerian firms.
 - Generic invoicing/collection outsourcing: internal billing/collection roles and existing software/services make routine externalization weak.
 - Generic maintenance/HSE/technical assistance: active established service market.
 - Generic spare-parts sourcing: real demand, but direct competition plus working-capital and tender friction.
 - Generic export paperwork / origin handling: official institutional/digital channels already exist.
 - Generic tender preparation: established service market; only post-award execution/acceptance gaps remain interesting.
 - Generic software/dashboard/automation: visible low-price commodity offers.
+- Generic energy audit: regulated/approved-auditor surface and existing professional market.
+- Generic environmental/waste-management operator: licensed/approved operators already cover collection, transport, treatment and traceability.
 
 ### REGULATED / DEFERRED
 - Pressure-equipment legal inspection/NDT certification.
 - Legal metrology verification with regulatory effect.
 - Insurance-recognized certification such as Q19/D19 unless a specific insurer/contract acceptance path is demonstrated.
 - Official certificates and expert determinations where the issuer/expert role is legally constrained.
+- Official laboratory testing/analysis requiring ministry approval and/or ALGERAC accreditation.
+- Statutory energy audits by approved auditors.
 
 ## Strongest surviving pattern
 
@@ -44,7 +49,6 @@ Cross-boundary exception:
 A real transaction is underway, but a failure point sits between two functions, parties, systems, or authorities; no single routine role owns the full consistency.
 
 Working structure:
-
 Trigger + Boundary + Exception + Economic consequence + Bounded artifact + Paying owner.
 
 Core hypothesis:
@@ -53,7 +57,6 @@ There are Algerian cases where value already exists but is not realized because 
 Status: HYPOTHESIS / OPEN.
 
 ## Chain 1 — Import → Production
-
 ESTABLISHED:
 - Imported products are subject to conformity control before customs clearance.
 - Import dossier includes declaration, commercial register copy, invoice, and other conformity documents required by regulation.
@@ -68,205 +71,243 @@ Pre-kill:
 Do not sell generic customs brokerage, freight forwarding, or routine file submission.
 
 Missing:
-- real customer payment for a technical preflight;
-- product classes where errors are costly enough;
-- measurable improvement in admission/delay outcomes;
-- precise boundary between technical review and regulated representation.
+- real customer payment;
+- high-pain product classes;
+- measurable effect on admission/delay;
+- exact boundary with regulated representation.
 
 Status: OPEN.
 
 ## Chain 2 — Public/contracted work → Execution → Acceptance → Payment
-
 ESTABLISHED:
-- Law 23-12 of 5 Aug 2023 governs general public-procurement rules.
-- Article 86 provides for provisional and/or final reception at completion.
-- Current 2026 tender notices visibly require technical/financial evaluation and proof such as good-execution certificates and reception PVs.
-- In a 2026 Algeria Telecom tender for FTTX maintenance/development, previous execution was evidenced by good-execution certificates, provisional/final reception PVs, or service-done certificates; similar evidence appears in current tenders for equipment, commissioning and infrastructure.
+- Law 23-12 governs general public procurement rules.
+- Article 86 provides for provisional/final reception at completion.
+- Current 2026 tender notices repeatedly require execution proof, reception PVs, service-done certificates and technical/financial evidence.
 
 Potential transaction:
-Post-award execution/acceptance readiness: reconcile tender promise, contract scope, actual execution, evidence, and acceptance requirements.
+Post-award execution/acceptance readiness: reconcile award/tender promise, contract scope, actual execution, evidence, acceptance requirements and the next payment artifact.
 
 Pre-kill:
 Do not sell generic tender writing, accounting, or routine quantity surveying.
 
 Missing:
 - frequency/value of actual acceptance disputes;
-- willingness to pay before payment blockage;
-- whether scope can be bounded without becoming legal advice or full project management;
-- whether small private contractors face the same evidence bottleneck as public suppliers.
+- willingness to pay before blockage;
+- bounded non-legal scope;
+- relevance to SMEs/private contracts.
 
 Status: OPEN.
 
-Important observed boundary:
-Public procurement can require professional classification, financial capacity, references and formal proof of prior execution. A new entrant may therefore be unable to participate directly in many tenders; the lower-capital path is more likely to be subcontracted evidence/engineering support than prime contracting.
-
 ## Chain 3 — Incident → Insurance claim
-
 ESTABLISHED:
 - Algerian insurance rules provide for indemnification based on agreement or expertise in relevant lines.
-- Certain catastrophe-risk claims explicitly depend on expert determination.
-- Experts working with national insurance companies can be subject to ministerial accreditation requirements under the cited framework.
+- Certain claim classes depend on expert determination.
 
 Potential transaction:
-Technical claim-evidence pack: asset identity, damage evidence, chronology, repair estimate, supporting records.
+Technical claim-evidence pack without acting as insurer/expert.
 
 Pre-kill:
-Do not become insurer or accredited expert.
+Do not become insurer/accredited expert. Generic industrial claim expertise is already offered locally.
 
 Missing:
-- current insurer-specific documentary requirements for ordinary industrial claims;
-- whether insureds pay for independent technical evidence preparation;
-- whether the service improves claim handling without crossing expert/legal boundaries.
+- insurer-specific document requirements;
+- paid demand for evidence preparation;
+- measurable reduction in claim friction.
 
 Status: OPEN / high legal-boundary sensitivity.
 
-Early pre-kill signal:
-A current 2026 Algerian advertisement already offers industrial-risk expertise including damage cause identification, failure diagnosis, damage valuation, equipment revaluation and expertise dossiers. Therefore generic industrial-claim expertise is not an entry wedge.
-
 ## Chain 4 — Export order → Compliance → Border → Payment
-
 ESTABLISHED:
-- For relevant exports, CACQE conformity certification uses a request containing product, lot, quantity, destination and destination-country requirements, plus the manufacturer's technical sheet.
-- Origin certificates may be required and different certificate types have different competent issuers.
-- Export proceeds are subject to repatriation requirements; Ministry guidance states the cited framework allows a payment term up to 360 days, with repatriation on payment.
-- Official export support/platforms already exist, including institutional logistics facilitation.
+- Relevant exports may require CACQE conformity certification based on product, lot, quantity, destination and destination-country requirements plus technical documentation.
+- Origin certificates have defined issuers and document paths.
+- Export proceeds have repatriation requirements.
 
 Potential transaction:
-Export technical readiness: destination requirements, product technical file, lot evidence, commercial/origin/conformity evidence, and pre-submission gap detection.
+Export technical readiness / destination requirement consistency.
 
 Pre-kill:
 Do not sell official certification or generic freight/document handling.
 
 Missing:
-- repeated exporter technical-file bottlenecks;
-- whether destination requirements are the actual bottleneck;
-- willingness to pay before shipment;
-- whether SMEs without an export department experience cross-functional gaps.
+- repeated technical-file bottlenecks;
+- destination requirement as actual bottleneck;
+- willingness to pay before shipment.
 
 Status: OPEN.
 
 ## Chain 5 — Asset → Operation → Hidden loss
-
 LOCAL MARKET SIGNAL / ESTABLISHED DATA SOURCE:
-ONS Q1 2025 industrial survey reports widespread equipment breakdowns linked to obsolescence and maintenance problems among respondents; many respondents reported that equipment renewal could increase output without additional hiring.
+ONS Q1 2025 industrial survey reports widespread equipment breakdowns linked to obsolescence and maintenance problems among respondents; many respondents reported potential production gains from equipment renewal without additional hiring.
 
 Potential transaction:
-Detect hidden losses from existing records/logs/photos/spreadsheets: micro-stoppage, scrap, overfill, excess maintenance, spare dependence, energy inefficiency, inconsistent production.
+Detect hidden losses cheaply from existing records/logs/photos/spreadsheets: micro-stoppage, scrap, overfill, excess maintenance, supplier dependence, energy inefficiency.
 
 Pre-kill:
-Do not sell generic BI dashboards or maintenance consulting; do not require large IoT deployment before proof.
+Do not sell generic BI dashboards or predictive-maintenance consulting; do not require large IoT deployment before proof.
 
 Missing:
-- which losses can be detected cheaply;
-- who owns the budget;
-- whether quantified findings lead to paid remediation;
-- availability of baseline data in SMEs.
+- detectable loss classes;
+- budget owner;
+- conversion from finding to paid remediation;
+- data availability.
 
 Status: OPEN / high uncertainty.
 
-## Additional cross-cutting finding — routine functions are often internal
+## Chain 6 — Pharma regulatory data / serialization
+ESTABLISHED:
+- MIPH publishes current pharmaceutical establishment lists, regulatory guides, stock reporting templates and import/export procedures.
+- Since 2026 there is a dedicated national serialization framework for imported medicines using GS1 DataMatrix.
+- The official April 2026 guide states 2027 is a preparatory phase and mandatory application for affected imported pharmaceutical products begins with the 2028 exercise; imported products already carrying DataMatrix will be accepted during 2027 preparation.
+- Importers remain responsible for regulatory/quality controls and must retain lot-level certificates and technical information; electronic provision of DataMatrix serial data is part of the framework.
 
-Recent local hiring signals show companies explicitly staffing procurement, stock, import, billing, collection and related operational roles. Examples include:
-- a 2026 Blida-area industrial hiring post for a purchasing/import function;
-- a 2026 Smartel post for purchasing, supply and stock management;
-- a 2026 logistics billing/collection role;
-- broader project/maintenance roles covering scope definition, engineering, procurement, commissioning, maintenance planning and supplier qualification.
+Pre-kill:
+- Generic pharmaceutical regulatory consulting already exists locally.
+- Hardware/serialization solutions already exist in Algeria (for example IRAMIS and Codage Solution Industrie).
+- MIPH itself states affected establishments receive technical/regulatory support during preparation.
+- Generic stock/declaration workflows are already exposed through MIPH digital platforms.
+
+Potential surviving transaction:
+Not "install DataMatrix"; instead investigate cross-boundary readiness between foreign manufacturer, Algerian importer, packaging/serialization data, product registration and MIPH submissions.
+
+Status: OPEN but not an entry decision.
+
+Important correction:
+Earlier draft material suggested a 2027 obligation. Current official MIPH guide evidence supports 2027 as preparatory and 2028 as mandatory for the affected imported products. Do not use the earlier 2027-as-mandatory claim.
+
+## Chain 7 — Industrial energy → measured saving → investment
+ESTABLISHED:
+- Algerian law established periodic mandatory energy audits for large consumers.
+- APRUE currently states thresholds of 2000 tep/year industrial, 1000 transport, 500 tertiary, with three-year industrial/transport and five-year tertiary periodicity.
+- APRUE maintains a list of approved auditors and is actively training/qualifying energy professionals in 2026.
+
+Pre-kill:
+- Do not sell statutory energy audits without approval.
+- Generic energy audit consulting already exists.
+- A customer can appoint an internal energy manager.
+
+Potential surviving transaction:
+Evidence/measurement layer before or after the approved audit: identify one economically significant loss from existing operational data, or prepare decision-grade evidence for a project.
+
+Status: OPEN / likely expansion, not entry.
+
+## Chain 8 — Hazardous waste → licensed chain → proof
+ESTABLISHED:
+- The Ministry of Environment exposes online processes for authorization of hazardous-waste transport and collection, lists approved operators and is developing national digital tracking platforms.
+- Hazardous-waste transport/handling requires regulated authorizations and technical conditions.
+- 2026 tenders by SONATRACH, CDTA and Sonelgaz show active procurement for hazardous-waste collection/transport/treatment and explicitly require the relevant approvals or conventions with approved operators.
+- Local operators already market end-to-end hazardous-waste management, including traceability and regulatory certificates.
+
+Pre-kill:
+- Do not become collector, transporter or treatment operator.
+- Do not build another end-to-end waste-management company.
+- Do not assume a standalone tracking portal is missing.
+
+Potential surviving transaction:
+Private-side "chain integrity" / evidence reconciliation across generator ↔ collector ↔ transporter ↔ treatment facility, but only if a real unmet gap remains after existing operator services/platforms.
+
+Status: OPEN / probably expansion.
+
+## Chain 9 — Cold chain → transport/storage → proof
+ESTABLISHED:
+- Algerian Ministry of Commerce states cold-chain continuity and temperature limits are regulatory/safety concerns for perishable food.
+- Local market already sells data loggers suitable for cold-chain and pharmaceutical use.
+- Numilog already offers temperature-controlled storage/transport, real-time tracking and a large refrigerated network.
+
+Pre-kill:
+- Do not sell cold-chain transport.
+- Do not sell generic temperature sensors/data loggers.
+- Do not build another generic logistics platform.
+
+Potential surviving transaction:
+Exception detection / evidence reconciliation across shipper, warehouse, carrier and receiver when a temperature excursion occurs or a dispute needs proof.
+
+Status: OPEN / expansion.
+
+## Additional cross-cutting finding — routine functions are often internal
+Recent local hiring signals show companies explicitly staffing procurement, stock, import, billing, collection, quality and control functions.
 
 Interpretation:
 Do not build an external service that merely substitutes a routine employee function unless there is an exceptional event, unusually high consequence, or a cross-functional gap.
 
-## Additional cross-cutting finding — acceptance evidence is a repeated transaction artifact
-
-Current 2026 public and institutional tenders repeatedly reference:
+## Additional cross-cutting finding — acceptance evidence is a repeated artifact
+Current 2026 public/institutional tenders repeatedly reference:
 - attestation de bonne exécution;
 - PV de réception provisoire/définitive;
 - attestation de service fait;
-- technical and financial offer separation;
-- proof of prior similar projects;
-- commissioning, testing and final acceptance.
+- technical/financial separation;
+- proof of similar projects;
+- commissioning/testing/final acceptance.
 
-This is evidence that proof-of-execution is a reusable transaction artifact in the Algerian contracting ecosystem. It does NOT prove that customers will pay an independent intermediary to generate it.
+Status:
+ESTABLISHED as a market mechanism; OPEN as a commercial opportunity.
 
-Status: ESTABLISHED as market mechanism; OPEN as commercial opportunity.
-
-## Additional cross-cutting finding — official digitalization reduces value of generic paperwork services
-
-- DGI states online tax declarations are mandatory for covered taxpayers from 1 Jan 2026 under LF 2026 Article 111.
-- DGI launched online payment through Jibayatic on 6 Aug 2026.
-- Ministry of Commerce and other public bodies expose procedures/forms for import/export and conformity.
-- Institutional export logistics facilitation already exists.
+## Additional cross-cutting finding — official digitalization reduces generic paperwork value
+DGI, MIPH, Ministry of Commerce and Ministry of Environment increasingly expose digital forms/platforms and official workflows.
 
 Interpretation:
-The opportunity is not digitizing a government form. The opportunity, if any, is in a private-sector cross-boundary exception that remains after the official channel is used.
+Do not digitize a public form as a business. Look for the private-sector exception between official systems.
+
+## Additional cross-cutting finding — approved/regulated capability is itself a market signal
+ALGERAC maintains directories for inspection bodies, testing laboratories, calibration laboratories, certification bodies and person-certification bodies; recent 2026 activity includes new accredited bodies and active recruitment of technical experts. This means "recognized technical evidence" is becoming more structured, but it also means many high-value evidence surfaces have explicit entry barriers.
+
+Status: ESTABLISHED.
 
 ## Enabling infrastructure already present
-
 - CNRC/Sidjilcom: business/activity/registration information.
 - BSTP: industrial subcontracting and supplier/buyer linkage.
-- Ministry of Commerce: import/export and conformity procedures and forms.
+- Ministry of Commerce: import/export and conformity procedures/forms.
 - CACQE: official quality/conformity role in relevant scopes.
-- Jibayatic: electronic tax declaration for covered taxpayers and online payment launched in Aug 2026.
-- Official Journal: authoritative regulatory text source.
+- MIPH: Tabadol and pharmaceutical information/stock/program platforms.
+- Jibayatic: covered tax workflows and digital payment.
+- Ministry of Environment: e-services, approved-operator lists and waste platforms under development.
+- Official Journal: authoritative legal/regulatory source.
 
 Interpretation:
-Do not rebuild directories, official certificate systems, or generic accounting systems. The candidate private layer is between existing institutional surfaces.
+Do not rebuild directories, official certificate systems, generic logistics, generic accounting or generic form portals.
 
 ## Technical reuse
-
 Loofy147/algeria-ai-product-fabric already contains a Document → Structured Data → Decision → Evidence core with validation/comparison and provenance boundaries.
 
-Use the existing core first. Add repositories/features only after a paid transaction exposes a repeated primitive.
+Use existing core first. Add repositories/features only after a paid transaction exposes a repeated primitive.
 
 ## Current candidate family
-
-Rather than choosing a sector first, inspect these transaction boundaries:
+Inspect transaction boundaries, not sectors:
 1. technical information ↔ import/compliance;
 2. contract promise ↔ actual execution;
-3. execution ↔ acceptance;
+3. execution ↔ acceptance/payment;
 4. damage evidence ↔ insurance claim;
 5. export product ↔ destination requirements;
-6. asset data ↔ operational performance.
-
-The unit of analysis is the broken link, not the department.
-
-## New search discipline: discovery with simultaneous pre-kill
-
-Every future search batch must contain two tracks in parallel:
-- Discovery: find new transaction/breakpoint signals from laws, official procedures, live tenders, hiring behavior, service offers, and real operational artifacts.
-- Pre-kill: actively search for internalization, commodity competition, existing institutional coverage, regulatory authorization barriers, weak trigger, weak economic consequence, long payment cycle, or capital requirements.
-
-A candidate advances only when discovery evidence survives the pre-kill checks.
+6. asset data ↔ operational performance;
+7. regulated data ↔ official digital submission;
+8. generator ↔ licensed waste chain ↔ proof;
+9. cold-chain event ↔ dispute/acceptance;
+10. quality nonconformity ↔ supplier/CAPA/containment.
 
 ## Next discriminating experiments
+A. One real industrial import file: bounded technical preflight + payment test.
+B. One real post-award/acceptance file: reconcile scope/evidence + payment test.
+C. One real export order: destination/product/evidence map + payment test.
+D. One real asset case: quantify one hidden loss + remediation payment test.
+E. One real insurance incident: evidence-pack test without expert role.
+F. One real hazardous-waste movement: test whether a private chain-integrity artifact has a paying owner.
+G. One real pharma importer preparing for 2027 serialization: map the technical/regulatory handoffs; test whether a bounded readiness artifact is paid.
+H. One real cold-chain excursion/dispute: test whether evidence reconciliation is independently valuable.
 
-A. One real industrial import file:
-produce a bounded technical preflight and test payment before building additional software.
-
-B. One real post-award / acceptance case:
-reconcile contract/scope/execution evidence, produce an acceptance-readiness artifact, test payment and actual acceptance impact.
-
-C. One real export order:
-map destination requirements to product evidence, identify blockers, test payment.
-
-D. One real asset case:
-quantify one hidden loss from existing records, then test whether the finding converts to a paid remediation.
-
-E. One real insurance incident:
-map the technical evidence needed by the actual insurer/expert; test whether an independent evidence pack has a paying buyer without entering the expert role.
-
-Record for every experiment:
+For every experiment record:
 customer role, trigger date, source documents, current workaround, artifact, acceptance party, quoted price, paid amount, delivery time, outcome, and failure reason if unpaid.
 
 ## Negative rule
-
 Do not re-open a KILLED candidate merely because a new technology makes implementation easier. Re-open only when a killed assumption changes: buyer ownership, trigger, economic consequence, competition, capital requirement, regulatory boundary, or payment behavior.
 
 ## Source anchors
-
-- Ministry of Commerce: import conformity control, dossier and forms. Current official pages crawled 22 Sep 2026.
-- Bank of Algeria: Note 01/DGC/2026, 14 May 2026.
-- ILO/NATLEX: Law 23-12, 5 Aug 2023.
-- Ministry of Commerce: export conformity and origin procedures.
-- DGI: LF 2026 electronic declaration rule and Jibayatic online payment launch, Aug 2026.
-- Ministry of Labour: 2025/first-half 2026 inspection statistics and HSE framework.
+- Ministry of Commerce: import conformity control and dossier.
+- Bank of Algeria: Note 01/DGC/2026.
+- Law 23-12 / official procurement texts.
+- Ministry of Commerce: export conformity/origin and cold-chain guidance.
+- DGI: 2026 electronic filing/payment changes.
+- Ministry of Industry and Pharmaceutical Production: current 2026 guides, serialization, establishments, stock/import/export digital processes.
 - ONS: industrial situation Q1 2025.
+- APRUE: mandatory energy-audit thresholds, approved auditor list and 2026 training.
+- Ministry of Labour: 2025/first-half 2026 inspection statistics and HSE framework.
+- Ministry of Environment: hazardous-waste authorizations, approved-operator lists and 2026 digitalization work.
+- ALGERAC: accredited conformity-assessment directory and regulatory watch.

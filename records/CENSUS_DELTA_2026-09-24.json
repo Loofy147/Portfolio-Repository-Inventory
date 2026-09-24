@@ -1,0 +1,66 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "inventory_census_delta",
+  "observed_on": "2026-09-24",
+  "base_snapshot": {
+    "file": "inventory/current-census-2026-09-22.json",
+    "observed_repository_count": 339
+  },
+  "current_search": {
+    "query": "user:Loofy147",
+    "pages": 5,
+    "page_counts": [100, 100, 100, 42, 0],
+    "unique_repositories": 342,
+    "scope": "current GitHub search surface visible to the connected account"
+  },
+  "reconciliation": {
+    "new_since_base_snapshot": 3,
+    "repositories": [
+      {
+        "repository_full_name": "Loofy147/All-time-",
+        "default_branch": "main",
+        "current_role": "active target under separate research work",
+        "status": "OBSERVED",
+        "evidence": [
+          "GitHub current search",
+          "repository metadata"
+        ]
+      },
+      {
+        "repository_full_name": "Loofy147/Conversational",
+        "default_branch": "main",
+        "current_role": "durable conversation-continuity / provenance protocol",
+        "status": "OBSERVED",
+        "evidence": [
+          "repository metadata",
+          "main HEAD f65be73b9f6b8ac0d91f8e80f0b4e3da44d2a0cd",
+          "main CI run 36031821264 success"
+        ],
+        "research_branch": {
+          "ref": "hardening/frontier-v0.3.1",
+          "head": "b52622af86c0aa6ad32edfc0e7cc0e717e44b18b",
+          "latest_observed_ci": "failure",
+          "boundary": "do not treat the hardening branch as current main"
+        }
+      },
+      {
+        "repository_full_name": "Loofy147/Open-System-One",
+        "default_branch": "main",
+        "current_role": "typed decision substrate with browser ONNX research frontier",
+        "status": "OBSERVED",
+        "evidence": [
+          "repository metadata",
+          "main HEAD 4c5f24f9d34f9f0fd751047ac8d0a6011855715b",
+          "recovery/v0.3-frontier head 24ee6b4a80995767954d0aedb2bae42e603154bb",
+          "recovery branch CI run 36051706221 success"
+        ],
+        "research_branch": {
+          "ref": "recovery/v0.3-frontier",
+          "head": "24ee6b4a80995767954d0aedb2bae42e603154bb",
+          "boundary": "browser/research mechanisms are branch-scoped and not merged into main"
+        }
+      }
+    ]
+  },
+  "boundary": "This record is a current delta, not a rewrite of the historical 2026-09-22 snapshot. Discovery establishes identity; capability reuse requires separate repository/ref inspection."
+}

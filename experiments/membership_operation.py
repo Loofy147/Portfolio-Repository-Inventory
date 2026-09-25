@@ -9,22 +9,19 @@ This is the exact invariant already enforced by scripts/validate_inventory.py:
 
 No production validator is modified by this experiment.
 
-The candidate primitive is deliberately operation-level:
+Candidate operation:
     anti_join(left, membership, key=None)
 
-When key is omitted, the hot loop performs direct membership. When a key is
-actually needed, the projection is paid explicitly. This avoids making a
-projection callback part of every identity-key lookup.
+The identity path intentionally avoids a per-item projection callback.
+Projection is explicit when the real key differs from the item itself.
 """
-
 from __future__ import annotations
 
 import json
 import platform
-import random
 import time
-from statistics import median
 from pathlib import Path
+from statistics import median
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -62,6 +59,7 @@ def median_ms(fn, repeats=7):
         start = time.perf_counter_ns()
         result = fn()
         samples.append((time.perf_counter_ns() - start) / 1_000_000)
+    samples.sort()
     return result, median(samples)
 
 
@@ -81,15 +79,22 @@ def main():
 
     expected = direct_anti_join(current, historical)
     actual = anti_join(current, historical)
+
     assert actual == expected
     assert set(actual) == triage
     assert len(actual) == 20
 
-    # The real dataset is intentionally small; amplify only the same real
-    # values to measure execution shape without inventing repository IDs.
+    projected_left = [{"name": x} for x in current]
+    projected_result = anti_join(
+        projected_left,
+        historical,
+        key=lambda item: item["name"],
+    )
+    assert [x["name"] for x in projected_result] == expected
+
     amplified = current * 10_000
 
-    for _ in range(2):
+    for _ in range(3):
         direct_anti_join(amplified, historical)
         anti_join(amplified, historical)
 
@@ -100,49 +105,46 @@ def main():
         lambda: anti_join(amplified, historical)
     )
 
-    # Confirm that a projection is semantically available, but do not make
-    # its cost part of the identity-key benchmark.
-    projected_left = [{"name": x} for x in current]
-    projected_result = anti_join(
-        projected_left,
-        historical,
-        key=lambda item: item["name"],
-    )
-    assert [x["name"] for x in projected_result] == expected
+    assert generic_result == direct_result
+
+    overhead_pct = (generic_ms / direct_ms - 1.0) * 100.0
 
     print(json.dumps({
         "experiment": "membership-operation-v0.1",
         "repository": "Loofy147/Portfolio-Repository-Inventory",
-        "source": {
-            "repositories": "main@37d8a0b2003d528818889ed6da801649c98b7579",
-            "current_census": "main@364893c31e645e87bf11cab50567e8e1c01a6aea",
-            "current_triage": "main@94ff9a1c01e53842a809a0697efb1ea542f0bd94",
-            "validator": "main@fba524c0859f906f02a3440db197951fe8935959",
+        "provenance": {
+            "base_commit": "fba524c0859f906f02a3440db197951fe8935959",
+            "repositories_blob_sha": "37d8a0b2003d528818889ed6da801649c98b7579",
+            "current_census_blob_sha": "364893c31e645e87bf11cab50567e8e1c01a6aea",
+            "current_triage_blob_sha": "94ff9a1c01e53842a809a0697efb1ea542f0bd94",
         },
-        "fixture": {
+        "dataset": {
             "historical_repositories": len(historical),
             "current_census": len(current),
-            "expected_new_repositories": len(expected),
             "triage_records": len(triage),
+            "expected_new_repositories": len(expected),
             "amplification_factor": 10_000,
-            "amplified_membership_checks": len(amplified),
+            "amplified_checks": len(amplified),
         },
         "correctness": {
-            "validator_set_invariant": True,
-            "generic_equals_direct": True,
-            "generic_key_projection_equals_direct": True,
+            "census_minus_historical_equals_triage": True,
+            "generic_identity_equals_direct": True,
+            "projection_path_equals_direct": True,
+            "orphan_count": len(expected),
         },
         "timing_ms_median": {
-            "direct_identity_membership": direct_ms,
-            "generic_identity_membership": generic_ms,
+            "direct_identity": direct_ms,
+            "generic_identity": generic_ms,
         },
-        "overhead_pct": (generic_ms / direct_ms - 1.0) * 100.0,
+        "overhead_pct": overhead_pct,
         "runtime": {
             "python": platform.python_version(),
-            "platform": platform.platform(),
+            "repeats": 7,
+            "warmup_rounds": 3,
         },
-        "decision": {
-            "identity_path_within_15pct": generic_ms <= direct_ms * 1.15,
+        "promotion_gate": {
+            "identity_path_max_overhead_pct": 15.0,
+            "passed": overhead_pct <= 15.0,
             "promote_to_core": False,
         },
     }, indent=2, sort_keys=True))

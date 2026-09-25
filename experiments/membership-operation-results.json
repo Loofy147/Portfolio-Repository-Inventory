@@ -1,0 +1,63 @@
+{
+  "experiment": "membership-operation-v0.1",
+  "repository": "Loofy147/Portfolio-Repository-Inventory",
+  "branch": "experiment/membership-operation-v0.1",
+  "base_commit": "fba524c0859f906f02a3440db197951fe8935959",
+  "workload": "current_census - historical_inventory = current_triage",
+  "provenance": {
+    "repositories_blob_sha": "37d8a0b2003d528818889ed6da801649c98b7579",
+    "current_census_blob_sha": "364893c31e645e87bf11cab50567e8e1c01a6aea",
+    "current_triage_blob_sha": "94ff9a1c01e53842a809a0697efb1ea542f0bd94",
+    "validator_source_commit": "fba524c0859f906f02a3440db197951fe8935959"
+  },
+  "dataset": {
+    "historical_repository_count": 319,
+    "current_census_count": 339,
+    "triage_record_count": 20,
+    "expected_new_repository_count": 20,
+    "amplification_factor": 10000,
+    "amplified_membership_checks": 3390000
+  },
+  "correctness": {
+    "current_census_minus_historical_equals_triage": true,
+    "generic_identity_anti_join_equals_direct_identity_anti_join": true,
+    "orphan_count": 20
+  },
+  "runtime": {
+    "execution_environment": "tool JS runtime",
+    "timing_clock": "Date.now()",
+    "repetitions_per_measurement": 7,
+    "warmup_rounds": 3
+  },
+  "cycles": [
+    {
+      "cycle": 1,
+      "direct_identity_ms": 167,
+      "generic_identity_ms": 167,
+      "generic_identity_overhead_pct": 0.0,
+      "generic_explicit_identity_key_ms": 219,
+      "generic_explicit_identity_key_overhead_pct": 31.137724550898206
+    },
+    {
+      "cycle": 2,
+      "direct_identity_ms": 162,
+      "generic_identity_ms": 168,
+      "generic_identity_overhead_pct": 3.703703703703698,
+      "generic_explicit_identity_key_ms": 217,
+      "generic_explicit_identity_key_overhead_pct": 33.95061728395061
+    },
+    {
+      "cycle": 3,
+      "direct_identity_ms": 163,
+      "generic_identity_ms": 166,
+      "generic_identity_overhead_pct": 1.8404907975460016,
+      "generic_explicit_identity_key_ms": 223,
+      "generic_explicit_identity_key_overhead_pct": 36.80981595092025
+    }
+  ],
+  "decision": {
+    "identity_operation_within_15pct": true,
+    "explicit_key_on_identity_workload_is_not_acceptable": true,
+    "promote_to_portfolio_core_now": false
+  }
+}

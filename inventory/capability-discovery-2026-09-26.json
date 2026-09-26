@@ -1,0 +1,215 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "capability_discovery",
+  "observed_on": "2026-09-26",
+  "portfolio_surface": {
+    "base_verified_count": 339,
+    "delta_observed_on": "2026-09-24",
+    "current_verified_count": 342,
+    "count_boundary": "342 is the latest exact census count recorded from connected GitHub search; an exact 2026-09-26 recount was not independently established.",
+    "source_repo": "Loofy147/Portfolio-Repository-Inventory"
+  },
+  "evidence_rule": "Repository/ref/commit evidence outranks search signals. Search hits establish candidates only.",
+  "directly_inspected_new_frontier": [
+    {
+      "repository": "Loofy147/All-time-",
+      "ref": "main",
+      "head": "c9f8662acde83808b64ad75ac8bef4ee67edd5da",
+      "evidence_level": "VERIFIED_SCOPE",
+      "capabilities": [
+        "browser-first local model inference",
+        "WebGPU with WASM/CPU fallback",
+        "pinned Hugging Face ONNX revisions",
+        "installable PWA shell",
+        "run-level evidence identity and digests",
+        "build provenance in CI"
+      ],
+      "boundary": "Production/build evidence exists, but browser acceptance, Android WebGPU, deterministic acceptance state, and product persistence remain open."
+    },
+    {
+      "repository": "Loofy147/Conversational",
+      "ref": "main",
+      "head": "f65be73b9f6b8ac0d91f8e80f0b4e3da44d2a0cd",
+      "evidence_level": "VERIFIED_SCOPE",
+      "capabilities": [
+        "durable conversation continuation",
+        "event-log to canonical-state reduction",
+        "lineage/projection verification",
+        "repository-native publication/restore",
+        "explicit authorization boundary"
+      ],
+      "boundary": "Fresh-conversation restore is explicitly UNVERIFIED; restored context does not grant external action authorization."
+    },
+    {
+      "repository": "Loofy147/Open-System-One",
+      "ref": "main",
+      "head": "4c5f24f9d34f9f0fd751047ac8d0a6011855715b",
+      "evidence_level": "VERIFIED_SCOPE",
+      "capabilities": [
+        "typed decision contract",
+        "deterministic decision composition",
+        "abstention/policy layers",
+        "replaceable model/runtime backends",
+        "experiment/research evidence structure"
+      ],
+      "boundary": "Browser MiniLM execution is experimentally supported; set-aware and conditional advantages remain open."
+    }
+  ],
+  "domains": [
+    {
+      "domain": "evidence_acquisition_and_provenance",
+      "direct_candidates": [
+        "Loofy147/My_browser",
+        "Loofy147/All-time-",
+        "Loofy147/Conversational",
+        "Loofy147/canonical-capability-core"
+      ],
+      "notable_signal": "My_browser implements an explicit Execution→Observation→Evidence→Verification→Provenance/History kernel and an external-MCP-JSON ingestion bridge."
+    },
+    {
+      "domain": "capability_lifecycle_and_authority",
+      "direct_candidates": [
+        "Loofy147/canonical-capability-core",
+        "Loofy147/Llms-mcp-android",
+        "Loofy147/unified-knowledge-work-system"
+      ],
+      "notable_signal": "canonical-capability-core separates qualification, authorization, action, observation and reconciliation; Llms-mcp-android contains Action/Capability/Policy/Approval/Egress boundaries."
+    },
+    {
+      "domain": "mcp_ingestion_and_connector_surfaces",
+      "direct_candidates": [
+        "Loofy147/My_browser",
+        "Loofy147/Taskflow",
+        "Loofy147/SIE",
+        "Loofy147/Universal-intilegence-",
+        "Loofy147/Global-theorem-",
+        "Loofy147/Spike-Function-Framework",
+        "Loofy147/HOLONOMY-Protocol-"
+      ],
+      "notable_signal": "Multiple repositories expose MCP servers, ingestion, routing or connector documentation; most remain signal-only until implementation-specific evidence is inspected."
+    },
+    {
+      "domain": "durable_execution_and_recovery",
+      "direct_candidates": [
+        "Loofy147/m0-durable-run",
+        "Loofy147/unified-knowledge-work-system",
+        "Loofy147/Llms-mcp-android",
+        "Loofy147/Conversational",
+        "Loofy147/canonical-capability-core"
+      ],
+      "notable_signal": "The portfolio contains independent restart/recovery, durable-state, conversation-continuity and capability-lifecycle lines that may be experimentally composable."
+    },
+    {
+      "domain": "decision_and_policy_substrates",
+      "direct_candidates": [
+        "Loofy147/Open-System-One",
+        "Loofy147/ledger-system-source-of-truth",
+        "Loofy147/Moaziz-system-",
+        "Loofy147/unified-knowledge-work-system"
+      ],
+      "notable_signal": "Typed decision contracts, deterministic ledgers and relationship-aware control surfaces appear as distinct mechanisms; no unification is assumed."
+    },
+    {
+      "domain": "mobile_agent_execution",
+      "direct_candidates": [
+        "Loofy147/Llms-mcp-android",
+        "Loofy147/droidrun",
+        "Loofy147/LinuxOnAndroid",
+        "Loofy147/Agora-32Bit"
+      ],
+      "notable_signal": "droidrun provides a reusable external reference for natural-language mobile control and tracing; provenance/lineage relative to first-party code has not been established."
+    },
+    {
+      "domain": "agent_orchestration",
+      "direct_candidates": [
+        "Loofy147/unified-knowledge-work-system",
+        "Loofy147/ai-meta-orchestrator",
+        "Loofy147/outonomos-system",
+        "Loofy147/algeria-multi-agent-platform",
+        "Loofy147/Moaziz-system-",
+        "Loofy147/agent-hub"
+      ],
+      "notable_signal": "The portfolio contains several orchestration concepts, but README claims are not treated as implementation evidence."
+    },
+    {
+      "domain": "browser_local_ai_and_pwa",
+      "direct_candidates": [
+        "Loofy147/All-time-",
+        "Loofy147/Open-System-One",
+        "Loofy147/Wedgettok-Next"
+      ],
+      "notable_signal": "All-time is the clearest current browser-local inference/PWA implementation line; Open-System-One adds a typed decision substrate and browser ONNX research path."
+    },
+    {
+      "domain": "memory_and_continuity",
+      "direct_candidates": [
+        "Loofy147/Conversational",
+        "Loofy147/HOLONOMY-Protocol-",
+        "Loofy147/unified-knowledge-work-system"
+      ],
+      "notable_signal": "Conversational provides repository-native continuity and provenance; HOLONOMY is a separate external/protocol-style memory and path-integrity reference."
+    },
+    {
+      "domain": "validation_and_adversarial_verification",
+      "direct_candidates": [
+        "Loofy147/canonical-capability-core",
+        "Loofy147/trading-validations-principles",
+        "Loofy147/Bounties",
+        "Loofy147/Software-res",
+        "Loofy147/My_browser"
+      ],
+      "notable_signal": "These projects independently preserve mutation, replay, provenance, or security validation patterns; reuse requires mechanism-level extraction."
+    }
+  ],
+  "secondary_signal_candidates": [
+    "Loofy147/Taskflow",
+    "Loofy147/SIE",
+    "Loofy147/Universal-intilegence-",
+    "Loofy147/Global-theorem-",
+    "Loofy147/Spike-Function-Framework",
+    "Loofy147/HOLONOMY-Protocol-",
+    "Loofy147/droidrun",
+    "Loofy147/agent-hub",
+    "Loofy147/algeria-multi-agent-platform",
+    "Loofy147/ai-meta-orchestrator",
+    "Loofy147/outonomos-system"
+  ],
+  "next_route": [
+    {
+      "experiment": "evidence-backed browser-agent run",
+      "candidate_chain": [
+        "My_browser",
+        "All-time-",
+        "Llms-mcp-android"
+      ],
+      "question": "Can the acquisition/evidence lifecycle be attached to a real browser-local inference run without coupling source semantics to the kernel?"
+    },
+    {
+      "experiment": "durable continuity boundary",
+      "candidate_chain": [
+        "Conversational",
+        "unified-knowledge-work-system",
+        "m0-durable-run"
+      ],
+      "question": "Which continuity/recovery primitives remain distinct after one controlled restart/replay experiment?"
+    },
+    {
+      "experiment": "capability authorization boundary",
+      "candidate_chain": [
+        "canonical-capability-core",
+        "Llms-mcp-android",
+        "unified-knowledge-work-system"
+      ],
+      "question": "Can capability qualification and authorization be represented as a portable mechanism without importing unverified trust?"
+    },
+    {
+      "experiment": "typed decision substrate",
+      "candidate_chain": [
+        "Open-System-One",
+        "ledger-system-source-of-truth"
+      ],
+      "question": "Can typed decision state and deterministic contradiction handling be composed without turning either into an aggregate-truth layer?"
+    }
+  ],
+  "boundary": "This map is a capability-discovery artifact, not a ranking, approval list, architecture decision, or proof of reuse."
+}

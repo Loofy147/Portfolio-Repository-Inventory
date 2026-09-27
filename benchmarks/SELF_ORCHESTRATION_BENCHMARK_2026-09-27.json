@@ -1,0 +1,11 @@
+{
+  "run_id":"SELF-ORCH-2026-09-27-001",
+  "status":"COMPLETED_BOUNDED",
+  "connector_operations":491,
+  "connector_families":20,
+  "dimensions":{"capability_discovery":"DEMONSTRATED","capability_selection":"DEMONSTRATED","decomposition":"DEMONSTRATED","parallelism":"DEMONSTRATED","context_handoff":"DEMONSTRATED","dynamic_replanning":"DEMONSTRATED","authority_handling":"PARTIALLY_DEMONSTRATED","approval_discipline":"PARTIALLY_DEMONSTRATED","verification":"DEMONSTRATED","recovery":"DEMONSTRATED_FOR_RUNTIME_FAILURES","substitution":"DEMONSTRATED","artifact_handling":"DEMONSTRATED","cross_surface_orchestration":"DEMONSTRATED","epistemic_discipline":"DEMONSTRATED","state_management":"PARTIALLY_DEMONSTRATED","efficiency":"PARTIALLY_DEMONSTRATED","interruption_continuation":"PARTIALLY_DEMONSTRATED","duplicate_execution":"PARTIALLY_DEMONSTRATED"},
+  "research_artifact":{"sha256":"b814b35dab3027336a2b447cde2b610f1e532387089e2039418eb17f9a4df2b3","bytes":74216,"words":9283,"headings":153,"code_fences_balanced":true,"todo_markers":0},
+  "deployment":{"repo":"Loofy147/Wedgettok","github_main":"15ef39cc03fb9c4caac9e329af04112634b11789","vercel_deployment":"dpl_DwLCGsTkB4H2xjfEaiTD1zADbMtY","state":"READY","http":200,"canonical":"https://wedgettok.vercel.app/","alias_header_discrepancy":true,"canonical_header_discrepancy":false},
+  "approval":{"high_risk_mutation_executed":false,"weave":"unlinked_and_cost_gated","shopify":"confirmation_gated_and_not_needed","destructive":"not_executed"},
+  "state_trace":["DISCOVERING","PLANNING","READY","RUNNING","FAILED","REPLANNING","RUNNING","VERIFYING","REPLANNING","RUNNING","VERIFYING","BLOCKED","RUNNING","VERIFYING","COMPLETED"]
+}

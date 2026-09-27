@@ -1,202 +1,119 @@
 # Integrated System Research — 2026-09-27
 
-Status: DURABLE CROSS-REPOSITORY RESEARCH SYNTHESIS
+Status: RESEARCH RELEASE / CONSERVATIVE INTEGRATED SYNTHESIS
 
-Canonical full artifact SHA-256:
-18ae8211976e5f4eb1443794db53304797ad1dda1261f9f67633407243999f2d
+## Released artifact
 
-This record anchors the complete self-contained research paper generated in the 2026-09-27 research session:
-INTEGRATED_SYSTEM_RESEARCH_2026-09-27.md
+File: INTEGRATED_SYSTEM_RESEARCH_2026-09-27.md
+SHA-256: b814b35dab3027336a2b447cde2b610f1e532387089e2039418eb17f9a4df2b3
+Words: 9283
 
-## Scope
+The artifact includes the integrated research paper plus Appendix C, the learned Research Review Protocol, and Appendix D, release disposition.
 
-Integrated:
-- Loofy147/Machine: substrate contracts, mechanism/frontier experiments, target-oblivious precomputation, representation closure, black-box insufficiency, error localization, transfer-contract validation, bundled-failure repair, evidence/branch canonicalization.
-- Loofy147/Llms-mcp-android: authority model, Action/Capability execution, policy/approval/egress, credential protection, Binder/process failure recovery, Operation identity, MCP, Android lifecycle, containment.
-- Loofy147/Portfolio-Repository-Inventory: cross-repository provenance and evidence indexing.
-- External related work: distributed systems, data-structure preprocessing/query tradeoffs, information-flow security, least privilege/reference monitoring, delta debugging, Android platform lifecycle, MCP Tasks/auth, Anthropic containment, Meta Muse security architecture.
+## Applied research-method improvements
 
-## Central finding
+- contract-first comparisons;
+- result -> interpretation -> claim separation;
+- iterative diagnosis/re-diagnosis after repair;
+- mechanism vs representation vs computation-relocation controls;
+- multi-resource Pareto accounting;
+- finite-black-box INCONCLUSIVE_AT_RESOLUTION rule;
+- hidden-assistance audit;
+- stronger-baseline obligation;
+- branch/ref/commit provenance;
+- reproduction before promotion;
+- cross-boundary security review;
+- semantic identity independent of execution machinery;
+- alternative-explanation/falsification gate;
+- regression institutionalization;
+- final epistemic-status audit.
 
-The common failure mode is boundary contamination: a layer intended to expose, transport, represent, advise, observe, or schedule silently acquires authority, information, durable-state meaning, or uncharged resource semantics.
+Protocol: research/RESEARCH_REVIEW_PROTOCOL_v0.2.md
+Protocol commit: b00baea17f94e8d438a5bce6a8008df5e7ba8b3a
 
-Therefore capability and safety claims require an explicit contract covering information, timing, representation, primitive operations, authority, identity, resource accounting, correctness, failure model, and evidence semantics.
+## Current epistemic frontier
 
-## Machine status
+### Machine
 
 EXPERIMENTALLY_SUPPORTED, bounded:
-- Direct predecessor access shifts the sampled online frontier under B_off=0 and R=0 with unified edge accounting.
-- Successor-only exhaustive predecessor emulation fails to recover the native frontier at tight budgets in the tested finite graph family.
-- A target-oblivious reverse adjacency representation reproduces the native bidirectional frontier exactly for tested M in {30,100,300}, at B_off=R=3M.
-- Richer all-pairs policy state reduces online work further at approximately quadratic offline/state cost.
-- Strict-heldout controls show target-specific cached state that cannot contain the realized target does not alter the tested behavior.
-- Finite black-box persistent failure does not justify global expressive-insufficiency claims without regularity/certificate assumptions.
+- direct predecessor resource-bounded frontier shift;
+- successor-only inverse emulation lag at tight budgets;
+- reverse-index representation closure in the tested finite graph;
+- target-oblivious offline/online tradeoffs;
+- strict-heldout protection against target leakage;
+- black-box insufficiency methodological constraint;
+- reproducible fixture/harness behavior.
 
 REFINED:
-- “Direct predecessor is inherently more powerful” became “resource-bounded frontier shift under an explicit substrate/resource contract.”
-- “Minimal failing subset explains the failure” became “minimal subset isolates one failure witness; bundled repair requires iteration.”
+- mechanism superiority -> resource-bounded frontier shift;
+- minimal failure subset -> local witness, requiring iterative repair for bundled failure sets;
+- transfer effect -> deterministic contract evidence rather than transferable learning.
 
 OPEN:
 - stronger successor-only baselines;
 - independent graph families;
-- normalized predecessor-access cost;
+- normalized access cost;
 - compact representation closure;
 - causal evaluator reflection;
-- nontrivial transfer learning without supplied context labels;
-- complete research-branch canonicalization.
+- nontrivial transfer without supplied labels;
+- complete branch canonicalization.
 
-## Android status
+### Android
 
 ESTABLISHED / PROVISIONALLY VERIFIED:
-- Model reasoning, Tool exposure, Policy, Approval, Risk signals, Capability execution, Observation, Verification, and Evidence are distinct.
-- Model output cannot authorize an effect.
-- Durable effect reservation/replay blocking exists.
-- Provider-side Binder recovery cases B2/B3 are experimentally supported in the tested API 35 topology.
+- model is not authorization;
+- Tool exposure is not authority;
+- policy, approval, risk signal, credential possession/use, egress, execution, observation and verification are distinct;
+- durable effect reservation/replay blocking;
+- provider-side T2 B2/B3 case evidence.
 
 OPEN:
 - caller-side UNKNOWN_OUTCOME;
 - concurrent recovery;
-- stale callbacks/results;
-- reboot, force-stop, package-update and power-loss matrices;
+- stale-result ordering;
+- reboot/force-stop/update/power-loss;
 - credential-use isolation;
 - provenance-aware egress;
-- native MCP auth/lifecycle;
-- high-power capability containment;
-- durable event/audit sufficiency.
+- native MCP lifecycle/auth;
+- containment for first genuinely high-power capability;
+- durable audit/event sufficiency.
 
 NOT CLAIMED:
 - general exactly-once external execution.
 
-## Formal framework
+## Formal core
 
-Substrate:
-Sigma = (X,Q,S,Pi,Delta,Omega,kappa,Lambda)
+Substrate: Sigma = (X,Q,S,Pi,Delta,Omega,kappa,Lambda)
 
-Offline representation:
-phi(x) -> S before target/query-dependent information is available.
+Frontier: F_Sigma = {(B_off,R,B_on): an admissible representation and online algorithm satisfy the declared correctness predicate}
 
-Feasible frontier:
-F_Sigma = {(B_off,R,B_on): an admissible representation and online algorithm satisfy the declared correctness predicate}
+Authority context: Gamma = (principal, action, version, input, scope, invocations, policy_context, credential_refs, egress_context, freshness)
 
-Authority context:
-Gamma = (principal, action, version, input, scope, invocations, policy_context, credential_refs, egress_context, freshness)
+Policy: P(Gamma) -> {DENY, APPROVAL_REQUIRED, ALLOW}
 
-Policy:
-P(Gamma) -> {DENY, APPROVAL_REQUIRED, ALLOW}
+Effect: NEW -> RESERVED -> DISPATCHED -> {COMPLETED, UNKNOWN_OUTCOME, CONFIRMED_NOT_EXECUTED}
 
-Effect state:
-NEW -> RESERVED -> DISPATCHED -> {COMPLETED, UNKNOWN_OUTCOME, CONFIRMED_NOT_EXECUTED}
+## High-value unresolved questions
 
-Core derived results:
-1. Mechanism attribution is invalid when substrate/resource/timing/representation contracts differ.
-2. Computability equivalence does not imply resource equivalence.
-3. Approval cannot substitute for current policy when context can change.
-4. Durable local state does not imply exactly-once external effects without effect-boundary idempotency, transactional coupling, or authoritative reconciliation.
-5. Credential non-observability is provable only under explicit isolation assumptions.
-6. Finite black-box failure cannot prove global insufficiency without additional assumptions.
+1. Caller/provider crash recovery and durable UNKNOWN_OUTCOME.
+2. Concurrent recovery linearization.
+3. Stale callback rejection.
+4. End-to-end credential non-observability.
+5. Payload-provenance-aware egress.
+6. Minimum substrate for operational stored relations.
+7. Mechanism frontier replication under stronger baselines and independent graph families.
+8. Compact target-oblivious representation closure.
+9. Causal evaluator reflection without experimenter-supplied action structure.
+10. Nontrivial transfer across hidden source/target regimes.
 
-## Security convergence
+## Primary local provenance
 
-Anthropic and Meta Muse reinforce:
-- reasoning is not authorization;
-- policy is distinct from human approval;
-- risk classifiers are not final authority;
-- CredentialRef must be separated from CredentialValue;
-- provenance can influence egress;
-- containment complements policy;
-- browser access should be brokered;
-- execution processes are not durable semantic identity.
+Machine: research/evidence-disposition-v0 @ 137f76bc7fb56138a40b3bc98ed2a3291fe7acf5
+Android: main @ 4880767491d29a5f105765683c8224c82244d1a7
+Portfolio: main @ 1e01edf79c705a44317847c216bcde71ff27eea4
 
-MCP's current evolution reinforces explicit task handles, per-task authorization, and stateless lifecycle concepts. These are external signals, not local proof and not reasons to make MCP the canonical domain model.
+## Release interpretation
 
-## Highest-value next experiments
+This is a research release, not a claim that all engineering gates are closed. Open items remain explicitly OPEN or NOT CLAIMED.
 
-1. Caller crash after provider effect: durable checkpoint -> effect -> caller loss -> restart -> UNKNOWN_OUTCOME -> reconcile -> no duplicate effect.
-2. Concurrent recovery with explicit linearization point.
-3. Stale callback ordering with generation/attempt rejection.
-4. Full credential-path instrumentation proving raw-secret non-observability.
-5. Payload-provenance-aware egress tests.
-6. Stronger Machine baselines and independent graph families.
-7. Compact target-oblivious representation search.
-8. Causal evaluator reification without experimenter-supplied intervention order.
-9. Nontrivial source-to-target transfer with hidden regime structure.
-
-## Evidence rule
-
-A claim is not upgraded because it is repeated, elegant, vendor-implemented, or intuitively compelling. Promotion requires:
-repository + branch + exact ref/commit + artifact + execution + conditions + result + status + interpretation boundary + next discriminating action.
-
-## Primary local records
-
-Machine:
-research/evidence-disposition-v0 @ 8f16e5dcc57c59025e3cc9ec5607d294a1c8b8e3
-docs/research/CONVERSATION_FINDINGS_2026-09-20.md
-
-Android:
-main @ 7a7e1c67d1dce15457b62cf173d159a7be15f9ce
-docs/architecture/CONVERSATION_FINDINGS_2026-09-20.md
-docs/architecture/ARCHITECTURE_STATE_SYNC_2026-09-17.md
-docs/architecture/DECISION_REGISTER_v0.2.md
-
-Portfolio:
-main @ c6f441cb929b4b744c1f3a84cdce14c42cfff143
-records/CONVERSATION_EVIDENCE_SYNC_2026-09-20.md
-
-## External source anchors
-
-Android lifecycle:
-https://developer.android.com/guide/components/activities/activity-lifecycle
-
-Android persistent WorkManager:
-https://developer.android.com/develop/background-work/background-tasks/persistent
-
-Android App Functions:
-https://developer.android.com/reference/android/app/appfunctions/package-summary
-
-Binder:
-https://developer.android.com/reference/kotlin/android/os/IBinder
-
-MCP 2025-11-25:
-https://blog.modelcontextprotocol.io/posts/2025-11-25-first-mcp-anniversary/
-
-MCP 2026-07-28:
-https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/
-
-MCP Tasks:
-https://tasks.extensions.modelcontextprotocol.io/specification/draft/tasks
-
-Anthropic containment:
-https://www.anthropic.com/engineering/how-we-contain-claude
-
-Meta Muse security:
-https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse
-
-Meta Muse launch:
-https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
-
-NIST least privilege:
-https://csrc.nist.gov/glossary/term/least_privilege
-
-End-to-end arguments:
-https://web.mit.edu/6.033/2002/wwwdocs/papers/endtoend.pdf
-
-Computability and complexity:
-https://plato.stanford.edu/entries/computability/
-
-MIT cell-probe:
-https://live.ocw.mit.edu/courses/18-405j-advanced-complexity-theory-spring-2016/f373ff7db6f99debba9256050d372980_MIT18_405JS16_Data_Struc.pdf
-
-Delta debugging:
-https://www.cs.umd.edu/class/spring2016/cmsc838G/DeltaDebug.pdf
-
-## Scope warning
-
-This record and the full paper intentionally do not claim:
-- universal mechanism superiority;
-- universal expressive-insufficiency detection;
-- causal reflection;
-- general exactly-once effects;
-- production-grade autonomous mobile execution;
-- vendor-independent proof from Meta/Anthropic/MCP documentation.
-
-The complete paper remains the authoritative integrated handoff for this research pass.
+The exact artifact is identified by the SHA-256 hash above.

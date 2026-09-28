@@ -1,0 +1,160 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "porp_guided_discovery_frontier",
+  "observed_on": "2026-09-28",
+  "source_guidance": {
+    "artifact": "Portable Orchestration Protocols — Enhanced Durable Baseline v1.0",
+    "role": "taxonomy/gap lens for repository discovery",
+    "core_execution_loop": [
+      "DISCOVER",
+      "CLASSIFY",
+      "PLAN",
+      "BIND",
+      "EXECUTE",
+      "OBSERVE",
+      "VERIFY",
+      "REPLAN",
+      "RECOVER",
+      "COMMIT KNOWLEDGE",
+      "REVALIDATE"
+    ],
+    "minimal_portable_core": [
+      "Capability Registry",
+      "Task Graph",
+      "State Machine",
+      "Event Log",
+      "Claim Store",
+      "Authority Gate",
+      "Verification Engine",
+      "Recovery Engine",
+      "Artifact Registry"
+    ],
+    "evidence_boundary": "The protocol is used as a discovery taxonomy, not as proof that a repository implements every listed mechanism."
+  },
+  "inventory_boundary": {
+    "exact_census_count": 342,
+    "exact_census_source": "2026-09-22 current census plus 2026-09-24 three-repository delta",
+    "separately_observed_after_census": [
+      "Loofy147/Digital-twin",
+      "Loofy147/MORPHS"
+    ],
+    "recorded_identity_frontier": 344,
+    "count_status": "OBSERVED_IDENTITY_FRONTIER_NOT_FULL_CENSUS"
+  },
+  "discovery_method": {
+    "queries": [
+      "capability registry",
+      "task graph",
+      "append-only event log",
+      "claim store provenance",
+      "authority gate approval",
+      "verification engine replay",
+      "recovery engine idempotency",
+      "artifact registry content hash",
+      "unknown external outcome",
+      "portable orchestration",
+      "context handoff provenance",
+      "contradiction resolution",
+      "freshness stale reobserve",
+      "sub-orchestration",
+      "epistemic state",
+      "logical operation identity",
+      "capability substitution",
+      "self adversarial protocol",
+      "durable event record",
+      "provider independence"
+    ],
+    "purpose": "Find repository implementations whose mechanisms map to portable orchestration contracts."
+  },
+  "newly_observed_identity": {
+    "repository_full_name": "Loofy147/MORPHS",
+    "ref": "main",
+    "head": "31543069e9a42a81be476bccf40776dc7a6b2411",
+    "observed_at": "2026-09-28",
+    "verification": {
+      "workflow_run": 133,
+      "workflow_status": "completed",
+      "workflow_conclusion": "success",
+      "workflow_head_matches": true
+    },
+    "capabilities_observed": [
+      "capability discovery and classification",
+      "evidence-gated adaptive research",
+      "epistemic-state discipline",
+      "authority separation",
+      "task/dependency representation",
+      "durable event/provenance concepts",
+      "verification and verifier diversity",
+      "recovery and unknown-outcome handling",
+      "external-world reconciliation in a deterministic simulator",
+      "DEFER as a valid verification outcome"
+    ],
+    "current_frontier": {
+      "experiment": "041_external_world_equilibrium",
+      "epistemic_state": "EXPERIMENTALLY_SUPPORTED",
+      "scope": "deterministic external-world reconciliation simulator",
+      "demonstrated_conditions": [
+        "dependency-aware reconciliation",
+        "fresh post-state observation",
+        "authorization blocking",
+        "unknown mutation outcome requires re-observation",
+        "drift becomes stale and is re-observed"
+      ],
+      "open_limits": [
+        "arbitrary external APIs",
+        "irreversible effects",
+        "network partitions",
+        "adversarial state reporting",
+        "unrestricted automated root-cause identification"
+      ]
+    },
+    "classification": "DEEP_REVIEW_CANDIDATE_FOR_PORP_TRANSFER",
+    "rationale": "MORPHS is the only new identity surfaced by the PORP-guided search that directly overlaps the portable core at mechanism level rather than merely mentioning an adjacent application."
+  },
+  "already_known_high_relevance": [
+    {
+      "repository_full_name": "Loofy147/canonical-capability-core",
+      "relation": "capability lifecycle, authority, verification, replay"
+    },
+    {
+      "repository_full_name": "Loofy147/My_browser",
+      "relation": "evidence lifecycle and MCP ingestion"
+    },
+    {
+      "repository_full_name": "Loofy147/Llms-mcp-android",
+      "relation": "capability/policy/approval/egress and durable runtime"
+    },
+    {
+      "repository_full_name": "Loofy147/unified-knowledge-work-system",
+      "relation": "task/relationship/persistence/A2A orchestration"
+    },
+    {
+      "repository_full_name": "Loofy147/m0-durable-run",
+      "relation": "durable execution, restart, replay protection"
+    },
+    {
+      "repository_full_name": "Loofy147/Conversational",
+      "relation": "event history, reconstruction, provenance, authorization separation"
+    },
+    {
+      "repository_full_name": "Loofy147/Open-System-One",
+      "relation": "typed decision substrate, deterministic composition, evidence"
+    },
+    {
+      "repository_full_name": "Loofy147/atlas-lifehacks",
+      "relation": "surfaced by epistemic/operation identity queries; already inside inventory"
+    }
+  ],
+  "discovery_result": {
+    "new_identities_this_wave": 1,
+    "previously_known_high_relevance": 8,
+    "other_search_hits": "The broader PORP query set mostly returned repositories already captured by the inventory, confirming that the existing corpus covers many protocol primitives.",
+    "full_reconciliation": "not performed as a fresh repository census"
+  },
+  "disposition": {
+    "repository_promoted": false,
+    "ranking_created": false,
+    "reuse_claim_created": false,
+    "next_discriminating_action": "Compare MORPHS Experiment 041's reconciliation boundary against UWS/m0/canonical-capability-core using one controlled portable run contract; preserve simulator-only scope."
+  }
+}

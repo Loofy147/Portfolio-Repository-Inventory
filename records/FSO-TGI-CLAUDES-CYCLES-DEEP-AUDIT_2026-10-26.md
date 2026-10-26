@@ -43,7 +43,7 @@ In \`Global-structure-/theorems.py\`, the verification script reports both:
 - “Even \(m\) + Odd \(k\) (3) is mathematically obstructed”, based on the \`extract_weights(...).h2_blocks\` predicate; and
 - “\(m=4\) 3D sigma verified via full-coordinate search”, by checking the full-coordinate \`SOLUTION_M4\`.
 
-The current-HEAD run [37953773568](https://github.com/Loofy147/Global-structure-/actions/runs/37953773568) logs both messages. Its test job succeeded; the publish-to-PyPI job failed and Docker deployment was skipped. The mathematical contradiction is therefore present in the repository's own verification narrative. The likely resolution is scope: the first result describes the restricted construction, while the second is a full-coordinate \(m=4,k=3\) decomposition. The documentation must not present the restricted obstruction as a universal impossibility.
+The current-HEAD run [37953773568](https://github.com/Loofy147/Global-structure-/actions/runs/37953773568) logs both messages. Its test job succeeded; the publish-to-PyPI job failed and Docker deployment was skipped. The mathematical contradiction is therefore present in the repository's own verification narrative. The scope distinction is confirmed by an independent check of the stored \(m=4,k=3\) fixture. I parsed the 64 permutation indices from [solutions.py](https://github.com/Loofy147/Global-structure-/blob/5f56b300cbf7287507e75991d7bb0217fe670403/solutions.py) (blob SHA \(b7f92523bb773cbacda5f5df64b4cf65cc34d328\)), generated the six permutations of \(S_3\) in lexicographic order, and independently built each per-colour successor map using the documented edge-index \(\to\) colour convention. For each of the three colours, all 64 vertices had in-degree one; traversal from \(000\) visited 64 distinct vertices and returned to \(000\). **All three cycles passed.** This independently confirms a full-coordinate \(m=4,k=3\) decomposition and falsifies the blanket claim that even modulus universally requires even dimension. It does not falsify the narrower parity result for the restricted column-uniform construction.
 
 Important qualification: the workflow's success status is not proof of every reported theorem. The verifier records booleans and prints “proved” messages; its exit status does not enforce that every returned result is true. A regression suite must assert the expected outcomes explicitly and independently.
 
@@ -73,7 +73,7 @@ The end of the same file also defines compatibility stubs:
 
 These functions must not be used as valid verification or data-generation primitives. Replace false-success stubs with explicit \`NotImplementedError\` or complete implementations; add tests that fail if these stubs are invoked on a verification path.
 
-By contrast, \`Global-structure-/core.py\` constructs a colour-to-arc inverse map before walking each colour's cycle. It is a more coherent full-coordinate verifier, but the consistency of inputs, serialized permutation indices, and the solver objective still requires dedicated regression tests.
+By contrast, Global-structure-/core.py constructs a colour-to-arc inverse map, but its own connectivity loop does not explicitly assert in-degree one or that the traversal returns to its starting vertex after \(m^k\) steps. Therefore the helper alone is not a sufficiently strong oracle. The independent fixture check above supplies the stronger evidence for the stored \(m=4,k=3\) solution; use such a checker for every regression fixture.
 
 ## Finding 4 — CI green is not equivalent to core-math verification
 
@@ -126,6 +126,6 @@ The trees also contain checked-in interpreter artifacts: 53 \`.pyc\` files in th
 
 ## Audit boundaries and falsifiers
 
-This pass reviewed selected source, documentation, repository trees, and Actions logs; it did not execute either Python codebase locally, prove every theorem false, reproduce an exhaustive solution count, or perform a full smart-contract audit. The main findings are falsifiable: a corrected independent verifier and tests can settle tuple semantics and finite fixtures; a formal derivation can establish or refute the broader closure/count claims; and reproducible integration tests plus adversarial contract testing can distinguish a production implementation from a demo.
+This pass reviewed selected source, documentation, repository trees, and Actions logs. It did not execute either Python codebase locally, prove every theorem false, reproduce an exhaustive solution count, or perform a full smart-contract audit. It did independently execute a separate small verifier over the source-stored \(m=4,k=3\) fixture as described above. The remaining findings are falsifiable: a corrected independent verifier and tests can settle tuple semantics and further fixtures; a formal derivation can establish or refute the broader closure/count claims; and reproducible integration tests plus adversarial contract testing can distinguish a production implementation from a demo.
 
 No source code was changed in the three reviewed projects during this pass. This document records portfolio observations and recommended next work only.

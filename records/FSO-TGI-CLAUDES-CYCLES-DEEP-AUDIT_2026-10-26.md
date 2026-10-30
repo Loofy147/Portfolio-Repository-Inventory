@@ -128,4 +128,51 @@ The trees also contain checked-in interpreter artifacts: 53 \`.pyc\` files in th
 
 This pass reviewed selected source, documentation, repository trees, and Actions logs. It did not execute either Python codebase locally, prove every theorem false, reproduce an exhaustive solution count, or perform a full smart-contract audit. It did independently execute a separate small verifier over the source-stored \(m=4,k=3\) fixture as described above. The remaining findings are falsifiable: a corrected independent verifier and tests can settle tuple semantics and further fixtures; a formal derivation can establish or refute the broader closure/count claims; and reproducible integration tests plus adversarial contract testing can distinguish a production implementation from a demo.
 
-No source code was changed in the three reviewed projects during this pass. This document records portfolio observations and recommended next work only.
+The original D3 review made no source changes. Implementation follow-up is recorded below; the proposed source changes are on a non-default branch and have not been merged. This document records portfolio observations and recommended next work only.
+
+
+## Implementation follow-up — 2026-10-30
+
+### Selected implementation target
+
+The bounded mathematical implementation target is now **Global-structure-** because its observed tree contains the explicit full-coordinate \(m=4,k=3\) witness and an implementation capable of checking full-coordinate assignments. This is a selection for the mathematical implementation frontier, not a claim that the wider TGI product architecture is canonical or production-ready.
+
+- Repository: [Loofy147/Global-structure-](https://github.com/Loofy147/Global-structure-)
+- Base: \`main@5f56b300cbf7287507e75991d7bb0217fe670403\`
+- Working branch: \`fix/independent-hamiltonian-verifier\`
+- Current branch head: \`5530004e9876fcaae9f946ee973ee6ab7d2c99d8\`
+- Pull request: [#28 — Add independent Hamiltonian verifier and scope parity rule](https://github.com/Loofy147/Global-structure-/pull/28)
+- PR state: OPEN, unmerged; base has not moved.
+
+### Implemented on the PR branch
+
+1. Added \`hamiltonian_verifier.py\`, an independent verifier that checks exact vertex coverage, valid edge-to-colour permutations, in-degree one for every colour, and one \(m^k\)-length cycle returning to the origin.
+2. Adapted the legacy \`verify_sigma\` interface for full-coordinate mappings, restricted fiber mappings, and indexed fixtures.
+3. Changed \`solve(4,3)\` to return the stored full-coordinate witness instead of rejecting it under the restricted parity predicate. Unknown cases remain heuristic; search failure is not proof of non-existence.
+4. Added the explicit \`column_uniform_blocked\` property while retaining the legacy \`h2_blocks\` field.
+5. Narrowed README and theorem-script language so parity refers to the column-uniform ansatz rather than all possible decompositions.
+6. Added \`docs/HAMILTONIAN_VERIFICATION.md\` and wired a standard-library unittest suite into the PR workflow.
+
+### Local regression evidence
+
+A local harness exercising the branch's verifier implementation and adapter/fixture behavior passed **11/11 tests**:
+
+- Positive fixtures: \(m=3,k=3\); \(m=4,k=3\); \(m=5,k=3\).
+- Compatibility inputs: stratified mapping, indexed fixture, full-coordinate mapping, and the \`solve(4,3)\` path.
+- Negative fixtures: multiple short cycles despite in-degree one; mutated assignment; missing vertex; extra vertex; and a non-permutation.
+- Python compilation check passed for the verifier, adapter harness, and test module.
+
+This is local regression evidence. It is not a successful GitHub Actions run on the complete repository checkout.
+
+### GitHub Actions limitation
+
+The PR workflow has attempted three successive PR heads. The latest run is [41017822102](https://github.com/Loofy147/Global-structure-/actions/runs/41017822102) on commit \`5530004e9876fcaae9f946ee973ee6ab7d2c99d8\`. GitHub job metadata reports \`runner_id=0\` and zero executed steps. The earlier attempts exhibit the same pre-runner failure. Therefore:
+
+- the workflow is **not CI-verified**;
+- this failure is not evidence that the new tests failed;
+- the cause of runner allocation failure is not established by the available job metadata;
+- the PR remains open and must not be treated as merge-ready solely on local tests.
+
+### Repository boundaries
+
+No default branch has been changed in the three reviewed FSO/TGI repositories. The proposed implementation is isolated to the PR branch in \`Global-structure-\`. \`Global-theorem-\` and the standalone FSO/FSC prototype remain unchanged in this follow-up. Their eventual disposition and cross-repository cleanup are separate tasks; do not silently copy the implementation into every duplicate repository.

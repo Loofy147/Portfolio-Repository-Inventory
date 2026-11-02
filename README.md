@@ -54,15 +54,18 @@ These are evidence-backed portfolio decisions, not mandatory outcomes for every 
 
 `inventory/repositories.json` remains the **historical 2026-08-30 snapshot**: 313 unique repositories from search pages `100/100/100/13`.
 
-The current operational census is now recorded separately in `inventory/current-census-2026-09-22.json`. On 2026-09-22:
+The 2026-09-22 operational census remains preserved in `inventory/current-census-2026-09-22.json`. A fresher census is recorded in `inventory/current-census-2026-10-31.json`. On 2026-10-31:
 
-- GitHub repository search `user:Loofy147` returned `100/100/100/39/0` across pages 1–5 = **339 unique repositories**.
-- Connected installed-repository search returned the same **339 identities**.
-- The two sets matched exactly.
-- All **319** identities currently represented in the portfolio inventory (including the six later Core Working Set additions) are present in the current 339-set.
-- **20 repositories are newly observed** relative to the stored inventory.
+- GitHub repository search `user:Loofy147` returned `100/100/100/93/0` across pages 1–5 = **393 unique repository identities**.
+- Connected installed-repository search returned the same **393 identities**.
+- The two sets matched exactly with no duplicate identities.
+- All **339** identities in the 2026-09-22 snapshot remain present.
+- **54 repository identities are newly observed** relative to the 2026-09-22 snapshot and have a first-pass record in `inventory/current-triage-2026-10-31.json`.
+- The triage pins the observed default branch and latest observed commit where available; empty repositories have no commit object.
+- First-pass maturity/route labels are based on default-branch README and commit evidence. Root-tree, manifest, source, tests and CI review remains incomplete where not directly cited; provenance remains UNKNOWN unless an external fork is evidenced.
+- The 2026-09-22 current census remains immutable historical evidence; do not overwrite it with the newer snapshot.
 
-This establishes a current connected GitHub census under the observed search surface. It does not assert visibility outside that connected/search surface. Historical and current snapshots remain separate by design.
+This establishes a complete census for the two observed connected GitHub search surfaces, not every possible repository or project outside those surfaces. **Repository identity is not project identity**; project/product mapping and structural triage remain a separate evidence-gated step.
 
 ## Inspection protocol
 

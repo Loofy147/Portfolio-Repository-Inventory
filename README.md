@@ -60,7 +60,9 @@ The 2026-09-22 operational census remains preserved in `inventory/current-census
 - Connected installed-repository search returned the same **393 identities**.
 - The two sets matched exactly with no duplicate identities.
 - All **339** identities in the 2026-09-22 snapshot remain present.
-- **54 repository identities are newly observed** relative to the 2026-09-22 snapshot; these are census additions only, not yet structurally triaged projects/products.
+- **54 repository identities are newly observed** relative to the 2026-09-22 snapshot and have a first-pass record in `inventory/current-triage-2026-10-31.json`.
+- The triage pins the observed default branch and latest observed commit where available; empty repositories have no commit object.
+- First-pass maturity/route labels are based on default-branch README and commit evidence. Root-tree, manifest, source, tests and CI review remains incomplete where not directly cited; provenance remains UNKNOWN unless an external fork is evidenced.
 - The 2026-09-22 current census remains immutable historical evidence; do not overwrite it with the newer snapshot.
 
 This establishes a complete census for the two observed connected GitHub search surfaces, not every possible repository or project outside those surfaces. **Repository identity is not project identity**; project/product mapping and structural triage remain a separate evidence-gated step.

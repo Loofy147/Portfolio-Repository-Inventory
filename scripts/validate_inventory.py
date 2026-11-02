@@ -37,6 +37,29 @@ def assert_true(condition: bool, message: str) -> None:
         raise AssertionError(message)
 
 
+def validate_incremental_triage(previous_census: dict, current_census: dict, triage: dict) -> set[str]:
+    """Require triage to cover exactly the identities added by an immutable census."""
+    previous_names = [record["repository_full_name"] for record in previous_census["repositories"]]
+    current_names = [record["repository_full_name"] for record in current_census["repositories"]]
+    triage_names = [record["repository_full_name"] for record in triage["records"]]
+
+    assert_true(len(previous_names) == len(set(previous_names)), "duplicate previous census identity")
+    assert_true(len(current_names) == len(set(current_names)), "duplicate current census identity")
+    assert_true(
+        set(previous_names).issubset(set(current_names)),
+        "historical census identity missing from current census",
+    )
+    assert_true(len(triage_names) == len(set(triage_names)), "duplicate triage identity")
+
+    expected = set(current_names) - set(previous_names)
+    assert_true(
+        set(triage_names) == expected,
+        "current triage must cover exactly the newly observed repository identities",
+    )
+    assert_true(len(triage_names) == len(expected), "triage count mismatch")
+    return expected
+
+
 def main() -> int:
     repositories = load_json("inventory/repositories.json")
     triage = load_json("inventory/triage.json")
@@ -59,6 +82,8 @@ def main() -> int:
     census = load_json("records/CENSUS_SNAPSHOTS_2026-09-22.json")
     current_census = load_json("inventory/current-census-2026-09-22.json")
     current_triage = load_json("inventory/current-triage-2026-09-22.json")
+    current_census_1031 = load_json("inventory/current-census-2026-10-31.json")
+    current_triage_1031 = load_json("inventory/current-triage-2026-10-31.json")
 
     repository_schema = load_json("schema/repository.schema.json")
     Draft202012Validator.check_schema(repository_schema)
@@ -93,8 +118,10 @@ def main() -> int:
     # coerced into the v0.2 repository-review schema.
     validate(decisions, "schema/decision.schema.json", "decision ledger")
     validate(census, "schema/census-snapshot.schema.json", "census snapshots")
-    validate(current_census, "schema/current-census.schema.json", "current census overlay")
-    validate(current_triage, "schema/current-triage.schema.json", "current structural triage")
+    validate(current_census, "schema/current-census.schema.json", "2026-09-22 current census overlay")
+    validate(current_triage, "schema/current-triage.schema.json", "2026-09-22 current structural triage")
+    validate(current_census_1031, "schema/current-census.schema.json", "2026-10-31 current census overlay")
+    validate(current_triage_1031, "schema/current-triage.schema.json", "2026-10-31 current structural triage")
 
     repo_records = repositories["repositories"]
     repo_names = [record["repository_full_name"] for record in repo_records]
@@ -148,7 +175,58 @@ def main() -> int:
     assert_true(historical_names.issubset(current_census_names), "current census must contain every historical inventory identity")
     assert_true(current_census["search_method"]["total"] == len(current_census_names), "current census search total must equal unique repository records")
     assert_true(current_census["installed_search_method"]["total"] == len(current_census_names), "installed search total must equal unique repository records")
-    assert_true(current_census["reconciliation"]["exact_set_match"], "current census methods must reconcile exactly")
+    assert_true(current_census["reconciliation"]["exact_set_match"], "2026-09-22 current census methods must reconcile exactly")
+
+    # The 2026-10-31 census is a new immutable observation, not a replacement
+    # for the 2026-09-22 baseline. Its triage must cover exactly the 54 added IDs.
+    current_census_1031_names = {
+        record["repository_full_name"] for record in current_census_1031["repositories"]
+    }
+    new_triage_expected = validate_incremental_triage(
+        current_census, current_census_1031, current_triage_1031
+    )
+    assert_true(len(current_census["repositories"]) == 339, "2026-09-22 census must retain 339 identities")
+    assert_true(len(current_census_1031_names) == 393, "2026-10-31 census must contain 393 identities")
+    assert_true(len(new_triage_expected) == 54, "2026-10-31 census must add exactly 54 identities")
+    assert_true(
+        current_census_1031["search_method"]["total"] == 393,
+        "2026-10-31 GitHub search total must equal 393",
+    )
+    assert_true(
+        current_census_1031["installed_search_method"]["total"] == 393,
+        "2026-10-31 installed search total must equal 393",
+    )
+    assert_true(
+        current_census_1031["reconciliation"]["exact_set_match"],
+        "2026-10-31 census methods must reconcile exactly",
+    )
+    assert_true(
+        current_census_1031["reconciliation"]["newly_observed_count"] == 54,
+        "2026-10-31 census reconciliation must record 54 new identities",
+    )
+    census_1031_by_name = {
+        record["repository_full_name"]: record
+        for record in current_census_1031["repositories"]
+    }
+    for record in current_triage_1031["records"]:
+        census_record = census_1031_by_name[record["repository_full_name"]]
+        assert_true(
+            record["ref"] == census_record["identity"]["default_branch"],
+            f"default branch ref mismatch for {record['repository_full_name']}",
+        )
+        if record["commit"] is None:
+            assert_true(
+                census_record["identity"]["size_kb"] == 0
+                and record["triage"]["maturity_signal"] == "empty"
+                and record["observations"]["tests"] == "absent_verified"
+                and record["observations"]["ci"] == "absent_verified",
+                f"missing commit is only permitted for an evidenced empty repository: {record['repository_full_name']}",
+            )
+        if record["provenance"]["status"] == "external_fork":
+            assert_true(
+                record["provenance"]["fork"] is True,
+                f"external fork status requires fork=true: {record['repository_full_name']}",
+            )
     core_set = set(active_working_sets[0]["subject"])
     assessed_repos = {record["repository_full_name"] for record in assessments["assessments"]}
     assert_true(assessed_repos.issubset(core_set), "assessments must be limited to current core working set")
@@ -180,6 +258,7 @@ def main() -> int:
     print(f"Relationships (v0.2): {len(relationships['relationships'])}")
     print(f"Clusters: {len(clusters['clusters'])}")
     print("Current target decision: PASS")
+    print("2026-10-31 census transition: PASS (393 total; 339 retained; 54 triaged)")
     print("Durable provenance marker gate: PASS")
     return 0
 

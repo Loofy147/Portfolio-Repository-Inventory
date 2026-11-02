@@ -1,0 +1,1893 @@
+{
+  "schema_version": "0.1.0",
+  "observed_on": "2026-11-02",
+  "snapshot_id": "current-github-census-2026-10-31",
+  "records": [
+    {
+      "repository_full_name": "Loofy147/AI-Business-Portfolio",
+      "ref": "main",
+      "commit": "e8f9186868d56faea0b0967910fb67993abc66cb",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 336,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "critical",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes a build-first multi-business workspace with an AppDeploy sign-in gate and account-scoped server workspace; authenticated persistence and two-account isolation remain explicitly unverified."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/AI-Business-Portfolio/blob/main/README.md",
+        "https://github.com/Loofy147/AI-Business-Portfolio/commit/e8f9186868d56faea0b0967910fb67993abc66cb"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/AI-Digital-Growth",
+      "ref": "main",
+      "commit": null,
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 0,
+        "root_signals": [],
+        "tests": "absent_verified",
+        "ci": "absent_verified"
+      },
+      "triage": {
+        "maturity_signal": "empty",
+        "review_priority": "low",
+        "route": "HOLD",
+        "notes": "The repository is empty at the observed default branch; no application, tests, or CI evidence exists."
+      },
+      "epistemic": {
+        "status": "unknown",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/AI-Digital-Growth",
+        "2026-10-31 repository census metadata: empty repository; no commit object available"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/All-time-",
+      "ref": "main",
+      "commit": "c9f8662acde83808b64ad75ac8bef4ee67edd5da",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 239,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "medium",
+        "route": "HOLD",
+        "notes": "README describes a browser-first local AI workspace in a verification-and-research pause; Supabase is provisioned but not modeled for product data."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/All-time-/blob/main/README.md",
+        "https://github.com/Loofy147/All-time-/commit/c9f8662acde83808b64ad75ac8bef4ee67edd5da"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/bitchat-android",
+      "ref": "main",
+      "commit": "6803d6d73dadd047b4c406ee6f83ba6e92e7eeec",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 102407,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "medium",
+        "route": "REFERENCE_ONLY",
+        "notes": "README identifies an Android implementation compatible with the permissionlesstech iOS project; this is treated as an upstream reference, not a first-party product claim."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/bitchat-android/blob/main/README.md",
+        "https://github.com/Loofy147/bitchat-android/commit/6803d6d73dadd047b4c406ee6f83ba6e92e7eeec"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/business-management-assistant-ai",
+      "ref": "main",
+      "commit": "c95cecbe1f4df6cb09c560e62a72d1c57605d2ab",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 378,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "present",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes a local sandbox business control plane with role-scoped actions, approvals, and audit trail; tests are documented, production integration remains unproven."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/business-management-assistant-ai/blob/main/README.md",
+        "https://github.com/Loofy147/business-management-assistant-ai/commit/c95cecbe1f4df6cb09c560e62a72d1c57605d2ab"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/claude-code-templates",
+      "ref": "main",
+      "commit": "9416faad8aa9111a467069e4b5f29766c1d2a388",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 275697,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "medium",
+        "route": "REFERENCE_ONLY",
+        "notes": "README presents a broad template/catalog ecosystem and upstream-sponsored program badges; source lineage and local product delta were not independently verified."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/claude-code-templates/blob/main/README.md",
+        "https://github.com/Loofy147/claude-code-templates/commit/9416faad8aa9111a467069e4b5f29766c1d2a388"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/client-proof",
+      "ref": "main",
+      "commit": "410a3b93bd7b6def9287d75a839f31568b1d8016",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 35,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "README defines a bounded public engineering-proof catalog with explicit outcome, verification, evidence, limitations, and commercial-scope fields."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/client-proof/blob/main/README.md",
+        "https://github.com/Loofy147/client-proof/commit/410a3b93bd7b6def9287d75a839f31568b1d8016"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/compact-routing-rewiring",
+      "ref": "main",
+      "commit": "a2157752d5c70723f15bac1d8a3ed80d05f8c8af",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 73,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "research_baseline_signal",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes two bounded graph/finite-domain research tracks and explicitly limits the conclusions to measured candidate families."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/compact-routing-rewiring/blob/main/README.md",
+        "https://github.com/Loofy147/compact-routing-rewiring/commit/a2157752d5c70723f15bac1d8a3ed80d05f8c8af"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Context-swarm",
+      "ref": "main",
+      "commit": "2ff451719cbc1b7806826fc1bd5d0f6729a6d8e1",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 276,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "present",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "research_baseline_signal",
+        "review_priority": "critical",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes repository-native swarm maturation with versioned context state and evidence-first transitions; recent commit history records accepted test/evidence cycles."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Context-swarm/blob/main/README.md",
+        "https://github.com/Loofy147/Context-swarm/commit/2ff451719cbc1b7806826fc1bd5d0f6729a6d8e1"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Contribution-bounties-centre-",
+      "ref": "main",
+      "commit": "773edc70f418a619ed8575aeda2ce30fe131cedb",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 660,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "present",
+        "ci": "present"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "README identifies ContribQuest as the application prototype and Project 0 contribution ledger; latest commit adds CI/build/runtime boundary checks."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Contribution-bounties-centre-/blob/main/README.md",
+        "https://github.com/Loofy147/Contribution-bounties-centre-/commit/773edc70f418a619ed8575aeda2ce30fe131cedb"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/contribution-network",
+      "ref": "main",
+      "commit": "8fe5f3482a3104468eb6bbc7c425bbc73202ca35",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 195,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes a draft v0.1 project-based contribution network; Project 0 is explicitly founder dogfooding, not external market validation."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/contribution-network/blob/main/README.md",
+        "https://github.com/Loofy147/contribution-network/commit/8fe5f3482a3104468eb6bbc7c425bbc73202ca35"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Conversational",
+      "ref": "main",
+      "commit": "9da36fcd99f49b9f859751f39d1a4f4393c1d1de",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 123,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "research_baseline_signal",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "README records protocol v0.3 candidate state, self-integrity-only authenticity, and fresh-context restore as UNVERIFIED."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Conversational/blob/main/README.md",
+        "https://github.com/Loofy147/Conversational/commit/9da36fcd99f49b9f859751f39d1a4f4393c1d1de"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Delta-bedrani",
+      "ref": "main",
+      "commit": "a58e14b176b7013fc7147f322d3613a261b9aaa9",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 125,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "present",
+        "ci": "present"
+      },
+      "triage": {
+        "maturity_signal": "research_baseline_signal",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes an exact finite delta-matroid research framework; latest commit runs the verification suite."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Delta-bedrani/blob/main/README.md",
+        "https://github.com/Loofy147/Delta-bedrani/commit/a58e14b176b7013fc7147f322d3613a261b9aaa9"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Deter-agent",
+      "ref": "main",
+      "commit": "3b38d7d2440e2e238123225fa9340dd7aaafc3aa",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 439,
+        "root_signals": [
+          "README.md absent at inspected default-branch ref"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "unknown",
+        "review_priority": "low",
+        "route": "HOLD",
+        "notes": "No README was available at the observed default-branch ref; one commit exists, but source purpose, maturity, tests, CI, and provenance remain UNKNOWN."
+      },
+      "epistemic": {
+        "status": "unknown",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Deter-agent",
+        "https://github.com/Loofy147/Deter-agent/commit/3b38d7d2440e2e238123225fa9340dd7aaafc3aa"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Dosidicus",
+      "ref": "3.1_LatestVersion",
+      "commit": "38176bc1bb30865c8fdb7b7ca3df0953e7a9a9b9",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 12587,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "low",
+        "route": "REFERENCE_ONLY",
+        "notes": "README describes an educational neural-network pet/simulation project with GPL-2.0 branding; the repository's upstream lineage was not independently established."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Dosidicus/blob/3.1_LatestVersion/README.md",
+        "https://github.com/Loofy147/Dosidicus/commit/38176bc1bb30865c8fdb7b7ca3df0953e7a9a9b9"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Dz-luncher",
+      "ref": "main",
+      "commit": "443fb5e4b73acb9c843510d14bf1f2376e16347a",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 467,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes an Arabic-first survey and market-validation platform for Algeria; repository is an initial bootstrap and implementation is on a feature branch."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Dz-luncher/blob/main/README.md",
+        "https://github.com/Loofy147/Dz-luncher/commit/443fb5e4b73acb9c843510d14bf1f2376e16347a"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/everything",
+      "ref": "main",
+      "commit": "06802a1e3749202e4db94d39c9ef5ab1a97d0ef1",
+      "provenance": {
+        "fork": true,
+        "parent": null,
+        "source": null,
+        "status": "external_fork"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 423248,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "medium",
+        "route": "REFERENCE_ONLY",
+        "notes": "README describes a very large software-app monorepo; the From-everything-to-apps README calls this repository a reference fork, not a source architecture to preserve."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/everything/blob/main/README.md",
+        "https://github.com/Loofy147/everything/commit/06802a1e3749202e4db94d39c9ef5ab1a97d0ef1"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/FastVideo",
+      "ref": "main",
+      "commit": "d5253fd71055927f12aa6c4aa679b93a00238851",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 440362,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "medium",
+        "route": "REFERENCE_ONLY",
+        "notes": "README describes the Hao AI Lab FastVideo post-training and inference framework; no first-party adaptation boundary was evidenced in this review."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/FastVideo/blob/main/README.md",
+        "https://github.com/Loofy147/FastVideo/commit/d5253fd71055927f12aa6c4aa679b93a00238851"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Foundation-meta-bus",
+      "ref": "main",
+      "commit": "eccc2c79402983ae99537d6a4e1f17beb4f72f5e",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 471,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "unknown",
+        "review_priority": "low",
+        "route": "HOLD",
+        "notes": "README contains only a title despite a non-empty repository; repository purpose, implementation maturity, test state, and provenance remain UNKNOWN."
+      },
+      "epistemic": {
+        "status": "unknown",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Foundation-meta-bus/blob/main/README.md",
+        "https://github.com/Loofy147/Foundation-meta-bus/commit/eccc2c79402983ae99537d6a4e1f17beb4f72f5e"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/From-everything-to-apps",
+      "ref": "main",
+      "commit": "88ec0a818925c47a19eaef15bc83f71b80d40d9b",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 220,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "present",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "critical",
+        "route": "DEEP_REVIEW",
+        "notes": "README defines an extraction/provenance workflow and records Portable Archive and Record Vault candidates with focused tests; it explicitly limits integrity claims and notes recovery gaps."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/From-everything-to-apps/blob/main/README.md",
+        "https://github.com/Loofy147/From-everything-to-apps/commit/88ec0a818925c47a19eaef15bc83f71b80d40d9b"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/game-kernel-composition",
+      "ref": "main",
+      "commit": "5d1e51caa8196c061de1f29158e5507b35f12189",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 53,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "research_baseline_signal",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "README frames the repository as a game-discovery research lab with deterministic simulations and controlled probes; no final game or product-market result is claimed."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/game-kernel-composition/blob/main/README.md",
+        "https://github.com/Loofy147/game-kernel-composition/commit/5d1e51caa8196c061de1f29158e5507b35f12189"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Handy",
+      "ref": "main",
+      "commit": "7bfb2e2c934b798bcf6e3627653aed2439996f89",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 18506,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "low",
+        "route": "REFERENCE_ONLY",
+        "notes": "README describes an offline, open-source desktop speech-to-text application; local fork/source lineage and intended reuse are not verified."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Handy/blob/main/README.md",
+        "https://github.com/Loofy147/Handy/commit/7bfb2e2c934b798bcf6e3627653aed2439996f89"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/harvey",
+      "ref": "main",
+      "commit": "4237f07f5873e270c362b43aec76e60fc4faa9cf",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 13167,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "medium",
+        "route": "REFERENCE_ONLY",
+        "notes": "README describes an autonomous sales agent using Claude Code or Codex subscriptions; this is treated as external reference material pending provenance and safety review."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/harvey/blob/main/README.md",
+        "https://github.com/Loofy147/harvey/commit/4237f07f5873e270c362b43aec76e60fc4faa9cf"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Inspectra",
+      "ref": "main",
+      "commit": "867aae69d85503b1dbf462ed526c241244375d73",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 342,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "present",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes an operational-assurance browser prototype with domain-rule tests; data is browser-local and not connected to shared auth, storage, or live systems."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Inspectra/blob/main/README.md",
+        "https://github.com/Loofy147/Inspectra/commit/867aae69d85503b1dbf462ed526c241244375d73"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/keyvault",
+      "ref": "main",
+      "commit": "f8c2597d606f612ad78ac9c06423f7b16eea8548",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 167,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "critical",
+        "route": "DEEP_REVIEW",
+        "notes": "README explicitly says NOT READY; DNS/IP destination pinning, native keychain validation, cross-process writer safety, and browser E2E remain release blockers."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/keyvault/blob/main/README.md",
+        "https://github.com/Loofy147/keyvault/commit/f8c2597d606f612ad78ac9c06423f7b16eea8548"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/La9ta",
+      "ref": "main",
+      "commit": "333856fc52b11d26a88bfc2ca26d122025c3d373",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 120,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "present",
+        "ci": "present"
+      },
+      "triage": {
+        "maturity_signal": "production_candidate_signal",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "README records a deployed store workflow, 27 passing tests and CI evidence, while authenticated admin order retrieval/update and device acceptance remain open."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/La9ta/blob/main/README.md",
+        "https://github.com/Loofy147/La9ta/commit/333856fc52b11d26a88bfc2ca26d122025c3d373"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/limit-order-protocol",
+      "ref": "master",
+      "commit": "790906e80ca2f9bbdaeadfec639c59e5227d4949",
+      "provenance": {
+        "fork": true,
+        "parent": "1inch/limit-order-protocol",
+        "source": "1inch/limit-order-protocol",
+        "status": "external_fork"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 4486,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "low",
+        "route": "REFERENCE_ONLY",
+        "notes": "README identifies the 1inch Limit Order Protocol and warns the upstream master branch is unaudited; this copy is not treated as a first-party production contract."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/limit-order-protocol/blob/master/README.md",
+        "https://github.com/Loofy147/limit-order-protocol/commit/790906e80ca2f9bbdaeadfec639c59e5227d4949"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Loofy-Extensions",
+      "ref": "main",
+      "commit": "62b11140ff4975723d47f2338e32dd476766616a",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 263,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "present",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "research_baseline_signal",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes versioned manifests, grants, host authorization, SQLite audit chain, and isolated task execution as reference implementations; production identity and third-party sandboxing remain out of scope."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Loofy-Extensions/blob/main/README.md",
+        "https://github.com/Loofy147/Loofy-Extensions/commit/62b11140ff4975723d47f2338e32dd476766616a"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/madar-site",
+      "ref": "main",
+      "commit": "b40257b90acc9b675cdffbf3153f510705214b06",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 18630,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes an Arabic service-intake and delivery-tracking website; launch still depends on domain, intake channel, follow-up rules, and real pricing evidence."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/madar-site/blob/main/README.md",
+        "https://github.com/Loofy147/madar-site/commit/b40257b90acc9b675cdffbf3153f510705214b06"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/mail",
+      "ref": "main",
+      "commit": "1bc087fdc0169abb2516993cc3b96052dd7ce528",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 141819,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "medium",
+        "route": "REFERENCE_ONLY",
+        "notes": "README identifies Flectar Mail and AGPL-3.0; native-versus-web product and licensing decisions remain separate from any first-party app claim."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/mail/blob/main/README.md",
+        "https://github.com/Loofy147/mail/commit/1bc087fdc0169abb2516993cc3b96052dd7ce528"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Medad",
+      "ref": "main",
+      "commit": "bed7ec743bc29a33f5562e2b0c7f59f5b019701b",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 227,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "medium",
+        "route": "HOLD",
+        "notes": "README describes an Arabic-first local commerce-partnership prototype with deterministic unit economics; no live market, supplier, courier, ads, orders, partner, or AI integrations are connected."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Medad/blob/main/README.md",
+        "https://github.com/Loofy147/Medad/commit/bed7ec743bc29a33f5562e2b0c7f59f5b019701b"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/micro-product-development",
+      "ref": "main",
+      "commit": "4fe99eb4a5de3cd637add618cad77aa8f5cd653f",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 3490,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "low",
+        "route": "HOLD",
+        "notes": "README describes a Next.js micro-products marketplace and product-factory dashboard; the current evidence is an initial imported application, not validated demand."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/micro-product-development/blob/main/README.md",
+        "https://github.com/Loofy147/micro-product-development/commit/4fe99eb4a5de3cd637add618cad77aa8f5cd653f"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Million-dollars-OS",
+      "ref": "main",
+      "commit": "65c31578ecdb1d7f624c724dda265ed6d211a04b",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 1775,
+        "root_signals": [
+          "README.md absent at inspected default-branch ref"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "unknown",
+        "review_priority": "low",
+        "route": "HOLD",
+        "notes": "README is absent at the observed default branch; one initialization commit indicates a financial-velocity scaffold but does not establish an implemented or validated system."
+      },
+      "epistemic": {
+        "status": "unknown",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Million-dollars-OS",
+        "https://github.com/Loofy147/Million-dollars-OS/commit/65c31578ecdb1d7f624c724dda265ed6d211a04b"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/minna-ai",
+      "ref": "main",
+      "commit": "5b117524f6a31de83b98924c428b4591e1036c33",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 2316,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "present",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes a pre-alpha assistant with a portable core and separate Android UI; Android sample flows are not connected to runtime or persistent storage."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/minna-ai/blob/main/README.md",
+        "https://github.com/Loofy147/minna-ai/commit/5b117524f6a31de83b98924c428b4591e1036c33"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/MORPHS",
+      "ref": "main",
+      "commit": "861090a38141e89c7a3bf4d6eeb6c816fcf9b5f2",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 339,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "research_baseline_signal",
+        "review_priority": "critical",
+        "route": "DEEP_REVIEW",
+        "notes": "README records an experimental software-ecology research runtime and one bounded, real read-only GitHub adapter verification; claims remain limited to the stated experiment."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/MORPHS/blob/main/README.md",
+        "https://github.com/Loofy147/MORPHS/commit/861090a38141e89c7a3bf4d6eeb6c816fcf9b5f2"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/NEXUS",
+      "ref": "main",
+      "commit": "25eab65862f7ba8159c3418c4cdd00b4be141680",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 76,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes a public website and AppDeploy surface with build evidence; production completeness, external regression, accessibility, and deployment/source traceability remain open."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/NEXUS/blob/main/README.md",
+        "https://github.com/Loofy147/NEXUS/commit/25eab65862f7ba8159c3418c4cdd00b4be141680"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Open-System-One",
+      "ref": "main",
+      "commit": "fb21d176d0ed1b083df889cf747ac562d449ceef",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 581,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "research_baseline_signal",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "README separates a typed decision contract, deterministic composition, replaceable backends, and experiments; claimed advantages on real decision data remain OPEN."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Open-System-One/blob/main/README.md",
+        "https://github.com/Loofy147/Open-System-One/commit/fb21d176d0ed1b083df889cf747ac562d449ceef"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Opportunity-Packs",
+      "ref": "main",
+      "commit": "8e3f0c82d45d254fd4dae373d7ab4152f0af7cb5",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 4,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "medium",
+        "route": "HOLD",
+        "notes": "README describes an initial set of automation-pack candidates; schema/mock tests are not equivalent to live Opscotch runtime verification."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Opportunity-Packs/blob/main/README.md",
+        "https://github.com/Loofy147/Opportunity-Packs/commit/8e3f0c82d45d254fd4dae373d7ab4152f0af7cb5"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/postiz-algeria",
+      "ref": "main",
+      "commit": "3a2bef8073c398fbe5542d96ec8e0a5d3b79bbb2",
+      "provenance": {
+        "fork": true,
+        "parent": "gitroomhq/postiz-app",
+        "source": "gitroomhq/postiz-app",
+        "status": "external_fork"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 64438,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "external_reference",
+        "review_priority": "high",
+        "route": "LINEAGE_REVIEW",
+        "notes": "README retains upstream Postiz branding and AGPL-3.0; the November audit recorded a fork relationship to gitroomhq/postiz-app and no evidenced Algeria-specific product delta."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/postiz-algeria/blob/main/README.md",
+        "https://github.com/Loofy147/postiz-algeria/commit/3a2bef8073c398fbe5542d96ec8e0a5d3b79bbb2"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Product-Factory",
+      "ref": "main",
+      "commit": "e7d0808a00f822085aa74dc5caeb45fe8dbfbc3b",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 144,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "research_baseline_signal",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "README defines an operating workspace for small digital products; listed product concepts are explicitly hypotheses rather than commitments."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Product-Factory/blob/main/README.md",
+        "https://github.com/Loofy147/Product-Factory/commit/e7d0808a00f822085aa74dc5caeb45fe8dbfbc3b"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Project-Intelligence-Contribution-Engine",
+      "ref": "main",
+      "commit": "d68b4fb1f666df8f1e0f6b9682cdc3c0bc678423",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 195,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes a local-first CLI that indexes projects, snapshots GitHub issues/PRs, and creates reviewable work plans without mutating source repositories or funded bounties."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Project-Intelligence-Contribution-Engine/blob/main/README.md",
+        "https://github.com/Loofy147/Project-Intelligence-Contribution-Engine/commit/d68b4fb1f666df8f1e0f6b9682cdc3c0bc678423"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Proofline",
+      "ref": "main",
+      "commit": "07392ad40ce7e8f6ccd1784593a5997e9dccd63c",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 172,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "low",
+        "route": "HOLD",
+        "notes": "README describes an early-stage AI deliverable-assurance concept; the current README is a bootstrap and implementation remains proposed separately."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Proofline/blob/main/README.md",
+        "https://github.com/Loofy147/Proofline/commit/07392ad40ce7e8f6ccd1784593a5997e9dccd63c"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/pyramiding",
+      "ref": "main",
+      "commit": "83d0f4d7e8e74ddda0e47966a3b89724e8d1c7c7",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 290,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "present",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes a local-first leveraged-position simulator with seeded correlated paths and risk controls; it does not discover entries or assets."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/pyramiding/blob/main/README.md",
+        "https://github.com/Loofy147/pyramiding/commit/83d0f4d7e8e74ddda0e47966a3b89724e8d1c7c7"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Rag-company",
+      "ref": "main",
+      "commit": "fbdbed01e073c37950898bf5f747d1212dbaec4f",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 82,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "high",
+        "route": "HOLD",
+        "notes": "README describes a private local-first RAG workspace; implementation is being prepared on a feature branch and confidential data must not enter hosted previews."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Rag-company/blob/main/README.md",
+        "https://github.com/Loofy147/Rag-company/commit/fbdbed01e073c37950898bf5f747d1212dbaec4f"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/REOS",
+      "ref": "main",
+      "commit": "68d42c0ab966643b3b8d4a917397faed3951cc4a",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 160,
+        "root_signals": [
+          "README.md absent at inspected default-branch ref"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "unknown",
+        "review_priority": "low",
+        "route": "HOLD",
+        "notes": "README is absent at the observed default branch and the latest commit only reverts an accidental file; purpose and implementation maturity remain UNKNOWN."
+      },
+      "epistemic": {
+        "status": "unknown",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/REOS",
+        "https://github.com/Loofy147/REOS/commit/68d42c0ab966643b3b8d4a917397faed3951cc4a"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/role-fluidity-evidence-simulation",
+      "ref": "main",
+      "commit": "2f576b823b7842b117a55608658cd394d6ca8083",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 204,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "research_baseline_signal",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes a reproducible agent-based mechanism simulation and explicitly states that results do not establish real-world demand, viability, or behavior."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/role-fluidity-evidence-simulation/blob/main/README.md",
+        "https://github.com/Loofy147/role-fluidity-evidence-simulation/commit/2f576b823b7842b117a55608658cd394d6ca8083"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/shared-operating-substrate",
+      "ref": "main",
+      "commit": "1b31a843696174b6bcc23d76033b0e9ab47de01f",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 127,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "substantial",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes runnable standard-library reference components for lifecycle state, system-of-record provenance, integration retries, and unit economics."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/shared-operating-substrate/blob/main/README.md",
+        "https://github.com/Loofy147/shared-operating-substrate/commit/1b31a843696174b6bcc23d76033b0e9ab47de01f"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Shed-Z",
+      "ref": "main",
+      "commit": "3fea838db7cdb1e0f109b0ffd99783bdd4fe2104",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 168,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "minimal",
+        "review_priority": "low",
+        "route": "HOLD",
+        "notes": "README describes an architecture/research foundation only; components are not selected or deployed and nothing is production-ready."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Shed-Z/blob/main/README.md",
+        "https://github.com/Loofy147/Shed-Z/commit/3fea838db7cdb1e0f109b0ffd99783bdd4fe2104"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Taskora",
+      "ref": "main",
+      "commit": "45811a8cb15cc26eceb1de76e992013be82f0252",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 2021,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "present",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "critical",
+        "route": "DEEP_REVIEW",
+        "notes": "README identifies a browser-local prototype and a separate AppDeploy preview; authenticated edits/reload, stale-write conflicts, and account isolation remain independently unverified."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Taskora/blob/main/README.md",
+        "https://github.com/Loofy147/Taskora/commit/45811a8cb15cc26eceb1de76e992013be82f0252"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/tiny-recurrent-ternary-lab",
+      "ref": "main",
+      "commit": "2999d76ad834571312ac2ff27386c2857e7010a7",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 251,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "research_baseline_signal",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes reproducible recurrent-depth and ternary-weight experiments with pinned runs, correction studies, and saved evidence."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/tiny-recurrent-ternary-lab/blob/main/README.md",
+        "https://github.com/Loofy147/tiny-recurrent-ternary-lab/commit/2999d76ad834571312ac2ff27386c2857e7010a7"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/TwiYo",
+      "ref": "main",
+      "commit": "38e9e74e1df3aea78bdc4ada0594cf9e5ec48404",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "private",
+        "archived": false,
+        "size_kb": 569,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "present",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "low",
+        "route": "HOLD",
+        "notes": "README describes a frontend-only sample shop; cart state is volatile and there is no server, database, payment, CRM, or order submission."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/TwiYo/blob/main/README.md",
+        "https://github.com/Loofy147/TwiYo/commit/38e9e74e1df3aea78bdc4ada0594cf9e5ec48404"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/video-workbench",
+      "ref": "main",
+      "commit": "310614a12cec20664cff2df514f9c9e919511896",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 132,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "unknown",
+        "ci": "unknown"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "medium",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes a local CLI renderer and browser workflow for versioned campaign briefs; deployed multi-user workflow and identity-bound approval remain incomplete."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/video-workbench/blob/main/README.md",
+        "https://github.com/Loofy147/video-workbench/commit/310614a12cec20664cff2df514f9c9e919511896"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Wellprobe",
+      "ref": "main",
+      "commit": null,
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 0,
+        "root_signals": [],
+        "tests": "absent_verified",
+        "ci": "absent_verified"
+      },
+      "triage": {
+        "maturity_signal": "empty",
+        "review_priority": "low",
+        "route": "HOLD",
+        "notes": "The repository is empty at the observed default branch; no application, tests, or CI evidence exists."
+      },
+      "epistemic": {
+        "status": "unknown",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Wellprobe",
+        "2026-10-31 repository census metadata: empty repository; no commit object available"
+      ]
+    },
+    {
+      "repository_full_name": "Loofy147/Za3im",
+      "ref": "main",
+      "commit": "f9c2087b73344fdc7b366df3a4f172372fddc10a",
+      "provenance": {
+        "fork": null,
+        "parent": null,
+        "source": null,
+        "status": "provenance_unknown"
+      },
+      "observations": {
+        "visibility": "public",
+        "archived": false,
+        "size_kb": 251,
+        "root_signals": [
+          "README.md"
+        ],
+        "tests": "present",
+        "ci": "present"
+      },
+      "triage": {
+        "maturity_signal": "prototype_signal",
+        "review_priority": "high",
+        "route": "DEEP_REVIEW",
+        "notes": "README describes a local Algerian business-profile validation and unpublished HTML/copy generation slice with a gated OpenAI Responses API client; live provider use remains disabled."
+      },
+      "epistemic": {
+        "status": "observed",
+        "assessed_at": "2026-11-02"
+      },
+      "evidence_refs": [
+        "https://github.com/Loofy147/Za3im/blob/main/README.md",
+        "https://github.com/Loofy147/Za3im/commit/f9c2087b73344fdc7b366df3a4f172372fddc10a"
+      ]
+    }
+  ]
+}

@@ -11,7 +11,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -27,10 +27,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "critical",
         "route": "DEEP_REVIEW",
-        "notes": "README describes a build-first multi-business workspace with an AppDeploy sign-in gate and account-scoped server workspace; authenticated persistence and two-account isolation remain explicitly unverified."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes a build-first multi-business workspace with an AppDeploy sign-in gate and account-scoped server workspace; authenticated persistence and two-account isolation remain explicitly unverified."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -60,7 +60,7 @@
         "maturity_signal": "empty",
         "review_priority": "low",
         "route": "HOLD",
-        "notes": "The repository is empty at the observed default branch; no application, tests, or CI evidence exists."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. The repository is empty at the observed default branch; no application, tests, or CI evidence exists."
       },
       "epistemic": {
         "status": "unknown",
@@ -79,7 +79,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -95,10 +95,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "medium",
         "route": "HOLD",
-        "notes": "README describes a browser-first local AI workspace in a verification-and-research pause; Supabase is provisioned but not modeled for product data."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes a browser-first local AI workspace in a verification-and-research pause; Supabase is provisioned but not modeled for product data."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -130,10 +130,10 @@
         "maturity_signal": "external_reference",
         "review_priority": "medium",
         "route": "REFERENCE_ONLY",
-        "notes": "README identifies an Android implementation compatible with the permissionlesstech iOS project; this is treated as an upstream reference, not a first-party product claim."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README identifies an Android implementation compatible with the permissionlesstech iOS project; this is treated as an upstream reference, not a first-party product claim."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -149,7 +149,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "private",
@@ -165,10 +165,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "high",
         "route": "DEEP_REVIEW",
-        "notes": "README describes a local sandbox business control plane with role-scoped actions, approvals, and audit trail; tests are documented, production integration remains unproven."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes a local sandbox business control plane with role-scoped actions, approvals, and audit trail; tests are documented, production integration remains unproven."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -200,10 +200,10 @@
         "maturity_signal": "external_reference",
         "review_priority": "medium",
         "route": "REFERENCE_ONLY",
-        "notes": "README presents a broad template/catalog ecosystem and upstream-sponsored program badges; source lineage and local product delta were not independently verified."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README presents a broad template/catalog ecosystem and upstream-sponsored program badges; source lineage and local product delta were not independently verified."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -219,7 +219,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -235,10 +235,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "medium",
         "route": "DEEP_REVIEW",
-        "notes": "README defines a bounded public engineering-proof catalog with explicit outcome, verification, evidence, limitations, and commercial-scope fields."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README defines a bounded public engineering-proof catalog with explicit outcome, verification, evidence, limitations, and commercial-scope fields."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -254,7 +254,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "private",
@@ -270,10 +270,10 @@
         "maturity_signal": "research_baseline_signal",
         "review_priority": "high",
         "route": "DEEP_REVIEW",
-        "notes": "README describes two bounded graph/finite-domain research tracks and explicitly limits the conclusions to measured candidate families."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes two bounded graph/finite-domain research tracks and explicitly limits the conclusions to measured candidate families."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -289,7 +289,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -305,10 +305,10 @@
         "maturity_signal": "research_baseline_signal",
         "review_priority": "critical",
         "route": "DEEP_REVIEW",
-        "notes": "README describes repository-native swarm maturation with versioned context state and evidence-first transitions; recent commit history records accepted test/evidence cycles."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes repository-native swarm maturation with versioned context state and evidence-first transitions; recent commit history records accepted test/evidence cycles."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -324,7 +324,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -340,10 +340,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "high",
         "route": "DEEP_REVIEW",
-        "notes": "README identifies ContribQuest as the application prototype and Project 0 contribution ledger; latest commit adds CI/build/runtime boundary checks."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README identifies ContribQuest as the application prototype and Project 0 contribution ledger; latest commit adds CI/build/runtime boundary checks."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -359,7 +359,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -375,10 +375,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "high",
         "route": "DEEP_REVIEW",
-        "notes": "README describes a draft v0.1 project-based contribution network; Project 0 is explicitly founder dogfooding, not external market validation."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes a draft v0.1 project-based contribution network; Project 0 is explicitly founder dogfooding, not external market validation."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -394,7 +394,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -410,10 +410,10 @@
         "maturity_signal": "research_baseline_signal",
         "review_priority": "high",
         "route": "DEEP_REVIEW",
-        "notes": "README records protocol v0.3 candidate state, self-integrity-only authenticity, and fresh-context restore as UNVERIFIED."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README records protocol v0.3 candidate state, self-integrity-only authenticity, and fresh-context restore as UNVERIFIED."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -429,7 +429,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -445,10 +445,10 @@
         "maturity_signal": "research_baseline_signal",
         "review_priority": "medium",
         "route": "DEEP_REVIEW",
-        "notes": "README describes an exact finite delta-matroid research framework; latest commit runs the verification suite."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes an exact finite delta-matroid research framework; latest commit runs the verification suite."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -480,7 +480,7 @@
         "maturity_signal": "unknown",
         "review_priority": "low",
         "route": "HOLD",
-        "notes": "No README was available at the observed default-branch ref; one commit exists, but source purpose, maturity, tests, CI, and provenance remain UNKNOWN."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. No README was available at the observed default-branch ref; one commit exists, but source purpose, maturity, tests, CI, and provenance remain UNKNOWN."
       },
       "epistemic": {
         "status": "unknown",
@@ -515,10 +515,10 @@
         "maturity_signal": "external_reference",
         "review_priority": "low",
         "route": "REFERENCE_ONLY",
-        "notes": "README describes an educational neural-network pet/simulation project with GPL-2.0 branding; the repository's upstream lineage was not independently established."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes an educational neural-network pet/simulation project with GPL-2.0 branding; the repository's upstream lineage was not independently established."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -534,7 +534,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -550,10 +550,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "medium",
         "route": "DEEP_REVIEW",
-        "notes": "README describes an Arabic-first survey and market-validation platform for Algeria; repository is an initial bootstrap and implementation is on a feature branch."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes an Arabic-first survey and market-validation platform for Algeria; repository is an initial bootstrap and implementation is on a feature branch."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -585,10 +585,10 @@
         "maturity_signal": "external_reference",
         "review_priority": "medium",
         "route": "REFERENCE_ONLY",
-        "notes": "README describes a very large software-app monorepo; the From-everything-to-apps README calls this repository a reference fork, not a source architecture to preserve."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes a very large software-app monorepo; the From-everything-to-apps README calls this repository a reference fork, not a source architecture to preserve."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -620,10 +620,10 @@
         "maturity_signal": "external_reference",
         "review_priority": "medium",
         "route": "REFERENCE_ONLY",
-        "notes": "README describes the Hao AI Lab FastVideo post-training and inference framework; no first-party adaptation boundary was evidenced in this review."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes the Hao AI Lab FastVideo post-training and inference framework; no first-party adaptation boundary was evidenced in this review."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -655,7 +655,7 @@
         "maturity_signal": "unknown",
         "review_priority": "low",
         "route": "HOLD",
-        "notes": "README contains only a title despite a non-empty repository; repository purpose, implementation maturity, test state, and provenance remain UNKNOWN."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README contains only a title despite a non-empty repository; repository purpose, implementation maturity, test state, and provenance remain UNKNOWN."
       },
       "epistemic": {
         "status": "unknown",
@@ -674,7 +674,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -690,10 +690,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "critical",
         "route": "DEEP_REVIEW",
-        "notes": "README defines an extraction/provenance workflow and records Portable Archive and Record Vault candidates with focused tests; it explicitly limits integrity claims and notes recovery gaps."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README defines an extraction/provenance workflow and records Portable Archive and Record Vault candidates with focused tests; it explicitly limits integrity claims and notes recovery gaps."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -709,7 +709,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "private",
@@ -725,10 +725,10 @@
         "maturity_signal": "research_baseline_signal",
         "review_priority": "medium",
         "route": "DEEP_REVIEW",
-        "notes": "README frames the repository as a game-discovery research lab with deterministic simulations and controlled probes; no final game or product-market result is claimed."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README frames the repository as a game-discovery research lab with deterministic simulations and controlled probes; no final game or product-market result is claimed."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -760,10 +760,10 @@
         "maturity_signal": "external_reference",
         "review_priority": "low",
         "route": "REFERENCE_ONLY",
-        "notes": "README describes an offline, open-source desktop speech-to-text application; local fork/source lineage and intended reuse are not verified."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes an offline, open-source desktop speech-to-text application; local fork/source lineage and intended reuse are not verified."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -795,10 +795,10 @@
         "maturity_signal": "external_reference",
         "review_priority": "medium",
         "route": "REFERENCE_ONLY",
-        "notes": "README describes an autonomous sales agent using Claude Code or Codex subscriptions; this is treated as external reference material pending provenance and safety review."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes an autonomous sales agent using Claude Code or Codex subscriptions; this is treated as external reference material pending provenance and safety review."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -814,7 +814,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -830,10 +830,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "medium",
         "route": "DEEP_REVIEW",
-        "notes": "README describes an operational-assurance browser prototype with domain-rule tests; data is browser-local and not connected to shared auth, storage, or live systems."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes an operational-assurance browser prototype with domain-rule tests; data is browser-local and not connected to shared auth, storage, or live systems."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -849,7 +849,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -865,10 +865,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "critical",
         "route": "DEEP_REVIEW",
-        "notes": "README explicitly says NOT READY; DNS/IP destination pinning, native keychain validation, cross-process writer safety, and browser E2E remain release blockers."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README explicitly says NOT READY; DNS/IP destination pinning, native keychain validation, cross-process writer safety, and browser E2E remain release blockers."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -884,7 +884,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -900,10 +900,10 @@
         "maturity_signal": "production_candidate_signal",
         "review_priority": "high",
         "route": "DEEP_REVIEW",
-        "notes": "README records a deployed store workflow, 27 passing tests and CI evidence, while authenticated admin order retrieval/update and device acceptance remain open."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README records a deployed store workflow, 27 passing tests and CI evidence, while authenticated admin order retrieval/update and device acceptance remain open."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -935,10 +935,10 @@
         "maturity_signal": "external_reference",
         "review_priority": "low",
         "route": "REFERENCE_ONLY",
-        "notes": "README identifies the 1inch Limit Order Protocol and warns the upstream master branch is unaudited; this copy is not treated as a first-party production contract."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README identifies the 1inch Limit Order Protocol and warns the upstream master branch is unaudited; this copy is not treated as a first-party production contract."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -954,7 +954,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -970,10 +970,10 @@
         "maturity_signal": "research_baseline_signal",
         "review_priority": "high",
         "route": "DEEP_REVIEW",
-        "notes": "README describes versioned manifests, grants, host authorization, SQLite audit chain, and isolated task execution as reference implementations; production identity and third-party sandboxing remain out of scope."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes versioned manifests, grants, host authorization, SQLite audit chain, and isolated task execution as reference implementations; production identity and third-party sandboxing remain out of scope."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -989,7 +989,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "private",
@@ -1005,10 +1005,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "medium",
         "route": "DEEP_REVIEW",
-        "notes": "README describes an Arabic service-intake and delivery-tracking website; launch still depends on domain, intake channel, follow-up rules, and real pricing evidence."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes an Arabic service-intake and delivery-tracking website; launch still depends on domain, intake channel, follow-up rules, and real pricing evidence."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1040,10 +1040,10 @@
         "maturity_signal": "external_reference",
         "review_priority": "medium",
         "route": "REFERENCE_ONLY",
-        "notes": "README identifies Flectar Mail and AGPL-3.0; native-versus-web product and licensing decisions remain separate from any first-party app claim."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README identifies Flectar Mail and AGPL-3.0; native-versus-web product and licensing decisions remain separate from any first-party app claim."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1059,7 +1059,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -1075,10 +1075,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "medium",
         "route": "HOLD",
-        "notes": "README describes an Arabic-first local commerce-partnership prototype with deterministic unit economics; no live market, supplier, courier, ads, orders, partner, or AI integrations are connected."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes an Arabic-first local commerce-partnership prototype with deterministic unit economics; no live market, supplier, courier, ads, orders, partner, or AI integrations are connected."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1094,7 +1094,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "private",
@@ -1110,10 +1110,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "low",
         "route": "HOLD",
-        "notes": "README describes a Next.js micro-products marketplace and product-factory dashboard; the current evidence is an initial imported application, not validated demand."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes a Next.js micro-products marketplace and product-factory dashboard; the current evidence is an initial imported application, not validated demand."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1145,7 +1145,7 @@
         "maturity_signal": "unknown",
         "review_priority": "low",
         "route": "HOLD",
-        "notes": "README is absent at the observed default branch; one initialization commit indicates a financial-velocity scaffold but does not establish an implemented or validated system."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README is absent at the observed default branch; one initialization commit indicates a financial-velocity scaffold but does not establish an implemented or validated system."
       },
       "epistemic": {
         "status": "unknown",
@@ -1164,7 +1164,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "private",
@@ -1180,10 +1180,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "medium",
         "route": "DEEP_REVIEW",
-        "notes": "README describes a pre-alpha assistant with a portable core and separate Android UI; Android sample flows are not connected to runtime or persistent storage."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes a pre-alpha assistant with a portable core and separate Android UI; Android sample flows are not connected to runtime or persistent storage."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1199,7 +1199,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -1215,10 +1215,10 @@
         "maturity_signal": "research_baseline_signal",
         "review_priority": "critical",
         "route": "DEEP_REVIEW",
-        "notes": "README records an experimental software-ecology research runtime and one bounded, real read-only GitHub adapter verification; claims remain limited to the stated experiment."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README records an experimental software-ecology research runtime and one bounded, real read-only GitHub adapter verification; claims remain limited to the stated experiment."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1234,7 +1234,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -1250,10 +1250,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "medium",
         "route": "DEEP_REVIEW",
-        "notes": "README describes a public website and AppDeploy surface with build evidence; production completeness, external regression, accessibility, and deployment/source traceability remain open."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes a public website and AppDeploy surface with build evidence; production completeness, external regression, accessibility, and deployment/source traceability remain open."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1269,7 +1269,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -1285,10 +1285,10 @@
         "maturity_signal": "research_baseline_signal",
         "review_priority": "high",
         "route": "DEEP_REVIEW",
-        "notes": "README separates a typed decision contract, deterministic composition, replaceable backends, and experiments; claimed advantages on real decision data remain OPEN."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README separates a typed decision contract, deterministic composition, replaceable backends, and experiments; claimed advantages on real decision data remain OPEN."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1304,7 +1304,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -1320,10 +1320,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "medium",
         "route": "HOLD",
-        "notes": "README describes an initial set of automation-pack candidates; schema/mock tests are not equivalent to live Opscotch runtime verification."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes an initial set of automation-pack candidates; schema/mock tests are not equivalent to live Opscotch runtime verification."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1355,10 +1355,10 @@
         "maturity_signal": "external_reference",
         "review_priority": "high",
         "route": "LINEAGE_REVIEW",
-        "notes": "README retains upstream Postiz branding and AGPL-3.0; the November audit recorded a fork relationship to gitroomhq/postiz-app and no evidenced Algeria-specific product delta."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README retains upstream Postiz branding and AGPL-3.0; the November audit recorded a fork relationship to gitroomhq/postiz-app and no evidenced Algeria-specific product delta."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1374,7 +1374,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -1390,10 +1390,10 @@
         "maturity_signal": "research_baseline_signal",
         "review_priority": "medium",
         "route": "DEEP_REVIEW",
-        "notes": "README defines an operating workspace for small digital products; listed product concepts are explicitly hypotheses rather than commitments."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README defines an operating workspace for small digital products; listed product concepts are explicitly hypotheses rather than commitments."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1409,7 +1409,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -1425,10 +1425,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "high",
         "route": "DEEP_REVIEW",
-        "notes": "README describes a local-first CLI that indexes projects, snapshots GitHub issues/PRs, and creates reviewable work plans without mutating source repositories or funded bounties."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes a local-first CLI that indexes projects, snapshots GitHub issues/PRs, and creates reviewable work plans without mutating source repositories or funded bounties."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1444,7 +1444,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -1460,10 +1460,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "low",
         "route": "HOLD",
-        "notes": "README describes an early-stage AI deliverable-assurance concept; the current README is a bootstrap and implementation remains proposed separately."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes an early-stage AI deliverable-assurance concept; the current README is a bootstrap and implementation remains proposed separately."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1479,7 +1479,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -1495,10 +1495,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "medium",
         "route": "DEEP_REVIEW",
-        "notes": "README describes a local-first leveraged-position simulator with seeded correlated paths and risk controls; it does not discover entries or assets."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes a local-first leveraged-position simulator with seeded correlated paths and risk controls; it does not discover entries or assets."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1514,7 +1514,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -1530,10 +1530,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "high",
         "route": "HOLD",
-        "notes": "README describes a private local-first RAG workspace; implementation is being prepared on a feature branch and confidential data must not enter hosted previews."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes a private local-first RAG workspace; implementation is being prepared on a feature branch and confidential data must not enter hosted previews."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1565,7 +1565,7 @@
         "maturity_signal": "unknown",
         "review_priority": "low",
         "route": "HOLD",
-        "notes": "README is absent at the observed default branch and the latest commit only reverts an accidental file; purpose and implementation maturity remain UNKNOWN."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README is absent at the observed default branch and the latest commit only reverts an accidental file; purpose and implementation maturity remain UNKNOWN."
       },
       "epistemic": {
         "status": "unknown",
@@ -1584,7 +1584,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "private",
@@ -1600,10 +1600,10 @@
         "maturity_signal": "research_baseline_signal",
         "review_priority": "medium",
         "route": "DEEP_REVIEW",
-        "notes": "README describes a reproducible agent-based mechanism simulation and explicitly states that results do not establish real-world demand, viability, or behavior."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes a reproducible agent-based mechanism simulation and explicitly states that results do not establish real-world demand, viability, or behavior."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1619,7 +1619,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "private",
@@ -1635,10 +1635,10 @@
         "maturity_signal": "substantial",
         "review_priority": "high",
         "route": "DEEP_REVIEW",
-        "notes": "README describes runnable standard-library reference components for lifecycle state, system-of-record provenance, integration retries, and unit economics."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes runnable standard-library reference components for lifecycle state, system-of-record provenance, integration retries, and unit economics."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1654,7 +1654,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -1670,10 +1670,10 @@
         "maturity_signal": "minimal",
         "review_priority": "low",
         "route": "HOLD",
-        "notes": "README describes an architecture/research foundation only; components are not selected or deployed and nothing is production-ready."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes an architecture/research foundation only; components are not selected or deployed and nothing is production-ready."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1689,7 +1689,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -1705,10 +1705,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "critical",
         "route": "DEEP_REVIEW",
-        "notes": "README identifies a browser-local prototype and a separate AppDeploy preview; authenticated edits/reload, stale-write conflicts, and account isolation remain independently unverified."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README identifies a browser-local prototype and a separate AppDeploy preview; authenticated edits/reload, stale-write conflicts, and account isolation remain independently unverified."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1724,7 +1724,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "private",
@@ -1740,10 +1740,10 @@
         "maturity_signal": "research_baseline_signal",
         "review_priority": "medium",
         "route": "DEEP_REVIEW",
-        "notes": "README describes reproducible recurrent-depth and ternary-weight experiments with pinned runs, correction studies, and saved evidence."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes reproducible recurrent-depth and ternary-weight experiments with pinned runs, correction studies, and saved evidence."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1759,7 +1759,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "private",
@@ -1775,10 +1775,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "low",
         "route": "HOLD",
-        "notes": "README describes a frontend-only sample shop; cart state is volatile and there is no server, database, payment, CRM, or order submission."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes a frontend-only sample shop; cart state is volatile and there is no server, database, payment, CRM, or order submission."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1794,7 +1794,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -1810,10 +1810,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "medium",
         "route": "DEEP_REVIEW",
-        "notes": "README describes a local CLI renderer and browser workflow for versioned campaign briefs; deployed multi-user workflow and identity-bound approval remain incomplete."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes a local CLI renderer and browser workflow for versioned campaign briefs; deployed multi-user workflow and identity-bound approval remain incomplete."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [
@@ -1843,7 +1843,7 @@
         "maturity_signal": "empty",
         "review_priority": "low",
         "route": "HOLD",
-        "notes": "The repository is empty at the observed default branch; no application, tests, or CI evidence exists."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. The repository is empty at the observed default branch; no application, tests, or CI evidence exists."
       },
       "epistemic": {
         "status": "unknown",
@@ -1862,7 +1862,7 @@
         "fork": null,
         "parent": null,
         "source": null,
-        "status": "provenance_unknown"
+        "status": "first_party_candidate"
       },
       "observations": {
         "visibility": "public",
@@ -1878,10 +1878,10 @@
         "maturity_signal": "prototype_signal",
         "review_priority": "high",
         "route": "DEEP_REVIEW",
-        "notes": "README describes a local Algerian business-profile validation and unpublished HTML/copy generation slice with a gated OpenAI Responses API client; live provider use remains disabled."
+        "notes": "First-pass classification from the pinned default-branch README and latest observed commit; root-tree, manifest, source, tests, and CI review is incomplete. README describes a local Algerian business-profile validation and unpublished HTML/copy generation slice with a gated OpenAI Responses API client; live provider use remains disabled."
       },
       "epistemic": {
-        "status": "observed",
+        "status": "inferred",
         "assessed_at": "2026-11-02"
       },
       "evidence_refs": [

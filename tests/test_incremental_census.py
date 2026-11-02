@@ -27,6 +27,14 @@ class IncrementalCensusTests(unittest.TestCase):
             {"Loofy147/c", "Loofy147/d"},
         )
 
+    def test_stale_2026_09_22_triage_cannot_cover_2026_10_31_additions(self) -> None:
+        # A triage artifact from the earlier census cannot silently validate the
+        # later census: the later snapshot introduces identities c and d.
+        with self.assertRaisesRegex(AssertionError, "cover exactly"):
+            validate_incremental_triage(
+                self.previous, self.current, triage("Loofy147/legacy-new")
+            )
+
     def test_missing_triage_record_is_rejected(self) -> None:
         with self.assertRaisesRegex(AssertionError, "cover exactly"):
             validate_incremental_triage(

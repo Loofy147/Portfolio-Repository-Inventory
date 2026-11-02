@@ -17,12 +17,12 @@
         "properties":{
           "repository_full_name":{"type":"string","pattern":"^[^/]+/[^/]+$"},
           "ref":{"type":"string"},
-          "commit":{"type":"string","pattern":"^[0-9a-f]{7,40}$"},
+          "commit":{"type":["string","null"],"pattern":"^[0-9a-f]{7,40}$"},
           "provenance":{
             "type":"object","additionalProperties":false,
             "required":["fork","status"],
             "properties":{
-              "fork":{"type":"boolean"},
+              "fork":{"type":["boolean","null"]},
               "parent":{"type":["string","null"]},
               "source":{"type":["string","null"]},
               "status":{"type":"string","enum":["first_party_candidate","external_fork","provenance_unknown"]}

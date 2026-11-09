@@ -274,7 +274,7 @@ The economic discovery wave had the following important dispositions:
 - No existing portfolio asset may be used to override these market gates.
 
 See:
-- [Open-world opportunity discovery contract](../docs/OPEN_WORLD_OPPORTUNITY_DISCOVERY_CONTRACT_v0.1.md)
+- [Open-world opportunity discovery contract](https://github.com/Loofy147/Portfolio-Repository-Inventory/blob/docs/open-world-opportunity-discovery-2026-11/docs/OPEN_WORLD_OPPORTUNITY_DISCOVERY_CONTRACT_v0.1.md) — maintained in separate PR #16.
 - [Open-world discovery wave 1](OPEN_WORLD_OPPORTUNITY_DISCOVERY_WAVE_1_2026-11-09.md)
 - [Companion discovery wave 1](OPEN_WORLD_DISCOVERY_WAVE_1_2026-11-09.md)
 - [Market opportunity candidate register](../registers/OPEN_WORLD_OPPORTUNITY_CANDIDATES.md)

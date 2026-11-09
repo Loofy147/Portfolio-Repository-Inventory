@@ -2,6 +2,8 @@
 
 **Last updated:** 2026-11-09
 
+**Consolidated reference:** [Individual-First Opportunity Discovery Dossier](../records/INDIVIDUAL_FIRST_OPPORTUNITY_DISCOVERY_DOSSIER_2026-11-09.md).
+
 **Current state: EMPTY.**
 
 No active paid test, bid, application, purchase, external contact, contract, partnership or account change was initiated in this discovery wave.

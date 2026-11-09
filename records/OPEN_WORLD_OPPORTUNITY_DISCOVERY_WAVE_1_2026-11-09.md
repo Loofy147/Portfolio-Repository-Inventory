@@ -252,3 +252,119 @@ No application, purchase, registration, customer contact, contract or account ch
 - [Algeria Market Research Method Audit — 2026-09-23](ALGERIA-MARKET-RESEARCH-METHOD-AUDIT_2026-09-23.md).
 - [Algeria Market Breakpoint Research — 2026-09-22](ALGERIA-MARKET-BREAKPOINT-RESEARCH_2026-09-22.md).
 - [Open-World Opportunity Discovery Contract v0.1](../docs/OPEN_WORLD_OPPORTUNITY_DISCOVERY_CONTRACT_v0.1.md).
+
+
+---
+
+## 11. Additional market sweep — regulatory and industrial data obligations
+
+**Supplemental checked date:** 2026-11-09  
+This secondary sweep added energy-import supply chains, packaging, deforestation-linked commodities and medical-device registration to avoid an Algeria/COD-only or software-only bias.
+
+### OW-07 — Methane measurement/data services in the Algeria–EU gas supply chain
+
+**ESTABLISHED**
+- Eurostat reports that Algeria accounted for **17.4%** of EU natural-gas imports in gaseous state in 2025; WITS/UN Comtrade records EU imports from Algeria at a reported USD 11.064bn and 20.277bn kg under HS 271121. Use Eurostat's share for the comparison; trade-data mass/value are not methane emissions.
+- Regulation (EU) 2024/1787 creates producer/importer methane measurement, monitoring, reporting and verification requirements.
+- The Commission's March 2026 importer Q&A states the information importers need, the equivalent producer-level monitoring standard and independent third-party verification requirements.
+- **Regulatory timing changed materially:** Parliament voted on amendments on 22 October 2026 and referred the file back for interinstitutional negotiation; the Council agreed its negotiating position on 6 November 2026. The Council proposes postponing importer MRV reporting from 1 January 2027 to 1 January 2028, methane-intensity reporting from August 2028 to August 2029, and intensity limits from August 2030 to August 2031. The Council and Parliament still need to reach agreement; this is not a final enacted postponement at the checked date.
+- Sonatrach announced on 4 November 2026 an MoU with VNG AG and ICA Finance for emissions-reduction, low-carbon development and MRV systems. The announcement refers to earlier cooperation, including a June 2026 VNG agreement to cap methane emissions across the gas value chain.
+- Sonatrach and Eni signed a protocol of intent on 17 August 2026 for GHG/methane reduction, technical analysis, capacity-building and site visits.
+
+**Pre-kill / entry assessment**
+- Generic methane MRV consultancy, measurement platform or leak-detection service is **DEFERRED / NOT AN ENTRY-CANDIDATE**. The producer is a concentrated large/strategic buyer; existing partners and technical programmes are already active; high technical qualifications, site access and assurance independence are barriers.
+- A possible local supplier/subcontract role may exist in field measurement, equipment, data engineering, calibration, LDAR or operational MRV support, but no named procurement, subcontract, buyer, scope, fee or accepted deliverable was found.
+- The Council/Parliament postponement debate removes the “January 2027 emergency deadline” sales premise. Do not advertise a hard deadline before the amendment is enacted.
+
+**Next discriminating test**
+Find one publicly procurable technical subcontract package or an open supplier-qualification route linked to an active Sonatrach/partner programme. Identify qualification, certification, site-safety, vendor-registration, insurance, payment and working-capital requirements. Stop if access requires an unavailable qualification or the work is fully covered by named incumbents.
+
+**State:** **DEFERRED** as direct entry; **OPEN** as a provider-to-provider subcontract channel only after a specific tender/scope is evidenced.
+
+Sources:
+- [Eurostat — EU imports of energy products in 2025](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260325-3) — Algeria 17.4% of gaseous natural-gas imports.
+- [Commission — methane import requirements](https://energy.ec.europa.eu/topics/carbon-management-and-fossil-fuels/methane-emissions/methane-regulation-import-requirements_en) and [24 March 2026 Q&A](https://energy.ec.europa.eu/document/download/b545c5a6-03c9-4cfa-805a-0411de927ce6_en?filename=Methane+regulation+import+requirements+Q%26A.pdf).
+- [Council — 6 November 2026 negotiating position on postponement](https://www.consilium.europa.eu/en/press/press-releases/2026/11/06/methane-regulation-council-agrees-to-postpone-monitoring-rules-for-one-year/).
+- [European Parliament — procedure 2026/0325(COD)](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026%2F0325%28COD%29).
+- [Sonatrach — VNG and ICA Finance MoU, 4 November 2026](https://sonatrach.com/en/sonatrach-signs-a-memorandum-of-understanding-with-german-company-vng-ag-and-norwegian-company-ica-finance-as/).
+- [Sonatrach — Eni methane/GHG emissions protocol, 17 August 2026](https://sonatrach.com/en/sonatrach-and-eni-spa-sign-a-protocol-of-intent-on-emissions-reduction-in-algeria/).
+
+### OW-08 — EUDR plot-geolocation and supplier-evidence preparation in origin countries
+
+**ESTABLISHED**
+- The EU Deforestation Regulation covers cattle, cocoa, coffee, oil palm, rubber, soya and wood, and requires relevant operators/traders to conduct due diligence, establish deforestation-free/legal origin and submit a due-diligence statement or simplified declaration using information such as plot geolocation.
+- Application is scheduled for **30 December 2026** for large/medium operators and **30 June 2027** for most micro/small enterprises.
+- The Commission adopted a Delegated Act on 17 September 2026 updating product scope: it removes certain products including cattle hides/skins/leather, re-treaded tyres, certain vulcanised-rubber articles and conveyor belts; it adds soluble coffee, certain palm-oil derivatives and frozen cattle tongues, which are scheduled for 30 December 2027.
+- The system is the EUDR Information System within TRACES; suppliers/operators remain responsible for due-diligence statements.
+
+**Opportunity hypothesis**
+A field-service/data-preparation role for a specific exporter/cooperative/aggregator in cocoa, coffee, palm or wood supply chains: map suppliers/plots, collect geolocation and legal-production records, resolve mismatches, and prepare a traceable evidence pack for the responsible EU operator.
+
+**Pre-kill**
+- Generic EUDR software/traceability platforms and geolocation suppliers already exist.
+- Field data collection requires local presence, trusted enumerators, language/land-record knowledge, access to smallholders and credible geolocation QA.
+- The Algerian entry route is weak unless the user has a credible operating partner in a producing country. The goods/commodity must actually fall in scope and the specific party must have a real EU market connection.
+- A service provider cannot take over the legal responsibility of the operator or promise a due-diligence statement will be accepted.
+
+**Payer and entry**
+EU importer/trader, exporter/aggregator or a large upstream operator could be the buyer, but no named customer, accessible local partner, fee, or paid request was identified.
+
+**State:** **DEFERRED / P3 research**. Do not build generic traceability software. Reopen only with a named exporter/aggregator and a country-specific supply-chain dataset/field partner showing a paid, unowned data gap.
+
+Sources:
+- [European Commission — EUDR and application dates](https://environment.ec.europa.eu/topics/forests/deforestation/eu-deforestation-regulation-eudr_en).
+- [Commission — 2026 product-scope update](https://environment.ec.europa.eu/news/commission-updates-product-scope-and-tools-support-eudr-2026-07-13_en).
+
+### OW-09 — PPWR packaging material and conformity evidence
+
+**ESTABLISHED**
+- Regulation (EU) 2025/40 applies across the EU from **12 August 2026**.
+- PFAS limits for food-contact packaging are already in effect from that application date; packaging containing PFAS above applicable limits cannot be placed on the EU market.
+- Harmonised packaging labelling is scheduled from 2028; limits on empty space, some single-use packaging restrictions/reuse targets, recyclability requirements and recycled-content measures phase in from 2030.
+- The PPWR creates manufacturer and importer conformity/documentation obligations for packaging placed on the EU market; importers must verify required conformity assessment and technical documentation before placing packaging on the market.
+
+**Opportunity hypothesis**
+For a named packaging converter, food exporter, or EU importer: identify packaging SKUs affected by PFAS or other composition/design requirements, assemble supplier declarations and test evidence, and qualify substitute material/packaging vendors. Physical product supply or material substitution may be more valuable than a compliance dashboard.
+
+**Pre-kill**
+- Accredited chemical/material testing cannot be claimed without the required lab competence/accreditation.
+- Generic PPWR consulting/software already exists and the 2030 design requirements are not all urgent in 2026.
+- No Algeria-to-EU packaging SKU, manufacturer, exporter, packaging buyer or PFAS test failure was identified in this wave.
+- Do not turn regulation itself into demand.
+
+**State:** **RESEARCH-OPEN / LOW PRIORITY** for a specific packaging SKU; no entry candidate. First establish trade route, product/packaging classification, exact requirement, test method and a named payer.
+
+Sources:
+- [Commission — PPWR begins to apply, 11 August 2026](https://environment.ec.europa.eu/news/new-eu-rules-packaging-enter-application-2026-08-11_en).
+- [EUR-Lex — Regulation (EU) 2025/40](https://eur-lex.europa.eu/eli/reg/2025/40/oj).
+- [Commission guidance — C/2026/3084](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026XC03084).
+
+### OW-10 — EUDAMED medical-device registration and data onboarding
+
+**ESTABLISHED**
+- Since **28 May 2026**, four EUDAMED modules became mandatory: Actor Registration, UDI/Device Registration, Notified Bodies & Certificates, and Market Surveillance. The last applies to competent authorities and the Commission; the first three apply to relevant economic operators/notified bodies as specified by the rules.
+- The two remaining EUDAMED modules (Vigilance/Post-Market Surveillance and Clinical Investigations/Performance Studies) were still under development at the date checked.
+- Transitional periods apply to legacy devices and certain certificates; not every legacy device has the same immediate UDI registration obligation.
+
+**Opportunity hypothesis**
+A bounded data-cleanup/onboarding service for a medical-device manufacturer, EU authorised representative or importer dealing with device identifiers, actor data and certificate/document consistency.
+
+**Pre-kill**
+- Regulatory affairs consultancies and authorised representatives already perform this work.
+- Role/authority, device classification, EU responsible person and regulatory evidence boundaries are specialist matters.
+- No accessible Algerian manufacturer/exporter with a specific registration backlog, EU market volume, paid remediation request or buyer was established.
+
+**State:** **DEFERRED / P4**. Reopen only for a named manufacturer/AR/importer and a verified backlog not already handled by their regulatory service provider.
+
+Sources:
+- [European Commission — EUDAMED overview](https://health.ec.europa.eu/medical-devices-eudamed/overview_en).
+- [European Commission — Actor Registration Module](https://health.ec.europa.eu/medical-devices-eudamed/actor-registration-module_en).
+
+## 12. Updated cross-wave conclusions
+
+1. **Regulatory transitions are lead generators, not businesses by themselves.** The buyer may have an internal compliance team, an incumbent adviser, a responsible importer or a regulated verifier already in place.
+2. **Algerian access varies radically by market.** Cement exporters show measurable EU trade exposure; gas exports show material energy-chain exposure but buyer concentration and established institutional partnerships; cocoa/coffee/wood traceability needs local origin-country presence; packaging/medical-device exports need a specific product/customer route.
+3. **Subcontracting may be more plausible than direct product entry** in industrial markets, but only where a real procurement lot, supplier-qualification route, acceptance criteria, and payment terms are verified.
+4. **No new candidate passed the hard entry gates.** CBAM data preparation remains P1 research; industrial energy support P2; battery passport and EUDR are deferred; methane and EUDAMED are deferred; PPWR stays open only for a product-specific material/composition issue.
+5. **No software or physical product is justified to build yet.** The next deliverable should be evidence acquisition through a named buyer and bounded problem, not a platform.
+

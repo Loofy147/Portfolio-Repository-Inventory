@@ -3,6 +3,8 @@
 **Last updated:** 2026-11-09  
 **Purpose:** track cost/risk-reducing programs separately from customer-demand opportunities.
 
+**Consolidated reference:** [Individual-First Opportunity Discovery Dossier](../records/INDIVIDUAL_FIRST_OPPORTUNITY_DISCOVERY_DOSSIER_2026-11-09.md).
+
 | ID | Program | Benefit | Eligibility / constraints | Status | Next check |
 |---|---|---|---|---|---|
 | DZ-INC-FSPE-2026-001 | Algeria Special Fund for Export Promotion (FSPE) | Partial support for eligible export promotion costs, including market studies, foreign fairs, international freight/handling and adapting products for foreign markets | Official Ministry rules apply to resident companies and registered merchants active in exports; documentation, available funds and approval matter; reimbursement may require upfront spending | TERMS_VERIFIED; 2026 dossier-completion deadline 2026-10-31 has passed | Recheck next official cycle only if a verified export opportunity exists |

@@ -52,17 +52,19 @@ These are evidence-backed portfolio decisions, not mandatory outcomes for every 
 
 ## Census state
 
-`inventory/repositories.json` remains the **historical 2026-08-30 snapshot**: 313 unique repositories from search pages `100/100/100/13`.
+`inventory/repositories.json` is the durable repository register and remains distinct from dated census observations.
 
-The current operational census is now recorded separately in `inventory/current-census-2026-09-22.json`. On 2026-09-22:
+- `inventory/repositories.json` includes **319 recorded repository identities** at the prior inventory baseline.
+- `inventory/current-census-2026-09-22.json` is the historical 2026-09-22 overlay; it must not be described as the latest census.
+- `inventory/current-census-2026-11-09.json` is the latest observed connected-search reconciliation: **397 unique repository identities** in the union of GitHub repository search and the connected installed-repository search.
+- GitHub repository search returned `100/100/100/97` across pages 1–4 = **397**.
+- Connected installed-repository search returned `100/99/99/96` across non-empty cursor batches = **394**. Empty continuation cursors were traversed before completion.
+- The two current sets are **not identical**: `Loofy147/Os`, `Loofy147/dzd-rates`, and `Loofy147/the-rainer-system` appeared in GitHub search but not in installed-repository search. No installed-only identities were observed.
+- All **319** identities from the prior inventory are present in the combined 397-set. **78 identities are newly observed** relative to the stored register.
 
-- GitHub repository search `user:Loofy147` returned `100/100/100/39/0` across pages 1–5 = **339 unique repositories**.
-- Connected installed-repository search returned the same **339 identities**.
-- The two sets matched exactly.
-- All **319** identities currently represented in the portfolio inventory (including the six later Core Working Set additions) are present in the current 339-set.
-- **20 repositories are newly observed** relative to the stored inventory.
+This is an observed, date-bound connected GitHub search result. Differences between search surfaces are preserved; they are not treated as proof of deletion, transfer, visibility changes, or ownership changes. The census establishes repository identity only. It does not classify all repositories as active projects or validate implementation capability.
 
-This establishes a current connected GitHub census under the observed search surface. It does not assert visibility outside that connected/search surface. Historical and current snapshots remain separate by design.
+The historical `inventory/repositories.json` and dated census overlays remain separate by design. Newly observed identities proceed through structural triage and evidence-backed review rather than automatic promotion.
 
 ## Inspection protocol
 

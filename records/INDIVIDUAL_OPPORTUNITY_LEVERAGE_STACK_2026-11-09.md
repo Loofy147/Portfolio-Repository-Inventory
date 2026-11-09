@@ -4,6 +4,8 @@
 **Applicant/operating unit:** Individual resident in Algeria; no incorporated startup assumed.  
 **Purpose:** combine small, independently accessible opportunities into a larger capability, cash-flow, proof and distribution base without making startup formation the prerequisite.
 
+**Consolidated research record:** [Individual-First Opportunity Discovery Dossier](INDIVIDUAL_FIRST_OPPORTUNITY_DISCOVERY_DOSSIER_2026-11-09.md).
+
 ## 1. Strategic correction
 
 The target is not to become a startup merely to qualify for startup programmes. The operating unit is currently an individual. That is a valid applicant/delivery form for a meaningful set of grants, fellowships, open-source funds, research programmes, bounties and service contracts.

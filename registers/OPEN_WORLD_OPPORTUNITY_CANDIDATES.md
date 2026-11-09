@@ -2,6 +2,8 @@
 
 **Last updated:** 2026-11-09  
 **Scope:** independent of existing projects and repositories.  
+**Consolidated reference:** [Individual-First Opportunity Discovery Dossier](../records/INDIVIDUAL_FIRST_OPPORTUNITY_DISCOVERY_DOSSIER_2026-11-09.md).
+
 **Evidence labels:** ESTABLISHED, EXPERIMENTALLY_SUPPORTED, LOCAL_MARKET_SIGNAL, USER_REPORTED, INFERENCE, HYPOTHESIS, CONTRADICTED, UNKNOWN, OPEN, KILLED, DEFERRED.
 
 | ID | Candidate | Evidence / state | Buyer / payer | Entry decision | Next discriminating test |

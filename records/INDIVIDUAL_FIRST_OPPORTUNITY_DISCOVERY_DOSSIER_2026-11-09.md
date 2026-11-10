@@ -136,7 +136,9 @@ Official sources:
 - The RED track reimburses eligible token/compute use for red-teaming Bitcoin and related FOSS; it is not a general developer grant or universal LLM-token reimbursement.
 - Public outputs, education and transparency matter. Payout may require tax information and/or a BTC address.
 
-**INFERENCE — fit:** conditional only if there is a genuine Bitcoin/nostr/FOSS security or public-interest workstream. Do not relabel unrelated EVM work or general API consumption to qualify.
+**INFERENCE — work-scope fit:** conditional only if there is a genuine Bitcoin/nostr/FOSS security or public-interest workstream. Do not relabel unrelated EVM work or general API consumption to qualify.
+
+**Algeria-resident payout gate (added 2026-11-10):** do not use or accept a BTC/token-denominated payout or RED reimbursement as an available route without written legal advice on the exact activity under Law 25-10 and Bank of Algeria Guideline 06/2025. RED token/crypto reimbursement is **KILLED for current execution** pending that clarification. General or long-term OpenSats grants remain UNKNOWN only if OpenSats confirms in writing a lawful fiat bank-transfer route.
 
 Official source: https://opensats.org/apply
 

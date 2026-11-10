@@ -82,7 +82,7 @@ The initial source comparison was superseded by a later update on the UWS PR #21
 
 **Interpretation:** M0 and UWS now both pass the same sequential K-UNKNOWN-01 fixture, which is stronger cross-runtime evidence than their earlier standalone helper tests. This is still not full kernel conformance: identity semantics differ, Authority and Frontier remain unrepresented, the local storage/concurrency models differ, and no clean-clone independent campaign has been established across all target runtimes.
 
-**Next discriminating implementation:** add a UWS concurrent-writer test or explicitly constrain the helper to a single-writer process contract. Do not claim multi-worker safety for JSONL until a real race test passes. Then extend the same fixture suite to Android and HabitRoute and preserve the canonical-capability-core rc2 UNKNOWN-consumption failure as a negative control.
+**Next discriminating implementation:** tracked as [UWS issue #25](https://github.com/Loofy147/unified-knowledge-work-system/issues/25): add a deterministic cross-process writer race test and serialize the compound state transition, or formally constrain the helper to one writer and fail closed otherwise. Do not claim multi-worker safety for JSONL until a real race test passes. Then extend the same fixture suite to Android and HabitRoute and preserve the canonical-capability-core rc2 UNKNOWN-consumption failure as a negative control.
 
 ## 4. Conformance priorities already present in Open-System-One
 

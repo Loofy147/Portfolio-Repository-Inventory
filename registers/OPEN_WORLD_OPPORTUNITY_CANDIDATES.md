@@ -47,3 +47,21 @@ No candidate may be promoted to ENTRY-CANDIDATE or TEST-READY without:
 ## Prior kills preserved
 
 The following generic categories remain killed from prior research and are not reopened by this wave: generic procurement outsourcing, invoicing/collection outsourcing, maintenance/HSE/technical assistance, spare-parts sourcing, export paperwork, tender preparation, software/dashboard/automation, energy audits outside approved-auditor scope, and licensed waste-management operations. Any reopening requires a materially changed assumption and a named payer.
+
+
+## Individual paid-work discovery — wave 2 (checked 2026-11-10)
+
+Full evidence, terms, payout constraints, source links and stop gates: [Individual Paid-Work Discovery Wave 2](../records/INDIVIDUAL_PAID_WORK_DISCOVERY_WAVE_2_2026-11-10.md).
+
+| ID | Candidate | Evidence / state | Buyer / payer | Entry decision | Next discriminating test |
+|---|---|---|---|---|---|
+| IND-OT-OSS-2026-001 | OpenTrain — Open Source Contributor for Technical AI Training | Listing posted 2026-11-09; USD 60–120/hour equivalent, paid per accepted task; Algeria explicitly listed | OpenTrain/client relationship not yet distinguished; no signed payer | **SCREEN-READY / PAYOUT-OPEN** | Confirm direct vs external listing, contracting entity, task acceptance, processor and actual Algeria payout rail |
+| IND-OT-CODEFORCES-2026-002 | OpenTrain — Codeforces Problem Setter | Listing posted 2026-11-10; USD 45–65/hour equivalent, per accepted task; Algeria explicitly listed | OpenTrain/client relationship not yet distinguished | **SCREEN-READY / NARROW-FIT** | Requires advanced C++ and competitive programming/problem-setting proof; then verify payout |
+| IND-OT-BACKEND-2026-003 | OpenTrain — Backend Software Engineer / coding task creator | Listing posted 2026-10-06; USD 30–100/hour equivalent, per accepted task; Algeria explicitly listed | OpenTrain/client relationship not yet distinguished | **WATCH / PAYOUT-OPEN** | Recheck active status, task volume, legal entity, payment path and task acceptance |
+| IND-JWUMA-DZ-2026-001 | Jwuma AI data work in Algeria | Country page lists Arabic, Tamazight and French; weekly payout is described as USD SWIFT to a USD-denominated account; real rate/task supply UNKNOWN | Corpshore entity for Algeria not established in reviewed public material | **WATCH / BANK-AND-VOLUME-GATE** | Confirm open projects, real rates, contract entity, USD account requirements, thresholds and local legal/bank treatment |
+| IND-BUGCROWD-DZ-2026-001 | Bugcrowd fiat researcher-bounty channel | Bank transfer and PayPal documented; non-US individual tax forms; Algeria-specific payout support not confirmed | Individual researcher / programme sponsor | **CONDITIONAL / COUNTRY-PAYOUT-UNKNOWN** | Confirm Algeria in authenticated payout setup and obtain bank acceptance before performing report work |
+| IND-UPWORK-DZ-2026-001 | Upwork worldwide technical contract channel | Worldwide jobs exist, but current Direct to Local Bank list omits Algeria; USD wire costs USD 50 plus possible intermediary fees | Client on each contract; no specific first buyer | **DEFERRED / PAYOUT-FRICTION** | Verify Payoneer/PayPal in the individual account and a lawful bank withdrawal route before small-ticket proposals |
+| IND-MICRO1-RUST-2026-001 | micro1 — Rust Architect / Backend Developer | Public listing advertises USD 50–70/hour and global remote contractor work; Algeria-specific acceptance/payout not established | micro1/client | **WATCH / COUNTRY-AND-PAYOUT-UNKNOWN** | Confirm Algeria eligibility, experience requirements, contracting entity and payout |
+| IND-PROLIFIC-DZ-2026-001 | Prolific paid research participation | Official participant list omits Algeria | Researcher-funded tasks | **KILLED FOR STANDARD ONBOARDING** | Reopen only after official country support or direct invitation |
+| IND-CRYPTO-BOUNTY-DZ-2026-001 | Crypto-denominated bounty and grant payouts | Law 25-10 / art. 6 bis restricts virtual asset issuance, purchase, sale, use, possession, trading and promotion; Bank of Algeria Guideline 06/2025 addresses related operations | Crypto-paying bounty/grant sponsor | **KILLED / LEGAL BLOCK** | Reopen only with written advice from qualified Algerian counsel on the exact payment and activity; no account or intermediary workaround |
+

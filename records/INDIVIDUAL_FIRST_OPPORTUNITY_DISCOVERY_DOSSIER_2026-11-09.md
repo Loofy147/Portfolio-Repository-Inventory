@@ -366,3 +366,10 @@ The following official/provider sources were checked for this dossier on 2026-11
 
 **Scope and evidence**
 - This dossier is a 2026-11-09 consolidation of the discovery records linked in section 7. It does not claim a new customer interview, transaction, application outcome or independent test took place.
+
+## Follow-up discovery index
+
+The paid-work landscape was extended in a separate dated record rather than retroactively altering this baseline:
+
+- [Individual Paid-Work Discovery Wave 2 — 2026-11-10](INDIVIDUAL_PAID_WORK_DISCOVERY_WAVE_2_2026-11-10.md) — current individual technical-task listings, AI data work, security bounties, Upwork/Prolific payout constraints and the Algeria crypto legal boundary.
+- The candidate and active-pursuit registers contain the new IDs and watch-only states. No application, report, account change or external contact is represented as completed.

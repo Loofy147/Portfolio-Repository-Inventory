@@ -141,7 +141,7 @@ Do not create one large interdependent proposal by stitching together unrelated 
 
 ### Other conditional paths
 
-- OpenSats, FreeCAD, Mozilla Incubator, paid bug-bounty programmes, individual challenge prizes and micro-contracting remain in the opportunity universe.
+- OpenSats general/long-term funding, FreeCAD, Mozilla Incubator, fiat-paid bug-bounty programmes, individual challenge prizes and micro-contracting remain in the opportunity universe subject to fit and eligibility. OpenSats RED token/crypto reimbursement is blocked for current Algeria-resident execution pending qualified legal clarification under Law 25-10 / Bank of Algeria Guideline 06/2025.
 - Do not assume all platforms accept Algerian payout details. Verify each programme's legal eligibility, KYC, supported country, payment rail and tax reporting before investing proposal time.
 
 ## 4. Individual resource stack verified on 2026-11-09

@@ -127,7 +127,7 @@ Do not create one large interdependent proposal by stitching together unrelated 
 - RED token reimbursement is always open for red-teaming Bitcoin and related FOSS, with short research context and token/compute reimbursement.
 - Outputs must be FOSS; education/transparency and community benefit are important.
 
-**Assessment:** conditional route only for a genuine Bitcoin/FOSS security-research workstream. Do not relabel unrelated EVM research or general API usage to fit it.
+**Assessment:** the work-scope fit is conditional, but the Algeria-resident payout route is a separate legal gate. The RED token/crypto reimbursement route is **KILLED for current execution** pending written legal clarification under Law 25-10 and Bank of Algeria Guideline 06/2025. General/long-term grants remain UNKNOWN only if OpenSats can confirm a lawful fiat bank payout in writing. Do not assume a BTC/USDC/token receipt is usable, and do not relabel unrelated EVM research or general API usage to fit the programme.
 
 ### Conditional — FreeCAD Project Association
 

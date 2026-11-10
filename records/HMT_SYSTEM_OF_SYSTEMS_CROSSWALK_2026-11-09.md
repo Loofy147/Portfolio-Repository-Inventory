@@ -63,6 +63,25 @@ In particular:
 - **UWS effect recovery:** PR #21's malformed newline and backslash literals were fixed. Local compilation, state-machine smoke and path-traversal guards pass. The historical CI failure was on the earlier broken source; CI at corrected head was not observed. The JSONL append path has no cross-process writer lock; do not call it concurrency-safe.
 - **Architecture implication:** M0 and UWS now both carry candidate local UNKNOWN/reconciliation primitives, but with different stores and limitations. They have not passed a current-head, clean-clone shared conformance campaign. The Open-System-One G-02/G-04 cross-runtime gaps remain OPEN.
 
+## 3B. Shared-fixture coverage audit — 2026-11-10
+
+A source-level comparison of the two repository adapters reveals an important asymmetry that should drive the next implementation step:
+
+| Fixture assertion | M0 adapter at `conformance/cache-contract-v0.1` | UWS adapter at same branch family |
+|---|---|---|
+| K-IDENTITY-01 | Executes same Run ID / different request rejection; reports PASS only on observed rejection. | Reports NOT_PROVEN. |
+| K-VERIFY-01 | Executes completed Run, records Observation and independent verifier rejection; checks execution remains completed while verification is failed. | Executes same separation and rejection pattern; checks persisted Verification. |
+| K-EVIDENCE-01 | Links Run, Observation, Verification and Evidence; checks references. | Links Run, Observation, Verification and Evidence; checks references. |
+| K-UNKNOWN-01 | Loads the vendored Open-System-One v0.2 fixture, verifies its Git blob SHA, executes each vector step against the SQLite effect ledger, and checks result, state and event-count delta. | Reports NOT_REPRESENTED in `conformance_adapter.py`. Separate UWS `effect_recovery.py` tests cover UNKNOWN blocking/reconciliation/recovery, but the shared conformance adapter does not invoke them. |
+| K-AUTHORITY-01 | NOT_REPRESENTED. | NOT_REPRESENTED. |
+| K-FRONTIER-01 | NOT_REPRESENTED. | NOT_REPRESENTED. |
+
+**Interpretation:** M0 has stronger coverage of the current shared UNKNOWN fixture, while UWS has a separate local UNKNOWN helper/test suite that has not yet been wired into its conformance adapter. It would be incorrect to report the two adapters as equivalent on K-UNKNOWN-01. It would also be incorrect to infer that UWS lacks all UNKNOWN behavior: its separate helper implements RESERVED → UNKNOWN → COMPLETED / CONFIRMED_NOT_EXECUTED and tests replay blocking and recovery.
+
+**Next discriminating implementation:** add a UWS adapter path that executes the exact same vendored K-UNKNOWN-01 vector against the UWS effect helper, with source-blob pinning and per-step state/event assertions. First resolve the topology difference: UWS currently appends JSONL without a cross-process writer lock, while M0 uses SQLite `BEGIN IMMEDIATE`. The adapter should report concurrency as NOT_TESTED until a separate concurrent-writer test exists; do not make the UWS JSONL helper appear equivalent to M0's transaction semantics.
+
+**Evidence boundary:** the 2026-10-05 Open-System-One experiment records are source-reconstructed experiment artifacts. They provide useful test-design and result evidence, but their own provenance/limits say they were not a clean-clone CI campaign. The present adapter source comparison is direct code inspection, not a fresh execution of either adapter in this review.
+
 ## 4. Conformance priorities already present in Open-System-One
 
 The existing convergence gap register should remain the master gap set. This crosswalk does not create duplicate gaps.

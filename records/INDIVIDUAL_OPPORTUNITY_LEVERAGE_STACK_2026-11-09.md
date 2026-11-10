@@ -4,6 +4,8 @@
 **Applicant/operating unit:** Individual resident in Algeria; no incorporated startup assumed.  
 **Purpose:** combine small, independently accessible opportunities into a larger capability, cash-flow, proof and distribution base without making startup formation the prerequisite.
 
+**Follow-up paid-work scan:** [Individual Paid-Work Discovery Wave 2 — 2026-11-10](INDIVIDUAL_PAID_WORK_DISCOVERY_WAVE_2_2026-11-10.md).
+
 **Consolidated research record:** [Individual-First Opportunity Discovery Dossier](INDIVIDUAL_FIRST_OPPORTUNITY_DISCOVERY_DOSSIER_2026-11-09.md).
 
 ## 1. Strategic correction

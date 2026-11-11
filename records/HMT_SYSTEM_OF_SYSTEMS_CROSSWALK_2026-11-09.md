@@ -218,3 +218,19 @@ The fixture supplies `scope`, `attributed_to` and `parameters_digest`, and both 
 Additionally, local `reconcile(effect_id, decision)` APIs accept a bare decision string. This is a useful synthetic state transition, but it is not evidence that a trusted provider/authority established the external outcome.
 
 The shared contract must define complete immutable effect identity, attempt/generation semantics, and evidence-backed reconciliation attestation. M0/UWS local primitives may store trusted attestation references without becoming provider authorities themselves. This issue is a contract/fixture gate, not a reason to promote any local ledger as production effect truth.
+
+
+## 10. Android effect-journal audit — 2026-11-11
+
+Android main remains at `78afd5d3d7716fe31a5f109a5796eb3db7f99970`. The existing UNKNOWN tests establish basic enumeration, reconciliation calls and journal restart. The separate T2 provider service runs in Android process `:provider`; its Binder process-death experiments must remain distinct from the main-process `JournalRuntimeStore` semantics.
+
+A source audit found additional main-process effect-journal gaps, tracked in [Android issue #18](https://github.com/Loofy147/Llms-mcp-android/issues/18):
+
+- `StoredEffect.compatibleWith()` omits `runId` from the identity comparison.
+- `completeEffect()` and `markEffectUnknown()` append status changes without checking that the prior state is RESERVED; journal replay accepts syntactically valid status records without enforcing legal predecessor/successor transitions.
+- Replay silently skips malformed R/E/X records at any position, not only a demonstrably torn final record. A skipped reservation could make the projection appear absent.
+- The append path makes one FileChannel write call without looping/checking for a complete write.
+- Per-instance synchronization and cross-instance/process coordination remain separately tracked by Android issue #8.
+- Attempt/generation identity and evidence-backed reconciliation belong to the shared contract in Open-System-One issue #12; the shared Android fixture execution is tracked in Android issue #17.
+
+These are source-review findings, not claims that an exploit or production duplicate action has been observed. Android issue #18 requires transition guards, fail-closed replay, torn-tail handling and fault-injection tests before this journal can be treated as a robust effect-state authority.

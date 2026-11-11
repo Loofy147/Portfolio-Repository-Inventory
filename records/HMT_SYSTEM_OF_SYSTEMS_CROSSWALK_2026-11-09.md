@@ -234,3 +234,10 @@ A source audit found additional main-process effect-journal gaps, tracked in [An
 - Attempt/generation identity and evidence-backed reconciliation belong to the shared contract in Open-System-One issue #12; the shared Android fixture execution is tracked in Android issue #17.
 
 These are source-review findings, not claims that an exploit or production duplicate action has been observed. Android issue #18 requires transition guards, fail-closed replay, torn-tail handling and fault-injection tests before this journal can be treated as a robust effect-state authority.
+
+
+## 11. UWS lock qualification gate closed — 2026-11-11
+
+UWS issue [#25](https://github.com/Loofy147/unified-knowledge-work-system/issues/25) is now closed as completed. Exact-head Actions run [#43075043272](https://github.com/Loofy147/unified-knowledge-work-system/actions/runs/43075043272) passed all three jobs on PR #21 head `c36962321775e65ac4abecc3915718c26ab98c4a`: Linux system validation, Windows effect-ledger qualification (7/7 focused tests), and MySQL-backed control-plane validation.
+
+This closes only the local-process lock verification task. PR #21 remains draft/unmerged; the effect ledger remains a one-host/local-filesystem primitive and does not establish provider-authoritative truth, exactly-once delivery or multi-host coordination.

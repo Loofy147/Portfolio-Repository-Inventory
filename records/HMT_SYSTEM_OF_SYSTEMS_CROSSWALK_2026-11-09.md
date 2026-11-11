@@ -193,3 +193,17 @@ The conformance fixture remains draft. PASS means the repository adapter execute
 6. Keep HGSB database activation, provider reconciliation and any bounded write workflow as separate gates.
 
 No PR was merged during this review. All cited implementation PRs remain draft/unmerged at this update.
+
+
+## 8. M0 follow-up implementation — 2026-11-11
+
+This supersedes the M0 PR #4 head and issue status recorded in section 7.
+
+- Current M0 PR #4 head: `772b26fdbe379b86524f14e8de741f11b78b304c`.
+- Exact-head Actions run [#43075855209](https://github.com/Loofy147/m0-durable-run/actions/runs/43075855209) passed Python 3.11, 3.12 and 3.13.
+- Added an eight-process race against one shared SQLite file: one `RESERVED`, seven `REPLAY_BLOCKED`.
+- Changed `recover_interrupted_effects()` so the latest-RESERVED scan and UNKNOWN event appends occur inside one `BEGIN IMMEDIATE` transaction.
+- Added a SQL trace regression asserting BEGIN → SELECT → INSERT → COMMIT.
+- M0 issue #5 remains open only for deterministic interleaving/fault-injection coverage of recovery racing with a newer reservation. The implementation and current CI do not claim multi-host coordination or exactly-once external delivery.
+
+The conformance PR remains draft/unmerged.

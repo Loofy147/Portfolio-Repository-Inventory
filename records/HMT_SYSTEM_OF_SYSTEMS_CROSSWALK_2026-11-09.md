@@ -132,3 +132,64 @@ The existing convergence gap register should remain the master gap set. This cro
 - Do not import personal assessment, contact, calendar or communication data into general machine context without explicit purpose, consent, minimization and retention rules.
 
 This crosswalk is a dated map of existing assets and candidate tests. It is not a ranking of all 397 connected repository identities and does not imply that every listed repository is active, production-ready or interoperable.
+
+
+## 7. Evidence update — 2026-11-11
+
+This update supersedes stale PR heads and CI claims in earlier sections. Refs below were refreshed during this review.
+
+### UWS effect ledger — cross-platform local-process qualification
+
+- UWS conformance PR #21 current head: `c36962321775e65ac4abecc3915718c26ab98c4a`.
+- Exact-head Actions run [#43075043272](https://github.com/Loofy147/unified-knowledge-work-system/actions/runs/43075043272): `validate-system`, `windows-effect-ledger` and `verify-control-plane` all completed successfully.
+- The Windows job ran the focused effect recovery suite on Windows / Python 3.12: 7/7 tests passed, including cross-process reservation, state transitions, and lock release after process termination.
+- The Linux system-validation job passed. The MySQL-backed control-plane job also passed on the same exact PR head.
+- The PR now exercises POSIX `fcntl.flock` and Windows `msvcrt.locking`; the complete read/check/append transition and snapshots are serialized.
+- [Issue #25](https://github.com/Loofy147/unified-knowledge-work-system/issues/25) records remaining final source review gates.
+
+**Limit:** local processes on one host/local filesystem only. No network-filesystem or multi-host guarantee; no exactly-once external delivery or provider-authoritative truth. PR #21 remains draft/unmerged.
+
+### M0 effect ledger — transaction semantics versus proof coverage
+
+- M0 conformance PR #4 current head: `92b7f8b1d0b3c8729f607627e443d6d71e6bb2d2`.
+- Exact-head Actions run [#42864164588](https://github.com/Loofy147/m0-durable-run/actions/runs/42864164588) passed Python 3.11, 3.12 and 3.13.
+- Reservation and individual transitions use SQLite `BEGIN IMMEDIATE`; the current 16-contender regression is thread-based (`ThreadPoolExecutor`), not a multi-process test.
+- Source review found `recover_interrupted_effects()` reads the RESERVED set, closes that connection, then transitions effects one by one. A stale recovery scan could race with a completion/reconciliation/re-reservation and mark a newer attempt UNKNOWN.
+- [Issue #5](https://github.com/Loofy147/m0-durable-run/issues/5) now tracks process-level contention and atomic/attempt-guarded recovery.
+
+**Limit:** local processes sharing one SQLite database file are the intended scope. No multi-host claim or exactly-once external delivery. PR #4 remains draft/unmerged.
+
+### HabitRoute — M3 integration and flow-journal coordination
+
+- HabitRoute M3 integration PR #14 current head: `fdcad291213f90bf03c84cf1362e1d622dcb9cb2`, stacked on PR #10's capability-repertoire branch.
+- Exact-head Actions run [#42898530500](https://github.com/Loofy147/HabitRoute/actions/runs/42898530500) passed all three Python versions (3.11, 3.12, 3.13).
+- PR #14 ports the per-operation checkpoint/recovery work onto the PR #10 lineage and adds per-run OS-lock serialization for JSONL load/snapshot and read/check/append. Deterministic tests cover two-process same-sequence contention and process-termination lock release.
+- It implements the local read-only repository-review vertical slice: exact-version READ_ONLY planning/invocation, immutable Git-object inventory, content-addressed evidence, separate inventory/blob verification, stale-context/permission/root checks and fail-closed incomplete evidence.
+- [Issue #13](https://github.com/Loofy147/HabitRoute/issues/13) now accurately distinguishes the local slice from live UWS integration.
+- [Issue #16](https://github.com/Loofy147/HabitRoute/issues/16) tracks Windows locking qualification and interrupted/short-write journal integrity. PR #14's current matrix is Ubuntu-only.
+- PR #12 is a separate standalone branch based on main; PR #14 intentionally ports its checkpoint logic onto the PR #10 lineage. Do not blindly merge or cherry-pick the divergent branches.
+
+**Limits:** local processes on one host/local filesystem only. No multi-host journal coordination, authenticated host attestation, live UWS task/evidence API, semantic code review, source authenticity proof or project test execution. The flow is safely re-runnable because its inspected capability is READ_ONLY; do not generalize to side-effecting operations. PR #14 remains draft/unmerged.
+
+### Cross-runtime conformance status
+
+| Semantic area | UWS PR #21 | M0 PR #4 | HabitRoute PR #14 |
+|---|---|---|---|
+| UNKNOWN / reconciliation fixture | PASS — nine-step shared K-UNKNOWN vector | PASS — same nine-step vector | Local pending-intent recovery tests; shared vector not yet demonstrated |
+| Identity fixture | NOT_PROVEN | PASS — rejects same run ID with a different request | Exact version/run pinning exists; shared identity fixture not yet demonstrated |
+| Authority | NOT_REPRESENTED | NOT_REPRESENTED | Host snapshot is not cryptographically authenticated; no shared authority fixture |
+| Continuation frontier | NOT_REPRESENTED | NOT_REPRESENTED | Local flow restore exists; shared frontier fixture not yet demonstrated |
+| Cross-host coordination | NOT_SUPPORTED | NOT_PROVEN / NOT_CLAIMED | NOT_SUPPORTED |
+
+The conformance fixture remains draft. PASS means the repository adapter executed the represented local semantics; it does not prove the whole architecture interoperable or production-ready. Preserve canonical-capability-core rc2's prior UNKNOWN-consumption failure as a negative control.
+
+### Current engineering order
+
+1. Finish UWS PR #21 exact-head source review; its Linux, Windows and MySQL-backed CI jobs now pass.
+2. Fix M0 recovery atomicity and add a true multi-process SQLite test under issue #5.
+3. Add Windows and torn-write qualification to HabitRoute PR #14 under issue #16.
+4. Extend the shared conformance fixture to HabitRoute and Android; keep Authority and Frontier explicitly NOT_REPRESENTED until exercised.
+5. Continue live UWS↔HabitRoute goal/task/evidence integration only after the local read-only boundary, authenticated host authority and durable flow semantics are clear.
+6. Keep HGSB database activation, provider reconciliation and any bounded write workflow as separate gates.
+
+No PR was merged during this review. All cited implementation PRs remain draft/unmerged at this update.

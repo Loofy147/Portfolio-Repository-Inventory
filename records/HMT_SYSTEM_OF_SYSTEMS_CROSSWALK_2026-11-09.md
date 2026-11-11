@@ -207,3 +207,14 @@ This supersedes the M0 PR #4 head and issue status recorded in section 7.
 - M0 issue #5 remains open only for deterministic interleaving/fault-injection coverage of recovery racing with a newer reservation. The implementation and current CI do not claim multi-host coordination or exactly-once external delivery.
 
 The conformance PR remains draft/unmerged.
+
+
+## 9. Shared effect-identity and reconciliation contract gap — 2026-11-11
+
+Open-System-One issue [#12](https://github.com/Loofy147/Open-System-One/issues/12) now tracks a cross-runtime semantic gap found while comparing the shared K-UNKNOWN fixture with M0 and UWS implementations.
+
+The fixture supplies `scope`, `attributed_to` and `parameters_digest`, and both implementations compare these fields when present, but their reservation APIs currently require only `effect_id`, `run_id`, `capability_id`, `action_id` and `action_version`. Missing identity fields can therefore be absent on both sides of an identity comparison.
+
+Additionally, local `reconcile(effect_id, decision)` APIs accept a bare decision string. This is a useful synthetic state transition, but it is not evidence that a trusted provider/authority established the external outcome.
+
+The shared contract must define complete immutable effect identity, attempt/generation semantics, and evidence-backed reconciliation attestation. M0/UWS local primitives may store trusted attestation references without becoming provider authorities themselves. This issue is a contract/fixture gate, not a reason to promote any local ledger as production effect truth.

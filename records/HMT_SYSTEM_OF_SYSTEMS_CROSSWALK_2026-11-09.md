@@ -241,3 +241,49 @@ These are source-review findings, not claims that an exploit or production dupli
 UWS issue [#25](https://github.com/Loofy147/unified-knowledge-work-system/issues/25) is now closed as completed. Exact-head Actions run [#43075043272](https://github.com/Loofy147/unified-knowledge-work-system/actions/runs/43075043272) passed all three jobs on PR #21 head `c36962321775e65ac4abecc3915718c26ab98c4a`: Linux system validation, Windows effect-ledger qualification (7/7 focused tests), and MySQL-backed control-plane validation.
 
 This closes only the local-process lock verification task. PR #21 remains draft/unmerged; the effect ledger remains a one-host/local-filesystem primitive and does not establish provider-authoritative truth, exactly-once delivery or multi-host coordination.
+
+
+## 12. Shared effect contract and Android state-machine qualification — 2026-11-12
+
+### Open-System-One contract
+
+- Draft PR [#12](https://github.com/Loofy147/Open-System-One/pull/12), head `44eae95dca102acac87216039f2b66d351599cbe), adds:
+  - immutable effect identity schema;
+  - separate attempt identity schema;
+  - evidence-backed reconciliation attestation schema;
+  - positive/negative lifecycle fixtures;
+  - normative transition, trust and migration contract;
+  - successor K-UNKNOWN fixture v0.3.
+- Exact-head Actions run [#43223313784](https://github.com/Loofy147/Open-System-One/actions/runs/43223313784) passed schema and fixture validation.
+- Open-System-One issue [#13](https://github.com/Loofy147/Open-System-One/issues/13) now coordinates runtime adoption across Android, UWS, M0 and HabitRoute.
+
+**Critical semantic boundary:** schema validation is not signature authentication, evidence retrieval/digest verification, authority applicability or provider truth. A bare `reconcile(effect_id, decision)` API is not compliant with the contract.
+
+### Android main-process journal
+
+- Draft PR [#18](https://github.com/Loofy147/Llms-mcp-android/pull/18), head `71b79b10cdff19441035a43b5e9cd91f908854b9`.
+- Exact-head Actions run [#43225976456](https://github.com/Loofy147/Llms-mcp-android/actions/runs/43225976456): build and instrumented jobs passed.
+- Implemented legal transition guards, immutable identity including run ID, separate attempt IDs/numbers, strict replay validation, fail-closed corruption handling, full-write append loop and pinned nine-step K-UNKNOWN v0.3 vector.
+- Android issue #18 is closed for this local state-machine/journal-integrity scope.
+
+**Open follow-up:** PR #18 still exposes `reconcileEffect(effectId, decision)` and therefore does not implement evidence-backed attestation. Android must not claim trusted reconciliation. Cross-instance/process coordination remains separately tracked; the T2 provider process remains a separate persistence/authority domain.
+
+### Current cross-runtime adapter boundary
+
+| Runtime | Current local behavior | Shared attestation adoption |
+|---|---|---|
+| Android PR #18 | K-UNKNOWN v0.3; legal transition and replay guards | OPEN — issue Open-System-One #13 |
+| UWS PR #21 | K-UNKNOWN v0.2 adapter; local JSONL ledger and cross-platform process lock | OPEN — bare decision remains |
+| M0 PR #4 | K-UNKNOWN v0.2 adapter; SQLite process contention and atomic recovery | OPEN — bare decision remains |
+| HabitRoute PR #14 | Durable local read-only repository-review flow and process-safe journal | OPEN — effect lifecycle attestation not yet adopted |
+
+No runtime is promoted to trusted provider reconciliation by the schema/fixture PR. Each adapter must validate exact identity and attempt, authority, evidence digest, verifier/policy and authenticated principal at a named trust boundary.
+
+### Refreshed qualification state
+
+- M0 PR #4 current head: `56a2a5077768b4f64b6af579c11b34edb36f8459`; PR remains draft/unmerged. M0 issue #5 is closed after process-level contention and deterministic recovery interleaving tests. See exact-head run [#43221396110](https://github.com/Loofy147/m0-durable-run/actions/runs/43221396110).
+- HabitRoute PR #14 current head: `b7055142e5d10d656161a667db150fc2fea487e7`; PR remains draft/unmerged. HabitRoute issue #16 is closed after Windows lock and torn-write qualification. See exact-head run [#43221871510](https://github.com/Loofy147/HabitRoute/actions/runs/43221871510).
+- UWS PR #21 current head: `eae0c6e638394de03b00fba403743d4ac5f7e792`; PR remains draft/unmerged. Issue #25 is closed after Linux/Windows/MySQL checks in run [#43075043272](https://github.com/Loofy147/unified-knowledge-work-system/actions/runs/43075043272).
+- Android PR #18 current head and run are listed above; PR remains draft/unmerged.
+
+The architecture is still not end-to-end HMT. No PR was merged during this update. Local-process locking and local effect-state correctness do not imply multi-host coordination, exactly-once external delivery, authenticated host authority, or provider truth.

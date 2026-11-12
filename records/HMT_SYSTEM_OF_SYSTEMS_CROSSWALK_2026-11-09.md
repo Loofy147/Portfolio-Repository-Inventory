@@ -307,3 +307,44 @@ Implemented in the branch:
 At crosswalk update time, exact-head build workflow [#43279345302](https://github.com/Loofy147/Llms-mcp-android/actions/runs/43279345302) was still in progress. No PASS is claimed.
 
 **Open limitations:** no production key registry or cryptographic verifier; no authority allowlist/provider adapter; no evidence retrieval and digest recomputation; no verifier registration; shared effect-lifecycle fixture suite not yet adopted. The test verifier is not a trust implementation. PR #20 remains draft/unmerged and stacked on PR #18.
+
+
+## 14. Evidence update — 2026-11-12: shared reconciliation contract adoption
+
+This section supersedes the older Android PR #20 and bare-decision status described in sections 12–13. The records below are exact current draft heads and exact-head CI evidence.
+
+### Runtime adapter status
+
+| Adapter | Current draft ref | Verified evidence | Supported semantics and boundary |
+|---|---|---|---|
+| M0 | [PR #4](https://github.com/Loofy147/m0-durable-run/pull/4), `conformance/cache-contract-v0.1@8cea82a3764b21dedd2632900cbbbbaae5d31cb3` | [Actions #43280373443](https://github.com/Loofy147/m0-durable-run/actions/runs/43280373443): Python 3.11, 3.12, 3.13 passed | Bare decision strings fail closed. Structured attestations bind full effect identity + exact attempt. Injected verifier must explicitly pass signature, authority, evidence digest, verifier policy and principal checks. Final transition is rechecked inside SQLite `BEGIN IMMEDIATE`. K-UNKNOWN adapter uses a synthetic fixture-only verifier. No production trust provider, multi-host or exactly-once external-effect guarantee. |
+| UWS | [PR #21](https://github.com/Loofy147/unified-knowledge-work-system/pull/21), `conformance/cache-contract-v0.1@e31fe8d1914f2b839bf47a84003800f73f29b7b6` | [Actions #43280660577](https://github.com/Loofy147/unified-knowledge-work-system/actions/runs/43280660577): Linux validation, Windows ledger qualification and MySQL control-plane all passed | Same trust-verifier seam and exact identity/attempt binding; local JSONL state is locked across local processes on one host. Conformance verifier is synthetic-only. No network filesystem/multi-host guarantee or provider truth. |
+| Android | [PR #21](https://github.com/Loofy147/Llms-mcp-android/pull/21), `fix/effect-reconciliation-attestations-v0.1@d6cf71228d17d33525027d12bd9d0581569f523a` | [Actions #43285185209](https://github.com/Loofy147/Llms-mcp-android/actions/runs/43285185209): unit tests, debug APK build and artifact upload passed | Bare decision API is a fail-closed compatibility shim. Typed attestation path binds complete effect identity and current attempt; injected verifier checks trust assertions; separate `A` journal event stores attestation ref/digest and audit metadata. Shared per-path JVM lock + OS `FileChannel` lock serializes journal access; deterministic two-instance contention test passes. Independent process-death/lock-release qualification remains open. PR #21 is stacked on unmerged PR #18's base branch. |
+| HabitRoute | [PR #14](https://github.com/Loofy147/HabitRoute/pull/14), `b7055142e5d10d656161a667db150fc2fea487e7` | [Actions #43221871510](https://github.com/Loofy147/HabitRoute/actions/runs/43221871510): Python matrix and Windows qualification passed | Durable read-only M3 repository-review flow with per-operation checkpoints and process-safe journal. It is not an external effect authority and has not adopted provider reconciliation attestations. Do not infer an external side effect from a local flow checkpoint. |
+
+All four implementation PRs are OPEN/DRAFT and UNMERGED. These results establish adapter-local behavior only, not full system interoperability or production trust.
+
+### Shared reconciliation architecture
+
+The runtime adapters now share this intended lifecycle:
+
+1. Immutable effect identity and exact attempt identity.
+2. Structured attestation carrying authority observation, evidence reference/digest, verifier version/result, accountable principal and authentication envelope.
+3. Injected trust boundary; missing or failed trust is fail-closed.
+4. Trust/evidence verification outside the storage critical section.
+5. Atomic re-read of current identity, attempt and UNKNOWN status before appending the reconciliation event.
+6. `UNRESOLVED` remains UNKNOWN. Only trusted `CONFIRMED_NOT_EXECUTED` may authorize a new attempt.
+7. Durable audit reference/digest is retained with local event history.
+
+### Explicit residual gaps
+
+- [Open-System-One issue #14](https://github.com/Loofy147/Open-System-One/issues/14): replay-time trust revalidation. M0/UWS/Android currently verify before append but do not universally re-fetch and reauthenticate the referenced attestation on restore. Local journal audit references are not an external tamper-proof trust anchor.
+- [Open-System-One issue #15](https://github.com/Loofy147/Open-System-One/issues/15): one portable canonical byte representation and signature preimage. M0/UWS and Android attestation digest implementations are locally deterministic but not yet proven byte-identical across languages.
+- No adapter currently wires a production cryptographic trust provider, provider-specific authority resolver, evidence-fetch/recompute service, key registry/revocation policy or verifier registry.
+- Android's new journal lock code has a same-process, two-instance contention test; a separate-process crash/lock-release test remains open.
+- HabitRoute remains READ_ONLY in the M3 repository-review slice. Live UWS task/evidence connectivity, authenticated host capability snapshots and semantic repository verification remain unproven.
+- HMT end-to-end composition has not been demonstrated.
+
+### Engineering decision
+
+Continue with contract and adapter conformance, not a new universal runtime. Preserve synthetic verifiers as test fixtures only. Do not promote any adapter to production external-effect authority until replay-time verification, portable attestation canonicalization, real trust-provider integration and independent fault-injection tests pass.

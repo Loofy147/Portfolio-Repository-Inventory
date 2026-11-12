@@ -287,3 +287,23 @@ No runtime is promoted to trusted provider reconciliation by the schema/fixture 
 - Android PR #18 current head and run are listed above; PR remains draft/unmerged.
 
 The architecture is still not end-to-end HMT. No PR was merged during this update. Local-process locking and local effect-state correctness do not imply multi-host coordination, exactly-once external delivery, authenticated host authority, or provider truth.
+
+
+## 13. Android attestation API implementation started — 2026-11-12
+
+Android draft PR [#20](https://github.com/Loofy147/Llms-mcp-android/pull/20) is stacked on PR #18 at branch `feat/evidence-backed-effect-attestation-v0.1`.
+
+Current head at PR creation: `7dd71cacf6b12839a39e76fd2b9607bd5b243aa0`.
+
+Implemented in the branch:
+- Bare decision-string API replaced with a typed attestation API.
+- Attestation binds complete immutable identity and exact current attempt.
+- Structural checks cover required authority, evidence, verifier, principal and authentication fields.
+- An injected `EffectAttestationVerifier` is mandatory for accepted reconciliation; the default implementation rejects all.
+- Full attestation is persisted as an append-only journal event and revalidated on replay.
+- `UNRESOLVED` remains UNKNOWN.
+- Unit tests use an explicitly synthetic verifier and synthetic attestations.
+
+At crosswalk update time, exact-head build workflow [#43279345302](https://github.com/Loofy147/Llms-mcp-android/actions/runs/43279345302) was still in progress. No PASS is claimed.
+
+**Open limitations:** no production key registry or cryptographic verifier; no authority allowlist/provider adapter; no evidence retrieval and digest recomputation; no verifier registration; shared effect-lifecycle fixture suite not yet adopted. The test verifier is not a trust implementation. PR #20 remains draft/unmerged and stacked on PR #18.

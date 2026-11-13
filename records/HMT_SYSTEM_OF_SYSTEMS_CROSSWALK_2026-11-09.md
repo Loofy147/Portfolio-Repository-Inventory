@@ -464,3 +464,14 @@ UWS PR [#21](https://github.com/Loofy147/unified-knowledge-work-system/pull/21),
 This qualifies the current UWS branch's represented behavior. It does not upgrade the synthetic resolver into a production durable attestation store or cryptographic trust provider. UWS remains one-host/local-filesystem only.
 
 Issue #14 remains OPEN because Android has not implemented the same replay-time revalidation gate and neither Python adapter has a production artifact resolver / cryptographic trust service. No PR was merged.
+
+
+## 18. Android replay-trust implementation owner assigned — 2026-11-13
+
+Android-specific work for parent [Open-System-One issue #14](https://github.com/Loofy147/Open-System-One/issues/14) is now tracked in [Llms-mcp-android issue #22](https://github.com/Loofy147/Llms-mcp-android/issues/22).
+
+The issue requires a SAM-compatible resolver boundary, retry-time trust verification outside the journal lock, exact locked recheck before append, a durable retry-authorization event, structural-versus-trusted replay semantics, and missing/tampered/revoked/stale/concurrent/process-death tests.
+
+No Android implementation or exact-head CI result is claimed yet. Android PR #21 remains draft; its existing canonicalization golden-vector test is present in source but its current head has not been verified by Actions. The Android work remains a separate authority domain from the T2 provider process.
+
+This closes the ownership/traceability gap only, not the technical gate.

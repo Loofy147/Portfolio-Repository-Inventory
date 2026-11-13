@@ -402,3 +402,50 @@ HabitRoute remains a read-only workflow substrate and must not be promoted to an
 ### Decision
 
 Continue with issue #14 as the next P1 implementation slice, starting with M0's transactional SQLite boundary and then porting the same contract to UWS and Android. Preserve all current local-process and one-host limits. No merge or production promotion is implied.
+
+
+## 16. Replay-time retry authorization — 2026-11-13 implementation progress
+
+This section updates issue [Open-System-One #14](https://github.com/Loofy147/Open-System-One/issues/14). The invariant is now enforced in the M0 and UWS Python ledgers: a journal's local `CONFIRMED_NOT_EXECUTED` record is structural history, not sufficient retry authority after restoration.
+
+### M0 — implementation and exact-head CI PASS
+
+- PR [#4](https://github.com/Loofy147/m0-durable-run/pull/4), branch `conformance/cache-contract-v0.1`, head `0445f005c7f869673740873ddb6d67d5c59c88e7`.
+- Exact-head run [#43409986879](https://github.com/Loofy147/m0-durable-run/actions/runs/43409986879): Python 3.11, 3.12 and 3.13 all PASS; effect lifecycle, adapter K-UNKNOWN vector and process-restart replay all PASS.
+- Retry now resolves the full attestation by reference/digest and re-runs the configured trust verifier outside the SQLite write transaction. It validates exact identity and prior attempt, checks all trust assertions, then rechecks the current status, identity, attempt and audit pointer inside `BEGIN IMMEDIATE` before reserving a new attempt.
+- Missing/unresolvable or digest-mutated artifacts and a verifier rejection fail closed. Public structural reads mark a restored `CONFIRMED_NOT_EXECUTED` state as `STRUCTURAL_ONLY` / `REVALIDATION_REQUIRED`.
+- Retry reservation appends the prior attestation digest and the current revalidation policy reference to its new event.
+
+The first implementation run [#43409913614](https://github.com/Loofy147/m0-durable-run/actions/runs/43409913614) exposed a real adapter gap: the shared K-UNKNOWN conformance verifier did not implement the new artifact resolver. The adapter was updated to resolve its synthetic fixture artifact and the exact-head rerun passed. This failed run is retained as evidence of the integration defect and its correction.
+
+**Boundary:** the conformance resolver is synthetic test storage. M0 still has no production cryptographic verifier, provider evidence service or multi-host coordination.
+
+### UWS — implementation in progress, core qualification PASS
+
+- PR [#21](https://github.com/Loofy147/unified-knowledge-work-system/pull/21), branch `conformance/cache-contract-v0.1`, head `d92d021d6d38e923b485451db1ed4afdb76b1732`.
+- Exact-head run [#43410230287](https://github.com/Loofy147/unified-knowledge-work-system/actions/runs/43410230287): `validate-system` runtime suite PASS, including the new replay/retry tests and shared K-UNKNOWN adapter; Windows effect-ledger qualification PASS. The MySQL-backed `verify-control-plane` job was still running at this update, so the overall workflow is NOT YET VERIFIED.
+- UWS now mirrors M0's two-phase flow: snapshot under local ledger lock, resolve and revalidate outside the lock, then re-read and compare identity/attempt/audit under lock before append.
+- Tests cover structural-only restore, missing attestation artifact, trust-policy rejection, and the process-based conformance retry path.
+- A missing identity comparison helper was exposed by the first CI run and restored before the current exact-head run. The earlier failed run remains part of the verification history.
+
+**Boundary:** UWS uses a local JSONL journal and one-host local-process locking only. The test resolver is synthetic; no provider truth or multi-host safety is established.
+
+### Android — NOT IMPLEMENTED for replay-time revalidation
+
+Android PR [#21](https://github.com/Loofy147/Llms-mcp-android/pull/21) currently verifies attestations before appending an audit event, but `reserveEffects` does not yet accept a resolver/trust verifier to revalidate a prior `CONFIRMED_NOT_EXECUTED` attestation before a new attempt. The journal replay path also reconstructs state from local audit events. Do not claim issue #14 complete across runtimes.
+
+A safe Android implementation must:
+- add a resolver capability to the trust-verifier boundary without breaking its single-abstract-method use;
+- snapshot under journal lock, resolve/revalidate outside the lock, then re-read exact identity/attempt/audit under lock;
+- durably record the revalidation decision with the new reservation;
+- ensure restored structural state cannot independently authorize execution;
+- test missing/tampered/revoked attestations, process death between revalidation and append, and concurrent retry attempts.
+
+### Current issue #14 status
+
+- M0: IMPLEMENTED; exact-head CI PASS.
+- UWS: IMPLEMENTED; runtime + Windows jobs PASS; MySQL control-plane job pending at update time.
+- Android: OPEN; replay-time trust revalidation not implemented.
+- HabitRoute: remains a read-only workflow substrate, not an external effect authority.
+
+Issue #14 remains OPEN. The shared cross-runtime gate is not complete, and no adapter is promoted to production external-effect authority.

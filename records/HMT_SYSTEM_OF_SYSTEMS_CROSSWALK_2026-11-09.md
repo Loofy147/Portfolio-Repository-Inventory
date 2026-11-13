@@ -510,3 +510,22 @@ The previous workflow [#43415821813](https://github.com/Loofy147/Llms-mcp-androi
 - Main-process Android state remains separate from the T2 provider process; this implementation must not be interpreted as joining those authority domains.
 
 Android issue #22 remains OPEN until emulator instrumentation and the remaining independent fault/trust cases are qualified. Open-System-One issue #14 remains OPEN across systems: M0 and UWS use synthetic test resolvers, and no production trust provider is established. No PR was merged or promoted.
+
+
+## 20. Android emulator qualification PASS; added trust-edge tests queued — 2026-11-13
+
+This supersedes the RUNNING status in section 19 for the implementation head `0c8c50cc29dfc41059bc3b3e1bfd1cc089a6ab99`.
+
+Exact-head Android workflow [#43416019206](https://github.com/Loofy147/Llms-mcp-android/actions/runs/43416019206) completed with both jobs PASS:
+- Unit tests, including replay-time trust revalidation, E4 authorization persistence, concurrent retry contention and interrupted-reservation recovery.
+- Debug APK assembly and artifact upload.
+- Android emulator instrumentation.
+
+After that full green run, the branch received a test-only expansion at head `ffba6ef334c64f027efa72956f1879b783782921`:
+- each of the five fresh trust assertions is individually denied at retry time when invalid (signature, authority, evidence digest, verifier policy, principal);
+- E4 journal replay rejects a changed prior-attestation digest and an incomplete E4 record;
+- the synthetic resolver test store is now thread-safe for the two-caller contention test.
+
+Exact-head workflow [#43417272919](https://github.com/Loofy147/Llms-mcp-android/actions/runs/43417272919) was in progress at this record update; its unit-test, APK and emulator qualification must be checked against the newer head before treating the expanded suite as fully qualified.
+
+Android issue #22 remains OPEN. The implementation is now present and the preceding full workflow passed, but the final test expansion is pending; an actual OS process-kill injection remains unproven (the current restart test exercises durable journal recovery through new store instances). Production durable artifact resolution and cryptographic/provider trust are separate open gates.

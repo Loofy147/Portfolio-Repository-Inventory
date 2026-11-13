@@ -529,3 +529,23 @@ After that full green run, the branch received a test-only expansion at head `ff
 Exact-head workflow [#43417272919](https://github.com/Loofy147/Llms-mcp-android/actions/runs/43417272919) was in progress at this record update; its unit-test, APK and emulator qualification must be checked against the newer head before treating the expanded suite as fully qualified.
 
 Android issue #22 remains OPEN. The implementation is now present and the preceding full workflow passed, but the final test expansion is pending; an actual OS process-kill injection remains unproven (the current restart test exercises durable journal recovery through new store instances). Production durable artifact resolution and cryptographic/provider trust are separate open gates.
+
+## 21. Android expanded replay-trust suite — exact-head CI PASS — 2026-11-13
+
+This supersedes the pending-instrumentation status in section 20 for Android PR [#21](https://github.com/Loofy147/Llms-mcp-android/pull/21), issue [#22](https://github.com/Loofy147/Llms-mcp-android/issues/22), and exact head `ffba6ef334c64f027efa72956f1879b783782921`.
+
+Exact-head workflow [#43417272919](https://github.com/Loofy147/Llms-mcp-android/actions/runs/43417272919) completed with overall conclusion `success`. Its two jobs both completed successfully:
+- `build`: unit tests, Debug APK assembly and APK artifact upload PASS.
+- `instrumented`: Android emulator instrumentation PASS.
+
+The workflow run metadata independently reports `completed/success` and the same `head_sha`; the PR head matches that SHA. The expanded tests individually deny retry when any of the five trust assertions is invalid (signature, authority, evidence digest, verifier policy, principal), and reject altered or incomplete E4 retry-authorization journal events.
+
+### Remaining gates — issue #22 stays OPEN
+
+- The restart test reconstructs durable state through new journal-store instances; it is not a literal OS process-kill / process-restart fault-injection qualification.
+- Tests use synthetic in-memory attestation artifacts and test verifiers. No production durable artifact store, cryptographic key registry/revocation service, provider evidence resolver, authority allowlist or provider-backed reconciliation is integrated.
+- The Android main-process runtime remains a separate authority and persistence domain from the T2 provider process.
+- Local app-private filesystem scope only; no multi-device, network-filesystem, exactly-once delivery or provider-authoritative truth claim.
+
+Therefore Android replay-time retry revalidation is implemented and exact-head CI-qualified within the tested local adapter boundary. Android issue #22 remains OPEN for process-kill qualification and production trust integration. Parent [Open-System-One issue #14](https://github.com/Loofy147/Open-System-One/issues/14) remains OPEN across runtimes because M0/UWS/Android still rely on synthetic test resolvers and lack a production trust provider. No PR was merged or promoted.
+

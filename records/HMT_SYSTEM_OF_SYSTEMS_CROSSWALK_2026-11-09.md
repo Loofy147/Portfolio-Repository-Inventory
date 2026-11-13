@@ -348,3 +348,57 @@ The runtime adapters now share this intended lifecycle:
 ### Engineering decision
 
 Continue with contract and adapter conformance, not a new universal runtime. Preserve synthetic verifiers as test fixtures only. Do not promote any adapter to production external-effect authority until replay-time verification, portable attestation canonicalization, real trust-provider integration and independent fault-injection tests pass.
+
+
+## 15. Evidence refresh — 2026-11-13: canonicalization and adapter heads
+
+This section supersedes the older canonicalization status in section 14. The current PR metadata and exact-head CI evidence were re-queried; older hashes copied into PR descriptions or previous crosswalk sections are not treated as current.
+
+### Shared canonicalization evidence
+
+The versioned algorithm `open_system_one.effect_reconciliation_attestation_canonical.v0.1` is now implemented in the Python M0/UWS adapters and Kotlin Android adapter. It uses ordered UTF-8 string fields, decimal byte-length framing, unsigned UTF-8 byte ordering for scope, and a signature preimage that excludes only `authentication.signed_digest` and `authentication.signature`.
+
+The canonicalization fixture has the same Git blob SHA in all three adapters and the source contract repository:
+
+`3b19329f9e5aea9eaf00e8758adfaf736d6ab1fe`
+
+- Open-System-One source: `research/conformance/effect-attestation-canonicalization-v0.1.json`.
+- UWS copy: `conformance/fixtures/effect-attestation-canonicalization-v0.1.json`.
+- M0 copy: `conformance/fixtures/effect-attestation-canonicalization-v0.1.json`.
+- Android copy: `app/src/test/resources/effect-attestation-canonicalization-v0.1.json`.
+
+The current M0, UWS and Android test sources each load this vector and compare the preimage length/digest and full attestation length/digest. Python tests also cover object-key reordering and semantic-field mutation. This is stronger than the prior crosswalk claim that the runtimes had unrelated digest formats.
+
+### Exact current draft refs and verification
+
+| Component | PR head queried 2026-11-13 | Exact-head evidence | Result |
+|---|---|---|---|
+| Open-System-One | [PR #12](https://github.com/Loofy147/Open-System-One/pull/12), `6a35cf940bbc01063ce80eb81da961e682bd7741` | [Actions #43288486020](https://github.com/Loofy147/Open-System-One/actions/runs/43288486020) | PASS — effect identity, attempts and lifecycle fixture validator |
+| UWS | [PR #21](https://github.com/Loofy147/unified-knowledge-work-system/pull/21), `04886ab633c4edaad7402628ea2285ad072640e6` | [Actions #43287740978](https://github.com/Loofy147/unified-knowledge-work-system/actions/runs/43287740978) | PASS — system validation, Windows effect-ledger qualification, MySQL control-plane |
+| M0 | [PR #4](https://github.com/Loofy147/m0-durable-run/pull/4), `95625b52ec14efd4a9b14d62f15386a6277ab59b` | [Actions #43287980103](https://github.com/Loofy147/m0-durable-run/actions/runs/43287980103) | PASS — Python 3.11, 3.12 and 3.13 |
+| Android | [PR #21](https://github.com/Loofy147/Llms-mcp-android/pull/21), `2a1c3443e648422e0b2c300b7139549446d4cd57` | No PR-triggered Actions run or combined commit status returned for this exact head at query time | NOT VERIFIED — source contains the Kotlin golden-vector test, but exact-head CI is still required |
+| HabitRoute | [PR #14](https://github.com/Loofy147/HabitRoute/pull/14), `b7055142e5d10d656161a667db150fc2fea487e7` | [Actions #43221871510](https://github.com/Loofy147/HabitRoute/actions/runs/43221871510) | PASS — Python 3.11–3.13 and Windows flow-journal qualification; not an attestation adapter |
+
+All implementation PRs remain OPEN/DRAFT/UNMERGED. These are local adapter tests and synthetic fixtures, not production cryptographic trust or provider-authoritative reconciliation.
+
+### Issue #15 — partial closure evidence, not closed
+
+[Open-System-One issue #15](https://github.com/Loofy147/Open-System-One/issues/15) is materially advanced: the three adapter copies are byte-identical, and Python/Kotlin implementations contain the same base golden-vector assertions. It remains OPEN because:
+- Android's exact current PR head has no verified CI result.
+- The issue's full edge-case matrix still needs explicit shared vectors for Unicode normalization/no-normalization behavior, timestamp offsets, integer boundaries, empty versus absent fields, scope ordering, and mutation of every semantic field.
+- An independent implementation/test oracle has not yet been demonstrated.
+- Passing synthetic digest tests does not authenticate a real Ed25519/JWS signature.
+
+Do not describe issue #15 as fully resolved until those acceptance gates pass.
+
+### Next P1 — replay-time trust revalidation
+
+[Open-System-One issue #14](https://github.com/Loofy147/Open-System-One/issues/14) remains the next security-critical gate. M0, UWS and Android currently verify an attestation before appending reconciliation, but a restored local journal can reconstruct retry-authorizing `CONFIRMED_NOT_EXECUTED` state from local audit fields without re-resolving and revalidating the referenced attestation.
+
+Required invariant: structural replay may reconstruct journal history, but no restored `CONFIRMED_NOT_EXECUTED` state may authorize a new external attempt until the attestation artifact is resolved and the configured trust boundary revalidates its exact effect identity, attempt, signature/key status, authority, evidence digest, verifier policy and principal. Missing, altered, revoked or unverifiable evidence must remain UNKNOWN / NEEDS_RECONCILIATION.
+
+HabitRoute remains a read-only workflow substrate and must not be promoted to an external effect authority. The Android T2 provider process remains a separate persistence/authority domain.
+
+### Decision
+
+Continue with issue #14 as the next P1 implementation slice, starting with M0's transactional SQLite boundary and then porting the same contract to UWS and Android. Preserve all current local-process and one-host limits. No merge or production promotion is implied.

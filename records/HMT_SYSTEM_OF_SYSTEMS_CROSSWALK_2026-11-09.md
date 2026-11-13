@@ -449,3 +449,18 @@ A safe Android implementation must:
 - HabitRoute: remains a read-only workflow substrate, not an external effect authority.
 
 Issue #14 remains OPEN. The shared cross-runtime gate is not complete, and no adapter is promoted to production external-effect authority.
+
+
+## 17. UWS replay-revalidation CI completion — 2026-11-13
+
+This supersedes the pending-control-plane note in section 16.
+
+UWS PR [#21](https://github.com/Loofy147/unified-knowledge-work-system/pull/21), exact head `d92d021d6d38e923b485451db1ed4afdb76b1732`, completed run [#43410230287](https://github.com/Loofy147/unified-knowledge-work-system/actions/runs/43410230287) with all three jobs PASS:
+
+- `validate-system`: all system/runtime suites, including replay-time retry revalidation and the K-UNKNOWN adapter.
+- `windows-effect-ledger`: local-process lock qualification.
+- `verify-control-plane`: typecheck, tests, MySQL persistence migrations, migration idempotency rerun, persistence integration tests and production build.
+
+This qualifies the current UWS branch's represented behavior. It does not upgrade the synthetic resolver into a production durable attestation store or cryptographic trust provider. UWS remains one-host/local-filesystem only.
+
+Issue #14 remains OPEN because Android has not implemented the same replay-time revalidation gate and neither Python adapter has a production artifact resolver / cryptographic trust service. No PR was merged.

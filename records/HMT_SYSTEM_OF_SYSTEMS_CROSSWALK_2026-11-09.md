@@ -475,3 +475,38 @@ The issue requires a SAM-compatible resolver boundary, retry-time trust verifica
 No Android implementation or exact-head CI result is claimed yet. Android PR #21 remains draft; its existing canonicalization golden-vector test is present in source but its current head has not been verified by Actions. The Android work remains a separate authority domain from the T2 provider process.
 
 This closes the ownership/traceability gap only, not the technical gate.
+
+
+## 19. Android replay-time retry gate — implementation and verification progress — 2026-11-13
+
+Android implementation is now present on [Llms-mcp-android PR #21](https://github.com/Loofy147/Llms-mcp-android/pull/21), branch `fix/effect-reconciliation-attestations-v0.1`, exact head `0c8c50cc29dfc41059bc3b3e1bfd1cc089a6ab99`. Work is tracked in [Android issue #22](https://github.com/Loofy147/Llms-mcp-android/issues/22).
+
+### Implemented
+
+- `ReconciliationTrustVerifier` keeps its single abstract verify method and now exposes a default fail-closed attestation resolver. Verifiers without a resolver cannot authorize retries.
+- Both `InMemoryRuntimeStore` and `JournalRuntimeStore` use a two-phase operation: snapshot exact prior identity/attempt/audit under their lock; resolve and reverify the original attestation outside the lock; reacquire the lock and compare the exact current identity, attempt, status and audit before appending the reservation.
+- Retry authorization is stored inside one append-only E4 reservation record. E4 binds the old attempt, attestation reference/digest, fresh trust-policy reference, new attempt ID/number and revalidation time. It is not a separate preparatory event.
+- Replay rejects a retry reservation without a well-formed E4 record whose prior and new attempt bindings match. An E4 reservation recovered after interruption becomes UNKNOWN; its previous attestation cannot authorize another attempt because it refers to the earlier attempt.
+- AgentRuntime handles all retry-authorization error outcomes as FAILED, never as permission to execute.
+
+### Exact-head evidence
+
+Workflow [#43416019206](https://github.com/Loofy147/Llms-mcp-android/actions/runs/43416019206) is executing on the exact current head above.
+
+- Unit tests: PASS, 68 tests completed.
+- Debug APK build: PASS.
+- APK artifact upload: PASS.
+- Android emulator instrumentation: RUNNING at this refresh; overall workflow not yet complete.
+
+The previous workflow [#43415821813](https://github.com/Loofy147/Llms-mcp-android/actions/runs/43415821813) failed only the shared K-UNKNOWN fixture event-delta assertion because the test journal counter did not include the newly introduced E4 record. The counter was fixed in commit `0c8c50cc29dfc41059bc3b3e1bfd1cc089a6ab99`; the exact-head rerun passed all unit tests and APK build. Earlier failures exposed the enum fail-closed integration in AgentRuntime and an outdated missing-verifier expectation; those were fixed before the current head.
+
+### Boundaries / remaining gates
+
+- Resolver and trust-verifier implementations in tests use synthetic in-memory artifacts and booleans. They are not production durable storage or cryptographic trust.
+- No production key registry, signature verification, revocation service, authority allowlist, provider evidence retrieval or provider-specific reconciliation adapter is integrated.
+- The journal is local app-private storage. The current concurrency test uses separate journal instances in one JVM; independent Android process-death / file-lock qualification remains a separate issue.
+- Tests simulate restart recovery after an E4 RESERVED append; they do not constitute an OS process-kill experiment.
+- Explicit retry-time tests currently cover absent resolver, missing artifact, digest mutation, signature rejection, exact authorization persistence, competing retries and interrupted-reservation recovery. Authority, evidence, verifier-policy and principal revocation should be individually enumerated as additional test cases before issue #22 is closed.
+- Main-process Android state remains separate from the T2 provider process; this implementation must not be interpreted as joining those authority domains.
+
+Android issue #22 remains OPEN until emulator instrumentation and the remaining independent fault/trust cases are qualified. Open-System-One issue #14 remains OPEN across systems: M0 and UWS use synthetic test resolvers, and no production trust provider is established. No PR was merged or promoted.
